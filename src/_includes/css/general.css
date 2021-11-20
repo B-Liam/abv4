@@ -53,6 +53,7 @@ body {
 
 #breadcrumb {
     padding-left: 3%;
+    width: 100%;
 }
 
 #breadcrumb a {
@@ -63,5 +64,5 @@ body {
 #breadcrumb-container .fas {
     padding-left: 0.8rem;
     padding-right: 0.8rem;  
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
 }
