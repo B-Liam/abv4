@@ -1,0 +1,59 @@
+#mobile-header {
+    display: none;
+}
+
+#tablet-desktop-header {
+    display: grid;
+    grid-template-areas:
+    "left main";
+    grid-template-columns: auto 700px;
+}
+
+#left {
+    grid-area: left;
+    background: #009900;
+    border-bottom: solid 2px #ffffff;
+}
+
+#main {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#content-body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#side {
+    display: none;
+}
+
+#tablet-desktop-logo {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-container {
+    display: grid;
+    grid-template-areas:
+    "nav main";
+    grid-template-columns: auto 700px;
+}
+
+#leftnav {
+    grid-area: nav;
+    background: #009900; 
+}
+
+#main-column {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#sidebar {
+    display: none;
+}
+

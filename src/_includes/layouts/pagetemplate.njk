@@ -1,0 +1,35 @@
+---
+layout: /layouts/head.njk
+---
+
+<body>
+
+<header>
+
+    <div id="mobile-header">
+        {% include 'nav/mobile-header.html' %}
+    </div>
+
+    <div id="tablet-desktop-header">
+        {% include 'nav/tablet-desktop-header.html' %}
+    </div>
+
+</header>
+
+    <div id="content-container">
+        <div id="leftnav">
+            {% include 'nav/non-mobile-nav.html' %}
+        </div>
+
+        {{ content | safe }}
+
+    </div>
+
+    <footer id="footer"> h </footer>
+
+    <script src="/js/open-nav.js"></script>
+    <script src="/js/close-nav.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
+
+</body>

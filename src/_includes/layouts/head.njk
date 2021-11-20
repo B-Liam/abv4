@@ -1,0 +1,44 @@
+---
+layout: /layouts/base.njk
+---
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+
+<style>
+
+/* some words */
+{% include 'css/general.css' %}
+
+
+@media only screen and (max-width: 950px) {
+{% include 'css/mobile-header.css' %}
+
+
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1199px) {
+
+{% include 'css/tablet-header.css' %}
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+{% include 'css/desktop-header.css' %}
+
+}
+
+</style>
+
+</head>
+
+{{ content | safe }}

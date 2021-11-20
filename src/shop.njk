@@ -1,0 +1,57 @@
+---
+permalink: "shop/index.html"
+title: Seeds, Tools, Gifts, And Equipment | Allotment Book
+description: Find seeds, tools, gifts, and equipment for the home gardener or allotment holder
+layout: /layouts/pagetemplate.njk
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb"><a href="/">Home</a></div><i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                        <h2>Browse Shop</h2>
+                        
+                        {% for cats in varshopcats.cats %} 
+                        <li><a href='/shop/{{cats.shopcat}}'>{{ cats.shopcat | title }}</a></li>
+                        {% endfor %}
+
+                        <h4>Archive</h4>
+
+                        {% for veg in varliam.veg %} {% if veg.vegetable == "broccoli" %}
+                        <li>{{ veg.name }}</li>
+                        {% endif %}{% endfor %}
+
+                        <h3>Test Data</h3>
+
+                        {% for veg in vegdata.veg %} {% if veg.vegetable == "broccoli" %}
+                        <li> {{ veg.type }} </li>
+                        {% endif %}{% endfor %}
+
+                        <h3>Test More Data</h3>
+
+                        {% for veg in vegdata.veg %} {% if 'featured' in veg.type %}
+                        <li> {{ veg.name }}, {{ veg.description }} </li>
+                        {% endif %} {% endfor %}
+
+                        {% macro add(x, y) %}
+                        {{ caller() }}: {{ x + y }}
+                        {% endmacro%}
+
+                        {% call add(1, 2) -%}
+                        The result is
+                        {%- endcall %}
+                        </div> 
+                </main>
+            </div>

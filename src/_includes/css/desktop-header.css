@@ -1,0 +1,67 @@
+#mobile-header {
+    display: none;
+}
+
+#tablet-desktop-header {
+    display: grid;
+    grid-template-areas:
+    "left main side";
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#left {
+    grid-area: left;
+    background: #009900;
+    border-bottom: solid 2px #ffffff;
+    
+}
+
+#main {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#content-body {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#side {
+    grid-area: side;
+    background: #e0f7d3;
+}
+
+#tablet-desktop-logo {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-container {
+    display: grid;
+    grid-template-areas:
+    "nav main sidebar";
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#leftnav {
+    grid-area: nav;
+    background: #009900;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+
+}
+
+#main-column {
+    grid-area: main;
+    background: #ffffff;
+    min-height: 100vh; 
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background: #e0f7d3;
+}
+

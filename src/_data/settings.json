@@ -1,0 +1,21 @@
+{
+    "logo": "/images/uploads/allotment-book-logo.svg",
+    "url": "https://www.allotmentbook.co.uk",
+    "shop": "/shop",
+    "account": "/subscriptions",
+    "book": "/book-contents",
+    "introduction": "/introduction",
+    "starter": "/allotment-starter-guides",
+    "vegetables": "/vegeteble-growing-guides",
+    "fruit": "/fruit-growing-guides",
+    "herbs": "/herb-growing-guides",
+    "recipes": "/allotment-recipes",
+    "tools": "/planning-tools",
+    "videos": "/videos",
+    "photos": "/photo-gallery",
+    "blog": "/blog",
+    "policies": "/policies",
+    "instagram": "https://www.instagram.com/allotment_book/",
+    "twitter": "https://twitter.com/allotmentbook",
+    "youtube": "https://www.youtube.com/c/AllotmentBook"
+}

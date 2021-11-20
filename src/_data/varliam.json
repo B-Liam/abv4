@@ -1,0 +1,93 @@
+[
+    {
+      "vegetable": "broccoli",
+      "type": "calabrese",
+      "cats": "all, calabrese",
+      "name": "F1 Stromboli",
+      "abID": "ab9000001",
+      "storeID": 152143,
+      "featured": "no",
+      "colourful": "no",
+      "description": "Long green florets.",
+      "sow": "Jan-Jun, Sep-Oct",
+      "harvest": "Mar-Oct"
+    },
+    {
+      "vegetable": "broccoli",
+      "type": "calabrese",
+      "cats": "all, calabrese, featured",
+      "name": "Belstar F1",
+      "abID": "ab9000002",
+      "storeID": 780647,
+      "featured": "yes",
+      "colourful": "no",
+      "description": "Large distinctive green heads.",
+      "sow": "Apr-May",
+      "harvest": "Jul-Oct"
+    },
+    {
+      "vegetable": "broccoli",
+      "type": "true broccoli",
+      "cats": "all, true broccoli",
+      "name": "Purple Sprouting",
+      "abID": "ab9000003",
+      "storeID": 152729,
+      "featured": "no",
+      "colourful": "yes",
+      "description": "Hardy and reliable with delicious tasting spears. ",
+      "sow": "Apr-May",
+      "harvest": "Feb-Apr"
+    },
+    {
+      "vegetable": "broccoli",
+      "type": "calabrese",
+      "cats": "all, calabrese",
+      "name": "F1 Green Magic",
+      "abID": "ab9000004",
+      "storeID": 152281,
+      "featured": "no",
+      "colourful": "no",
+      "description": "Tightly packed tasty green heads.",
+      "sow": "Feb-Apr",
+      "harvest": "Jun-Aug"
+    },
+    {
+      "vegetable": "broccoli",
+      "type": "true broccoli",
+      "cats": "all, true broccoli",
+      "name": "F1 Bellaverde Sibsey",
+      "abID": "ab9000005",
+      "storeID": 152216,
+      "featured": "no",
+      "colourful": "no",
+      "description": "Excellent flavour. ",
+      "sow": "Jan-Jun",
+      "harvest": "May-Oct"
+    },
+    {
+      "vegetable": "carrot",
+      "type": "maincrop",
+      "cats": "all, maincrop",
+      "name": "Rainbow Mix",
+      "abID": "ab9000006",
+      "storeID": 157254,
+      "featured": "yes",
+      "colourful": "yes",
+      "description": "A colourful collection of different varieties.",
+      "sow": "Apr-Jul",
+      "harvest": "May-Oct"
+    },
+    {
+      "vegetable": "carrot",
+      "type": "autumn",
+      "cats": "all, autumn",
+      "name": "Autumn King 2",
+      "abID": "ab9000007",
+      "storeID": 157629,
+      "featured": "no",
+      "colourful": "no",
+      "description": "Large variety. Late maturing.",
+      "sow": "Mar-Jul",
+      "harvest": "Aug-Dec"
+    }
+   ]

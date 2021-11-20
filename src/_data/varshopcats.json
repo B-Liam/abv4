@@ -1,0 +1,10 @@
+{
+    "cats": [
+      {
+        "shopcat": "vegetables"
+      },
+      {
+        "shopcat": "fruit"
+      }
+     ]
+}

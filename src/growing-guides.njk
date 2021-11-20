@@ -1,0 +1,28 @@
+<a class='logout' href='#logout'>Log Out</a>
+
+<h1>Growing Guides</h1>
+
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script>
+
+//by adding the netlify widget to the page, this means that a user object is appended to the page, that can be passed into the function as an argument
+function handleIdentityEvent(user) {
+    //checks to see if the user is logged in with a token, and if so, keeps them on the page
+    if ( user && user.token ) {
+        return;
+    }
+    //if a user is not logged in, redirects them away from the page
+    window.location.pathname ='/login';
+}
+
+window.netlifyIdentity.on('init', handleIdentityEvent);
+window.netlifyIdentity.on('logout', handleIdentityEvent);
+
+//the code that powers the logout button
+document.querySelector('.logout').addEventListener('click', (event) => {
+    event.preventDefault();
+    window.netlifyIdentity.logout();
+})
+
+</script>

@@ -1,0 +1,61 @@
+---
+layout: /layouts/pagetemplate.njk
+permalink: "shop/vegetables/index.html"
+title: "Vegetable Seeds And Plants | Allotment Book"
+description: "Find vegetable seeds and plants to grow at home or on an allotment"
+---
+
+     <div id="sidebar">
+            a new different side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb"><a href="/shop">Shop</a></div><i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                        <h2>Browse Vegetables</h2>
+                        
+                        {% for cats in varveglp %} 
+                        <li><a href='/shop/{{ cats }}/all'>{{ cats | title }}</li></a>
+                        {% endfor %}
+
+
+
+                        <h4>Archive</h4>
+
+                        {% for veg in varliam.veg %} {% if veg.vegetable == "broccoli" %}
+                        <li>{{ veg.name }}</li>
+                        {% endif %}{% endfor %}
+
+                        <h3>Test Data</h3>
+
+                        {% for veg in vegdata.veg %} {% if veg.vegetable == "broccoli" %}
+                        <li> {{ veg.type }} </li>
+                        {% endif %}{% endfor %}
+
+                        <h3>Test More Data</h3>
+
+                        {% for veg in vegdata.veg %} {% if 'featured' in veg.type %}
+                        <li> {{ veg.name }}, {{ veg.description }} </li>
+                        {% endif %} {% endfor %}
+
+                        {% macro add(x, y) %}
+                        {{ caller() }}: {{ x + y }}
+                        {% endmacro%}
+
+                        {% call add(1, 2) -%}
+                        The result is
+                        {%- endcall %}
+
+                    </div> 
+                </main>
+
+            </div>

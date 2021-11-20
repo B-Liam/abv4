@@ -1,0 +1,45 @@
+<style>
+    .netlify-identity-button {
+      background: pink;
+      border: 0;
+      border-radius: 0.25rem;
+      color: var(--white);
+      display: block;
+      font-family: var(--font-family);
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0.15em;
+      margin: 0 auto;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 300px;
+    }
+  </style>
+<h1>Login Page</h1>
+<div data-netlify-identity-button></div>
+
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script>
+
+function handleLogin(user) {
+
+    if (!user || !user.token ) {
+        return;
+    }
+    //if the person gets to this line, it means they are logged in (ie is a user, and has a token)
+    //therefore, send the person to the logged in page
+
+    window.location.pathname = '/premium-content';
+
+}
+
+//on page load, if a person is already logged in and goes to this page, this will redirect them to the logged in page
+window.netlifyIdentity.on('init', handleLogin);
+//after someone is logged in, this calls the function to redirect them
+window.netlifyIdentity.on('login', handleLogin);
+
+</script>
+
