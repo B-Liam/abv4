@@ -1,17 +1,17 @@
 ---
 layout: /layouts/pagetemplate.njk
 pagination:
-    data: varvegcats.broccoli.cats
+    data: varvegcats.carrots.cats
     size: 1
     alias: vegtypes
-permalink: "shop/broccoli/{{ vegtypes.vegtype | slug }}/index.html"
+permalink: "shop/carrots/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
-    title: "Broccoli Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
-    description: "See {{ vegtypes.vegtype }} broccoli varieties, and discover the range of broccoli seeds and plants available."
+    title: "Carrot Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
+    description: "See {{ vegtypes.vegtype }} carrot varieties, and discover the range of carrot seeds and plants available."
 ---
-        {% set vegetableplural = varvegcats.broccoli.nameplural %}
-        {% set vegetablesingular = varvegcats.broccoli.namesingular %}
-        {% set filtercat = varvegcats.broccoli.cats %}
+        {% set vegetableplural = varvegcats.carrots.nameplural %}
+        {% set vegetablesingular = varvegcats.carrots.namesingular %}
+        {% set filtercat = varvegcats.carrots.cats %}
 
         <div id="sidebar">
             <div style="background:#ffffff;margin-left:1rem;margin-top:2rem; width:200px;padding:0rem 2rem 2rem 2rem;border-radius:1rem;border-style:solid;border-width:2;border-color:#009900" id="promo-box">

@@ -1,7 +1,8 @@
 {
     "broccoli": 
                     {
-                    "name": "broccoli",
+                    "namesingular": "broccoli",
+                    "nameplural": "broccoli",
                     "cats": [
                                 {
                                     "vegtype": "all"
@@ -19,7 +20,77 @@
                     } ,
     "carrots": 
                 {
-                "name": "carrots",
+                "namesingular": "carrot",
+                "nameplural": "carrots",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "maincrop"
+                            },
+                            {
+                                "vegtype": "early"
+                            },
+                            {
+                                "vegtype": "colourful"
+                            }
+                        ]
+                }, 
+    "potatoes": 
+                {
+                "namesingular": "potato",
+                "nameplural": "potatoes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "first early"
+                            },
+                            {
+                                "vegtype": "second early"
+                            },
+                            {
+                                "vegtype": "maincrop"
+                            }
+                        ]
+                },
+    "tomatoes": 
+                {
+                "namesingular": "tomato",
+                "nameplural": "tomatoes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "cherry"
+                            },
+                            {
+                                "vegtype": "plum"
+                            },
+                            {
+                                "vegtype": "beefsteak"
+                            },
+                            {
+                                "vegtype": "standard"
+                            }
+                        ]
+                },
+    "next": 
+                {
+                "namesingular": "next",
+                "nameplural": "next",
                 "cats": [
                             {
                                 "vegtype": "all"
@@ -34,7 +105,9 @@
                                 "vegtype": "calabrese"
                             }
                         ]
-                }   
-                
+                } 
+
+ 
+    
      
 }
