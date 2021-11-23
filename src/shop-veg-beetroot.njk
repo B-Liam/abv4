@@ -1,17 +1,17 @@
 ---
 layout: /layouts/pagetemplate.njk
 pagination:
-    data: varvegcats.tomatoes.cats
+    data: varvegcats.beetroot.cats
     size: 1
     alias: vegtypes
-permalink: "shop/tomatoes/{{ vegtypes.vegtype | slug }}/index.html"
+permalink: "shop/beetroot/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
-    title: "Tomato Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
-    description: "See {{ vegtypes.vegtype }} tomato varieties, and discover the range of tomato seeds and plants available."
+    title: "Beetroot Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
+    description: "See {{ vegtypes.vegtype }} beetroot varieties, and discover the range of beetroot seeds and plants available."
 ---
-        {% set vegetableplural = varvegcats.tomatoes.nameplural %}
-        {% set vegetablesingular = varvegcats.tomatoes.namesingular %}
-        {% set filtercat = varvegcats.tomatoes.cats %}
+        {% set vegetableplural = varvegcats.beetroot.nameplural %}
+        {% set vegetablesingular = varvegcats.beetroot.namesingular %}
+        {% set filtercat = varvegcats.beetroot.cats %}
 
         <div id="sidebar">
             <div style="background:#ffffff;margin-left:1rem;margin-top:2rem; width:200px;padding:0rem 2rem 2rem 2rem;border-radius:1rem;border-style:solid;border-width:2;border-color:#009900" id="promo-box">

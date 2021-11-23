@@ -24,7 +24,7 @@ description: "Find vegetable seeds and plants to grow at home or on an allotment
                         <h2>Browse Vegetables</h2>
                         
                         {% for cats in varveglp %} 
-                        <li><a href='/shop/{{ cats }}/all'>{{ cats | title }}</li></a>
+                        <li><a href='/shop/{{ cats | slug }}/all'>{{ cats | title }}</li></a>
                         {% endfor %}
 
 

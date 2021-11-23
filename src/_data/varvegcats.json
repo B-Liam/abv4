@@ -87,6 +87,146 @@
                             }
                         ]
                 },
+    "garlic": 
+                {
+                "namesingular": "garlic",
+                "nameplural": "garlic",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "softneck"
+                            },
+                            {
+                                "vegtype": "hardneck"
+                            },
+                            {
+                                "vegtype": "elephant"
+                            }
+                        ]
+                },
+    "peas": 
+                {
+                "namesingular": "pea",
+                "nameplural": "peas",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "early"
+                            },
+                            {
+                                "vegtype": "maincrop"
+                            },
+                            {
+                                "vegtype": "mangetout"
+                            },
+                            {
+                                "vegtype": "sugar snap"
+                            }
+                        ]
+                },
+    "broadbeans": 
+                {
+                "namesingular": "broad bean",
+                "nameplural": "broad beans",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "maincrop"
+                            },
+                            {
+                                "vegtype": "overwintering"
+                            },
+                            {
+                                "vegtype": "dwarf"
+                            }
+                        ]
+                },
+    "cabbages": 
+                {
+                "namesingular": "cabbage",
+                "nameplural": "cabbages",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "spring"
+                            },
+                            {
+                                "vegtype": "summer"
+                            },
+                            {
+                                "vegtype": "winter"
+                            }
+                        ]
+                },
+    "asparagus": 
+                {
+                "namesingular": "asparagus",
+                "nameplural": "asparagus",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "early"
+                            },
+                            {
+                                "vegtype": "late"
+                            }
+                        ] 
+                    },
+
+    "aubergines": 
+                {
+                "namesingular": "aubergine",
+                "nameplural": "aubergines",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "beetroot": 
+                {
+                "namesingular": "beetroot",
+                "nameplural": "beetroot",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "crimson"
+                            },
+                            {
+                                "vegtype": "colourful"
+                            }
+                        ]
+                },
     "next": 
                 {
                 "namesingular": "next",
@@ -103,11 +243,13 @@
                             },
                             {
                                 "vegtype": "calabrese"
+                            },
+                            {
+                                "vegtype": "thing"
                             }
                         ]
                 } 
+                
 
- 
-    
-     
+
 }
