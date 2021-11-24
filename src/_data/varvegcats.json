@@ -227,6 +227,194 @@
                             }
                         ]
                 },
+    "brusselssprouts": 
+                {
+                "namesingular": "brussels sprout",
+                "nameplural": "brussels sprouts",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "early"
+                            },
+                            {
+                                "vegtype": "late"
+                            }
+                        ]
+                },
+    "cauliflowers": 
+                {
+                "namesingular": "cauliflower",
+                "nameplural": "cauliflowers",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "early"
+                            },
+                            {
+                                "vegtype": "summer"
+                            }
+                        ]
+                }, 
+    "celeriac": 
+                {
+                "namesingular": "celeriac",
+                "nameplural": "celeriac",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "chard": 
+                {
+                "namesingular": "chard",
+                "nameplural": "chard",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "chillies": 
+                {
+                "namesingular": "chilli",
+                "nameplural": "chillies",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "mild"
+                            },
+                            {
+                                "vegtype": "hot"
+                            },
+                            {
+                                "vegtype": "fiery"
+                            }
+                        ]
+                },
+    "courgettes": 
+                {
+                "namesingular": "courgette",
+                "nameplural": "courgettes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            }
+                        ]
+                },
+    "cucumbers": 
+                {
+                "namesingular": "cucumber",
+                "nameplural": "cucumbers",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "long"
+                            },
+                            {
+                                "vegtype": "short"
+                            },
+                            {
+                                "vegtype": "ridge"
+                            }
+                        ]
+                },
+    "florencefennel": 
+                {
+                "namesingular": "florence fennel",
+                "nameplural": "florence fennel",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "frenchbeans": 
+                {
+                "namesingular": "french bean",
+                "nameplural": "french beans",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "dwarf"
+                            },
+                            {
+                                "vegtype": "climbing"
+                            }
+                        ]
+                },
+    "lettuce": 
+                {
+                "namesingular": "lettuce",
+                "nameplural": "lettuce",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "cos"
+                            },
+                            {
+                                "vegtype": "butterhead"
+                            },
+                            {
+                                "vegtype": "loose leaf"
+                            },
+                            {
+                                "vegtype": "iceberg"
+                            }
+                        ]
+                },
+    "salad": 
+                {
+                "namesingular": "salad",
+                "nameplural": "salad",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "sprouts"
+                            },
+                            {
+                                "vegtype": "leaves"
+                            }
+                        ]
+                },
     "next": 
                 {
                 "namesingular": "next",
@@ -248,8 +436,9 @@
                                 "vegtype": "thing"
                             }
                         ]
-                } 
-                
+                }
+
+
 
 
 }
