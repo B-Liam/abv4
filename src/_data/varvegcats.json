@@ -415,6 +415,203 @@
                             }
                         ]
                 },
+
+    "celery": 
+                {
+                "namesingular": "celery",
+                "nameplural": "celery",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "cucamelon": 
+                {
+                "namesingular": "cucamelon",
+                "nameplural": "cucamelons",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "globeartichokes": 
+                {
+                "namesingular": "globe artichoke",
+                "nameplural": "globe artichokes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "jerusalemartichokes": 
+                {
+                "namesingular": "jerusalem artichoke",
+                "nameplural": "jerusalem artichokes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "chicoryendive": 
+                {
+                "namesingular": "chicory endive",
+                "nameplural": "chicory endive",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "peppers": 
+                {
+                "namesingular": "pepper",
+                "nameplural": "peppers",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "mini"
+                            },
+                            {
+                                "vegtype": "regular"
+                            }
+                        ]
+                },
+    "pumpkin": 
+                {
+                "namesingular": "pumpkin",
+                "nameplural": "pumpkin",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "large"
+                            },
+                            {
+                                "vegtype": "regular"
+                            },
+                            {
+                                "vegtype": "mini"
+                            }
+                        ]
+                },
+    "squash": 
+                {
+                "namesingular": "squash",
+                "nameplural": "squash",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "mini"
+                            },
+                            {
+                                "vegtype": "regular"
+                            }
+                        ]
+                },
+    "leeks": 
+                {
+                "namesingular": "leek",
+                "nameplural": "leeks",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "early"
+                            },
+                            {
+                                "vegtype": "late"
+                            }
+                        ]
+                },
+    "springonions": 
+                {
+                "namesingular": "spring onion",
+                "nameplural": "spring onions",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "onions": 
+                {
+                "namesingular": "onion",
+                "nameplural": "onions",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "seed"
+                            },
+                            {
+                                "vegtype": "spring"
+                            },
+                            {
+                                "vegtype": "overwintering"
+                            }
+                        ]
+                },
+    "runnerbeans": 
+                {
+                "namesingular": "runner bean",
+                "nameplural": "runner beans",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "standard"
+                            },
+                            {
+                                "vegtype": "dwarf"
+                            }
+                        ]
+                },
+    "shallots": 
+                {
+                "namesingular": "shallot",
+                "nameplural": "shallots",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "seed"
+                            },
+                            {
+                                "vegtype": "overwintering"
+                            }
+                        ]
+                },
     "next": 
                 {
                 "namesingular": "next",
@@ -437,7 +634,6 @@
                             }
                         ]
                 }
-
 
 
 
