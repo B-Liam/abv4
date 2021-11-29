@@ -21,11 +21,15 @@ layout: /layouts/pagetemplate.njk
 
                     <div id="content-body">
 
-                        <h2>Browse Shop</h2>
+                        <h1>Browse Shop</h1>
+
+                        <div id="list-container" style="display:flex; flex-wrap: wrap">
                         
                         {% for cats in varshopcats.cats %} 
-                        <li><a href='/shop/{{cats.shopcat}}'>{{ cats.shopcat | title }}</a></li>
+                        <div style="width:210px;padding-bottom:10px"><a href='/shop/{{cats.shopcat}}'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats.shopcat | title }}</div></a>
                         {% endfor %}
+
+                        </div>
 
                         <h4>Archive</h4>
 

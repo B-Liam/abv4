@@ -612,10 +612,10 @@
                             }
                         ]
                 },
-    "next": 
+    "kale": 
                 {
-                "namesingular": "next",
-                "nameplural": "next",
+                "namesingular": "kale",
+                "nameplural": "kale",
                 "cats": [
                             {
                                 "vegtype": "all"
@@ -624,17 +624,149 @@
                                 "vegtype": "featured"
                             },
                             {
-                                "vegtype": "true broccoli"
+                                "vegtype": "curly"
                             },
                             {
-                                "vegtype": "calabrese"
+                                "vegtype": "flat"
+                            }
+                        ]
+                },
+    "kohlrabi": 
+                {
+                "namesingular": "kohlrabi",
+                "nameplural": "kohlrabi",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "marrows": 
+                {
+                "namesingular": "marrow",
+                "nameplural": "marrows",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "pakchoi": 
+                {
+                "namesingular": "pak choi",
+                "nameplural": "pak choi",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "parsnips": 
+                {
+                "namesingular": "parsnip",
+                "nameplural": "parsnips",
+                "cats": [
+                            {
+                                "vegtype": "all"
                             },
                             {
-                                "vegtype": "thing"
+                                "vegtype": "featured"
+                            }
+                        ]
+                },
+    "radishes": 
+                {
+                "namesingular": "radish",
+                "nameplural": "radishes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "summer"
+                            },
+                            {
+                                "vegtype": "winter"
+                            }
+                        ]
+                },
+    "spinach": 
+                {
+                "namesingular": "spinach",
+                "nameplural": "spinach",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "summer"
+                            },
+                            {
+                                "vegtype": "winter"
+                            }
+                        ]
+                },
+    "swedes": 
+                {
+                "namesingular": "swede",
+                "nameplural": "swedes",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "tomatillos": 
+                {
+                "namesingular": "tomatillo",
+                "nameplural": "tomatillos",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "turnips": 
+                {
+                "namesingular": "turnip",
+                "nameplural": "turnips",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            }
+                        ]
+                },
+    "sweetcorn": 
+                {
+                "namesingular": "sweetcorn",
+                "nameplural": "sweetcorn",
+                "cats": [
+                            {
+                                "vegtype": "all"
+                            },  
+                            {
+                                "vegtype": "featured"
+                            },
+                            {
+                                "vegtype": "normal"
+                            },
+                            {
+                                "vegtype": "sugar enhanced"
+                            },
+                            {
+                                "vegtype": "supersweet"
+                            },
+                            {
+                                "vegtype": "popcorn"
                             }
                         ]
                 }
-
 
 
 }

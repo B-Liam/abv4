@@ -1,8 +1,8 @@
 ---
 layout: /layouts/pagetemplate.njk
 permalink: "shop/vegetables/index.html"
-title: "Vegetable Seeds And Plants | Allotment Book"
-description: "Find vegetable seeds and plants to grow at home or on an allotment"
+title: "Vegetable Varieties | Seeds And Plants | Allotment Book"
+description: "Explore vegetable varieties and find seeds and plants to grow at home or on an allotment"
 ---
 
      <div id="sidebar">
@@ -21,13 +21,15 @@ description: "Find vegetable seeds and plants to grow at home or on an allotment
 
                     <div id="content-body">
 
-                        <h2>Browse Vegetables</h2>
+                        <h1>Vegetable Varieties</h1>
+
+                        <div id="list-container" style="display:flex; flex-wrap: wrap">
                         
                         {% for cats in varveglp %} 
-                        <li><a href='/shop/{{ cats | slug }}/all'>{{ cats | title }}</li></a>
+                        <div style="width:210px;padding-bottom:10px"><a href='/shop/{{ cats | slug }}/all'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats | title }}</div></a>
                         {% endfor %}
 
-
+                        </div>
 
                         <h4>Archive</h4>
 
