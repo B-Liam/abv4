@@ -21,7 +21,7 @@ exports.handler = async (_event, context) => {
 
   const link = await stripe.billingPortal.sessions.create({
     customer: stripeID,
-    return_url: process.env.URL,
+    return_url: 'https://focused-yonath-f54382.netlify.app/subscriptions/',
   });
   return {
     statusCode: 200,
