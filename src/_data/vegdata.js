@@ -1,4 +1,4 @@
-const allVeg =  require('./varliam.json');
+const allVeg =  require('./varvegliam.json');
 const storeData = require('./varvegsuttons.json');
 
 //write a function to combine data from both the above

@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "dotenv": "^10.0.0",
     "eleventy-plugin-embed-everything": "^1.13.2",
     "node-fetch": "^2.6.1",
     "stripe": "^8.186.1"
