@@ -24,10 +24,6 @@ layout: /layouts/pagetemplate.njk
 
                         <article>
 
-                            <p>{{ getstoryblockversion.version }}</p>
-
-                            <div id="timestamp"></div>
-
                             <h1>{{ pagesstoryblok.page[0].content.title | title }}</h1>                          
 
                             <p>{{ pagesstoryblok.page[0].content.excerpt }}</p>
@@ -53,18 +49,6 @@ let text = `{{ pagesstoryblok.page[0].content.main_content }}`;
 console.log(text)
 
 document.getElementById("markedup").innerHTML = marked.parse(text);
-
-let time = null;
-
-function getTime() {
- time = Date.now()
-}
-
-getTime();
-
-document.getElementById("timestamp").innerHTML = time;
-
-
 
 </script>
 

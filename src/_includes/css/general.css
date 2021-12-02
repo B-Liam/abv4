@@ -45,6 +45,7 @@ a {
 #footer {
     background: #333333;
     width: 100vw;
+    min-height: 40px;
 }
 
 #breadcrumb-container {
@@ -85,5 +86,9 @@ a {
     margin-right: 2%;
     text-align: center;
     text-decoration: none;
+  }
+
+  #markedup img {
+      width: 100%;
   }
 
