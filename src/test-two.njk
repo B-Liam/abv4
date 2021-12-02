@@ -24,15 +24,11 @@ layout: /layouts/pagetemplate.njk
 
                         <article>
 
-                            <p>{{ getstoryblockversion.version }}</p>
+                            <h1>{{ pagesstoryblok.page[1].content.title | title }}</h1>                          
 
-                            <div id="timestamp"></div>
+                            <p>{{ pagesstoryblok.page[1].content.excerpt }}</p>
 
-                            <h1>{{ pagesstoryblok.page[0].content.title | title }}</h1>                          
-
-                            <p>{{ pagesstoryblok.page[0].content.excerpt }}</p>
-
-                            <img style="width:100%" src="{{ pagesstoryblok.page[0].content.lead_image.filename }}" alt="{{pagesstoryblok.page[0].content.lead_image.alt}}"/>
+                            <img style="width:100%" src="{{ pagesstoryblok.page[0].content.lead_image.filename }}" alt="{{pagesstoryblok.page[1].content.lead_image.alt}}"/>
 
                             <div id="markedup"></div>
 
@@ -48,23 +44,11 @@ layout: /layouts/pagetemplate.njk
 
 <script>
 
-let text = `{{ pagesstoryblok.page[0].content.main_content }}`;
+let text = `{{ pagesstoryblok.page[1].content.main_content }}`;
 
 console.log(text)
 
 document.getElementById("markedup").innerHTML = marked.parse(text);
-
-let time = null;
-
-function getTime() {
- time = Date.now()
-}
-
-getTime();
-
-document.getElementById("timestamp").innerHTML = time;
-
-
 
 </script>
 
