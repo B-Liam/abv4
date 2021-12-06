@@ -1,0 +1,116 @@
+---
+permalink: "book-contents/index.html"
+title: Index Of Book Contents | Allotment Book
+description: Tips on starting an allotment, how to create a growing plan, and a full set of fruit, vegetable, and herb growing guides.
+layout: /layouts/pagetemplate.njk
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                        <div id="content-heading">
+                            <div id="breadcrumb-container">
+                                <div id="breadcrumb">
+                                <a href="/">Home</a><i class="fas fa-chevron-right"></i>
+                                <a href="/book-contents">Book Contents</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <div id="content-body">
+
+                            <h1>Book Contents</h1>
+
+                            <h4 style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px">Introduction</h4>
+
+                            <div id="links"></div>
+
+                            <div style="width:400px;margin-left:auto;margin-right:auto" class="intro-container"></div>
+
+                                <template id="intro-template">
+                                
+                                 <div style="padding-bottom:1%" id="intro-link"></div>
+                                
+                                </template>
+
+                            <h4 style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px">Allotment Starter Guides</h4>
+
+                            <div id="starter-links"></div>
+
+                            <div style="width:400px;margin-left:auto;margin-right:auto"class="starter-container"></div>
+
+                                <template id="starter-template">
+                                
+                                 <div style="padding-bottom:1%" id="starter-link"></div>
+                                
+                                </template>
+                        
+                        </div> 
+                </main>
+            </div>
+
+<script>
+
+function makeLink(title,slug) {
+ return (
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/book/${slug}">${title}</a>`
+ )
+};
+
+function makeButton(title,slug) {
+ return (
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/book/${slug}">${title}</a>`
+ )
+};
+
+let postsArray = {{ pagesstoryindex | dump | safe }};
+let allPagesSorted = [];
+let introPages = [];
+let starterPages = [];
+
+//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
+function sortPages() {
+    allPagesSorted = postsArray.sort (function (a,b) {
+     return a.order - b.order
+})
+}
+
+sortPages();
+
+function postIntoSections() {
+    for ( i = 0 ; i < postsArray.length ; i++ ) {
+        if ( postsArray[i].category == "introduction" ) {
+            introPages.push(postsArray[i]);
+        } else if ( postsArray[i].category == "starter" ) {
+            starterPages.push(postsArray[i]);
+        }
+    }
+}
+
+postIntoSections();
+console.log(allPagesSorted);
+
+function initialise(pages, containerid, templateid, divid) {
+ let sortedArray = pages.sort (function (a,b) {
+     return a.order - b.order;
+ })
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ sortedArray.forEach((article) => {
+     const element = template.content.cloneNode(true);
+     let title = article.title;
+     element.getElementById(divid).innerHTML = makeLink(article.title,article.slug);
+     container.appendChild(element);
+ });
+}
+
+initialise(introPages, ".intro-container",'#intro-template',"intro-link");
+initialise(starterPages, ".starter-container",'#starter-template',"starter-link");
+
+</script>
