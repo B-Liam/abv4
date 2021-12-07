@@ -1,0 +1,32 @@
+[
+    {
+      "vegetable": "broccoli",
+      "january": "n",
+      "february": "n",
+      "march": "n",
+      "april": "y",
+      "may": "y",
+      "june": "y",
+      "july": "n",
+      "august": "n",
+      "september": "n",
+      "october": "n",
+      "november": "n",
+      "december": "n"
+    },
+    {
+      "vegetable": "runner beans",
+      "january": "n",
+      "february": "n",
+      "march": "n",
+      "april": "n",
+      "may": "n",
+      "june": "y",
+      "july": "n",
+      "august": "n",
+      "september": "n",
+      "october": "n",
+      "november": "n",
+      "december": "n"
+    }
+   ]

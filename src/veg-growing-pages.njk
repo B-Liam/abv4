@@ -1,0 +1,511 @@
+---
+layout: /layouts/pagetemplate.njk
+pagination:
+    data: vegstoryblok.page
+    size: 1
+    alias: pagedata
+permalink: "vegetable-growing-guides/growing-{{ pagedata.content.title | slug }}/index.html"
+eleventyComputed:
+    title: "Growing {{ pagedata.content.title | title }} | Allotment Book"
+    description: "{{ pagedata.content.seo_description }}"
+---
+
+     <div id="sidebar">
+             a sidebar for a page
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb">
+                            <a href="/book-contents">Home</a><i class="fas fa-chevron-right"></i>
+                            <a href="/introduction">Growing Vegetables</a><i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                        <article>
+
+                        <div style="display:flex;justify-content:space-between;align-items:center" id="header-container">
+
+                            <h1 id="title" style="margin-bottom:10px">{{ pagedata.content.title | title }}</h1> 
+                            <div style="color:#ffffff" id="next-page" class="nextthing"></div>
+
+
+                        </div>                         
+
+                            <img style="width:100%" src="{{ pagedata.content.lead_image.filename }}" alt="{{pagedata.content.lead_image.alt}}"/>
+
+                            <h2 id="title" style="margin-bottom:10px">Introduction</h2>
+
+                            <div id="introduction"></div>
+
+                            <div id="plant-harvest-container" style="display: flex;flex-wrap:wrap">
+                            
+                                <div id="plant-head" style="width:315px; text-align: left">
+
+                                    <h4>Planting</h4>
+                                    <div id="planting"></div>
+
+                                </div>
+
+                                <div id="harvest-head" style="width: 315px">
+
+                                    <h4>Harvesting</h4>
+                                    <div id="harvesting"></div>
+
+                                </div>
+
+                            </div>
+
+                            <div id="growing-overview-container" style="display:grid; grid-template-columns:5fr 3fr 3fr 3fr 3fr;text-align:center;margin-top:20px;margin-bottom:5px;background:#009900;column-gap:5px;grid-template-rows: 4rem 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 35px; color:#009900;border: solid 5px #009900">
+                            <div id="row1-col1" style="grid-area:1/1/2/2;background:#ffffff;margin-left:5px;background:#009900"></div>
+                                <div id="row1-col2" style="grid-area:1/2/2/3;background:#ffffff;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Sow</strong><br />(protected)</div>
+                                <div id="row1-col3" style="grid-area:1/3/2/4;background:#ffffff;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Sow</strong><br />(outdoors)</div>
+                                <div id="row1-col4" style="grid-area:1/4/2/5;background:#ffffff;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Harvest</strong><br />(fresh)</div>
+                                <div id="row1-col5" style="grid-area:1/5/2/6;background:#ffffff;padding-left:5px; padding-right:5px;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Harvest</strong><br />(stored)</div>
+                                <div id="row2-col1" style="grid-area:2/1/3/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">January</div></div>
+                                <div id="row2-col2" style="grid-area:2/2/3/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-sow-in"></div></div>
+                                <div id="row2-col3" style="grid-area:2/3/3/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-sow-out"></div></div>
+                                <div id="row2-col4" style="grid-area:2/4/3/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-harvest"></div></div>
+                                <div id="row2-col5" style="grid-area:2/5/3/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-stored"></div></div>
+                                <div id="row3-col1" style="grid-area:3/1/4/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">February</div></div>
+                                <div id="row3-col2" style="grid-area:3/2/4/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-sow-in"></div></div>
+                                <div id="row3-col3" style="grid-area:3/3/4/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-sow-out"></div></div>
+                                <div id="row3-col4" style="grid-area:3/4/4/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-harvest"></div></div>
+                                <div id="row3-col5" style="grid-area:3/5/4/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-stored"></div></div>
+                                <div id="row4-col1" style="grid-area:4/1/5/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">March</div></div>
+                                <div id="row4-col2" style="grid-area:4/2/5/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-sow-in"></div></div>
+                                <div id="row4-col3" style="grid-area:4/3/5/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-sow-out"></div></div>
+                                <div id="row4-col4" style="grid-area:4/4/5/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-harvest"></div></div>
+                                <div id="row4-col5" style="grid-area:4/5/5/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-stored"></div></div>
+                                <div id="row5-col1" style="grid-area:5/1/6/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">April</div></div>
+                                <div id="row5-col2" style="grid-area:5/2/6/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-sow-in"></div></div>
+                                <div id="row5-col3" style="grid-area:5/3/6/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-sow-out"></div></div>
+                                <div id="row5-col4" style="grid-area:5/4/6/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-harvest"></div></div>
+                                <div id="row5-col5" style="grid-area:5/5/6/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-stored"></div></div>
+                                <div id="row6-col1" style="grid-area:6/1/7/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">May</div></div>
+                                <div id="row6-col2" style="grid-area:6/2/7/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-sow-in"></div></div>
+                                <div id="row6-col3" style="grid-area:6/3/7/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-sow-out"></div></div>
+                                <div id="row6-col4" style="grid-area:6/4/7/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-harvest"></div></div>
+                                <div id="row6-col5" style="grid-area:6/5/7/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-stored"></div></div>
+                                <div id="row7-col1" style="grid-area:7/1/8/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">June</div></div>
+                                <div id="row7-col2" style="grid-area:7/2/8/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-sow-in"></div></div>
+                                <div id="row7-col3" style="grid-area:7/3/8/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-sow-out"></div></div>
+                                <div id="row7-col4" style="grid-area:7/4/8/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-harvest"></div></div>
+                                <div id="row7-col5" style="grid-area:7/5/8/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-stored"></div></div>
+                                <div id="row8-col1" style="grid-area:8/1/9/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">July</div></div>
+                                <div id="row8-col2" style="grid-area:8/2/9/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-sow-in"></div></div>
+                                <div id="row8-col3" style="grid-area:8/3/9/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-sow-out"></div></div>
+                                <div id="row8-col4" style="grid-area:8/4/9/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-harvest"></div></div>
+                                <div id="row8-col5" style="grid-area:8/5/9/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-stored"></div></div>
+                                <div id="row9-col1" style="grid-area:9/1/10/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">August</div></div>
+                                <div id="row9-col2" style="grid-area:9/2/10/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-sow-in"></div></div>
+                                <div id="row9-col3" style="grid-area:9/3/10/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-sow-out"></div></div>
+                                <div id="row9-col4" style="grid-area:9/4/10/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-harvest"></div></div>
+                                <div id="row9-col5" style="grid-area:9/5/10/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-stored"></div></div>
+                                <div id="row10-col1" style="grid-area:10/1/11/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">September</div></div>
+                                <div id="row10-col2" style="grid-area:10/2/11/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-sow-in"></div></div>
+                                <div id="row10-col3" style="grid-area:10/3/11/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-sow-out"></div></div>
+                                <div id="row10-col4" style="grid-area:10/4/11/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-harvest"></div></div>
+                                <div id="row10-col5" style="grid-area:10/5/11/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-stored"></div></div>
+                                <div id="row11-col1" style="grid-area:11/1/12/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">October</div></div>
+                                <div id="row11-col2" style="grid-area:11/2/12/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-sow-in"></div></div>
+                                <div id="row11-col3" style="grid-area:11/3/12/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-sow-out"></div></div>
+                                <div id="row11-col4" style="grid-area:11/4/12/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-harvest"></div></div>
+                                <div id="row11-col5" style="grid-area:11/5/12/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-stored"></div></div>
+                                <div id="row12-col1" style="grid-area:12/1/13/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">November</div></div>
+                                <div id="row12-col2" style="grid-area:12/2/13/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-sow-in"></div></div>
+                                <div id="row12-col3" style="grid-area:12/3/13/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-sow-out"></div></div>
+                                <div id="row12-col4" style="grid-area:12/4/13/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-harvest"></div></div>
+                                <div id="row12-col5" style="grid-area:12/5/13/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-stored"></div></div>
+                                <div id="row13-col1" style="grid-area:13/1/14/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem;padding-bottom:5px"><div id="month">December</div></div>
+                                <div id="row13-col2" style="grid-area:13/2/14/3;background:#ffffff; display:flex;align-items:center;justify-content:center;padding-bottom:5px"><div id="row12-sow-in"></div></div>
+                                <div id="row13-col3" style="grid-area:13/3/14/4;background:#ffffff; display:flex;align-items:center;justify-content:center;padding-bottom:5px"><div id="row12-sow-out"></div></div>
+                                <div id="row13-col4" style="grid-area:13/4/14/5;background:#ffffff; display:flex;align-items:center;justify-content:center;padding-bottom:5px"><div id="row12-harvest"></div></div>
+                                <div id="row13-col5" style="grid-area:13/5/14/6;background:#ffffff;display:flex;align-items:center;justify-content:center"><div id="row12-stored"></div></div>                                
+                            </div>
+                            <div id="key" style="text-align: right; color:#009900">
+                                 <img style="height:15px" src="/images/uploads/jar-icon.png" /> = jar, <i class="fas fa-snowflake"></i> = freeze, <i class="fas fa-box-open"></i> = store
+                            </div>
+                                
+
+                            <h2 id="title" style="margin-bottom:10px">Varieties</h2>
+
+                            <div id="varieties"></div>
+
+                            <h2 id="title" style="margin-bottom:10px">Growing</h2>
+
+                            <div id="growing"></div>
+
+                            <h2 id="title" style="margin-bottom:10px">Gallery</h2>
+
+                        </article>
+
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center">
+                            <div id="lower-previous">
+                            </div>
+                            <div id="lower-next">
+                            </div>
+                        </div>
+                        <hr />
+                        <h4>Quick Links</h4>
+                        
+                        <div style="padding-bottom:2rem">
+                            <a href="{{ settings.book }}"><button style="font-size:1.2rem;color:#ffffff;margin-top:5p;background:#009900;border:none;width:100%;padding-top:1rem;padding-bottom:1rem;margin-bottom:1rem"><i style="padding-right:10px" class="fas fa-book-open"></i> Book Contents</button></a>
+                            <a href="{{ settings.shop }}"><button style="font-size:1.2rem;color:#ffffff;margin-top:5p;background:#009900;border:none;width:100%;padding-top:1rem;padding-bottom:1rem;margin-bottom:1rem"><i style="padding-right:10px" class="fas fa-shopping-bag"></i> Allotment Shop</button></a>
+                            <a href="{{ settings.tools }}"><button style="font-size:1.2rem;color:#ffffff;margin-top:5p;background:#009900;border:none;width:100%;padding-top:1rem;padding-bottom:1rem;margin-bottom:1rem"><i style="padding-right:10px" class="far fa-calendar-alt"></i> Planning Tools</button></a>
+                            
+                        </div>
+
+                    </div> 
+                </main>
+
+            </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+
+//this is the script that populates the content into the markedup div
+let varieties = `{{ pagedata.content.varieties }}`;
+let introText = `{{ pagedata.content.introduction }}`;
+let plantingText = `{{ pagedata.content.planting }}`;
+let harvestingText = `{{ pagedata.content.harvesting }}`;
+let growingText = `{{ pagedata.content.growing }}`;
+document.getElementById("varieties").innerHTML = marked.parse(varieties);
+document.getElementById("introduction").innerHTML = marked.parse(introText);
+document.getElementById("planting").innerHTML = marked.parse(plantingText);
+document.getElementById("harvesting").innerHTML = marked.parse(harvestingText);
+document.getElementById("growing").innerHTML = marked.parse(growingText);
+
+//this is the area that populates the green table
+let grabName = `{{ pagedata.content.title | lower }}`;
+let plantIndoors = {{ factsplantindoor | dump | safe }}.filter(function(vegetable){
+    return vegetable.vegetable == grabName;
+});
+let plantOutdoors = {{ factsplantoutdoor | dump | safe }}.filter(function(vegetable){
+    return vegetable.vegetable == grabName;
+});
+let harvestTime = {{ factsharvest | dump | safe }}.filter(function(vegetable){
+    return vegetable.vegetable == grabName;
+});
+let storeMethod = {{ factsstore | dump | safe }}.filter(function(vegetable){
+    return vegetable.vegetable == grabName;
+});
+
+function generatePlantIndoors() {
+    if (plantIndoors[0].january == "y" ) {
+        document.getElementById("row1-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].february == "y" ) {
+        document.getElementById("row2-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].march == "y" ) {
+        document.getElementById("row3-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].april == "y" ) {
+        document.getElementById("row4-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].may == "y" ) {
+        document.getElementById("row5-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].june == "y" ) {
+        document.getElementById("row6-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].july == "y" ) {
+        document.getElementById("row7-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].august == "y" ) {
+        document.getElementById("row8-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].september == "y" ) {
+        document.getElementById("row9-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].october == "y" ) {
+        document.getElementById("row10-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].november == "y" ) {
+        document.getElementById("row11-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantIndoors[0].december == "y" ) {
+        document.getElementById("row12-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+}
+generatePlantIndoors();
+
+function generatePlantOutdoors() {
+    if (plantOutdoors[0].january == "y" ) {
+        document.getElementById("row1-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].february == "y" ) {
+        document.getElementById("row2-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].march == "y" ) {
+        document.getElementById("row3-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].april == "y" ) {
+        document.getElementById("row4-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].may == "y" ) {
+        document.getElementById("row5-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].june == "y" ) {
+        document.getElementById("row6-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].july == "y" ) {
+        document.getElementById("row7-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].august == "y" ) {
+        document.getElementById("row8-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].september == "y" ) {
+        document.getElementById("row9-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].october == "y" ) {
+        document.getElementById("row10-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].november == "y" ) {
+        document.getElementById("row11-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (plantOutdoors[0].december == "y" ) {
+        document.getElementById("row12-sow-out").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+}
+generatePlantOutdoors();
+
+function generateHarvest() {
+    if (harvestTime[0].january == "y" ) {
+        document.getElementById("row1-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].february == "y" ) {
+        document.getElementById("row2-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].march == "y" ) {
+        document.getElementById("row3-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].april == "y" ) {
+        document.getElementById("row4-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].may == "y" ) {
+        document.getElementById("row5-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].june == "y" ) {
+        document.getElementById("row6-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].july == "y" ) {
+        document.getElementById("row7-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].august == "y" ) {
+        document.getElementById("row8-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].september == "y" ) {
+        document.getElementById("row9-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].october == "y" ) {
+        document.getElementById("row10-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].november == "y" ) {
+        document.getElementById("row11-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+    if (harvestTime[0].december == "y" ) {
+        document.getElementById("row12-harvest").innerHTML = `<i class="fas fa-check-circle"></i>`;
+    }
+}
+generateHarvest();
+
+function generateStore() {
+    if (storeMethod[0].january == "frozen" ) {
+        document.getElementById("row1-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].january == "jar" ) {
+        document.getElementById("row1-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].january == "store" ) {
+        document.getElementById("row1-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].february == "frozen" ) {
+        document.getElementById("row2-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].february == "jar" ) {
+        document.getElementById("row2-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].february == "store" ) {
+        document.getElementById("row2-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].march == "frozen" ) {
+        document.getElementById("row3-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].march == "jar" ) {
+        document.getElementById("row3-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].march == "store" ) {
+        document.getElementById("row3-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].april == "frozen" ) {
+        document.getElementById("row4-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].april == "jar" ) {
+        document.getElementById("row4-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].april == "store" ) {
+        document.getElementById("row4-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].may == "frozen"  ) {
+        document.getElementById("row5-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].may == "jar" ) {
+        document.getElementById("row5-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].may == "store" ) {
+        document.getElementById("row5-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].june == "frozen" ) {
+        document.getElementById("row6-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].june == "jar" ) {
+        document.getElementById("row6-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].june == "store" ) {
+        document.getElementById("row6-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].july == "frozen" ) {
+        document.getElementById("row7-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].july == "jar" ) {
+        document.getElementById("row7-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].july == "store" ) {
+        document.getElementById("row7-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].august == "frozen" ) {
+        document.getElementById("row8-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].august == "jar" ) {
+        document.getElementById("row8-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].august == "store" ) {
+        document.getElementById("row8-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].september == "frozen" ) {
+        document.getElementById("row9-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].september == "jar" ) {
+        document.getElementById("row9-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].september == "store" ) {
+        document.getElementById("row9-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].october == "frozen" ) {
+        document.getElementById("row10-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].october == "jar" ) {
+        document.getElementById("row10-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].october == "store" ) {
+        document.getElementById("row10-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].november == "frozen" ) {
+        document.getElementById("row11-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].november == "jar" ) {
+        document.getElementById("ro11-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].november == "store" ) {
+        document.getElementById("row11-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+    if (storeMethod[0].december == "frozen" ) {
+        document.getElementById("row12-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
+    }
+    if (storeMethod[0].december == "jar" ) {
+        document.getElementById("row12-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+    }
+    if (storeMethod[0].december == "store" ) {
+        document.getElementById("row12-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
+    }
+
+}
+generateStore();
+
+
+
+//this is the script that generates the previous and next buttons
+
+let postsArray = {{ pagesstoryindex | dump | safe }};
+let allPagesSorted = [];
+let grabTitle = document.getElementById("title").innerHTML;
+
+//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
+function sortPages() {
+    allPagesSorted = postsArray.sort (function (a,b) {
+     return a.order - b.order
+})
+}
+sortPages();
+
+//this determines the index value of the current page in the allPagesSorted array
+let pageIndexNumber = null;
+
+function findPageIndex() {
+    for ( i = 0 ; i < allPagesSorted.length ; i++) {
+        if ( grabTitle.toLowerCase() == allPagesSorted[i].title.toLowerCase() ) {
+            pageIndexNumber = i;
+        }
+    }
+}
+findPageIndex();
+
+//this stores the next and prevous pages in variables
+let nextPage = [];
+let previousPage = [];
+
+function findNext() {
+    if ( pageIndexNumber < allPagesSorted.length - 1) {
+    nextPage.push(allPagesSorted[pageIndexNumber + 1])
+    }
+}
+findNext();
+
+function findPrevious() {
+    if ( pageIndexNumber !== 0 ) {
+    previousPage.push(allPagesSorted[pageIndexNumber - 1])
+    }
+}
+findPrevious();
+
+//make the buttons based on logic
+
+function createButtons() {
+    if ( nextPage.length > 0 ) {
+        document.getElementById("next-page").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
+        document.getElementById("lower-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
+        }
+    if ( pageIndexNumber > 0 ) {
+        document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
+    }
+}
+createButtons();
+
+//this generates the link to the next page
+function makeNextButton(title,slug) {
+ return (
+     `<a href="/book/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
+ )
+};
+
+//this generates the link to the next page
+function makePreviousButton(title,slug) {
+ return (
+     `<a href="/book/${slug}"><button style="background:#009900;width:120px; border:none;color:#;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+ )
+};
+
+
+console.log(previousPage);
+
+</script>
