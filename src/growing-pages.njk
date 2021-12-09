@@ -32,10 +32,10 @@ eleventyComputed:
 
                         <article>
 
-                        <div style="display:flex;justify-content:space-between;align-items:center" id="header-container">
+                        <div style="display:flex;justify-content:space-between" id="header-container">
 
-                            <h1 id="title" style="margin-bottom:10px">{{ pagedata.content.title | title }}</h1> 
-                            <div style="color:#ffffff" id="next-page" class="nextthing"></div>
+                            <h1 id="title" style="margin-bottom:10px; padding-right:2rem">{{ pagedata.content.title | title }}</h1> 
+                            <div style="color:#ffffff;padding-top:0.5rem" id="next-page" class="nextthing"></div>
 
 
                         </div>                         
@@ -48,14 +48,14 @@ eleventyComputed:
 
                             <div id="plant-harvest-container" style="display: flex;flex-wrap:wrap">
                             
-                                <div id="plant-head" style="width:315px; text-align: left">
+                                <div id="plant-head" style="width:320px; text-align: left">
 
                                     <h4>Planting</h4>
                                     <div id="planting"></div>
 
                                 </div>
 
-                                <div id="harvest-head" style="width: 315px">
+                                <div id="harvest-head" style="width: 320px">
 
                                     <h4>Harvesting</h4>
                                     <div id="harvesting"></div>
@@ -517,7 +517,7 @@ createButtons();
 //this generates the link to the next page
 function makeNextButton(title,slug) {
  return (
-     `<a href="/contents/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
  )
 };
 
