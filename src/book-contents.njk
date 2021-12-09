@@ -33,8 +33,10 @@ layout: /layouts/pagetemplate.njk
 
                                 <template id="intro-template">
                                 
-                                 <div style="padding-bottom:1%" id="intro-link"></div>
-                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="intro-link"></div>
+                                </div>
+
                                 </template>
 
                             <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Allotment Starter Guides</h4>
@@ -45,8 +47,10 @@ layout: /layouts/pagetemplate.njk
 
                                 <template id="starter-template">
                                 
-                                 <div style="padding-bottom:1%" id="starter-link"></div>
-                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="starter-link"></div>
+                                </div>
+
                                 </template>
 
                             <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Growing Guides</h4>
@@ -55,7 +59,9 @@ layout: /layouts/pagetemplate.njk
 
                                 <template id="vegetable-template">
                                 
-                                 <div style="padding-bottom:1%" id="vegetable-link"></div>
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="vegetable-link"></div>
+                                </div>
                                 
                                 </template>
 
@@ -65,8 +71,10 @@ layout: /layouts/pagetemplate.njk
 
                                 <template id="fruit-template">
                                 
-                                 <div style="padding-bottom:1%" id="fruit-link"></div>
-                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="fruit-link"></div>
+                                </div>
+
                                 </template>
                         
                         </div> 
@@ -78,7 +86,7 @@ layout: /layouts/pagetemplate.njk
 //the code that makes the breadcrumb
 function makeLink(title,slug) {
  return (
-     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+     `<a href="/contents/${slug}">${title}</a>`
  )
 };
 

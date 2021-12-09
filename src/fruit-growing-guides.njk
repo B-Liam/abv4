@@ -35,7 +35,9 @@ layout: /layouts/pagetemplate.njk
 
                                     <div><img style="display:block; width:160px;" src="" alt="" /></div>
                                     
-                                    <div style="padding-left:1em; width:200px;font-size:1.5rem" id="fruit-link"></div>
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 1em"><i style="font-size:1.5em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:1em; width:200px;font-size:1.5rem" id="fruit-link"></div>
+                                    </div>                                   
 
                                 </div>
                                 
@@ -50,7 +52,7 @@ layout: /layouts/pagetemplate.njk
 //the code that makes the breadcrumb
 function makeLink(title,slug) {
  return (
-     `<a href="/contents/${slug}"><i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> ${title}</a>`
+     `<a href="/contents/${slug}">${title}</a>`
  )
 };
 
