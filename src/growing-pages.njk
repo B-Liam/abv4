@@ -20,9 +20,9 @@ eleventyComputed:
                     
                     <div id="content-heading">
                         <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
-                            <div id="breadcrumb">
+                            <div style="font-size:1rem" id="breadcrumb">
                                 <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
-                                <a id="blink" href="">{{ pagedata.content.category | title }} Growing Guides</a><i class="fas fa-chevron-right"></i>
+                                <a id="blink" href="">{{ pagedata.content.category | title }} Guides</a><i class="fas fa-chevron-right"></i>
                             </div>
                             <div id="breadcrumb-back"></div>
                         </div>
@@ -31,6 +31,13 @@ eleventyComputed:
                     <div id="content-body">
 
                         <article>
+
+                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                            <div id="higher-previous">
+                            </div>
+                            <div id="higher-next">
+                            </div>
+                        </div>
 
                         <div style="display:flex;justify-content:space-between" id="header-container">
 
@@ -504,12 +511,12 @@ findPrevious();
 
 function createButtons() {
     if ( nextPage.length > 0 ) {
-        document.getElementById("next-page").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
         document.getElementById("lower-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
+        document.getElementById("higher-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
         }
     if ( pageIndexNumber > 0 ) {
         document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
-        document.getElementById("breadcrumb-back").innerHTML = makePreviousBreadcrumb(previousPage[0].title, previousPage[0].slug);
+        document.getElementById("higher-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
     }
 }
 createButtons();
@@ -536,7 +543,7 @@ function makePreviousBreadcrumb(title,slug) {
 //this code makes the photo link for the gallery
 function makeLink(title,slug) {
  return (
-     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+     `<i style="font-size:0.7rem;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
  )
 };
 
