@@ -524,12 +524,12 @@ function makeNextButton(title,slug) {
 //this generates the link to the next page
 function makePreviousButton(title,slug) {
  return (
-     `<a href="/contents/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
  )
 };
 function makePreviousBreadcrumb(title,slug) {
  return (
-     `<a href="/contents/${slug}"><button style="background:#333333;width:80px; border:none;color:#ffffff;font-size:0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem;margin-top:1px; margin-right:5px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#333333;width:100px; border:none;color:#ffffff;font-size:0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem;margin-top:1px; margin-right:5px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
  )
 };
 
@@ -566,10 +566,10 @@ initialise(".gallery-container",'#gallery-template',"gallery-link");
 //generate breadcrumb link
 let breadCat = `{{ pagedata.content.category }}`;
 function breadLink() {
-    if ( breadCat == "vegetables" ) {
+    if ( breadCat == "vegetable" ) {
          document.getElementById("blink").href = "/vegetable-growing-guides";
          }
-    if ( breadCat == "fruit" ) {
+    else if ( breadCat == "fruit" ) {
          document.getElementById("blink").href = "/fruit-growing-guides";
          }
 }
