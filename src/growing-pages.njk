@@ -4,7 +4,7 @@ pagination:
     data: vegstoryblok.page
     size: 1
     alias: pagedata
-permalink: "vegetable-growing-guides/growing-{{ pagedata.content.title | slug }}/index.html"
+permalink: "contents/{{ pagedata.content.title | slug }}/index.html"
 eleventyComputed:
     title: "Growing {{ pagedata.content.title | title }} | Allotment Book"
     description: "{{ pagedata.content.seo_description }}"
@@ -19,10 +19,12 @@ eleventyComputed:
                 <main id="main-content">
                     
                     <div id="content-heading">
-                        <div id="breadcrumb-container">
+                        <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
                             <div id="breadcrumb">
-                            <a href="/book-contents">Home</a><i class="fas fa-chevron-right"></i>
-                            <a href="/introduction">Growing Vegetables</a><i class="fas fa-chevron-right"></i>
+                                <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
+                                <a id="blink" href="">{{ pagedata.content.category | title }} Growing Guides</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div id="breadcrumb-back"></div>
                         </div>
                     </div>
 
@@ -62,74 +64,74 @@ eleventyComputed:
 
                             </div>
 
-                            <div id="growing-overview-container" style="display:grid; grid-template-columns:5fr 3fr 3fr 3fr 3fr;text-align:center;margin-top:20px;margin-bottom:5px;background:#009900;column-gap:5px;grid-template-rows: 4rem 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 35px; color:#009900;border: solid 5px #009900; font-size:0.8em">
+                            <div id="growing-overview-container" style="display:grid; grid-template-columns:3fr 3fr 3fr 3fr 3fr;text-align:center;margin-top:20px;margin-bottom:5px;background:#009900;column-gap:5px;grid-template-rows: 4rem 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 35px; color:#009900;border: solid 5px #009900; font-size:0.7em">
                             <div id="row1-col1" style="grid-area:1/1/2/2;background:#ffffff;margin-left:5px;background:#009900"></div>
-                                <div id="row1-col2" style="grid-area:1/2/2/3;background:#ffffff;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Sow</strong><br />(protected)</div>
-                                <div id="row1-col3" style="grid-area:1/3/2/4;background:#ffffff;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Sow</strong><br />(outdoors)</div>
-                                <div id="row1-col4" style="grid-area:1/4/2/5;background:#ffffff;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Harvest</strong><br />(fresh)</div>
-                                <div id="row1-col5" style="grid-area:1/5/2/6;background:#ffffff;padding-left:5px; padding-right:5px;padding-left:5px; padding-right:5px;padding-top:5px"><strong>Harvest</strong><br />(stored)</div>
-                                <div id="row2-col1" style="grid-area:2/1/3/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">January</div></div>
-                                <div id="row2-col2" style="grid-area:2/2/3/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-sow-in"></div></div>
+                                <div id="row1-col2" style="grid-area:1/2/2/3;background:#ffffff;padding-left:3px; padding-right:3px;padding-top:5px"><strong>Sow</strong><br />(inside)</div>
+                                <div id="row1-col3" style="grid-area:1/3/2/4;background:#ffffff;padding-left:3px; padding-right:3px;padding-top:5px"><strong>Sow</strong><br />(outside)</div>
+                                <div id="row1-col4" style="grid-area:1/4/2/5;background:#ffffff;padding-left:3px; padding-right:3px;padding-top:5px"><strong>Harvest</strong><br />(fresh)</div>
+                                <div id="row1-col5" style="grid-area:1/5/2/6;background:#ffffff;padding-left:3px; padding-right:3px;3px;padding-top:5px"><strong>Harvest</strong><br />(stored)</div>
+                                <div id="row2-col1" style="grid-area:2/1/3/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">January</div></div>
+                                <div id="row2-col2" style="grid-area:2/2/3/3;background:#ffffff; display:flex;align-items:center;justify-content:center; padding-left:0.5%"><div id="row1-sow-in"></div></div>
                                 <div id="row2-col3" style="grid-area:2/3/3/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-sow-out"></div></div>
                                 <div id="row2-col4" style="grid-area:2/4/3/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-harvest"></div></div>
                                 <div id="row2-col5" style="grid-area:2/5/3/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row1-stored"></div></div>
-                                <div id="row3-col1" style="grid-area:3/1/4/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">February</div></div>
+                                <div id="row3-col1" style="grid-area:3/1/4/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">February</div></div>
                                 <div id="row3-col2" style="grid-area:3/2/4/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-sow-in"></div></div>
                                 <div id="row3-col3" style="grid-area:3/3/4/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-sow-out"></div></div>
                                 <div id="row3-col4" style="grid-area:3/4/4/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-harvest"></div></div>
                                 <div id="row3-col5" style="grid-area:3/5/4/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row2-stored"></div></div>
-                                <div id="row4-col1" style="grid-area:4/1/5/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">March</div></div>
+                                <div id="row4-col1" style="grid-area:4/1/5/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">March</div></div>
                                 <div id="row4-col2" style="grid-area:4/2/5/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-sow-in"></div></div>
                                 <div id="row4-col3" style="grid-area:4/3/5/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-sow-out"></div></div>
                                 <div id="row4-col4" style="grid-area:4/4/5/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-harvest"></div></div>
                                 <div id="row4-col5" style="grid-area:4/5/5/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row3-stored"></div></div>
-                                <div id="row5-col1" style="grid-area:5/1/6/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">April</div></div>
+                                <div id="row5-col1" style="grid-area:5/1/6/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">April</div></div>
                                 <div id="row5-col2" style="grid-area:5/2/6/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-sow-in"></div></div>
                                 <div id="row5-col3" style="grid-area:5/3/6/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-sow-out"></div></div>
                                 <div id="row5-col4" style="grid-area:5/4/6/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-harvest"></div></div>
                                 <div id="row5-col5" style="grid-area:5/5/6/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row4-stored"></div></div>
-                                <div id="row6-col1" style="grid-area:6/1/7/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">May</div></div>
+                                <div id="row6-col1" style="grid-area:6/1/7/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">May</div></div>
                                 <div id="row6-col2" style="grid-area:6/2/7/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-sow-in"></div></div>
                                 <div id="row6-col3" style="grid-area:6/3/7/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-sow-out"></div></div>
                                 <div id="row6-col4" style="grid-area:6/4/7/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-harvest"></div></div>
                                 <div id="row6-col5" style="grid-area:6/5/7/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row5-stored"></div></div>
-                                <div id="row7-col1" style="grid-area:7/1/8/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">June</div></div>
+                                <div id="row7-col1" style="grid-area:7/1/8/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">June</div></div>
                                 <div id="row7-col2" style="grid-area:7/2/8/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-sow-in"></div></div>
                                 <div id="row7-col3" style="grid-area:7/3/8/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-sow-out"></div></div>
                                 <div id="row7-col4" style="grid-area:7/4/8/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-harvest"></div></div>
                                 <div id="row7-col5" style="grid-area:7/5/8/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row6-stored"></div></div>
-                                <div id="row8-col1" style="grid-area:8/1/9/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">July</div></div>
+                                <div id="row8-col1" style="grid-area:8/1/9/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">July</div></div>
                                 <div id="row8-col2" style="grid-area:8/2/9/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-sow-in"></div></div>
                                 <div id="row8-col3" style="grid-area:8/3/9/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-sow-out"></div></div>
                                 <div id="row8-col4" style="grid-area:8/4/9/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-harvest"></div></div>
                                 <div id="row8-col5" style="grid-area:8/5/9/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row7-stored"></div></div>
-                                <div id="row9-col1" style="grid-area:9/1/10/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">August</div></div>
+                                <div id="row9-col1" style="grid-area:9/1/10/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">August</div></div>
                                 <div id="row9-col2" style="grid-area:9/2/10/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-sow-in"></div></div>
                                 <div id="row9-col3" style="grid-area:9/3/10/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-sow-out"></div></div>
                                 <div id="row9-col4" style="grid-area:9/4/10/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-harvest"></div></div>
                                 <div id="row9-col5" style="grid-area:9/5/10/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row8-stored"></div></div>
-                                <div id="row10-col1" style="grid-area:10/1/11/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">September</div></div>
+                                <div id="row10-col1" style="grid-area:10/1/11/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">September</div></div>
                                 <div id="row10-col2" style="grid-area:10/2/11/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-sow-in"></div></div>
                                 <div id="row10-col3" style="grid-area:10/3/11/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-sow-out"></div></div>
                                 <div id="row10-col4" style="grid-area:10/4/11/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-harvest"></div></div>
                                 <div id="row10-col5" style="grid-area:10/5/11/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row9-stored"></div></div>
-                                <div id="row11-col1" style="grid-area:11/1/12/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">October</div></div>
+                                <div id="row11-col1" style="grid-area:11/1/12/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">October</div></div>
                                 <div id="row11-col2" style="grid-area:11/2/12/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-sow-in"></div></div>
                                 <div id="row11-col3" style="grid-area:11/3/12/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-sow-out"></div></div>
                                 <div id="row11-col4" style="grid-area:11/4/12/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-harvest"></div></div>
                                 <div id="row11-col5" style="grid-area:11/5/12/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row10-stored"></div></div>
-                                <div id="row12-col1" style="grid-area:12/1/13/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem"><div id="month">November</div></div>
+                                <div id="row12-col1" style="grid-area:12/1/13/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem; padding-left:3px"><div id="month">November</div></div>
                                 <div id="row12-col2" style="grid-area:12/2/13/3;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-sow-in"></div></div>
                                 <div id="row12-col3" style="grid-area:12/3/13/4;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-sow-out"></div></div>
                                 <div id="row12-col4" style="grid-area:12/4/13/5;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-harvest"></div></div>
                                 <div id="row12-col5" style="grid-area:12/5/13/6;background:#ffffff; display:flex;align-items:center;justify-content:center"><div id="row11-stored"></div></div>
-                                <div id="row13-col1" style="grid-area:13/1/14/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem;padding-bottom:5px"><div id="month">December</div></div>
+                                <div id="row13-col1" style="grid-area:13/1/14/2;background:#ffffff; display:flex;align-items:center;justify-content:flex-end;padding-right:0.5rem;padding-bottom:5px; padding-left:3px"><div id="month">December</div></div>
                                 <div id="row13-col2" style="grid-area:13/2/14/3;background:#ffffff; display:flex;align-items:center;justify-content:center;padding-bottom:5px"><div id="row12-sow-in"></div></div>
                                 <div id="row13-col3" style="grid-area:13/3/14/4;background:#ffffff; display:flex;align-items:center;justify-content:center;padding-bottom:5px"><div id="row12-sow-out"></div></div>
                                 <div id="row13-col4" style="grid-area:13/4/14/5;background:#ffffff; display:flex;align-items:center;justify-content:center;padding-bottom:5px"><div id="row12-harvest"></div></div>
                                 <div id="row13-col5" style="grid-area:13/5/14/6;background:#ffffff;display:flex;align-items:center;justify-content:center"><div id="row12-stored"></div></div>                                
                             </div>
-                            <div id="key" style="text-align: right; color:#009900">
+                            <div id="key" style="text-align: right; color:#009900;font-size:0.8em">
                                  <img style="height:15px" src="/images/uploads/jar-icon.png" /> = jar, <i class="fas fa-snowflake"></i> = freeze, <i class="fas fa-box-open"></i> = store
                             </div>
                                 
@@ -138,15 +140,31 @@ eleventyComputed:
 
                             <div id="varieties"></div>
 
+                            <p>See varieties in the <a href="/shop/{{ pagedata.content.title | slug }}/all">allotment shop</a>.</p>
+
                             <h2 id="title" style="margin-bottom:10px">Growing</h2>
 
                             <div id="growing"></div>
 
-                            <h2 id="title" style="margin-bottom:10px">Gallery</h2>
+                            <h2 id="title" style="">Gallery</h2>
+
+                            <div style="display:flex;flex-wrap:wrap; justify-content: space-around"class="gallery-container"></div>
+
+                                <template id="gallery-template">
+                                
+                                <div style="padding-bottom:20px">
+
+                                    <img id="gallery-image" src="" alt="" />
+
+                                    <div style="text-align:center" id="gallery-link"></div>
+
+                                </div>
+                                
+                                </template>
 
                         </article>
 
-                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center">
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;">
                             <div id="lower-previous">
                             </div>
                             <div id="lower-next">
@@ -186,17 +204,17 @@ document.getElementById("growing").innerHTML = marked.parse(growingText);
 
 //this is the area that populates the green table
 let grabName = `{{ pagedata.content.title | lower }}`;
-let plantIndoors = {{ factsplantindoor | dump | safe }}.filter(function(vegetable){
-    return vegetable.vegetable == grabName;
+let plantIndoors = {{ factsplantindoor | dump | safe }}.filter(function(item){
+    return item.plant == grabName;
 });
-let plantOutdoors = {{ factsplantoutdoor | dump | safe }}.filter(function(vegetable){
-    return vegetable.vegetable == grabName;
+let plantOutdoors = {{ factsplantoutdoor | dump | safe }}.filter(function(item){
+    return item.plant == grabName;
 });
-let harvestTime = {{ factsharvest | dump | safe }}.filter(function(vegetable){
-    return vegetable.vegetable == grabName;
+let harvestTime = {{ factsharvest | dump | safe }}.filter(function(item){
+    return item.plant == grabName;
 });
-let storeMethod = {{ factsstore | dump | safe }}.filter(function(vegetable){
-    return vegetable.vegetable == grabName;
+let storeMethod = {{ factsstore | dump | safe }}.filter(function(item){
+    return item.plant == grabName;
 });
 
 function generatePlantIndoors() {
@@ -436,17 +454,21 @@ generateStore();
 
 //this is the script that generates the previous and next buttons
 
-let postsArray = {{ pagesstoryindex | dump | safe }};
+let pagesArray = {{ pagesstoryindex | dump | safe }};
+let vegArray = {{ vegstoryindex | dump | safe }};
 let allPagesSorted = [];
 let grabTitle = document.getElementById("title").innerHTML;
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    allPagesSorted = postsArray.sort (function (a,b) {
+    let interimArray = [...pagesArray,...vegArray];
+    allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
 }
+
 sortPages();
+console.log(allPagesSorted);
 
 //this determines the index value of the current page in the allPagesSorted array
 let pageIndexNumber = null;
@@ -487,6 +509,7 @@ function createButtons() {
         }
     if ( pageIndexNumber > 0 ) {
         document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
+        document.getElementById("breadcrumb-back").innerHTML = makePreviousBreadcrumb(previousPage[0].title, previousPage[0].slug);
     }
 }
 createButtons();
@@ -494,18 +517,65 @@ createButtons();
 //this generates the link to the next page
 function makeNextButton(title,slug) {
  return (
-     `<a href="/book/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
  )
 };
 
 //this generates the link to the next page
 function makePreviousButton(title,slug) {
  return (
-     `<a href="/book/${slug}"><button style="background:#009900;width:120px; border:none;color:#;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+ )
+};
+function makePreviousBreadcrumb(title,slug) {
+ return (
+     `<a href="/contents/${slug}"><button style="background:#333333;width:80px; border:none;color:#ffffff;font-size:0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem;margin-top:1px; margin-right:5px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
  )
 };
 
+//this code makes the photo link for the gallery
+function makeLink(title,slug) {
+ return (
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+ )
+};
 
-console.log(previousPage);
+//this code gets the gallery photos for the vegetable
+let vegPhotos = {{ gallery | dump | safe }}.filter(function(item){
+return item.nameplural == grabName;
+});
+
+function initialise(containerid, templateid, divid) {
+ 
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+for ( let i = 0 ; i < vegPhotos[0].photos.length ; i++ ) {
+    const element = template.content.cloneNode(true);
+    const image = element.querySelector('img');
+    image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_300,h_300,c_scale,q_auto,f_auto/${vegPhotos[0].photos[i].url}`;
+    image.alt = vegPhotos[0].photos[i].alt;
+    element.getElementById(divid).innerHTML = vegPhotos[0].photos[i].alt;
+    container.appendChild(element);
+}
+}
+
+initialise(".gallery-container",'#gallery-template',"gallery-link");
+
+
+//generate breadcrumb link
+let breadCat = `{{ pagedata.content.category }}`;
+function breadLink() {
+    if ( breadCat == "vegetables" ) {
+         document.getElementById("blink").href = "/vegetable-growing-guides";
+         }
+    if ( breadCat == "fruit" ) {
+         document.getElementById("blink").href = "/fruit-growing-guides";
+         }
+}
+breadLink();
+
+
+
 
 </script>

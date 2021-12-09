@@ -1,0 +1,59 @@
+---
+layout: /layouts/pagetemplate.njk
+pagination:
+    data: gallery
+    size: 1
+    alias: thing
+permalink: "photo-gallery/{{ thing.nameplural | slug }}/index.html"
+eleventyComputed:
+    title: "{{ thing.nameplural | title }} | Photo Galleries | Allotment Book"
+    description: "See a photo gallery for how to grow {{ thing.nameplural | lower }} including planting, care, and when to harvest."
+---
+
+     <div id="sidebar">
+             a sidebar for a page
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                                        
+                    <div id="content-heading">
+                        <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
+                            <div id="breadcrumb">
+                                <a href="/photo-gallery">Galleries</a><i class="fas fa-chevron-right"></i>
+                                
+                            </div>
+                            <div id="breadcrumb-back"></div>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+                    <p>a word</p>
+                    <p>{{thing.namesingular}}<p>
+                    {% for item in thing.photos %}
+                        {{ item.url1 }}
+                    {% endfor %}
+
+
+                    </div> 
+
+                    
+                </main>
+
+            </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+let grabName = `{{ thing.namesingular | lower }}`;
+let vegPhotos = {{ gallery | dump | safe }}.filter(function(item){
+return item.namesingular == grabName;
+});
+
+console.log(vegPhotos)
+
+document.getElementById("markedup").innerHTML = marked.parse(text);
+
+</script>

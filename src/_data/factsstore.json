@@ -1,6 +1,6 @@
 [
     {
-      "vegetable": "broccoli",
+      "plant": "broccoli",
       "january": "frozen",
       "february": "frozen",
       "march": "frozen",
@@ -15,7 +15,22 @@
       "december": "frozen"
     },
     {
-      "vegetable": "runner beans",
+      "plant": "runner beans",
+      "january": "frozen",
+      "february": "frozen",
+      "march": "frozen",
+      "april": "frozen",
+      "may": "frozen",
+      "june": "frozen",
+      "july": "frozen",
+      "august": "frozen",
+      "september": "frozen",
+      "october": "frozen",
+      "november": "frozen",
+      "december": "frozen"
+    },
+    {
+      "plant": "blackberries",
       "january": "frozen",
       "february": "frozen",
       "march": "frozen",

@@ -4,7 +4,7 @@ pagination:
     data: pagesstoryblok.page
     size: 1
     alias: pagedata
-permalink: "book/{{ pagedata.slug | slug }}/index.html"
+permalink: "contents/{{ pagedata.slug | slug }}/index.html"
 eleventyComputed:
     title: "{{ pagedata.content.title | title }} | Allotment Book"
     description: "{{ pagedata.content.seo_description }}"
@@ -19,10 +19,12 @@ eleventyComputed:
                 <main id="main-content">
                     
                     <div id="content-heading">
-                        <div id="breadcrumb-container">
+                        <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
                             <div id="breadcrumb">
-                            <a href="/book-contents">Book Contents</a><i class="fas fa-chevron-right"></i>
-                            <a href="/introduction">Introduction</a><i class="fas fa-chevron-right"></i>
+                                <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
+                                <a href="/introduction">Introduction</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div id="breadcrumb-back"></div>
                         </div>
                     </div>
 
@@ -76,13 +78,15 @@ document.getElementById("markedup").innerHTML = marked.parse(text);
 
 //this is the script that generates the previous and next buttons
 
-let postsArray = {{ pagesstoryindex | dump | safe }};
+let pagesArray = {{ pagesstoryindex | dump | safe }};
+let vegArray = {{ vegstoryindex | dump | safe }};
 let allPagesSorted = [];
 let grabTitle = document.getElementById("title").innerHTML;
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    allPagesSorted = postsArray.sort (function (a,b) {
+    let interimArray = [...pagesArray,...vegArray];
+    allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
 }
@@ -127,6 +131,7 @@ function createButtons() {
         }
     if ( pageIndexNumber > 0 ) {
         document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
+        document.getElementById("breadcrumb-back").innerHTML = makePreviousBreadcrumb(previousPage[0].title, previousPage[0].slug);
     }
 }
 createButtons();
@@ -134,17 +139,21 @@ createButtons();
 //this generates the link to the next page
 function makeNextButton(title,slug) {
  return (
-     `<a href="/book/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
  )
 };
 
-//this generates the link to the next page
+//this generates the link to the previous page
 function makePreviousButton(title,slug) {
  return (
-     `<a href="/book/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:120px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
  )
 };
-
+function makePreviousBreadcrumb(title,slug) {
+ return (
+     `<a href="/contents/${slug}"><button style="background:#333333;width:80px; border:none;color:#ffffff;font-size:0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem;margin-top:1px; margin-right:5px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+ )
+};
 
 console.log(previousPage);
 

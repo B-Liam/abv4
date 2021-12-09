@@ -1,5 +1,5 @@
 ---
-permalink: "book-contents/index.html"
+permalink: "contents/index.html"
 title: Index Of Book Contents | Allotment Book
 description: Tips on starting an allotment, how to create a growing plan, and a full set of fruit, vegetable, and herb growing guides.
 layout: /layouts/pagetemplate.njk
@@ -17,7 +17,7 @@ layout: /layouts/pagetemplate.njk
                             <div id="breadcrumb-container">
                                 <div id="breadcrumb">
                                 <a href="/">Home</a><i class="fas fa-chevron-right"></i>
-                                <a href="/book-contents">Book Contents</a><i class="fas fa-chevron-right"></i>
+                                <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
                             </div>
                         </div>
 
@@ -48,6 +48,26 @@ layout: /layouts/pagetemplate.njk
                                  <div style="padding-bottom:1%" id="starter-link"></div>
                                 
                                 </template>
+
+                            <h4 style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Growing Guides</h4>
+
+                            <div style="width:400px;margin-left:auto;margin-right:auto"class="vegetable-container"></div>
+
+                                <template id="vegetable-template">
+                                
+                                 <div style="padding-bottom:1%" id="vegetable-link"></div>
+                                
+                                </template>
+
+                            <h4 style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Growing Guides</h4>
+
+                            <div style="width:400px;margin-left:auto;margin-right:auto"class="fruit-container"></div>
+
+                                <template id="fruit-template">
+                                
+                                 <div style="padding-bottom:1%" id="fruit-link"></div>
+                                
+                                </template>
                         
                         </div> 
                 </main>
@@ -55,38 +75,48 @@ layout: /layouts/pagetemplate.njk
 
 <script>
 
+//the code that makes the breadcrumb
 function makeLink(title,slug) {
  return (
-     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/book/${slug}">${title}</a>`
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
  )
 };
 
 function makeButton(title,slug) {
  return (
-     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/book/${slug}">${title}</a>`
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
  )
 };
 
-let postsArray = {{ pagesstoryindex | dump | safe }};
+//different variables used for arrays to store the links to the different sections
+let pagesArray = {{ pagesstoryindex | dump | safe }};
+let vegArray = {{ vegstoryindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];
 let starterPages = [];
+let vegPages = [];
+let fruitPages = [];
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    allPagesSorted = postsArray.sort (function (a,b) {
+    let interimArray = [...pagesArray,...vegArray];
+    allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
 }
-
 sortPages();
 
+//all the content is stored in allPagesSorted, it is then pushed into the respective sections using the category property
 function postIntoSections() {
-    for ( i = 0 ; i < postsArray.length ; i++ ) {
-        if ( postsArray[i].category == "introduction" ) {
-            introPages.push(postsArray[i]);
-        } else if ( postsArray[i].category == "starter" ) {
-            starterPages.push(postsArray[i]);
+    for ( i = 0 ; i < allPagesSorted.length ; i++ ) {
+        if ( allPagesSorted[i].category == "introduction" ) {
+            introPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "starter" ) {
+            starterPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "vegetable" ) {
+            vegPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "fruit" ) {
+            fruitPages.push(allPagesSorted[i]);
         }
     }
 }
@@ -94,6 +124,7 @@ function postIntoSections() {
 postIntoSections();
 console.log(allPagesSorted);
 
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
 function initialise(pages, containerid, templateid, divid) {
  let sortedArray = pages.sort (function (a,b) {
      return a.order - b.order;
@@ -104,7 +135,6 @@ function initialise(pages, containerid, templateid, divid) {
 
  sortedArray.forEach((article) => {
      const element = template.content.cloneNode(true);
-     let title = article.title;
      element.getElementById(divid).innerHTML = makeLink(article.title,article.slug);
      container.appendChild(element);
  });
@@ -112,5 +142,7 @@ function initialise(pages, containerid, templateid, divid) {
 
 initialise(introPages, ".intro-container",'#intro-template',"intro-link");
 initialise(starterPages, ".starter-container",'#starter-template',"starter-link");
+initialise(vegPages, ".vegetable-container",'#vegetable-template',"vegetable-link");
+initialise(fruitPages, ".fruit-container",'#fruit-template',"fruit-link");
 
 </script>
