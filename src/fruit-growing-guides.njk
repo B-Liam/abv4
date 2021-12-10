@@ -17,7 +17,7 @@ layout: /layouts/pagetemplate.njk
                             <div id="breadcrumb-container">
                                 <div id="breadcrumb">
                                 <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
-                                <a href="/contents">Fruit Growing Guides</a><i class="fas fa-chevron-right"></i>
+                                <a href="/contents">Fruit Guides</a><i class="fas fa-chevron-right"></i>
                                 </div>
                             </div>
                         </div>
@@ -31,15 +31,15 @@ layout: /layouts/pagetemplate.njk
 
                                 <template id="fruit-template">
 
-                                <div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
 
-                                    <div><img style="display:block; width:160px;" src="" alt="" /></div>
+                                    <img style="display:block; width:160px;" src="" alt="" />
                                     
                                     <div style="display:flex; align-items: center"> 
                                         <div style="padding-left: 1em"><i style="font-size:1.5em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.3rem" id="fruit-link"></div>
                                     </div>                                   
 
-                                </div>
+                                </div></a>
                                 
                                 </template>
                         
@@ -49,6 +49,11 @@ layout: /layouts/pagetemplate.njk
 
 <script>
 
+// a link that wraps the template making the whole div clickable
+function linkDiv(slug) {
+    return `/contents/${slug}`
+}
+
 //the code that makes the breadcrumb
 function makeLink(title,slug) {
  return (
@@ -56,6 +61,7 @@ function makeLink(title,slug) {
  )
 };
 
+//now obselete, was used to create a link within the template
 function makeButton(title,slug) {
  return (
      `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
@@ -112,7 +118,8 @@ function initialise(pages, containerid, templateid, divid) {
      const image = element.querySelector('img');
      image.src = article.image;
      image.alt = article.slug;
-     element.getElementById(divid).innerHTML = makeLink(article.title,article.slug);
+     element.getElementById(divid).innerHTML = article.title;
+     element.getElementById('divlink').href = linkDiv(article.slug);
      container.appendChild(element);
  });
 }
