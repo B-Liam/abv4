@@ -1,0 +1,129 @@
+---
+permalink: "allotment-starter-guides/index.html"
+title: Allotment Starter Guides | Allotment Book
+description: Free guides on how to start work on an allotment, including first jobs, deciding what to grow, tools, equipment, planning, and growing techniques.
+layout: /layouts/pagetemplate.njk
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                        <div id="content-heading">
+                            <div id="breadcrumb-container">
+                                <div id="breadcrumb">
+                                <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
+                                <a href="/allotment-starter-guides">Allotment Starter Guides</a><i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div id="content-body">
+
+                            <h1>Allotment Starter Guides</h1>
+
+                            <div style="padding-bottom: 2rem"class="starter-container"></div>
+
+                                <template id="starter-template">
+
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.2rem;padding-right:0.5em" id="starter-link"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                                </template>
+                        
+                        </div> 
+                </main>
+            </div>
+
+<script>
+
+// a link that wraps the template making the whole div clickable
+function linkDiv(slug) {
+    return `/contents/${slug}`
+}
+
+//the code that makes the breadcrumb
+function makeLink(title,slug) {
+ return (
+     `<a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+//now obselete, was used to create a link within the template
+function makeButton(title,slug) {
+ return (
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+//different variables used for arrays to store the links to the different sections
+let pagesArray = {{ pagesstoryindex | dump | safe }};
+let vegArray = {{ vegstoryindex | dump | safe }};
+let allPagesSorted = [];
+let introPages = [];
+let starterPages = [];
+let vegPages = [];
+let fruitPages= [];
+
+console.log(fruitPages);
+
+//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
+function sortPages() {
+    let interimArray = [...pagesArray,...vegArray];
+    allPagesSorted = interimArray.sort (function (a,b) {
+     return a.order - b.order
+})
+}
+sortPages();
+
+//all the content is stored in allPagesSorted, it is then pushed into the respective sections using the category property
+function postIntoSections() {
+    for ( i = 0 ; i < allPagesSorted.length ; i++ ) {
+        if ( allPagesSorted[i].category == "introduction" ) {
+            introPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "starter" ) {
+            starterPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "vegetable" ) {
+            vegPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "fruit" ) {
+            fruitPages.push(allPagesSorted[i]);
+        }
+    }
+}
+postIntoSections();
+
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
+function initialise(pages, containerid, templateid, divid) {
+ let sortedArray = pages.sort (function (a,b) {
+     return a.order - b.order;
+ })
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ sortedArray.forEach((article) => {
+     const element = template.content.cloneNode(true);
+     const image = element.querySelector('img');
+     image.src = article.image;
+     image.alt = article.slug;
+     element.getElementById(divid).innerHTML = article.title;
+     element.getElementById('divlink').href = linkDiv(article.slug);
+     container.appendChild(element);
+ });
+}
+
+initialise(starterPages, ".starter-container",'#starter-template',"starter-link");
+
+</script>
