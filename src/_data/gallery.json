@@ -1,5 +1,13 @@
 [
     {
+        "namesingular": "basil",
+        "nameplural": "basil",
+        "photos": [
+        {"url": "v1639392601/herbs/basil-leaves-close-up_ksd4xj.jpg", "alt": "basil leaves"},
+        {"url": "v1639392601/herbs/basil-leaves_k2nxns.jpg", "alt": "basil leaves close up"}
+        ]
+    },
+    {
         "namesingular": "blackberry",
         "nameplural": "blackberries",
         "photos": [

@@ -473,7 +473,7 @@ function sortPages() {
 }
 
 sortPages();
-console.log(allPagesSorted);
+console.log(grabName);
 
 //this determines the index value of the current page in the allPagesSorted array
 let pageIndexNumber = null;
@@ -576,6 +576,9 @@ function breadLink() {
          }
     else if ( breadCat == "fruit" ) {
          document.getElementById("blink").href = "/fruit-growing-guides";
+         }
+    else if ( breadCat == "herb" ) {
+         document.getElementById("blink").href = "/herb-growing-guides";
          }
 }
 breadLink();

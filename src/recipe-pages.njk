@@ -1,0 +1,241 @@
+---
+layout: /layouts/pagetemplate.njk
+pagination:
+    data: recipestoryblok.page
+    size: 1
+    alias: pagedata
+permalink: "contents/{{ pagedata.content.title | slug }}/index.html"
+eleventyComputed:
+    title: "{{ pagedata.content.title | title }} | Allotment Recipes | Allotment Book"
+    description: "{{ pagedata.content.seo_description }}"
+---
+
+     <div id="sidebar">
+             a sidebar for a page
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
+                            <div style="font-size:1rem" id="breadcrumb">
+                                <a href="/allotment-recipes">Recipes</a><i class="fas fa-chevron-right"></i>
+                                <a id="blink" href="">{{ pagedata.content.category | title }} </a><i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div id="breadcrumb-back"></div>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                        <article>
+
+                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                            <div id="higher-previous">
+                            </div>
+                            <div id="higher-next">
+                            </div>
+                        </div>
+
+                        <div style="display:flex;justify-content:space-between" id="header-container">
+
+                            <h1 id="title" style="margin-bottom:10px">{{ pagedata.content.title | title }}</h1> 
+                            
+                        </div>                         
+
+                            <img style="width:100%" src="{{ pagedata.content.lead_image.filename }}" alt="{{pagedata.content.lead_image.alt}}"/>
+
+                            <h2 id="title" style="margin-bottom:10px">Introduction</h2>
+
+                            <div style="margin-bottom:2rem" id="introduction"></div>
+
+                            <div style="padding-bottom:20px" id="video-container">
+
+                                <h2 id="title-video" style="padding-bottom:5px">Step By Step Video</h2>
+
+                                <div class='embed-container'><iframe src="https://player.vimeo.com/video/{{pagedata.content.vimeo_number}}" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+                            </div>
+
+                            <div style="padding-bottom:1rem" id="notes"></div>
+
+                            <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-one">Hello One!</div>
+
+                            <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-two"><h4>Hello Two!</h4></div>
+
+                            <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-three"><h4>Hello Three!</h4></div>
+
+                            <div style="" id="transcript"></div>
+
+
+                        </article>
+
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                            <div id="lower-previous">
+                            </div>
+                            <div id="lower-next">
+                            </div>
+                        </div>
+                        <hr />
+                        <h4>Quick Links</h4>
+                        
+                        <div style="padding-bottom:2rem">
+                            <a href="{{ settings.book }}"><button style="font-size:1.2rem;color:#ffffff;margin-top:5p;background:#009900;border:none;width:100%;padding-top:1rem;padding-bottom:1rem;margin-bottom:1rem"><i style="padding-right:10px" class="fas fa-book-open"></i> Book Contents</button></a>
+                            <a href="{{ settings.shop }}"><button style="font-size:1.2rem;color:#ffffff;margin-top:5p;background:#009900;border:none;width:100%;padding-top:1rem;padding-bottom:1rem;margin-bottom:1rem"><i style="padding-right:10px" class="fas fa-shopping-bag"></i> Allotment Shop</button></a>
+                            <a href="{{ settings.tools }}"><button style="font-size:1.2rem;color:#ffffff;margin-top:5p;background:#009900;border:none;width:100%;padding-top:1rem;padding-bottom:1rem;margin-bottom:1rem"><i style="padding-right:10px" class="far fa-calendar-alt"></i> Planning Tools</button></a>
+                            
+                        </div>
+
+                    </div> 
+                </main>
+
+            </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+//this populates the page with storyblok content, by using javascript to target divs and passing in the content
+let introText = `{{ pagedata.content.introduction }}`;
+let notesText = `{{ pagedata.content.notes }}`;
+let ingredientsOne = `{{ pagedata.content.ingredients_one }}`;
+let ingredientsTwo = `{{ pagedata.content.ingredients_two }}`;
+let ingredientsThree = `{{ pagedata.content.ingredients_three }}`;
+let transcriptText = `{{ pagedata.content.transcript }}`;
+let videoCheck = `{{ pagedata.content.vimeo_number }}`
+document.getElementById("introduction").innerHTML = marked.parse(introText);
+document.getElementById("transcript").innerHTML = marked.parse(transcriptText);
+
+
+//a function to adjust for empty content, which is then called below the function
+function removeDiv( divname, keyname ) {
+    if ( keyname == "" ) {
+        document.getElementById(divname).style = "display:none"
+    } else {
+        document.getElementById(divname).innerHTML = marked.parse( keyname )
+    }
+}
+
+//A function that checks if there is a video, and if not, removes the section
+function checkIfVideo() {
+    if ( videoCheck == "" ) {
+        document.getElementById("video-container").style = "display:none";
+    } 
+}
+checkIfVideo();
+
+//these call the above function, effectively checking for empty content
+removeDiv("ingredients-one", ingredientsOne);
+removeDiv("ingredients-two", ingredientsTwo);
+removeDiv("ingredients-three", ingredientsThree);
+removeDiv("notes", notesText)
+
+//this is the script that generates the previous and next buttons
+let pagesArray = {{ pagesstoryindex | dump | safe }};
+let vegArray = {{ vegstoryindex | dump | safe }};
+let allPagesSorted = [];
+let recipeArray = {{ recipestoryindex | dump | safe }};
+let grabTitle = document.getElementById("title").innerHTML;
+
+//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
+function sortPages() {
+    let interimArray = [...pagesArray,...vegArray,...recipeArray];
+    allPagesSorted = interimArray.sort (function (a,b) {
+     return a.order - b.order
+})
+}
+sortPages();
+
+
+//this determines the index value of the current page in the allPagesSorted array
+let pageIndexNumber = null;
+
+function findPageIndex() {
+    for ( i = 0 ; i < allPagesSorted.length ; i++) {
+        if ( grabTitle.toLowerCase() == allPagesSorted[i].title.toLowerCase() ) {
+            pageIndexNumber = i;
+        }
+    }
+}
+findPageIndex();
+
+//this stores the next and prevous pages in variables
+let nextPage = [];
+let previousPage = [];
+
+function findNext() {
+    if ( pageIndexNumber < allPagesSorted.length - 1) {
+    nextPage.push(allPagesSorted[pageIndexNumber + 1])
+    }
+}
+findNext();
+
+function findPrevious() {
+    if ( pageIndexNumber !== 0 ) {
+    previousPage.push(allPagesSorted[pageIndexNumber - 1])
+    }
+}
+findPrevious();
+
+//make the buttons based on logic
+
+function createButtons() {
+    if ( nextPage.length > 0 ) {
+        document.getElementById("lower-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
+        document.getElementById("higher-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
+        }
+    if ( pageIndexNumber > 0 ) {
+        document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
+        document.getElementById("higher-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
+    }
+}
+createButtons();
+
+//this generates the link to the next page
+function makeNextButton(title,slug) {
+ return (
+     `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
+ )
+};
+
+//this generates the link to the next page
+function makePreviousButton(title,slug) {
+ return (
+     `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+ )
+};
+function makePreviousBreadcrumb(title,slug) {
+ return (
+     `<a href="/contents/${slug}"><button style="background:#333333;width:100px; border:none;color:#ffffff;font-size:0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem;margin-top:1px; margin-right:5px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+ )
+};
+
+//this code makes the photo link for the gallery
+function makeLink(title,slug) {
+ return (
+     `<i style="font-size:0.7rem;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+
+//generate breadcrumb link
+let breadCat = `{{ pagedata.content.category }}`;
+function breadLink() {
+    if ( breadCat == "vegetable" ) {
+         document.getElementById("blink").href = "/vegetable-growing-guides";
+         }
+    else if ( breadCat == "fruit" ) {
+         document.getElementById("blink").href = "/fruit-growing-guides";
+         }
+    else if ( breadCat == "herb" ) {
+         document.getElementById("blink").href = "/herb-growing-guides";
+         }
+}
+breadLink();
+
+
+
+
+</script>

@@ -76,6 +76,18 @@ layout: /layouts/pagetemplate.njk
                                 </div>
 
                                 </template>
+
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Herb Growing Guides</h4>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto"class="herb-container"></div>
+
+                                <template id="herb-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="herb-link"></div>
+                                </div>
+
+                                </template>
                         
                         </div> 
                 </main>
@@ -104,6 +116,7 @@ let introPages = [];
 let starterPages = [];
 let vegPages = [];
 let fruitPages = [];
+let herbPages = [];
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
@@ -125,6 +138,8 @@ function postIntoSections() {
             vegPages.push(allPagesSorted[i]);
         } else if ( allPagesSorted[i].category == "fruit" ) {
             fruitPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "herb" ) {
+            herbPages.push(allPagesSorted[i]);
         }
     }
 }
@@ -152,5 +167,6 @@ initialise(introPages, ".intro-container",'#intro-template',"intro-link");
 initialise(starterPages, ".starter-container",'#starter-template',"starter-link");
 initialise(vegPages, ".vegetable-container",'#vegetable-template',"vegetable-link");
 initialise(fruitPages, ".fruit-container",'#fruit-template',"fruit-link");
+initialise(herbPages, ".herb-container",'#herb-template',"herb-link");
 
 </script>
