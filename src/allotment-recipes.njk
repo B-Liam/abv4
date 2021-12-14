@@ -1,0 +1,239 @@
+---
+permalink: "allotment-recipes/index.html"
+title: Allotment Recipes | Allotment Book
+description: See all the allotment recipes in the Allotment Book, including vegetable recipes, fruit recipes, soups, drinks, and treats. 
+layout: /layouts/pagetemplate.njk
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                        <div id="content-heading">
+                            <div id="breadcrumb-container">
+                                <div id="breadcrumb">
+                                <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
+                                <a href="/allotment-recipes">Allotment Recipes</a><i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div id="content-body">
+
+                            <h1 style="margin-bottom: 0.5rem">Allotment Recipes</h1>
+                            <div style="font-size:0.9rem">View by:</div>
+                            <div id="filter-links">
+                            <a href="/allotment-recipes#vegrecipes"><button style="background:#e0f7d3;color:#009900; border:none;margin-right:5px">Vegetables</button></a>
+                            <a href="/allotment-recipes#fruitrecipes"><button style="background:#e0f7d3;color:#009900; border:none;margin-right:5px">Fruit</button></a>
+                            <a href="/allotment-recipes#soups"><button style="background:#e0f7d3;color:#009900; border:none;margin-right:5px">Soups</button></a>
+                            <a href="/allotment-recipes#drinks"><button style="background:#e0f7d3;color:#009900; border:none;margin-right:5px">Drinks</button></a>
+                            <a href="/allotment-recipes#treats"><button style="background:#e0f7d3;color:#009900; border:none;margin-right:5px">Treats</button></a>
+                            </div>
+                            <hr/>
+                            <h4 id="vegrecipes">Vegetable Recipes</h4>
+
+                            <div style="padding-bottom: 0.2rem"class="vegrecipes-container"></div>
+
+                                <template id="vegrecipes-template">
+
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.1rem" id="vegrecipes-link"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                                </template>
+                            <hr/>
+
+                            <h4 id="fruitrecipes">Fruit Recipes</h4>
+
+                            <div style="padding-bottom: 0.2rem"class="fruitrecipes-container"></div>
+
+                                <template id="fruitrecipes-template">
+
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.1rem" id="fruitrecipes-link"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                                </template>
+                            <hr/>
+
+                            <h4 id="soups">Soups</h4>
+
+                            <div style="padding-bottom: 0.2rem"class="soup-container"></div>
+
+                                <template id="soup-template">
+
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.1rem" id="soup-link"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                                </template>
+                            <hr/>
+
+                            <h4 id="drinks">Drinks</h4>
+
+                            <div style="padding-bottom: 0.2rem"class="drinks-container"></div>
+
+                                <template id="drinks-template">
+
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.1rem" id="drinks-link"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                                </template>
+                            <hr/>
+
+                            <h4 id="treats">Treats</h4>
+
+                            <div style="padding-bottom: 0.2rem"class="treats-container"></div>
+
+                                <template id="treats-template">
+
+                                <a id="divlink" href""><div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="display:flex; align-items: center"> 
+                                        <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.1rem" id="treats-link"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                                </template>
+                            <hr/>
+                        
+                        </div> 
+                </main>
+            </div>
+
+<script>
+
+// a link that wraps the template making the whole div clickable
+function linkDiv(slug) {
+    return `/contents/${slug}`
+}
+
+//the code that makes the breadcrumb
+function makeLink(title,slug) {
+ return (
+     `<a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+//now obselete, was used to create a link within the template
+function makeButton(title,slug) {
+ return (
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+//different variables used for arrays to store the links to the different sections
+let pagesArray = {{ pagesstoryindex | dump | safe }};
+let vegArray = {{ vegstoryindex | dump | safe }};
+let recipeArray = {{ recipestoryindex | dump | safe }};
+let allPagesSorted = [];
+let introPages = [];
+let starterPages = [];
+let vegPages = [];
+let fruitPages= [];
+let herbPages= [];
+let vegRecipes = [];
+let fruitRecipes = [];
+let soupRecipes = [];
+let drinkRecipes = [];
+let treatRecipes = [];
+
+console.log(treatRecipes);
+
+//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
+function sortPages() {
+    let interimArray = [...pagesArray,...vegArray,...recipeArray];
+    allPagesSorted = interimArray.sort (function (a,b) {
+     return a.order - b.order
+})
+}
+sortPages();
+
+//all the content is stored in allPagesSorted, it is then pushed into the respective sections using the category property
+function postIntoSections() {
+    for ( i = 0 ; i < allPagesSorted.length ; i++ ) {
+        if ( allPagesSorted[i].category == "introduction" ) {
+            introPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "starter" ) {
+            starterPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "vegetable" ) {
+            vegPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "fruit" ) {
+            fruitPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "herb" ) {
+            herbPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "vegetable recipes" ) {
+            vegRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "fruit recipes" ) {
+            fruitRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "soups" ) {
+            soupRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "drinks" ) {
+            drinkRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "treats" ) {
+            treatRecipes.push(allPagesSorted[i]);
+        }
+    }
+}
+postIntoSections();
+
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
+function initialise(pages, containerid, templateid, divid) {
+ let sortedArray = pages.sort (function (a,b) {
+     return a.order - b.order;
+ })
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ sortedArray.forEach((article) => {
+     const element = template.content.cloneNode(true);
+     const image = element.querySelector('img');
+     image.src = article.image;
+     image.alt = article.slug;
+     element.getElementById(divid).innerHTML = article.title;
+     element.getElementById('divlink').href = linkDiv(article.slug);
+     container.appendChild(element);
+ });
+}
+
+initialise(vegRecipes, ".vegrecipes-container",'#vegrecipes-template',"vegrecipes-link");
+initialise(fruitRecipes, ".fruitrecipes-container",'#fruitrecipes-template',"fruitrecipes-link");
+initialise(soupRecipes, ".soup-container",'#soup-template',"soup-link");
+initialise(drinkRecipes, ".drinks-container",'#drinks-template',"drinks-link");
+initialise(treatRecipes, ".treats-container",'#treats-template',"treats-link");
+
+</script>

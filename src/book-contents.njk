@@ -38,6 +38,7 @@ layout: /layouts/pagetemplate.njk
                                 </div>
 
                                 </template>
+                            
 
                             <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Allotment Starter Guides</h4>
 
@@ -52,6 +53,7 @@ layout: /layouts/pagetemplate.njk
                                 </div>
 
                                 </template>
+                            
 
                             <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Growing Guides</h4>
 
@@ -64,6 +66,7 @@ layout: /layouts/pagetemplate.njk
                                 </div>
                                 
                                 </template>
+                            
 
                             <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Growing Guides</h4>
 
@@ -76,6 +79,7 @@ layout: /layouts/pagetemplate.njk
                                 </div>
 
                                 </template>
+                            
 
                             <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Herb Growing Guides</h4>
 
@@ -88,6 +92,72 @@ layout: /layouts/pagetemplate.njk
                                 </div>
 
                                 </template>
+                            
+
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Recipes</h4>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto"class="vegrecipe-container"></div>
+
+                                <template id="vegrecipe-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="vegrecipe-link"></div>
+                                </div>
+
+                                </template>
+                            
+
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Recipes</h4>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto"class="fruitrecipe-container"></div>
+
+                                <template id="fruitrecipe-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="fruitrecipe-link"></div>
+                                </div>
+
+                                </template>
+                        
+
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Soup Recipes</h4>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto"class="soup-container"></div>
+
+                                <template id="soup-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="soup-link"></div>
+                                </div>
+
+                                </template>
+                            
+
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Drink Recipes</h4>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto"class="drink-container"></div>
+
+                                <template id="drink-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="drink-link"></div>
+                                </div>
+
+                                </template>
+                            
+
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Treat Recipes</h4>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto"class="treats-container"></div>
+
+                                <template id="treats-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="treats-link"></div>
+                                </div>
+
+                                </template>
+                            
                         
                         </div> 
                 </main>
@@ -111,16 +181,22 @@ function makeButton(title,slug) {
 //different variables used for arrays to store the links to the different sections
 let pagesArray = {{ pagesstoryindex | dump | safe }};
 let vegArray = {{ vegstoryindex | dump | safe }};
+let recipeArray = {{ recipestoryindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];
 let starterPages = [];
 let vegPages = [];
 let fruitPages = [];
 let herbPages = [];
+let vegRecipes = [];
+let fruitRecipes = [];
+let soupRecipes = [];
+let drinkRecipes = [];
+let treatRecipes = [];
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...vegArray];
+    let interimArray = [...pagesArray,...vegArray,...recipeArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
@@ -140,12 +216,22 @@ function postIntoSections() {
             fruitPages.push(allPagesSorted[i]);
         } else if ( allPagesSorted[i].category == "herb" ) {
             herbPages.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "vegetable recipes" ) {
+            vegRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "fruit recipes" ) {
+            fruitRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "soups" ) {
+            soupRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "drinks" ) {
+            drinkRecipes.push(allPagesSorted[i]);
+        } else if ( allPagesSorted[i].category == "treats" ) {
+            treatRecipes.push(allPagesSorted[i]);
         }
     }
 }
 
 postIntoSections();
-console.log(allPagesSorted);
+console.log(treatRecipes);
 
 //this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
 function initialise(pages, containerid, templateid, divid) {
@@ -168,5 +254,11 @@ initialise(starterPages, ".starter-container",'#starter-template',"starter-link"
 initialise(vegPages, ".vegetable-container",'#vegetable-template',"vegetable-link");
 initialise(fruitPages, ".fruit-container",'#fruit-template',"fruit-link");
 initialise(herbPages, ".herb-container",'#herb-template',"herb-link");
+initialise(vegRecipes, ".vegrecipe-container",'#vegrecipe-template',"vegrecipe-link");
+initialise(fruitRecipes, ".fruitrecipe-container",'#fruitrecipe-template',"fruitrecipe-link");
+initialise(soupRecipes, ".soup-container",'#soup-template',"soup-link");
+initialise(drinkRecipes, ".drink-container",'#drink-template',"drink-link");
+initialise(treatRecipes, ".treats-container",'#treats-template',"treats-link");
+
 
 </script>
