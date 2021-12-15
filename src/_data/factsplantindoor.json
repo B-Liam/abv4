@@ -1,6 +1,7 @@
 [
     {
       "plant": "broccoli",
+      "category": "vegetable",
       "january": "n",
       "february": "y",
       "march": "y",
@@ -16,6 +17,7 @@
     },
     {
       "plant": "runner beans",
+      "category": "vegetable",
       "january": "n",
       "february": "n",
       "march": "n",
@@ -31,6 +33,7 @@
     },
     {
       "plant": "blackberries",
+      "category": "fruit",
       "january": "n",
       "february": "n",
       "march": "n",
@@ -46,6 +49,7 @@
     },
     {
       "plant": "basil",
+      "category": "herb",
       "january": "n",
       "february": "y",
       "march": "y",

@@ -1,10 +1,16 @@
 {
     "cats": [
       {
-        "shopcat": "vegetables"
+        "shopcat": "vegetables",
+        "text": "vegetable varieties",
+        "image": "/images/uploads/squash-harvest.jpg",
+        "alt": ""
       },
       {
-        "shopcat": "fruit"
+        "shopcat": "fruit",
+        "text": "fruit varieties",
+        "image": "/images/uploads/fruit-harvest.jpg",
+        "alt": ""
       }
      ]
 }

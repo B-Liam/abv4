@@ -23,39 +23,25 @@ layout: /layouts/pagetemplate.njk
 
                         <h1>Browse Shop</h1>
 
-                        <div id="list-container" style="display:flex; flex-wrap: wrap">
+                        <div id="list-container">
                         
                         {% for cats in varshopcats.cats %} 
-                        <div style="width:210px;padding-bottom:10px"><a href='/shop/{{cats.shopcat}}'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats.shopcat | title }}</div></a>
-                        {% endfor %}
 
-                        </div>
+                         <a id="divlink" href="/shop/{{cats.shopcat}}">
+                                    <div style="display:flex;align-items:center;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
 
-                        <h4>Archive</h4>
+                                        <img style="display:block; width:160px;" src="{{cats.image}}" alt="{{cats.alt}}" />
+                                        
+                                        <div style="display:flex; align-items: center"> 
+                                            <div style="padding-left: 0.7em"><i style="font-size:1.3em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;font-size:1.1rem" id="vegrecipes-link">{{ cats.text | title }}</div>
+                                        </div>                                   
 
-                        {% for veg in varliam.veg %} {% if veg.vegetable == "broccoli" %}
-                        <li>{{ veg.name }}</li>
-                        {% endif %}{% endfor %}
+                                    </div>
+                                </a>
+                        
+                        {% endfor %}                             
 
-                        <h3>Test Data</h3>
-
-                        {% for veg in vegdata.veg %} {% if veg.vegetable == "broccoli" %}
-                        <li> {{ veg.type }} </li>
-                        {% endif %}{% endfor %}
-
-                        <h3>Test More Data</h3>
-
-                        {% for veg in vegdata.veg %} {% if 'featured' in veg.type %}
-                        <li> {{ veg.name }}, {{ veg.description }} </li>
-                        {% endif %} {% endfor %}
-
-                        {% macro add(x, y) %}
-                        {{ caller() }}: {{ x + y }}
-                        {% endmacro%}
-
-                        {% call add(1, 2) -%}
-                        The result is
-                        {%- endcall %}
-                        </div> 
+                        
+                    </div> 
                 </main>
             </div>

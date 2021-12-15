@@ -82,7 +82,6 @@ let text = `{{ pagedata.content.main_content }}`;
 document.getElementById("markedup").innerHTML = marked.parse(text);
 
 //this is the script that generates the previous and next buttons
-
 let pagesArray = {{ pagesstoryindex | dump | safe }};
 let vegArray = {{ vegstoryindex | dump | safe }};
 let allPagesSorted = [];

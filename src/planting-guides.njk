@@ -1,0 +1,249 @@
+---
+layout: /layouts/pagetemplate.njk
+pagination:
+    data: months.months
+    size: 1
+    alias: pagedata
+permalink: "{{ pagedata.month | slug }}-planting-guide/index.html"
+eleventyComputed:
+    title: "{{ pagedata.month | title }} Planting Guide | Allotment Recipes | Allotment Book"
+    description: "A guide on what fruit, vegetables, and herbs to plant in {{ pagedata.month | title }}, and whether to sow indoors, under protection in a cold frame or polytunnel, or outside."
+---
+
+{% set addition = 1 %}
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb">
+                                <a href="/planning-tools">Planning</a><i class="fas fa-chevron-right"></i>
+                                <a href="/planning-tools">Planting By Month</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                        <h1>{{ pagedata.month | title }} Planting Guide</h1> 
+                        <div style="margin-bottom:2rem">
+                            <ul>
+                            {% for item in pagedata.notes %}
+                                <li>{{item}}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+
+                        <div style="background:#e0f7d3;border: solid 2px #009900;padding: 0 1.3rem 0 1.3rem; border-radius: 25px;margin-bottom:2rem">
+
+                        <h2 style="margin-bottom:0px;font-size:1.5rem">Plant Outdoors</h2>
+
+                            <div id="outdoor-container" style="display:flex; flex-wrap: wrap;margin-bottom:2rem">
+
+                                        <div style="width:180px">
+
+                                            <h4 style="margin-top:15px; margin-bottom:10px">Vegetables</h4>
+
+                                            <div style="" id="outdoor-vegetables">None suggested</div>
+
+                                            <div style=""class="outdoorveg-container"></div>
+
+                                                <template id="outdoorveg-template">
+                                                
+                                                <div style="padding-bottom:1%; display:flex">
+                                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform: capitalize;" id="outdoorveg-link"></div>
+                                                </div>
+
+                                                </template> 
+
+                                        </div>
+
+                                        <div style="width:180px">
+
+                                            <h4 style="margin-top:15px; margin-bottom:10px">Fruit</h4>
+
+                                            <div style="" id="outdoor-fruit">None suggested</div>
+
+                                            <div style=""class="outdoorfruit-container"></div>
+
+                                                <template id="outdoorfruit-template">
+                                                
+                                                <div style="padding-bottom:1%; display:flex">
+                                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform: capitalize;" id="outdoorfruit-link"></div>
+                                                </div>
+
+                                                </template> 
+
+                                        </div>
+
+                                    <div style="width:180px">
+
+                                        <h4 style="margin-top:15px; margin-bottom:10px">Herbs</h4>
+
+                                        <div style="" id="outdoor-herbs">None suggested</div>
+
+                                        <div style=""class="outdoorherb-container"></div>
+
+                                            <template id="outdoorherb-template">
+                                            
+                                            <div style="padding-bottom:1%; display:flex">
+                                                <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform: capitalize;" id="outdoorherb-link"></div>
+                                            </div>
+
+                                            </template>
+
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+                        <div style="background:#e0f7d3;border: solid 2px #009900;padding: 0 1.3rem 0 1.3rem; border-radius: 25px;margin-bottom:2rem">
+
+                        <h2 style="margin-bottom:10px;font-size:1.5rem">Plant Indoors (or protected)</h2>
+
+                            <div id="indoor-container" style="display:flex; flex-wrap: wrap;margin-bottom:2rem">
+
+                                        <div style="width:180px">
+
+                                            <h4 style="margin-top:15px; margin-bottom:10px">Vegetables</h4>
+
+                                            <div style="" id="indoor-vegetables">None suggested</div>
+
+                                            <div style=""class="indoorveg-container"></div>
+
+                                                <template id="indoorveg-template">
+                                                
+                                                <div style="padding-bottom:1%; display:flex">
+                                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform: capitalize;" id="indoorveg-link"></div>
+                                                </div>
+
+                                                </template> 
+
+                                        </div>
+
+                                        <div style="width:180px">
+
+                                            <h4 style="margin-top:15px; margin-bottom:10px">Fruit</h4>
+
+                                            <div style="" id="indoor-fruit">None suggested</div>
+
+                                            <div style=""class="indoorfruit-container"></div>
+
+                                                <template id="indoorfruit-template">
+                                                
+                                                <div style="padding-bottom:1%; display:flex">
+                                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform: capitalize;" id="indoorfruit-link"></div>
+                                                </div>
+
+                                                </template> 
+
+                                        </div>
+
+                                    <div style="width:180px">
+
+                                        <h4 style="margin-top:15px; margin-bottom:10px">Herbs</h4>
+
+                                        <div style="" id="indoor-herbs">None suggested</div>
+
+                                        <div style=""class="indoorherb-container"></div>
+
+                                            <template id="indoorherb-template">
+                                            
+                                            <div style="padding-bottom:1%; display:flex">
+                                                <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform: capitalize;" id="indoorherb-link"></div>
+                                            </div>
+
+                                            </template>
+
+                                    </div>
+
+                                </div>
+                    </div>
+
+
+                                               
+
+                        
+                    </div> 
+                </main>
+            </div>
+
+<script>
+
+//this gets the relevant month and stores it in a variable
+let month = `{{pagedata.month}}`;
+
+//new variables to hold the clean data
+//I have created a custom filter in .eleventy.js called getPlants, this contains a function that filters the data 
+let indoorMonthData = JSON.parse(`{{ factsplantindoor | getPlants(pagedata.month) | dump | safe }}`);
+let outdoorMonthData = JSON.parse(`{{ factsplantoutdoor | getPlants(pagedata.month) | dump | safe }}`);
+
+//check for empty data, and show 'none suggested' on the page if empty
+function checkEmpty(data, cat, divname) {
+    //this creates a new array containing a filter like 'plant indoor vegetables' or 'plant indoor herbs'
+    let checkLength = data.filter(function(item){
+return item.category == cat;
+});
+     if ( checkLength.length > 0 ) {
+     document.querySelector(divname).style = "display:none";
+ } else {
+     document.querySelector(divname).style = "color:#009900";
+ }
+}
+checkEmpty(outdoorMonthData, "vegetable", "#outdoor-vegetables");
+checkEmpty(outdoorMonthData, "fruit", "#outdoor-fruit");
+checkEmpty(outdoorMonthData, "herb", "#outdoor-herbs");
+checkEmpty(indoorMonthData, "vegetable", "#indoor-vegetables");
+checkEmpty(indoorMonthData, "fruit", "#indoor-fruit");
+checkEmpty(indoorMonthData, "herb", "#indoor-herbs");
+
+console.log(outdoorMonthData.length);
+
+
+//to populate the growing data
+//the code that makes the link
+function makeLink(title,slug) {
+ return (
+     `<a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
+function initialise(pages, containerid, templateid, divid, type) {
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ pages.forEach((plant) => {
+     if ( plant.category == type ) {
+     const element = template.content.cloneNode(true);
+     element.getElementById(divid).innerHTML = makeLink(plant.plant, plant.plant);
+     container.appendChild(element);
+     }
+ });
+}
+
+initialise(outdoorMonthData, ".outdoorveg-container",'#outdoorveg-template',"outdoorveg-link", "vegetable");
+initialise(outdoorMonthData, ".outdoorherb-container",'#outdoorherb-template',"outdoorherb-link", "herb");
+initialise(outdoorMonthData, ".outdoorfruit-container",'#outdoorfruit-template',"outdoorfruit-link", "fruit");
+initialise(indoorMonthData, ".indoorveg-container",'#indoorveg-template',"indoorveg-link", "vegetable");
+initialise(indoorMonthData, ".indoorherb-container",'#indoorherb-template',"indoorherb-link", "herb");
+initialise(indoorMonthData, ".indoorfruit-container",'#indoorfruit-template',"indoorfruit-link", "fruit");
+
+//I have created a custom filter in .eleventy.hs called 
+let mytest = JSON.parse(`{{ factsplantindoor | getPlants(pagedata.month) | dump | safe }}`);
+
+console.log(mytest)
+
+</script>
+
+
+
+
