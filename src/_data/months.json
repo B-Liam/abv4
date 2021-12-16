@@ -8,16 +8,102 @@
             "Plant bare root fruit trees, and fruit bushes"
         ]
     },
-    {"month": "february"},
-    {"month": "march"},
-    {"month": "april"},
-    {"month": "may"},
-    {"month": "june"},
-    {"month": "july"},
-    {"month": "august"},
-    {"month": "september"},
-    {"month": "october"},
-    {"month": "november"},
-    {"month": "december"}
+    {
+        "month": "february",
+        "notes": [
+            "Delay planting if weather is very cold or wet",
+            "Consider warming the beds before sowing by covering with a sheet or fleece",
+            "Choose early varieties that are suited for cold weather germination",
+            "Start germinating slow growing heat loving plants like aubergine, peppers, chillies, and tomatoes"
+        ]
+    },
+    {
+        "month": "march",
+        "notes": [
+            "The last opportunity to sow garlic, fruit bushes, and fruit canes",
+            "An excellent time to plant onion sets",
+            "The best time to sow heat loving plants like tomatoes, peppers, and aubergine",
+            "Sow early varieties of potatoes, peas, and carrots",
+            "Sow brassicas like cabbage, sprouts, broccoli, kale, and cauliflower under protection (cold frame, greenhouse, polytunnel)",
+            "Consider sowing fast growing crops like radish, kohlrabi, and turnip for an early summer harvest"
+        ]
+    },
+    {
+        "month": "april",
+        "notes": [
+            "Probably the busiest germination month of the year",
+            "Finish sowing potatoes, onions, and shallots",
+            "A great month to sow parsnip seeds, with the ground still wet to aid germination (also good for beets like chard, beetroot, spinach)",
+            "Last chance for many slow growing heat loving crops like tomatoes, chillies, aubergine",
+            "Sow squash, cucumber, and courgette plants now indoors (to be ready to go outside after the last frosts)",
+            "An excellent time to sow, or buy, herbs for the kitchen garden"
+        ]
+    },
+    {
+        "month": "may",
+        "notes": [
+            "Now is the best time to plant frost sensitive summer crops like sweetcorn, French beans, and runner beans",
+            "Seed can be sown directly in the soil for many types of plant",
+            "Beware of late frosts that can damage plants that are not hardy (eg squash, tomatoes, cucumbers)",
+            "A good month to sow fast growing annual herbs like basil, parsley, and coriander"
+        ]
+    },
+    {
+        "month": "june",
+        "notes": [
+            "Continue sowing seed directly in seed beds",
+            "Transplate seedlings to their final growing position, including frost sensitive plants like squash, courgettes, and tomatoes",
+            "Sow seeds, or transplant seedlings of climbing beans, at the base of supports"
+        ]
+    },
+    {
+        "month": "july",
+        "notes": [
+            "The emphasis switches to regular watering to sustain plants in dry weather, rather than fresh sowings",
+            "Avoid sowing in sustained heatwaves (seedlings can be scorched and it is difficult to keep the soil moist)",
+            "Continue sowing salad crops if the weather allows"
+        ]
+    },
+    {
+        "month": "august",
+        "notes": [
+            "Continue sowing fast growing successional crops like beetroot, lettuce, and radishes",
+            "Frost hardy plants like pak choi and cabbage can be sown for an autumn harvest"
+        ]
+    },
+    {
+        "month": "september",
+        "notes": [
+            "A good time to plant a strawberry bed, especially by taking runners off existing rows",
+            "Sow hardy varieties of spinach for a harvest the following spring"
+        ]
+    },
+    {
+        "month": "october",
+        "notes": [
+            "The start of the next gardening year!",
+            "Plant crops for overwintering to bring an early harvest the following year (onions, broad beans, garlic)",
+            "The start of the fruit bush planting season during their dormant period (gooseberries, currants, blackberries, summer raspberries)"
+        ]
+    },
+    {
+        "month": "november",
+        "notes": [
+            "If the weather is not too cold, November is an excellent month to plant bare root fruit trees and knock in stake supports (into the soft ground)",
+            "One of the best times to sow garlic",
+            "A good month to plant rhubarb crowns in a bed full of well rotted manure and compost",
+            "Continue planting fruit bushes and fruit canes"
+        ]
+    },
+    {
+        "month": "december",
+        "notes": [
+            "Not a bad month for a gardener to stay indoors if the weather is cold and wet!",
+            "In mild years, it may be possible to plant peas and broad beans under protection (fleece or grow tunnel)",
+            "Plant garlic",
+            "Continue planting fruit trees and fruit bushes",
+            "Autumn raspberries are now dormant, allowing the canes to be planted"
+        ]
+    }
     ]
 }
