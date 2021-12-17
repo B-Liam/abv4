@@ -13,6 +13,7 @@
     grid-area: left;
     background: #009900;
     border-bottom: solid 2px #ffffff;
+    min-width: 285px;
 }
 
 #main {

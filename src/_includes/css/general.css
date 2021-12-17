@@ -27,19 +27,20 @@ a {
 }
 
 #non-mobile #row {
-    border-bottom: solid 2px #ffffff;
-    padding-top: 2%;
-    padding-left: 20%; 
+    border-bottom: solid 2px #ffffff;   
 }
 
 #non-mobile #book-indent #row {
     border-bottom: solid 2px #ffffff;
     padding-top: 2%;
-    padding-left: 28%; 
+    padding-left: 35px; 
 }
 
 #nav-elements {
-    padding: 1% 0 3% 0; 
+    padding: 5px 0 5px 0;
+    width:250px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footer {

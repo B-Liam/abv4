@@ -6,13 +6,14 @@
     display: grid;
     grid-template-areas:
     "left main side";
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 700px 1fr;
 }
 
 #left {
     grid-area: left;
     background: #009900;
     border-bottom: solid 2px #ffffff;
+    min-width: 285px;
     
 }
 
@@ -42,7 +43,7 @@
     display: grid;
     grid-template-areas:
     "nav main sidebar";
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 700px 1fr;
 }
 
 #leftnav {

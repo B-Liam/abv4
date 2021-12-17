@@ -69,7 +69,7 @@ eleventyComputed:
 
                             </div>
 
-                            <div id="growing-overview-container" style="display:grid; grid-template-columns:3fr 3fr 3fr 3fr 3fr;text-align:center;margin-top:20px;margin-bottom:5px;background:#009900;column-gap:5px;grid-template-rows: 4rem 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 35px; color:#009900;border: solid 5px #009900; font-size:0.7em">
+                            <div id="growing-overview-container" style="display:grid; grid-template-columns:3fr 3fr 3fr 3fr 3fr;text-align:center;margin-top:20px;margin-bottom:5px;background:#009900;column-gap:5px;grid-template-rows: 4rem 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 35px; color:#009900;border: solid 5px #009900; font-size:0.8em">
                             <div id="row1-col1" style="grid-area:1/1/2/2;background:#ffffff;margin-left:5px;background:#009900"></div>
                                 <div id="row1-col2" style="grid-area:1/2/2/3;background:#ffffff;padding-left:3px; padding-right:3px;padding-top:5px"><strong>Sow</strong><br />(inside)</div>
                                 <div id="row1-col3" style="grid-area:1/3/2/4;background:#ffffff;padding-left:3px; padding-right:3px;padding-top:5px"><strong>Sow</strong><br />(outside)</div>
@@ -461,12 +461,13 @@ generateStore();
 
 let pagesArray = {{ pagesstoryindex | dump | safe }};
 let vegArray = {{ vegstoryindex | dump | safe }};
+let recipeArray = {{ recipestoryindex | dump | safe }};
 let allPagesSorted = [];
 let grabTitle = document.getElementById("title").innerHTML;
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...vegArray];
+    let interimArray = [...pagesArray,...vegArray,...recipeArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
@@ -529,7 +530,7 @@ function makeNextButton(title,slug) {
 //this generates the link to the next page
 function makePreviousButton(title,slug) {
  return (
-     `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
+     `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Previous</button></a>`
  )
 };
 function makePreviousBreadcrumb(title,slug) {

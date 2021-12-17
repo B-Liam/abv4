@@ -71,6 +71,7 @@ function makeButton(title,slug) {
 //different variables used for arrays to store the links to the different sections
 let pagesArray = {{ pagesstoryindex | dump | safe }};
 let vegArray = {{ vegstoryindex | dump | safe }};
+let recipeArray = {{ recipestoryindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];
 let starterPages = [];
@@ -78,11 +79,11 @@ let vegPages = [];
 let fruitPages= [];
 let herbPages= [];
 
-console.log(herbPages);
+console.log(allPagesSorted);
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...vegArray];
+    let interimArray = [...pagesArray,...vegArray,...recipeArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
@@ -102,7 +103,10 @@ function postIntoSections() {
             fruitPages.push(allPagesSorted[i]);
         } else if ( allPagesSorted[i].category == "herb" ) {
             herbPages.push(allPagesSorted[i]);
-        }  
+        } else if ( allPagesSorted[i].category == "recipe" ) {
+            herbPages.push(allPagesSorted[i]);
+        }
+
     }
 }
 postIntoSections();
