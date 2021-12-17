@@ -5,8 +5,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("getPlants", function(arr, month) {
         let interim = [];
         for (let i = 0 ; i < arr.length ; i++ ) {
-            if ( arr[i][month] == "y") {
-                newObject = { "plant": arr[i].plant, "category": arr[i].category }
+            if ( arr[i][month] == "n") {
+                continue;
+            }
+            else {
+                newObject = { "plant": arr[i].plant, "category": arr[i].category, "month": arr[i][month] }
                 interim.push(newObject)
             }
         }

@@ -1,0 +1,114 @@
+{
+    "months": [
+    {
+        "month": "january",
+        "notes": [
+            "The key to having vegetables available in January is to choose hardy varieties, and to plant them at the right time of year",
+            "Sprouts, leeks, kale, and perpetual spinach are all in season, whilst celeriac, parsnips, swedes, and salsify can be left where they grew and brought home as required",
+            "Keep stored beetroot, carrots, potatoes, and squash under observation, and discard any that begin to soften or sprout",
+            "Pears do not keep as well as apples, and may not store well for much longer"
+        ]
+    },
+    {
+        "month": "february",
+        "notes": [
+            "The season for picking fresh Brussels sprouts, kale, and perpetual spinach is coming to a close",
+            "Stored vegetables should be regularly checked, and any in bad condition disposed of",
+            "Forced rhubarb becomes available towards the end of the month, but stores of apples may not remain good for much longer"
+        ]
+    },
+    {
+        "month": "march",
+        "notes": [
+            "The start of the spring brassica season - purple sprouting broccoli spears and spring greens will be ready this month",
+            "Leeks are also an excellent vegetable to grow for the spring (but choose the variety carefully - some will finish by December)",
+            "Stored vegetables are unlikely to keep for much longer, especially squash and potatoes",
+            "Rhubarb season begins in earnest"
+        ]
+    },
+    {
+        "month": "april",
+        "notes": [
+            "April is one of the hardest months to plan for, it is too early in the year for the majority of vegetables, whilst supplies of stored vegetables are likely to be over",
+            "Broccoli and spring greens will continue, joined by asparagus and cauliflower (but these two are tricky to grow)",
+            "Fast growing lettuce, radishes, and onion can help fill a gap towards the end of the month",
+            "The rhubarb season continues",
+            "Perennial herbs that die back in winter start to become available again"
+        ]
+    },
+    {
+        "month": "may",
+        "notes": [
+            "Whilst many crops become available in May, the majority of these are toward the end of the month",
+            "The availability of vegetables like broad beans, onions, and peas depends upon choosing varieties that overwinter (planted in the autumn) to mature when the warm spring weather arrives",
+            "Fast growing crops like pak choi, spring onion, and radish - planted in March - can start to be harvested",
+            "Early varieties of gooseberries herald the start of the soft fruit season, joined later by raspberries and strawberries"
+        ]
+    },
+    {
+        "month": "june",
+        "notes": [
+            "June is a month when many vegetable and fruit crops become available, and is when the harvest season starts in earnest",
+            "It is the peak harvest period for many types of British fruit, including currants, gooseberries, and summer raspberries",
+            "Easy to grow crops like onions, new potatoes, broad beans, and garlic are ready to be harvested",
+            "Annual herbs become available, including salad types like parsley and basil"
+        ]
+    },
+    {
+        "month": "july",
+        "notes": [
+            "The soft fruit season continues in all its glory, an excellent time to freeze surplus fruit or make jam",
+            "It is the start of the harvest season for heat loving vegetables like tomatoes, chillies, peppers, and summer squash",
+            "Is it possible to have too many courgettes? - a lucky gardener finds out this month",
+            "Early varieties of tree fruit can be picked, including cherries and plums",
+            "The blueberry season starts in earnest, together with cane fruit like tayberries, loganberries, and early varieties of blackberries",
+            "There is wide variety of garden herbs to cook with (and enjoy their flowers)"
+        ]
+    },
+    {
+        "month": "august",
+        "notes": [
+            "My favourite gardening month, as the work is nearly all harvest (with very little weeding as the peak period of weed germination has passed)",
+            "The large majority of vegetables are in season, including heat loving French beans, runner beans, and sweetcorn",
+            "August is good month to harvest and dry crops for storage, including onions, shallots, garlic, potatoes, and winter squash",
+            "The fruit harvest will continue to switch away from soft fruit to tree fruit, with many types of delicious plums coming into season, together with early varieties of apples and pears",
+            "Heat loving continental fruit like melons, Inca berries, and tomatillos will be available",
+            "The start of the peak season for homegrown tomatoes (that continues until October)"
+        ]
+    },
+    {
+        "month": "september",
+        "notes": [
+            "Weather permitting, the success story of August continues into September",
+            "Autumn varieties of raspberry come into their own, and more types of apples and pears are ready for picking",
+            "Summer and winter types of squash will be finishing their harvest period, and should be picked before the cold weather arrives",
+            "Broccoli (calabrese) and swedes are ready for harvest"
+        ]
+    },
+    {
+        "month": "october",
+        "notes": [
+            "This month is a transition period, with many non-hardy varieties of vegetables coming to an end - and it is the time to plant hardy overwintering vegetables for the following year",
+            "It is peak season for picking, and storing,  pears and apples",
+            "Crops that die back and can be left in the ground, like parsnips, salsify, and Jerusalem artichokes, should be marked to enable them to be found easily in winter"
+        ]
+    },
+    {
+        "month": "november",
+        "notes": [
+            "A month to start picking fresh hardy winter vegetables like Brussels sprouts, cabbage, kale, swedes, and leeks",
+            "Hardy varieties of pak choi, radishes, and winter spinach can add variety to an early winter harvest",
+            "Continue eating from any stores of potatoes, squash, carrots, beetroot, onions, and garlic",
+            "Continue picking and storing late varieties of apples"
+        ]
+    },
+    {
+        "month": "december",
+        "notes": [
+            "Depending on the varieties chosen, some winter vegetables are at their peak and should be enjoyed now - Brussel sprouts, cabbage, leak, and kale (other varieties of the same vegetables will keep to the start of spring)",
+            "Stored vegetables will also be in good condition, including potatoes, squash, pumpkin, and onions",
+            "It is worth regularly checking stores to discard any vegetables that deteriorate to avoid spoiling the remainder"
+        ]
+    }
+    ]
+}

@@ -1,13 +1,13 @@
 ---
 layout: /layouts/pagetemplate.njk
 pagination:
-    data: monthsplanting.months
+    data: monthsharvesting.months
     size: 1
     alias: pagedata
-permalink: "{{ pagedata.month | slug }}-planting-guide/index.html"
+permalink: "{{ pagedata.month | slug }}-harvesting-guide/index.html"
 eleventyComputed:
-    title: "{{ pagedata.month | title }} Planting Guide | Allotment Book"
-    description: "A guide on what fruit, vegetables, and herbs to plant in {{ pagedata.month | title }}, and whether to sow indoors, under protection in a cold frame or polytunnel, or outside."
+    title: "{{ pagedata.month | title }} Harvesting Guide | Allotment Book"
+    description: "A guide on what homegrown fruit, vegetables, and herbs are available in {{ pagedata.month | title }}, whether freshly picked, left standing on the plot, or from storage."
 ---
 
 {% set addition = 1 %}
@@ -24,7 +24,7 @@ eleventyComputed:
                         <div id="breadcrumb-container">
                             <div id="breadcrumb">
                                 <a href="/planning-tools">Planning</a><i class="fas fa-chevron-right"></i>
-                                <a href="/{{ pagedata.month | lower }}-planting-guide">{{ pagedata.month | title }} Planting</a><i class="fas fa-chevron-right"></i>
+                                <a href="/{{ pagedata.month | lower }}-harvesting-guide">{{ pagedata.month | title }} Harvesting</a><i class="fas fa-chevron-right"></i>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ eleventyComputed:
                             </div>
                         </div>
 
-                        <h1 id="title">{{ pagedata.month | title }} Planting Guide</h1> 
+                        <h1 id="title">{{ pagedata.month | title }} Harvesting Guide</h1> 
                         <div style="margin-bottom:2rem">
                             <ul>
                             {% for item in pagedata.notes %}
@@ -49,15 +49,15 @@ eleventyComputed:
 
                         <div style="background:#e0f7d3;border: solid 2px #009900;padding: 0 1.3rem 0 1.3rem; border-radius: 25px;margin-bottom:2rem">
 
-                        <h2 style="margin-bottom:0px;font-size:1.5rem">Plant Outdoors</h2>
+                        <h2 style="margin-bottom:0px;font-size:1.5rem">Freshly Picked</h2>
 
                             <div id="outdoor-container" style="display:flex; flex-wrap: wrap;margin-bottom:2rem">
 
-                                        <div style="width:180px">
+                                        <div style="width:270px">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Vegetables</h4>
 
-                                            <div style="" id="outdoor-vegetables">None suggested</div>
+                                            <div style="" id="outdoor-vegetables">None ready</div>
 
                                             <div style=""class="outdoorveg-container"></div>
 
@@ -71,11 +71,11 @@ eleventyComputed:
 
                                         </div>
 
-                                        <div style="width:180px">
+                                        <div style="width:270px">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Fruit</h4>
 
-                                            <div style="" id="outdoor-fruit">None suggested</div>
+                                            <div style="" id="outdoor-fruit">None ready</div>
 
                                             <div style=""class="outdoorfruit-container"></div>
 
@@ -89,11 +89,11 @@ eleventyComputed:
 
                                         </div>
 
-                                    <div style="width:180px">
+                                    <div style="width:270px">
 
                                         <h4 style="margin-top:15px; margin-bottom:10px">Herbs</h4>
 
-                                        <div style="" id="outdoor-herbs">None suggested</div>
+                                        <div style="" id="outdoor-herbs">None ready</div>
 
                                         <div style=""class="outdoorherb-container"></div>
 
@@ -113,11 +113,11 @@ eleventyComputed:
 
                         <div style="background:#e0f7d3;border: solid 2px #009900;padding: 0 1.3rem 0 1.3rem; border-radius: 25px;margin-bottom:2rem">
 
-                        <h2 style="margin-bottom:10px;font-size:1.5rem">Plant Indoors (or protected)</h2>
+                        <h2 style="margin-bottom:10px;font-size:1.5rem">From Storage</h2>
 
                             <div id="indoor-container" style="display:flex; flex-wrap: wrap;margin-bottom:2rem">
 
-                                        <div style="width:180px">
+                                        <div style="width:270px">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Vegetables</h4>
 
@@ -135,7 +135,7 @@ eleventyComputed:
 
                                         </div>
 
-                                        <div style="width:180px">
+                                        <div style="width:270px">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Fruit</h4>
 
@@ -153,7 +153,7 @@ eleventyComputed:
 
                                         </div>
 
-                                    <div style="width:180px">
+                                    <div style="width:270px">
 
                                         <h4 style="margin-top:15px; margin-bottom:10px">Herbs</h4>
 
@@ -193,8 +193,8 @@ let month = `{{pagedata.month}}`;
 
 //new variables to hold the clean data
 //I have created a custom filter in .eleventy.js called getPlants, this contains a function that filters the data 
-let indoorMonthData = JSON.parse(`{{ factsplantindoor | getPlants(pagedata.month) | dump | safe }}`);
-let outdoorMonthData = JSON.parse(`{{ factsplantoutdoor | getPlants(pagedata.month) | dump | safe }}`);
+let freshMonthData = JSON.parse(`{{ factsharvest | getPlants(pagedata.month) | dump | safe }}`);
+let storedMonthData = JSON.parse(`{{ factsstore | getPlants(pagedata.month) | dump | safe }}`);
 
 //check for empty data, and show 'none suggested' on the page if empty
 function checkEmpty(data, cat, divname) {
@@ -208,27 +208,35 @@ return item.category == cat;
      document.querySelector(divname).style = "color:#009900";
  }
 }
-checkEmpty(outdoorMonthData, "vegetable", "#outdoor-vegetables");
-checkEmpty(outdoorMonthData, "fruit", "#outdoor-fruit");
-checkEmpty(outdoorMonthData, "herb", "#outdoor-herbs");
-checkEmpty(indoorMonthData, "vegetable", "#indoor-vegetables");
-checkEmpty(indoorMonthData, "fruit", "#indoor-fruit");
-checkEmpty(indoorMonthData, "herb", "#indoor-herbs");
+checkEmpty(freshMonthData, "vegetable", "#outdoor-vegetables");
+checkEmpty(freshMonthData, "fruit", "#outdoor-fruit");
+checkEmpty(freshMonthData, "herb", "#outdoor-herbs");
+checkEmpty(storedMonthData, "vegetable", "#indoor-vegetables");
+checkEmpty(storedMonthData, "fruit", "#indoor-fruit");
+checkEmpty(storedMonthData, "herb", "#indoor-herbs");
 
-console.log(outdoorMonthData.length);
+console.log(storedMonthData);
 
 
 //to populate the growing data
-//the code that makes the link
-function makeLink(title,slug) {
+//the code that makes the link for freshly picked
+function makeLink(title,slug,freshorstored, monthvalue) {
 let slugify = convertToSlug(slug);
+if(freshorstored == "fresh" ) {
  return (
      `<a href="/contents/${slugify}">${title}</a>`
  )
+}
+if(freshorstored == "stored" ) {
+ return (
+     `<a href="/contents/${slugify}">${title} <span style="text-transform:lowercase">(${monthvalue})</span></a>`
+ )
+}
 };
 
+
 //this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
-function initialise(pages, containerid, templateid, divid, type) {
+function initialise(pages, containerid, templateid, divid, type, freshorstored) {
 
  const container = document.querySelector(containerid);
  const template = document.querySelector(templateid);
@@ -236,18 +244,18 @@ function initialise(pages, containerid, templateid, divid, type) {
  pages.forEach((plant) => {
      if ( plant.category == type ) {
      const element = template.content.cloneNode(true);
-     element.getElementById(divid).innerHTML = makeLink(plant.plant, plant.plant);
+     element.getElementById(divid).innerHTML = makeLink(plant.plant, plant.plant, freshorstored, plant.month);
      container.appendChild(element);
      }
  });
 }
 
-initialise(outdoorMonthData, ".outdoorveg-container",'#outdoorveg-template',"outdoorveg-link", "vegetable");
-initialise(outdoorMonthData, ".outdoorherb-container",'#outdoorherb-template',"outdoorherb-link", "herb");
-initialise(outdoorMonthData, ".outdoorfruit-container",'#outdoorfruit-template',"outdoorfruit-link", "fruit");
-initialise(indoorMonthData, ".indoorveg-container",'#indoorveg-template',"indoorveg-link", "vegetable");
-initialise(indoorMonthData, ".indoorherb-container",'#indoorherb-template',"indoorherb-link", "herb");
-initialise(indoorMonthData, ".indoorfruit-container",'#indoorfruit-template',"indoorfruit-link", "fruit");
+initialise(freshMonthData, ".outdoorveg-container",'#outdoorveg-template',"outdoorveg-link", "vegetable", "fresh");
+initialise(freshMonthData, ".outdoorherb-container",'#outdoorherb-template',"outdoorherb-link", "herb", "fresh");
+initialise(freshMonthData, ".outdoorfruit-container",'#outdoorfruit-template',"outdoorfruit-link", "fruit", "fresh");
+initialise(storedMonthData, ".indoorveg-container",'#indoorveg-template',"indoorveg-link", "vegetable", "stored");
+initialise(storedMonthData, ".indoorherb-container",'#indoorherb-template',"indoorherb-link", "herb", "stored");
+initialise(storedMonthData, ".indoorfruit-container",'#indoorfruit-template',"indoorfruit-link", "fruit", "stored");
 
 //I have created a custom filter in .eleventy.hs called 
 let mytest = JSON.parse(`{{ factsplantindoor | getPlants(pagedata.month) | dump | safe }}`);
@@ -259,18 +267,18 @@ console.log(mytest)
 let grabTitle = document.getElementById("title").innerHTML;
 //an array of pages
 let allPlanting = [
-    "january planting guide",
-    "february planting guide",
-    "march planting guide",
-    "april planting guide",
-    "may planting guide",
-    "june planting guide",
-    "july planting guide",
-    "august planting guide",
-    "september planting guide",
-    "october planting guide",
-    "november planting guide",
-    "december planting guide"
+    "january harvesting guide",
+    "february harvesting guide",
+    "march harvesting guide",
+    "april harvesting guide",
+    "may harvesting guide",
+    "june harvesting guide",
+    "july harvesting guide",
+    "august harvesting guide",
+    "september harvesting guide",
+    "october harvesting guide",
+    "november harvesting guide",
+    "december harvesting guide"
     ]
 
 //this determines the index value of the current page in the allPlanting array
