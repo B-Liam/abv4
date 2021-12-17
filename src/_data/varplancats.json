@@ -1,0 +1,16 @@
+{
+    "cats": [
+      {
+        "shopcat": "planting",
+        "text": "planting month by month",
+        "image": "/images/uploads/squash-harvest.jpg",
+        "alt": ""
+      },
+      {
+        "shopcat": "harvesting",
+        "text": "harvesting month by month",
+        "image": "/images/uploads/fruit-harvest.jpg",
+        "alt": ""
+      }
+     ]
+}
