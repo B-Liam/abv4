@@ -15,6 +15,14 @@ module.exports = function(eleventyConfig) {
         }
         return interim;
       });
+      eleventyConfig.addFilter("getNutrition", function(arr, element) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            let interimObject = { "name": arr[i].name, "percentage": arr[i][element], "grow": arr[i].grow, "link": arr[i].link }
+            interim.push(interimObject);
+        }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

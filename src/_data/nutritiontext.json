@@ -1,0 +1,144 @@
+{
+    "element": [
+    {
+        "name": "a",
+        "title": "vitamin A",
+        "intro": "Vitamin A is needed for the immune system, healthy skin, and for low light eyesight. Beta carotene from plant sources is also thought to work as an antioxidant. Fruit and vegetables contain beta carotene rather than vitamin A itself (that is only found in animal source foods). However, the body can make vitamin A from beta carotene.",
+        "notes": [
+            "Strengthens immunity",
+            "Helps vision",
+            "Contributes to healthy skin"
+        ]
+    },
+    {
+        "name": "b1",
+        "title": "vitamin B1",
+        "intro": "Along with other B vitamins, vitamin B1 (thiamin) helps break down food and keep nerves and tissues healthy.",
+        "notes": [
+            "Helps release food energy",
+            "Good for nerve tissue",
+            "Good for muscle tissue"
+        ]
+    },
+    {
+        "name": "b2",
+        "title": "vitamin B2",
+        "intro": "Vitamin B2 (riboflavin) helps break down energy in carbohydrates, and helps the health of skin and hair, eyes, and nerves. The best source of riboflavin is in diary products, but it is also found in grains, cereals, meat, and fish.",
+        "notes": [
+            "Helps release food energy",
+            "Good for skin and eyes",
+            "Good for nervous system"
+        ]
+    },
+    {
+        "name": "b3",
+        "title": "vitamin B3",
+        "intro": "Vitamin B3 (niacin) helps release energy from food during digestion, and sustains the nervous and digestive systems.",
+        "notes": [
+            "Helps release food energy",
+            "Good for nervous system",
+            "Good for digestive system"
+        ]
+    },
+    {
+        "name": "b5",
+        "title": "vitamin B5",
+        "intro": "Alongside other B vitamins, vitamin B5 (pantothenic acid) helps metabolise foods. It may also help the body fight infections. Pantothenic acid is widely found across many food groups.",
+        "notes": [
+            "Helps release food energy",
+            "Strengthens immunity",
+            "Used for making blood cells"
+        ]
+    },
+    {
+        "name": "b6",
+        "title": "vitamin b6",
+        "intro": "Vitamin B6 helps the body digest protein, helps the nervous system, and the production of haemoglobin. Taking too much B6 in supplements may be harmful, leading to a loss of feeling in the arms and legs.",
+        "notes": [
+            "Helps release food energy",
+            "Helps with metabolism",
+            "Contributes to healthy skin"
+        ]
+    },
+    {
+        "name": "b9",
+        "title": "folic acid B9",
+        "intro": "Vitamin B9 (folic acid) in its natural form is called folate. Fruit and vegetables are a good source of this vitamin. Folate helps with cell division and with the manufacture of red blood cells. During pregnancy, it plays an important role in the development of the foetus.",
+        "notes": [
+            "Used for making blood cells",
+            "Good for nervous system",
+            "Helps process folic acid"
+        ]
+    },
+    {
+        "name": "c",
+        "title": "vitamin C",
+        "intro": "Vegetables and fruit are excellent sources of vitamin C. Vitamin C supports the health of cells and tissue, the healing of wounds, and generally helps the body fight infection. Vitamin C cannot be stored in the body, so eating foods containing the vitamin on a daily basis is recommended.",
+        "notes": [
+            "Helps keep cells healthy",
+            "Helps wounds heal",
+            "Helps avoid scurvy"
+        ]
+    },
+    {
+        "name": "e",
+        "title": "vitamin E",
+        "intro": "Vitamin E is an antioxidant that helps our immune system and protects against cell damage. It is found mainly in plant oils like olive oil, but also in nuts, seeds, and cereals.",
+        "notes": [
+            "Antioxidant",
+            "Helps cell structures",
+            "Helps cell membranes"
+        ]
+    },
+    {
+        "name": "k",
+        "title": "vitamin K",
+        "intro": "Fruit and vegetables can contain high levels of vitamin K. The vitamin is good for blood clotting and helping wounds to heal.",
+        "notes": [
+            "Needed for blood clotting",
+            "Helps wounds heal",
+            "May help strengthen bones"
+        ]
+    },
+    {
+        "name": "iron",
+        "title": "iron",
+        "intro": "Iron is a very important mineral used in red blood cells to transport oxygen around our body. A lack of iron causes anaemia, but taking too much iron in supplements can be harmful.",
+        "notes": [
+            "Important for red bloods cells",
+            "Helps transport oxygen",
+            "Helps avoid anaemia"
+        ]
+    },
+    {
+        "name": "magnesium",
+        "title": "magnesium",
+        "intro": "Magnesium helps the body digest food and extract energy. It supports bone health, helps with muscle contraction, and heart health.",
+        "notes": [
+            "Helps release food energy",
+            "Helps in bone development",
+            "Helps in cell function"
+        ]
+    },
+    {
+        "name": "potassium",
+        "title": "potassium",
+        "intro": "Potassium is involved in controlling body fluid levels, regulating blood pressure, and maintaining the body’s electrical impulses.",
+        "notes": [
+            "Helps control body fluids",
+            "Helps blood pressure",
+            "Helps electrical impulses"
+        ]
+    },
+    {
+        "name": "zinc",
+        "title": "zinc",
+        "intro": "Zinc is an important trace element. It helps our body make new cells, heal wounds, and process food. It also plays a role in taste and smell.",
+        "notes": [
+            "Strengthens immunity",
+            "Helps vision",
+            "Contributes to healthy skin"
+        ]
+    }
+]
+}

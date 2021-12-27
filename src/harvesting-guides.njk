@@ -9,9 +9,7 @@ eleventyComputed:
     title: "{{ pagedata.month | title }} Harvesting Guide | Allotment Book"
     description: "A guide on what homegrown fruit, vegetables, and herbs are available in {{ pagedata.month | title }}, whether freshly picked, left standing on the plot, or from storage."
 ---
-
-{% set addition = 1 %}
-        
+       
         <div id="sidebar">
             a new side
         </div>
@@ -257,10 +255,7 @@ initialise(storedMonthData, ".indoorveg-container",'#indoorveg-template',"indoor
 initialise(storedMonthData, ".indoorherb-container",'#indoorherb-template',"indoorherb-link", "herb", "stored");
 initialise(storedMonthData, ".indoorfruit-container",'#indoorfruit-template',"indoorfruit-link", "fruit", "stored");
 
-//I have created a custom filter in .eleventy.hs called 
-let mytest = JSON.parse(`{{ factsplantindoor | getPlants(pagedata.month) | dump | safe }}`);
 
-console.log(mytest)
 
 //generating the previous and next buttons
 //grabbing the page title

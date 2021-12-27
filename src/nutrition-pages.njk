@@ -1,0 +1,246 @@
+---
+layout: /layouts/pagetemplate.njk
+pagination:
+    data: nutritiontext.element
+    size: 1
+    alias: pagedata
+permalink: "fruits-vegetables-high-in-{{ pagedata.title | slug }}/index.html"
+eleventyComputed:
+    title: "{{ pagedata.title | title }} | Growing For Nutrition | Allotment Book"
+    description: "A list of what fruit and vegetables naturally contain {{ pagedata.title }}, ranked by the percentage recommended daily allowance provided by 100 g."
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb">
+                                <a href="/planning-tools">Planning</a><i class="fas fa-chevron-right"></i>
+                                <a href="fruits-vegetables-high-in-{{ pagedata.title | slug }}">{{ pagedata.title | title }} </a><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                    <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                            <div id="higher-previous">
+                            </div>
+                            <div id="higher-next">
+                            </div>
+                        </div>
+
+                        <h1 id="title">{{ pagedata.title | title }} </h1> 
+                        <div style="margin-bottom:2rem">
+
+                            {{ pagedata.intro }}
+
+                            <ul>
+                            {% for item in pagedata.notes %}
+                                <li>{{item}}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+
+
+                        <h2 style="margin-bottom:20px;font-size:1.5rem">Top Fruit & Vegetables For {{ pagedata.title | title }}</h2>
+
+                        <p>Please note that not all these fruit and vegetables are grown in the UK under normal conditions. Where possible, links to UK varieties are provided.</p>
+                        <p>The ranking is based on how much {{pagedata.title}} is contained in a 100 g raw portion of the fruit or vegetable, converted to a percentage of the Recommended Daily Allowance*.</p>
+
+                        <div style="max-width:330px; margin-left:auto;margin-right:auto">
+                            <div style="padding-left:10%:;display:flex;justify-content:space-between;">
+                                                <div>Food</div>
+                                                <div style="text-align: right">% RDA</div>
+                            </div>
+                        </div>
+
+                                            <ol>
+                                            <div style="max-width:300px; margin-left:auto;margin-right:auto" class="topten-container"></div>
+                                            </ol>
+
+                                                <template id="topten-template">
+                                                
+                                                <li style="margin-left:-20px"> 
+                                                <div style="padding-left:10px;display:flex;justify-content:space-between;">
+                                                <div style="text-transform:capitalize" id="topten-name"></div>
+                                                <div style="" id="topten-percentage"></div>
+                                                </div>
+                                                </li>
+                                                
+                                                
+                                                </template> 
+                                
+                    <div style="padding-bottom:20px">
+                                *The nutritional information has been compiled from information freely available and published by the US Department of Agriculture (USDA) and the European Food Information Council (EUFIC). The information is given for comparison purposes only, and is not intended as dietary or medical advice. Please see my disclaimer for further information.
+                    </div>
+                                       
+                    
+
+                    <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center; margin-bottom: 2rem">
+                            <div id="lower-previous">
+                            </div>
+                            <div id="lower-next">
+                            </div>
+                        </div>
+
+                    </div> 
+                
+                </main>
+            </div>
+
+<script>
+
+//this gets the relevant element and stores it in a variable
+let element = `{{pagedata.name}}`;
+
+//new variables to hold the clean data
+//I have created a custom filter in .eleventy.js called getPlants, this contains a function that filters the data 
+let nutritionData = JSON.parse(`{{ nutritiondata | getNutrition(pagedata.name) | dump | safe }}`);
+
+let allNutritionSorted = [];
+
+//this sorts the nutrition data based on the percentage RDA they contain 
+function sortPages() {
+    let interimArray = [...nutritionData];
+    allNutritionSorted = interimArray.sort (function (a,b) {
+     return b.percentage - a.percentage
+})
+}
+sortPages();
+
+console.log(allNutritionSorted);
+
+
+//to populate the growing data
+//the code that makes the link
+function makeLink(title,slug,grow) {
+let slugify = convertToSlug(slug);
+if ( grow == "yes" && slug !== "" ) {
+    return (
+     `<a href="/shop/${slugify}/all">${title}</a>`
+    )
+} else {
+    return title;
+}
+};
+
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
+function initialise(pages, containerid, templateid, divname, divpercentage ) {
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ pages.forEach((plant) => {
+     const element = template.content.cloneNode(true);
+     element.getElementById(divname).innerHTML = makeLink(plant.name,plant.link,plant.grow);
+     element.getElementById(divpercentage).innerHTML = plant.percentage;
+     container.appendChild(element);
+ });
+}
+
+initialise(allNutritionSorted, ".topten-container",'#topten-template', "topten-name", "topten-percentage");
+
+
+//generating the previous and next buttons
+//grabbing the page title
+let grabTitle = `{{pagedata.title | lower }}`;
+//an array of pages
+let allNutrition = [
+    "vitamin a",
+    "vitamin b1",
+    "vitamin b2",
+    "vitamin b3",
+    "vitamin b5",
+    "vitamin b6",
+    "folic acid b9",
+    "vitamin c",
+    "vitamin e",
+    "vitamin k",
+    "iron",
+    "magnesium",
+    "potassium",
+    "zinc"
+    ]
+
+//this determines the index value of the current page in the allPlanting array
+let pageIndexNumber = null;
+
+function findPageIndex() {
+    for ( i = 0 ; i < allNutrition.length ; i++) {
+        if ( grabTitle.toLowerCase() == allNutrition[i] ) {
+            pageIndexNumber = i;
+        }
+    }
+}
+findPageIndex();
+console.log(pageIndexNumber);
+
+
+//this stores the next and prevous pages in variables
+let nextPage = [];
+let previousPage = [];
+
+function findNext() {
+    if ( pageIndexNumber < allNutrition.length - 1) {
+    nextPage.push(allNutrition[pageIndexNumber + 1])
+    }
+}
+findNext();
+
+
+function findPrevious() {
+    if ( pageIndexNumber !== 0 ) {
+    previousPage.push(allNutrition[pageIndexNumber - 1])
+    }
+}
+findPrevious();
+
+
+//a function to convert the next and previous values as a slug to use in a url
+function convertToSlug(text)
+{
+    return text
+        .toLowerCase()
+        .replace(/ /g,'-')
+        .replace(/[^\w-]+/g,'')
+        ;
+}
+
+//this generates the button to the next page
+function makeNextButton(slug) {
+ return (
+     `<a href="/fruits-vegetables-high-in-${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next</button></a>`
+ )
+};
+
+//this generates the button to the previous page
+function makePreviousButton(slug) {
+ return (
+     `<a href="/fruits-vegetables-high-in-${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Previous</button></a>`
+ )
+};
+
+//this calls the buttons based on logic
+
+function createButtons() {
+    if ( nextPage.length > 0 ) {
+        document.getElementById("lower-next").innerHTML = makeNextButton(convertToSlug(nextPage[0]));
+        document.getElementById("higher-next").innerHTML = makeNextButton(convertToSlug(nextPage[0]));
+        }
+    if ( pageIndexNumber > 0 ) {
+        document.getElementById("lower-previous").innerHTML = makePreviousButton(convertToSlug(previousPage[0]));
+        document.getElementById("higher-previous").innerHTML = makePreviousButton(convertToSlug(previousPage[0]));
+    }
+}
+createButtons();
+
+
+
+</script>
