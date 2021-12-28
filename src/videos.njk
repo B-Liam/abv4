@@ -1,0 +1,210 @@
+---
+permalink: "videos/index.html"
+title: Video Gallery | YouTube Growing Videos | Allotment Book
+description: See all Allotment Book videos created for YouTube, including monthly allotment tours, growing tips, product reviews, and wildlife videos.
+layout: /layouts/pagetemplate.njk
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb"><a href="/">Home</a><i class="fas fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+
+                    <div id="content-body">
+
+                        <h1 style="margin-bottom:0px">Video Gallery</h1>
+                        <h4 style="margin-top:10px;margin-bottom:0px">Browse By Topic</h4>
+                        <button onclick="changeCategory(allVideos)" style="background:#e0f7d3;color:#009900; border:none;width:90px;margin: 5px 5px 5px 5px">All
+                        </button>
+                        <button onclick="changeCategory(growingVideos)" style="background:#e0f7d3;color:#009900; border:none;width:90px;margin: 5px 5px 5px 5px">Growing
+                        </button>
+                        <button onclick="changeCategory(tourVideos)" style="background:#e0f7d3;color:#009900; border:none;width:100px;margin: 5px 5px 5px 5px">Monthly Tours
+                        </button>
+                        <button onclick="changeCategory(recipeVideos)" style="background:#e0f7d3;color:#009900; border:none;width:90px;margin: 5px 5px 5px 5px">Recipes
+                        </button>
+                        
+
+                        <div id="allvideos" style="">
+                        <h4 style="">All Videos</h4>
+                        <div style="padding-bottom: 2rem" class="all-container"></div>
+
+                                <template id="all-template">
+
+                                <a id="divlink" href""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                    
+                                    <div style="padding-left:0.7em"> 
+                                        <h4 style="font-size:1.1rem;padding-right:0.5em" id="all-link"></h4>
+                                        <div id="description"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                        </template> 
+                        </div>
+
+                        <div id="recipevideos" style="display:none">
+                        <h4>Recipe Videos</h4>
+                        <div style="padding-bottom: 2rem" class="recipe-container"></div>
+
+                                <template id="recipe-template">
+
+                                <a id="divlink" href""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" /> 
+
+                                    <div style="padding-left:0.7em"> 
+                                        <h4 style="font-size:1.1rem;padding-right:0.5em" id="recipe-link"></h4>
+                                        <div id="description"></div>
+                                    </div>                                  
+
+                                </div></a>
+                                
+                        </template> 
+                        </div>
+
+                        <div id="growingvideos" style="display:none">
+                        <h4>Growing Videos</h4>
+                        <div style="padding-bottom: 2rem" class="growing-container"></div>
+
+                                <template id="growing-template">
+
+                                <a id="divlink" href""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+
+                                    <div style="padding-left:0.7em"> 
+                                        <h4 style="font-size:1.1rem;padding-right:0.5em" id="growing-link"></h4>
+                                        <div id="description"></div>
+                                    </div>                               
+
+                                </div></a>
+                                
+                        </template> 
+                        </div>
+
+                        <div id="tourvideos" style="display:none">
+                        <h4>Allotment Tour Videos</h4>
+                        <div style="padding-bottom: 2rem" class="tour-container"></div>
+
+                                <template id="tour-template">
+
+                                <a id="divlink" href""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
+
+                                    <img style="display:block; width:160px;" src="" alt="" />
+                                
+                                    <div style="padding-left:0.7em"> 
+                                        <h4 style="font-size:1.1rem;padding-right:0.5em" id="tour-link"></h4>
+                                        <div id="description"></div>
+                                    </div>                                   
+
+                                </div></a>
+                                
+                        </template> 
+                        </div>           
+                        
+
+
+                    </div> 
+                </main>
+            </div>
+
+
+
+<script>
+
+//grab the video data
+const allVideos = JSON.parse(`{{ videos | dump | safe }}`);
+let tourVideos = [];
+let recipeVideos = [];
+let growingVideos = [];
+let productVideos = [];
+
+function changeCategory(catname) {
+    if (catname == allVideos) {
+    document.getElementById("allvideos").style = "display:visible";
+    document.getElementById("growingvideos").style = "display:none"; 
+    document.getElementById("tourvideos").style = "display:none";    
+    document.getElementById("recipevideos").style = "display:none";
+    }
+    if (catname == growingVideos) {
+    document.getElementById("allvideos").style = "display:none";
+    document.getElementById("growingvideos").style = "display:visible"; 
+    document.getElementById("tourvideos").style = "display:none";    
+    document.getElementById("recipevideos").style = "display:none";
+    }
+    if (catname == tourVideos) {
+    document.getElementById("allvideos").style = "display:none";
+    document.getElementById("growingvideos").style = "display:none"; 
+    document.getElementById("tourvideos").style = "display:visible";    
+    document.getElementById("recipevideos").style = "display:none";
+    }
+    if (catname == recipeVideos) {
+    document.getElementById("allvideos").style = "display:none";
+    document.getElementById("growingvideos").style = "display:none"; 
+    document.getElementById("tourvideos").style = "display:none";    
+    document.getElementById("recipevideos").style = "display:visible";
+    }
+}
+
+//segment videos into categories
+function createVideoCategories() {
+    for (let i = 0 ; i < allVideos.length ; i++ ) {
+        let catString = allVideos[i].category.toLowerCase();
+        if ( catString.includes("tours") ) {
+            tourVideos.push(allVideos[i]);
+        }
+        if ( catString.includes("recipes") ) {
+            recipeVideos.push(allVideos[i]);
+        }
+        if ( catString.includes("growing") ) {
+            growingVideos.push(allVideos[i]);
+        }
+        if ( catString.includes("products") ) {
+            productVideos.push(allVideos[i]);
+        }
+    }
+}
+createVideoCategories();
+
+console.log(productVideos);
+
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
+function initialise(pages, containerid, templateid, divid) {
+ let sortedArray = pages.sort (function (a,b) {
+     return a.order - b.order;
+ })
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ pages.forEach((video) => {
+     const element = template.content.cloneNode(true);
+     const image = element.querySelector('img');
+     image.src = video.image;
+     image.alt = video.description;
+     element.getElementById(divid).innerHTML = video.title;
+     element.getElementById('divlink').href = video.link;
+     element.getElementById('description').innerHTML = video.description;
+     container.appendChild(element);
+ });
+}
+
+initialise(allVideos, ".all-container",'#all-template',"all-link",);
+initialise(recipeVideos, ".recipe-container",'#recipe-template',"recipe-link");
+initialise(growingVideos, ".growing-container",'#growing-template',"growing-link");
+initialise(tourVideos, ".tour-container",'#tour-template',"tour-link");
+
+
+
+</script>
