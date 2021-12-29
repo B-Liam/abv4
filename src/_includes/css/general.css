@@ -9,6 +9,10 @@ a {
     text-decoration: none;
   }
 
+.whitelinkstyle a {
+    color: #ffffff;
+}
+
 .fa-test {
     font-size: 10px;
 }

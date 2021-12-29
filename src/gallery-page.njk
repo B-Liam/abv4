@@ -22,21 +22,37 @@ eleventyComputed:
                         <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
                             <div id="breadcrumb">
                                 <a href="/photo-gallery">Galleries</a><i class="fas fa-chevron-right"></i>
-                                
+                                <a href="photo-gallery/{{ thing.nameplural | slug }}/index.html">{{thing.namesingular | title}}</a><i class="fas fa-chevron-right"></i>                                
                             </div>
                             <div id="breadcrumb-back"></div>
                         </div>
+
+                        <div>
+                        
+                        <div id="gallery-container" style="display:flex; align-items: center; background:#4D5656;padding-top:0.5rem">
+                            <div id="previous" style="width:8%;text-align:center; color: #ffffff; font-size:2rem" class="whitelinkstyle">
+                                <a onclick="previousImage()"><i class="fas fa-chevron-circle-left"></i></a>
+                            </div>
+                        <div id="hero" style="text-align:center; width:84%"></div>
+                            <div id="next" style="width:8%;text-align:center; color: #ffffff; font-size:2rem" class="whitelinkstyle">
+                                <a onclick="nextImage()"><i class="fas fa-chevron-circle-right"></i></a>
+                            </div>
+
+                        </div>
+                        <div id="herotext" style="text-align:center; padding-left:20%; padding-right:20%;padding-bottom: 0.5rem;background:#4D5656;color:#ffffff"></div>
+
+
                     </div>
 
-                    <div id="content-body">
-                    <p>a word</p>
-                    <p>{{thing.namesingular}}<p>
-                    {% for item in thing.photos %}
-                        {{ item.url1 }}
-                    {% endfor %}
+                    <div style="margin-top:0px" id="content-body">
 
+                        <div id="markedup"></div>
 
-                    </div> 
+                        {% for item in thing.photos %}
+                            <div>{{ item.url }}</div>
+                        {% endfor %}
+
+                    </div>
 
                     
                 </main>
@@ -47,13 +63,59 @@ eleventyComputed:
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
-let grabName = `{{ thing.namesingular | lower }}`;
-let vegPhotos = {{ gallery | dump | safe }}.filter(function(item){
-return item.namesingular == grabName;
-});
 
-console.log(vegPhotos)
+let currentIndex = 0;
+let galleryPhotos = JSON.parse(`{{ thing.photos | dump | safe }}`);
 
-document.getElementById("markedup").innerHTML = marked.parse(text);
+function heroImage(index) {
+    document.getElementById("hero").innerHTML = createImage(galleryPhotos[index].url)
+}
+heroImage(currentIndex);
+
+
+function heroText(index) {
+    document.getElementById("herotext").innerHTML = galleryPhotos[index].alt;
+}
+heroText(currentIndex);
+
+
+function previousImage() {
+    if ( currentIndex > 0 ) {
+    heroImage(currentIndex - 1);
+    heroText(currentIndex - 1);
+    currentIndex = currentIndex - 1;
+    }
+    else {
+    heroImage(galleryPhotos.length - 1);
+    heroText(galleryPhotos.length - 1);
+    currentIndex = galleryPhotos.length - 1;
+    }
+}
+
+function nextImage() {
+    if ( currentIndex < galleryPhotos.length - 1) {
+    heroImage(currentIndex + 1);
+    heroText(currentIndex + 1);
+    currentIndex = currentIndex + 1;
+    }
+    else {
+    currentIndex = 0;
+    heroImage(0);
+    heroText(0);
+    }
+}
+
+
+
+function createImage(src) {
+ return (
+     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/q_auto,f_auto/${src}" />`
+ )
+}
+
+
+console.log(galleryPhotos);
+;
+document.getElementById("markedup").innerHTML = marked.parse("this");
 
 </script>
