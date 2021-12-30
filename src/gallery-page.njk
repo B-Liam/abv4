@@ -41,16 +41,12 @@ eleventyComputed:
                         </div>
                         <div id="herotext" style="text-align:center; padding-left:20%; padding-right:20%;padding-bottom: 0.5rem;background:#ffffff"></div>
 
-
                     </div>
 
-                    <div style="margin-top:0px" id="content-body">
-
-                        <div id="markedup"></div>
-
-                        {% for item in thing.photos %}
-                            <div>{{ item.url }}</div>
-                        {% endfor %}
+                    <div style="margin-top:20px" id="content-body">
+                        <div style="text-align: center">
+                            <a href="/photo-gallery"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> All Galleries</button></a>
+                        </div>  
 
                     </div>
 
@@ -112,10 +108,5 @@ function createImage(src) {
      `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/q_auto,f_auto/${src}" />`
  )
 }
-
-
-console.log(galleryPhotos);
-;
-document.getElementById("markedup").innerHTML = marked.parse("this");
 
 </script>
