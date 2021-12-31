@@ -16,7 +16,7 @@ eleventyComputed:
     
         <div id="main-column">
         
-                <main id="main-content">
+                <main style="min-height: 100vh" id="main-content">
                                         
                     <div id="content-heading">
                         <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
@@ -105,7 +105,7 @@ function nextImage() {
 
 function createImage(src) {
  return (
-     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/q_auto,f_auto/${src}" />`
+     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}" />`
  )
 }
 
