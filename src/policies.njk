@@ -1,0 +1,118 @@
+---
+permalink: "policies/index.html"
+title: Policies and Terms | Allotment Book
+date: Last Modified
+description: The policies and terms and conditions of AllotmentBook.co.uk
+layout: /layouts/pagetemplate.njk
+---
+        
+        <div id="sidebar">
+            a new side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                        <div id="content-heading">
+                            <div id="breadcrumb-container">
+                                <div id="breadcrumb">
+                                <a href="/">Home</a><i class="fas fa-chevron-right"></i>
+                                <a href="/contents">Contents</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom:2rem" id="content-body">
+
+                            <h1>Policies</h1>
+
+                            <div id="links"></div>
+
+                            <div style="width:350px;margin-left:auto;margin-right:auto" class="intro-container"></div>
+
+                                <template id="intro-template">
+                                
+                                <div style="padding-bottom:1%; display:flex">
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="intro-link"></div>
+                                </div>
+
+                                </template>
+                            
+                        
+                        </div> 
+                </main>
+            </div>
+
+<script>
+
+//grab all the articles, but using an eleventy filter to only select the data to create an article link
+const allBlog = JSON.parse(`{{ generalstoryblok.page | getBlog() | dump | safe }}`);
+let allPolicies = [];
+let allPagesSorted = [];
+
+//the code that makes the breadcrumb
+function makeLink(title) {
+    let urlSlug = convertToSlug(title);
+ return (
+     `<a href="/${urlSlug}">${title}</a>`
+ )
+};
+
+//a function to convert the title value to be used as a slug to use in a url
+function convertToSlug(text)
+{
+    return text
+        .toLowerCase()
+        .replace(/ /g,'-')
+        .replace(/[^\w-]+/g,'')
+        ;
+}
+
+function makeButton(title,slug) {
+ return (
+     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+ )
+};
+
+//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
+function sortPages() {
+    let interimArray = [...allPolicies];
+    allPagesSorted = interimArray.sort (function (a,b) {
+     return a.order - b.order
+})
+}
+
+
+//all the content is stored in allPagesSorted, it is then pushed into the respective sections using the category property
+function postIntoSections() {
+    for ( i = 0 ; i < allBlog.length ; i++ ) {
+       let catString = allBlog[i].category.toLowerCase();
+        if ( catString.includes("policy") ) {
+            allPolicies.push(allBlog[i]);
+        } 
+    }
+}
+
+postIntoSections();
+console.log(allPolicies);
+
+//this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
+function initialise(pages, containerid, templateid, divid) {
+ let sortedArray = pages.sort (function (a,b) {
+     return a.order - b.order;
+ })
+
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ sortedArray.forEach((article) => {
+     const element = template.content.cloneNode(true);
+     element.getElementById(divid).innerHTML = makeLink(article.title);
+     container.appendChild(element);
+ });
+}
+
+initialise(allPolicies, ".intro-container",'#intro-template',"intro-link");
+
+
+</script>

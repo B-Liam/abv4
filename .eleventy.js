@@ -23,6 +23,14 @@ module.exports = function(eleventyConfig) {
         }
         return interim;
       });
+      eleventyConfig.addFilter("getBlog", function(arr, element) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            let interimObject = { "title": arr[i].content.title, "description": arr[i].content.seo_description, "category": arr[i].content.category, "image": arr[i].content.lead_image.filename, "slug": arr[i].slug }
+            interim.push(interimObject);
+        }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

@@ -1,5 +1,6 @@
 ---
 layout: /layouts/pagetemplate.njk
+date: Last Modified
 pagination:
     data: vegstoryblok.page
     size: 1
@@ -8,6 +9,7 @@ permalink: "contents/{{ pagedata.content.title | slug }}/index.html"
 eleventyComputed:
     title: "Growing {{ pagedata.content.title | title }} | Allotment Book"
     description: "{{ pagedata.content.seo_description }}"
+    image: "{{ pagedata.content.lead_image.filename }}"
 ---
 
      <div id="sidebar">

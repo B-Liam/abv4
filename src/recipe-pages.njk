@@ -1,5 +1,6 @@
 ---
 layout: /layouts/pagetemplate.njk
+date: Last Modified
 pagination:
     data: recipestoryblok.page
     size: 1
@@ -8,6 +9,7 @@ permalink: "contents/{{ pagedata.content.title | slug }}/index.html"
 eleventyComputed:
     title: "{{ pagedata.content.title | title }} | Allotment Recipes | Allotment Book"
     description: "{{ pagedata.content.seo_description }}"
+    image: "{{ pagedata.content.lead_image.filename }}"
 ---
 
      <div id="sidebar">
@@ -55,7 +57,7 @@ eleventyComputed:
 
                                 <h2 id="title-video" style="padding-bottom:5px">Step By Step Video</h2>
 
-                                <div class='embed-container'><iframe src="https://player.vimeo.com/video/{{pagedata.content.vimeo_number}}" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                                <div id="embed-container" class='embed-container'></div>
 
                             </div>
 
@@ -123,8 +125,17 @@ function checkIfVideo() {
     if ( videoCheck == "" ) {
         document.getElementById("video-container").style = "display:none";
     } 
+    else {
+        document.getElementById("embed-container").innerHTML =loadVideo();
+    }
 }
 checkIfVideo();
+
+function loadVideo() {
+    return (
+        `<iframe style="" id="video-file" src="https://player.vimeo.com/video/{{pagedata.content.vimeo_number}}" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+    )
+}
 
 //these call the above function, effectively checking for empty content
 removeDiv("ingredients-one", ingredientsOne);
