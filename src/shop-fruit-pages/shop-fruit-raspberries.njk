@@ -2,18 +2,18 @@
 layout: /layouts/pagetemplate.njk
 date: Last Modified
 pagination:
-    data: varfruitcats.apples.cats
+    data: varfruitcats.raspberries.cats
     size: 1
     alias: vegtypes
-permalink: "shop/apples/{{ vegtypes.vegtype | slug }}/index.html"
+permalink: "shop/raspberries/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
-    title: "Apple Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
-    description: "See {{ vegtypes.vegtype }} apple varieties, and discover the range of apples available."
+    title: "Raspberry Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
+    description: "See {{ vegtypes.vegtype }} raspberry varieties, and discover the range of raspberries available."
 ---
 
-        {% set vegetableplural = varfruitcats.apples.nameplural %}
-        {% set vegetablesingular = varfruitcats.apples.namesingular %}
-        {% set filtercat = varfruitcats.apples.cats %}
+        {% set vegetableplural = varfruitcats.raspberries.nameplural %}
+        {% set vegetablesingular = varfruitcats.raspberries.namesingular %}
+        {% set filtercat = varfruitcats.raspberries.cats %}
 
         <div id="sidebar">
             <div style="background:#ffffff;margin-left:1rem;margin-top:2rem; width:200px;padding:0rem 2rem 2rem 2rem;border-radius:1rem;border-style:solid;border-width:2;border-color:#009900" id="promo-box">

@@ -26,6 +26,141 @@
                                     "vegtype": "crab"
                                 }
                             ]
+                    },
+    "raspberries": 
+                    {
+                    "namesingular": "raspberry",
+                    "nameplural": "raspberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "summer"
+                                },
+                                {
+                                    "vegtype": "autumn"
+                                },
+                                {
+                                    "vegtype": "dwarf"
+                                }
+                            ]
+                    },
+    "strawberries": 
+                    {
+                    "namesingular": "strawberry",
+                    "nameplural": "strawberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "summer"
+                                },
+                                {
+                                    "vegtype": "day neutral"
+                                },
+                                {
+                                    "vegtype": "alpine"
+                                }
+                            ]
+                    },
+    "plums": 
+                    {
+                    "namesingular": "plum",
+                    "nameplural": "plums",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "plum"
+                                },
+                                {
+                                    "vegtype": "gage"
+                                },
+                                {
+                                    "vegtype": "damson"
+                                },
+                                {
+                                    "vegtype": "dwarf"
+                                }
+                            ]
+                    },
+    "gooseberries": 
+                    {
+                    "namesingular": "gooseberry",
+                    "nameplural": "gooseberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "red"
+                                },
+                                {
+                                    "vegtype": "yellow"
+                                },
+                                {
+                                    "vegtype": "green"
+                                }
+                            ]
+                    },
+    "currants": 
+                    {
+                    "namesingular": "currant",
+                    "nameplural": "currants",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "redcurrant"
+                                },
+                                {
+                                    "vegtype": "white currant"
+                                },
+                                {
+                                    "vegtype": "blackcurrant"
+                                },
+                                {
+                                    "vegtype": "dwarf"
+                                }
+                            ]
+                    },
+    "cherries": 
+                    {
+                    "namesingular": "cherry",
+                    "nameplural": "cherries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "pears": 
+                    {
+                    "namesingular": "pear",
+                    "nameplural": "pears",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
                     } 
-
 }
