@@ -1,0 +1,31 @@
+{
+    "apples": 
+                    {
+                    "namesingular": "apple",
+                    "nameplural": "apples",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "dessert"
+                                },
+                                {
+                                    "vegtype": "allrounder"
+                                },
+                                {
+                                    "vegtype": "dwarf"
+                                },
+                                {
+                                    "vegtype": "cooking"
+                                },
+                                {
+                                    "vegtype": "crab"
+                                }
+                            ]
+                    } 
+
+}

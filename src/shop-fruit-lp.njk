@@ -1,9 +1,9 @@
 ---
 layout: /layouts/pagetemplate.njk
 date: Last Modified
-permalink: "shop/vegetables/index.html"
-title: "Vegetable Varieties | Seeds And Plants | Allotment Book"
-description: "Explore vegetable varieties and find seeds and plants to grow at home or on an allotment"
+permalink: "shop/fruit/index.html"
+title: "Fruit Varieties | Seeds And Plants | Allotment Book"
+description: "Explore fruit varieties and find seeds and plants to grow at home or on an allotment"
 ---
 
      <div id="sidebar">
@@ -20,13 +20,13 @@ description: "Explore vegetable varieties and find seeds and plants to grow at h
                         </div>
                     </div>
 
-                    <div style="padding-bottom: 40px" id="content-body">
+                    <div style="padding-bottom: 40px; min-height:100vh" id="content-body">
 
-                        <h1>Vegetable Varieties</h1>
+                        <h1>Fruit Varieties</h1>
 
                         <div id="list-container" style="display:flex; flex-wrap: wrap">
                         
-                        {% for cats in varveglp %} 
+                        {% for cats in varfruitlp %} 
                         <div style="width:210px;padding-bottom:10px"><a href='/shop/{{ cats | slug }}/all'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats | title }}</div></a>
                         {% endfor %}
 
