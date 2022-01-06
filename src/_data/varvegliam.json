@@ -5796,5 +5796,18 @@
     "description": "A European variety. Well regarded for quality.",
     "sow": "May",
     "harvest": "Aug-Oct"
+  },
+  {
+    "vegetable": "courgette",
+    "type": "standard",
+    "cats": "all, standard",
+    "name": "Luffa",
+    "abID": "",
+    "storeID": "#REF!",
+    "featured": "no",
+    "colourful": "no",
+    "description": "Luffa are often used as sponges, but can also be eaten and cooked like courgettes. ",
+    "sow": "Jan-Mar",
+    "harvest": "Aug-Oct"
   }
  ]

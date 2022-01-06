@@ -1,0 +1,38 @@
+---
+layout: /layouts/pagetemplate.njk
+date: Last Modified
+permalink: "shop/herbs/index.html"
+title: "Herb Varieties | Seeds And Plants | Allotment Book"
+description: "Explore herb varieties and find seeds and plants to grow at home or on an allotment"
+---
+
+     <div id="sidebar">
+            a new different side
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb"><a href="/shop">Shop</a><i class="fas fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+
+                    <div style="padding-bottom: 40px; min-height:100vh" id="content-body">
+
+                        <h1>Herb Varieties</h1>
+
+                        <div id="list-container" style="display:flex; flex-wrap: wrap">
+                        
+                        {% for cats in varherbslp %} 
+                        <div style="width:210px;padding-bottom:10px"><a href='/shop/{{ cats | slug }}/all'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats | title }}</div></a>
+                        {% endfor %}
+
+                        </div>
+
+                    </div> 
+                </main>
+
+            </div>

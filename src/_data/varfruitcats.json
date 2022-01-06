@@ -162,5 +162,287 @@
                                     "vegtype": "all"
                                 }
                             ]
-                    } 
+                    },
+    "blackberries": 
+                    {
+                    "namesingular": "blackberry",
+                    "nameplural": "blackberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                },
+                                {
+                                    "vegtype": "spineless"
+                                },
+                                {
+                                    "vegtype": "thorny"
+                                },
+                                {
+                                    "vegtype": "dwarf"
+                                }
+                            ]
+                    },
+    "blueberries": 
+                    {
+                    "namesingular": "blueberry",
+                    "nameplural": "blueberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                },
+                                {
+                                    "vegtype": "early"
+                                },
+                                {
+                                    "vegtype": "mid"
+                                },
+                                {
+                                    "vegtype": "late"
+                                }
+                            ]
+                    },
+    "incaberries": 
+                    {
+                    "namesingular": "inca berry",
+                    "nameplural": "inca berries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "melons": 
+                    {
+                    "namesingular": "melon",
+                    "nameplural": "melons",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "rhubarb": 
+                    {
+                    "namesingular": "rhubarb",
+                    "nameplural": "rhubarb",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                }
+                            ]
+                    },
+    "tayberries": 
+                    {
+                    "namesingular": "tayberry",
+                    "nameplural": "tayberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "grapes": 
+                    {
+                    "namesingular": "grape",
+                    "nameplural": "grapes",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                },
+                                {
+                                    "vegtype": "red"
+                                },
+                                {
+                                    "vegtype": "white"
+                                }
+                            ]
+                    },
+    "cranberries": 
+                    {
+                    "namesingular": "cranberry",
+                    "nameplural": "cranberries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "figs": 
+                    {
+                    "namesingular": "fig",
+                    "nameplural": "figs",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                },
+                                {
+                                    "vegtype": "dwarf"
+                                }
+                            ]
+                    },
+    "gojiberries": 
+                    {
+                    "namesingular": "goji berry",
+                    "nameplural": "goji berries",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "kiwis": 
+                    {
+                    "namesingular": "kiwi",
+                    "nameplural": "kiwis",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "lemons": 
+                    {
+                    "namesingular": "lemon",
+                    "nameplural": "lemons",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "limes": 
+                    {
+                    "namesingular": "lime",
+                    "nameplural": "limes",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "oranges": 
+                    {
+                    "namesingular": "orange",
+                    "nameplural": "oranges",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "nectarines": 
+                    {
+                    "namesingular": "nectarine",
+                    "nameplural": "nectarines",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "apricots": 
+                    {
+                    "namesingular": "apricot",
+                    "nameplural": "apricots",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "grapefruit": 
+                    {
+                    "namesingular": "grapefruit",
+                    "nameplural": "grapefruit",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "medlar": 
+                    {
+                    "namesingular": "medlar",
+                    "nameplural": "medlar",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "mulberry": 
+                    {
+                    "namesingular": "mulberry",
+                    "nameplural": "mulberry",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "peaches": 
+                    {
+                    "namesingular": "peach",
+                    "nameplural": "peaches",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "quince": 
+                    {
+                    "namesingular": "quince",
+                    "nameplural": "quince",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "saskatoon": 
+                    {
+                    "namesingular": "saskatoon",
+                    "nameplural": "saskatoon",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "wineberry": 
+                    {
+                    "namesingular": "wineberry",
+                    "nameplural": "wineberry",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                    },
+    "yuzu": 
+                    {
+                    "namesingular": "yuzu",
+                    "nameplural": "yuzu",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+                        }
 }

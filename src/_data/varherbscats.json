@@ -1,0 +1,21 @@
+{
+    "basil": 
+                    {
+                    "namesingular": "basil",
+                    "nameplural": "basil",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }, 
+                                {
+                                    "vegtype": "green"
+                                },
+                                {
+                                    "vegtype": "Red"
+                                }
+                            ]
+                    }
+}

@@ -11,6 +11,12 @@
         "text": "fruit varieties",
         "image": "/images/uploads/fruit-harvest.jpg",
         "alt": ""
+      },
+      {
+        "shopcat": "herbs",
+        "text": "herb varieties",
+        "image": "/images/uploads/curly-leaf-parsley.jpg",
+        "alt": ""
       }
      ]
 }
