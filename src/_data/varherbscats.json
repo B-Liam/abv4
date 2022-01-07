@@ -17,5 +17,220 @@
                                     "vegtype": "Red"
                                 }
                             ]
-                    }
+                    },
+    "bay": 
+                    {
+                    "namesingular": "bay",
+                    "nameplural": "bay",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "bergamot": 
+                    {
+                    "namesingular": "bergamot",
+                    "nameplural": "bergamot",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "borage": 
+                    {
+                    "namesingular": "borage",
+                    "nameplural": "borage",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "chamomile": 
+                    {
+                    "namesingular": "chamomile",
+                    "nameplural": "chamomile",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "chives": 
+                    {
+                    "namesingular": "chive",
+                    "nameplural": "chives",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "coriander": 
+                    {
+                    "namesingular": "coriander",
+                    "nameplural": "coriander",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "dill": 
+                    {
+                    "namesingular": "dill",
+                    "nameplural": "dill",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "feverfew": 
+                    {
+                    "namesingular": "feverfew",
+                    "nameplural": "feverfew",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "horseradish": 
+                    {
+                    "namesingular": "horseradish",
+                    "nameplural": "horseradish",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "lavender": 
+                    {
+                    "namesingular": "lavender",
+                    "nameplural": "lavender",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                },
+                                {
+                                    "vegtype": "seeds"
+                                }
+                            ]
+    },
+    "lemonbalm": 
+                    {
+                    "namesingular": "lemon balm",
+                    "nameplural": "lemon balm",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "lovage": 
+                    {
+                    "namesingular": "lovage",
+                    "nameplural": "lovage",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "marjoram": 
+                    {
+                    "namesingular": "marjoram",
+                    "nameplural": "marjoram",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "mint": 
+                    {
+                    "namesingular": "mint",
+                    "nameplural": "mint",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "oregano": 
+                    {
+                    "namesingular": "oregano",
+                    "nameplural": "oregano",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "parsley": 
+                    {
+                    "namesingular": "parsley",
+                    "nameplural": "parsley",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "featured"
+                                },
+                                {
+                                    "vegtype": "flat"
+                                },
+                                {
+                                    "vegtype": "curly"
+                                }
+                            ]
+    },
+    "rosemary": 
+                    {
+                    "namesingular": "rosemary",
+                    "nameplural": "rosemary",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "sage": 
+                    {
+                    "namesingular": "sage",
+                    "nameplural": "sage",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "tarragon": 
+                    {
+                    "namesingular": "tarragon",
+                    "nameplural": "tarragon",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "thyme": 
+                    {
+                    "namesingular": "thyme",
+                    "nameplural": "thyme",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    }
 }

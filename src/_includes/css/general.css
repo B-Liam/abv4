@@ -113,3 +113,7 @@ a {
         height: 100%; 
 }
 
+#content-body {
+    min-height: 100vh;
+    padding-bottom: 40px;
+}

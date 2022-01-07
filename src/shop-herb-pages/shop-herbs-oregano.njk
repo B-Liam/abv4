@@ -2,18 +2,18 @@
 layout: /layouts/pagetemplate.njk
 date: Last Modified
 pagination:
-    data: varherbscats.basil.cats
+    data: varherbscats.oregano.cats
     size: 1
     alias: vegtypes
-permalink: "shop/basil/{{ vegtypes.vegtype | slug }}/index.html"
+permalink: "shop/oregano/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
-    title: "Basil Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
-    description: "See {{ vegtypes.vegtype }} basil varieties, and discover the range of basil plants available."
+    title: "Oregano Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"
+    description: "See {{ vegtypes.vegtype }} oregano varieties, and discover the range of oregano plants available."
 ---
 
-        {% set vegetableplural = varherbscats.basil.nameplural %}
-        {% set vegetablesingular = varherbscats.basil.namesingular %}
-        {% set filtercat = varherbscats.basil.cats %}
+        {% set vegetableplural = varherbscats.oregano.nameplural %}
+        {% set vegetablesingular = varherbscats.oregano.namesingular %}
+        {% set filtercat = varherbscats.oregano.cats %}
 
         <div id="sidebar">
             <div style="background:#ffffff;margin-left:1rem;margin-top:2rem; width:200px;padding:0rem 2rem 2rem 2rem;border-radius:1rem;border-style:solid;border-width:2;border-color:#009900" id="promo-box">
