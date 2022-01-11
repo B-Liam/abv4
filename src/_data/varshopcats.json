@@ -4,19 +4,29 @@
         "shopcat": "vegetables",
         "text": "vegetable varieties",
         "image": "/images/uploads/squash-harvest.jpg",
-        "alt": ""
+        "alt": "",
+        "link": "/shop/vegetables/"
       },
       {
         "shopcat": "fruit",
         "text": "fruit varieties",
         "image": "/images/uploads/fruit-harvest.jpg",
-        "alt": ""
+        "alt": "",
+        "link": "/shop/fruit/"
       },
       {
         "shopcat": "herbs",
         "text": "herb varieties",
         "image": "/images/uploads/curly-leaf-parsley.jpg",
-        "alt": ""
+        "alt": "",
+        "link": "/shop/herbs/"
+      },
+      {
+        "shopcat": "lawnmowers",
+        "text": "Cordless Lawnmowers",
+        "image": "/images/uploads/cordless-lawnmower-at-allotment.jpg",
+        "alt": "",
+        "link": "/shop/lawnmowers/all"
       }
      ]
 }

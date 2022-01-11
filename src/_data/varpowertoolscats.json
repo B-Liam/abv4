@@ -1,0 +1,35 @@
+{
+    "lawnmowers": 
+                        {
+                        "namesingular": "lawnmower",
+                        "nameplural": "lawnmowers",
+                        "name": "cordless lawnmowers",
+                        "cats": [
+                                    {
+                                        "vegtype": "all"
+                                    }, 
+                                    {
+                                        "vegtype": "featured"
+                                    }, 
+                                    {
+                                        "vegtype": "cobra"
+                                    },
+                                    {
+                                        "vegtype": "greenworks"
+                                    },
+                                    {
+                                        "vegtype": "hayter"
+                                    },
+                                    {
+                                        "vegtype": "hyundai"
+                                    },
+                                    {
+                                        "vegtype": "mountfield"
+                                    },
+                                    {
+                                        "vegtype": "stiga"
+                                    }
+                                ]
+                        }
+                    
+}

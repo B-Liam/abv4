@@ -1,0 +1,362 @@
+[
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Harrier 41 VS 60v Cordless (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005000",
+      "storeID": "HA377A",
+      "description": "Top of the range cordless mower from Hayter (not including battery or charger). 41 cm cutting width. Features include variable speed, variable pitch, trim-side, and ribbed rear roller."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Harrier 41 VS 60v Cordless (6 Ah Kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005001",
+      "storeID": "HA377KIT6",
+      "description": "Top of the range cordless mower kit from Hayter, including 6 Ah battery and charger (up to 600 square metres of cutting). 41 cm cutting width. Features include variable speed, variable pitch, trim-side, and ribbed rear roller."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Harrier 41 VS 60v Cordless (7.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005002",
+      "storeID": "HA377KIT75",
+      "description": "Top of the range cordless mower kit from Hayter, including 7.5 Ah battery and charger (up to 950 square metres of cutting). 41 cm cutting width. Features include variable speed, variable pitch, trim-side, and ribbed rear roller."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Harrier 48 VS 60v Cordless (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005003",
+      "storeID": "HA477A",
+      "description": "Top of the range cordless mower from Hayter (not including battery or charger). 48 cm cutting width. Features include variable speed, variable pitch, trim-side, and ribbed rear roller."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Harrier 48 VS 60v Cordless (7.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005004",
+      "storeID": "HA477KIT75",
+      "description": "Top of the range cordless mower kit from Hayter, including 7.5 Ah battery and charger (up to 950 square metres of cutting). 48 cm cutting width. Features include variable speed, variable pitch, trim-side, and ribbed rear roller."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter, featured",
+      "name": "Hayter Osprey 46 60v Cordless (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005005",
+      "storeID": "HA613A",
+      "description": "46cm cutting width. Supplied as mower only (not including battery or charger). The Green Series power system matches the output of a small petrol engine, and automatically adjusts power output depending on cutting conditions."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Osprey 46 60v Cordless (2.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005006",
+      "storeID": "HA613AKIT2.5",
+      "description": "46cm cutting width. Supplied as kit including 2.5 Ah battery and charger (up to 300 square metres coverage). The Green Series power system matches the output of a small petrol engine, and automatically adjusts power output depending on cutting conditions."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Osprey 46 60v Cordless (6 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005007",
+      "storeID": "HA613AKIT6",
+      "description": "46cm cutting width. Supplied as kit including 6 Ah battery and charger (up to 720 square metres coverage). The Green Series power system matches the output of a small petrol engine, and automatically adjusts power output depending on cutting conditions."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hayter",
+      "cats": "all, hayter",
+      "name": "Hayter Osprey 46 60v Cordless (7.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005008",
+      "storeID": "HA613AKIT7.5",
+      "description": "46cm cutting width. Supplied as kit including 7.5 Ah battery and charger (up to 900 square metres coverage). The Green Series power system matches the output of a small petrol engine, and automatically adjusts power output depending on cutting conditions."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hyundai",
+      "cats": "all, hyundai",
+      "name": "Hyundai HYM40LI380P 40v Cordless (2.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005009",
+      "storeID": "HYM40Li380P",
+      "description": "Entry level cordless mower suitable for small to medium gardens. 30 mins cutting time. 33 cm cutting width. Selection of cutting heights. Comes with 2.5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "hyundai",
+      "cats": "all, hyundai, featured",
+      "name": "Hyundai HYM80LI460P 80V Cordless (5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005010",
+      "storeID": "HYM80Li460P",
+      "description": "Powerful 80 range (using two 40 v batteries in tandem) suitable for medium to large gardens. 45 mins cutting time. 45 cm cutting width. Selection of cutting heights. Comes with two 2.5 Ah batteries and charger (80 min charging time per battery)."
+    },
+    {
+      "product": "lawnmower",
+      "type": "cobra",
+      "cats": "all, cobra",
+      "name": "Cobra MX3440V 34cm 40v (2.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005011",
+      "storeID": "COMX3440V",
+      "description": "A budget award winning lawnmower suitable for small gardens. Depending on length and wetness of grass, the battery runtime is up to 40 mins. 34 cm cutting width. Selection of cutting heights. Comes with 2.5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "cobra",
+      "cats": "all, cobra",
+      "name": "Cobra MX460S40V 46cm 40v (5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005012",
+      "storeID": "COMX460S40V",
+      "description": "A mid-range lawnmower suitable for medium sized lawns. Depending on length and wetness of grass, the battery runtime is up to 50 mins. 46 cm cutting width. Selection of cutting heights. Comes with 5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "cobra",
+      "cats": "all, cobra",
+      "name": "Cobra MX51S80V 51cm 80v (10 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005013",
+      "storeID": "COMX51S80V",
+      "description": "A premium range lawnmower suitable for medium to large sized lawns. Depending on length and wetness of grass, the battery runtime is up to 90 mins. 51 cm cutting width. Selection of cutting heights. Comes with two 5 Ah batteries and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "ego",
+      "cats": "all, ego",
+      "name": "EGO LM1701E 42cm 56v (2.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005014",
+      "storeID": "EGLM1701EKIT",
+      "description": "EGO's batteries claim 40% more power output than standard 40v rechargeable batteries. Depending on grass conditions, the runtime is up to 40 mins. 42 cm cutting width. Selection of cutting heights. Comes with 2.5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "ego",
+      "cats": "all, ego",
+      "name": "EGO LM1701E-SP 42cm 56v (2.5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005015",
+      "storeID": "EGLM1701ESP",
+      "description": "Self propelled lawnmower for small lawns. Depending on grass conditions, the runtime is up to 15 mins. 42 cm cutting width. Selection of cutting heights. Comes with 2.5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "ego",
+      "cats": "all, ego",
+      "name": "EGO Power LM1903E-SP 47cm (5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005016",
+      "storeID": "EGLM1903ESPKIT",
+      "description": "Self propelled lawnmower for medium sized lawns. Depending on grass conditions, the runtime is up to 35 mins. 47 cm cutting width. Selection of cutting heights. Comes with 5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40LM35K2 40v 35cm (2 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005017",
+      "storeID": "GWG40LM35K2",
+      "description": "Suitable for smaller gardens up to 300 square metres. LED fuel charge indicator shows power level. Battery is fully charged in 60 mins, and is 80% charged in 35 mins. 35cm cutting width. Selection of cutting heights. Comes with 2 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40LM35 40v 35cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005018",
+      "storeID": "GWG40LM35K2X",
+      "description": "Comes with two batteries, mow the lawn whilst charging the other. A battery is fully charged in 60 mins, and is 80% charged in 35 mins. 35 cm cutting width. Selection of cutting heights. Comes with two 2 Ah batteries and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks, featured",
+      "name": "Greenworks G40LM41K2X 40v 40cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005019",
+      "storeID": "GWG40LM41K2X",
+      "description": "Comes with two batteries, mow the lawn whilst charging the other. A battery is fully charged in 60 mins, and is 80% charged in 35 mins. 40 cm cutting width. Selection of cutting heights. Comes with two 2 Ah batteries and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40LM45K2X 40v 45cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005020",
+      "storeID": "GWG40LM45K2X",
+      "description": "Comes with two batteries, mow the lawn whilst charging the other. A battery is fully charged in 60 mins, and is 80% charged in 35 mins. 45 cm cutting width. Selection of cutting heights. Comes with two 2 Ah batteries and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40LM41K2X 40v 40cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005021",
+      "storeID": "GWGD40LM46SPK2X",
+      "description": "Suitable for small to medium sized lawns. Comes with two batteries, mow the lawn whilst charging the other. A battery is fully charged in 60 mins, and is 80% charged in 35 mins. 40 cm cutting width. Selection of cutting heights. Comes with two 2 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks GD60LM46HPK2 60v 46cm (2 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005022",
+      "storeID": "GWGD60LM46HPK2",
+      "description": "Suitable for small to medium gardens. LED fuel charge indicator shows power level. 46cm cutting width. Selection of cutting heights. Comes with 2 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks GD60LM46SP 60v 46cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005023",
+      "storeID": "GWGD60LM46SPK2X",
+      "description": "Suitable for grass areas of 250 - 400 square metres. Self-propelled. Comes with two batteries, mow the lawn whilst charging the other. A battery is fully charged in 60 mins, and is 80% charged in 35 mins. 46 cm cutting width. Selection of cutting heights. Comes with two 2 Ah batteries and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks GD60LM51SP 60v 51cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005024",
+      "storeID": "GWGD60LM51SP",
+      "description": "Mower only (purchase battery and charge separately). Self propelled. Wide 51 cm cutting width. Selection of cutting heights."
+    },
+    {
+      "product": "lawnmower",
+      "type": "stiga",
+      "cats": "all, stiga",
+      "name": "Stiga SLM 544 AE 500 48v 42cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005025",
+      "storeID": "MOS294424068/ST1",
+      "description": "Hardwearing and lightweight mower. Cutting width 42 cm. Selection of cutting heights. Supplied without battery or charger (sold separately)."
+    },
+    {
+      "product": "lawnmower",
+      "type": "atco",
+      "cats": "all, atco",
+      "name": "ATCO Liner 16S Li 80v 41cm (5 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005026",
+      "storeID": "AT299439007/KIT5",
+      "description": "Powerful self-propelled mower. Running time up to 60 mins depending on cutting conditions with 75 mins recharge time. Roller for lawn stripes. 41 cm cutting width. Selection of cutting heights. Comes with 5 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "bosch",
+      "cats": "all, bosch",
+      "name": "Bosch 32LI ErgoFlex 36v 32cm (kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005027",
+      "storeID": "BOROTAK32LIERGOFLEX",
+      "description": "A lightweight mower for small gardens up to 300 square metres. Battery light indicator showing charge remaining. Cutting width 32 cm. Selection of cutting heights. Supplied with 35v battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "mountfield",
+      "cats": "all, mountfield",
+      "name": "Mountfield Princess 34Li 48v 34cm (2 Ah kit) ",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005028",
+      "storeID": "MO294346063/M21",
+      "description": "A relatively lightweight (12 kg) mower suitable for small gardens. 34 cm cutting width. Selection of cutting heights. Comes with 2 Ah battery and charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "mountfield",
+      "cats": "all, mountfield, featured",
+      "name": "Mountfield Princess 38Li 48v 38cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005029",
+      "storeID": "MO294386063/M21",
+      "description": "Comes with two batteries, mow the lawn whilst charging the other. A relatively lightweight (14 kg) mower. 38 cm cutting width. Selection of cutting heights. Comes with two 2 Ah batteries and a charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "mountfield",
+      "cats": "all, mountfield",
+      "name": "Mountfield Princess 42Li 48v 42cm (4 Ah kit)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005030",
+      "storeID": "MO294426063/M21",
+      "description": "Comes with two batteries, mow the lawn whilst charging the other. A relatively lightweight (15 kg) mower. 42 cm cutting width. Selection of cutting heights. Comes with two 2 Ah batteries and a charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "stihl",
+      "cats": "all, stihl",
+      "name": "Stihl RMA 235 36v 33cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005031",
+      "storeID": "STRMA235",
+      "description": "Supplied without a battery of charger (allowing you to choose the size of battery that matches the size of your garden). Relatively light and relatively quiet for a mower. 33 cm cutting width. Selection of cutting heights."
+    },
+    {
+      "product": "lawnmower",
+      "type": "stihl",
+      "cats": "all, stihl",
+      "name": "Stihl RMA 339 36v 37cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005032",
+      "storeID": "STRMA339",
+      "description": "Supplied without a battery of charger (allowing you to choose the size of battery that matches the size of your garden). Relatively light and relatively quiet for a mower. 37 cm cutting width. Selection of cutting heights."
+    },
+    {
+      "product": "lawnmower",
+      "type": "stihl",
+      "cats": "all, stihl",
+      "name": "Stihl RMA 443 36v 41cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005033",
+      "storeID": "STRMA443C",
+      "description": "Supplied without a battery of charger (allowing you to choose the size of battery that matches the size of your garden). Relatively quiet for a mower. 41 cm cutting width. Selection of cutting heights."
+    },
+    {
+      "product": "lawnmower",
+      "type": "stihl",
+      "cats": "all, stihl",
+      "name": "Stihl RMA 443 TC 36v 41cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005034",
+      "storeID": "STRMA443TC",
+      "description": "A self-propelled mower. Supplied without a battery of charger (allowing you to choose the size of battery that matches the size of your garden). Relatively quiet for a mower. 41 cm cutting width. Selection of cutting heights."
+    },
+    {
+      "product": "lawnmower",
+      "type": "stihl",
+      "cats": "all, stihl",
+      "name": "Stihl RMA 448 TC 36v 46cm (mower only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005035",
+      "storeID": "STRMA448TC",
+      "description": "The largest mower in the range and self-propelled. Supplied without a battery of charger (allowing you to choose the size of battery that matches the size of your garden). Relatively quiet for a mower. 46 cm cutting width. Selection of cutting heights."
+    }
+   ]

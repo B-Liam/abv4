@@ -5,18 +5,19 @@ const storeData = require('./varvegsuttons.json');
 
 //create an export of all the objects grouped into one big file - see video on how to do this
 
-//this checks for instock items, and pushes them to a new array
+//this checks for instock items, and pushes them to a new array (at the moment I've disabled this - it will display all)
 let allInStock = [];
 
 function cleanOutOfStock() {
     for ( i = 0 ; i < storeData.length ; i++ ) {
-        if ( storeData[i].in_stock == 1) {
+        if ( storeData[i].in_stock == 1 || storeData[i].in_stock == 0 ) {
             allInStock.push(storeData[i]);
         }
     }
 }
 
-cleanOutOfStock();
+cleanOutOfStock()
+
 
 let newData = [];
 

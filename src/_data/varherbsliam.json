@@ -1,7 +1,7 @@
 [
     {
       "herb": "basil",
-      "type": "green",
+      "type": "seeds",
       "cats": "all, green",
       "name": "Lime Mrs Burns",
       "abID": "ab9002000",
@@ -14,7 +14,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, Red",
       "name": "Round Midnight",
       "abID": "ab9002001",
@@ -27,7 +27,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, Red, featured",
       "name": "Summer Surprise",
       "abID": "ab9002002",
@@ -40,7 +40,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, green",
       "name": "Bush",
       "abID": "ab9002003",
@@ -53,7 +53,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, green, featured",
       "name": "Sweet",
       "abID": "ab9002004",
@@ -66,7 +66,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, Red",
       "name": "Dark Opal",
       "abID": "ab9002005",
@@ -79,7 +79,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, green",
       "name": "Devotion",
       "abID": "ab9002006",
@@ -92,7 +92,7 @@
     },
     {
       "herb": "basil",
-      "type": "",
+      "type": "seeds",
       "cats": "all, green",
       "name": "Genovese",
       "abID": "ab9002007",
@@ -105,7 +105,7 @@
     },
     {
       "herb": "bay",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Bay Tree (Laurus Nobilis)",
       "abID": "ab9002008",
@@ -118,7 +118,7 @@
     },
     {
       "herb": "bay",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Bay Plant",
       "abID": "ab9002009",
@@ -131,7 +131,7 @@
     },
     {
       "herb": "bay",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Bay Twisted Stem",
       "abID": "ab9002010",
@@ -144,7 +144,7 @@
     },
     {
       "herb": "bay",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Bay Pyramid",
       "abID": "ab9002011",
@@ -157,8 +157,8 @@
     },
     {
       "herb": "bergamot",
-      "type": "",
-      "cats": "all, ",
+      "type": "plant",
+      "cats": "all",
       "name": "Monarda Balmy Rose",
       "abID": "ab9002012",
       "storeID": "KC4405",
@@ -170,8 +170,8 @@
     },
     {
       "herb": "borage",
-      "type": "",
-      "cats": "all, ",
+      "type": "seeds",
+      "cats": "all",
       "name": "Borage",
       "abID": "ab9002013",
       "storeID": "142043",
@@ -183,7 +183,7 @@
     },
     {
       "herb": "chamomile",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Chamomile Seeds",
       "abID": "ab9002014",
@@ -196,7 +196,7 @@
     },
     {
       "herb": "chive",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Chives",
       "abID": "ab9002015",
@@ -209,7 +209,7 @@
     },
     {
       "herb": "chive",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Garlic Chives",
       "abID": "ab9002016",
@@ -222,7 +222,7 @@
     },
     {
       "herb": "coriander",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Coriander",
       "abID": "ab9002017",
@@ -235,7 +235,7 @@
     },
     {
       "herb": "coriander",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Confetti",
       "abID": "ab9002018",
@@ -248,7 +248,7 @@
     },
     {
       "herb": "corinander",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Lemon",
       "abID": "ab9002019",
@@ -261,7 +261,7 @@
     },
     {
       "herb": "coriander",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Cilantro",
       "abID": "ab9002020",
@@ -274,7 +274,7 @@
     },
     {
       "herb": "dill",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Dill",
       "abID": "ab9002021",
@@ -287,7 +287,7 @@
     },
     {
       "herb": "feverfew",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Feverfew",
       "abID": "ab9002022",
@@ -300,7 +300,7 @@
     },
     {
       "herb": "horseradish",
-      "type": "",
+      "type": "roots",
       "cats": "all",
       "name": "Horseradish",
       "abID": "ab9002023",
@@ -313,7 +313,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Blue Spear ",
       "abID": "ab9002024",
@@ -326,7 +326,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Angustifolia Melissa Lilac",
       "abID": "ab9002025",
@@ -339,7 +339,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all, featured",
       "name": "Phenomenal ",
       "abID": "ab9002026",
@@ -352,7 +352,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Munstead",
       "abID": "ab9002027",
@@ -365,7 +365,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "English",
       "abID": "ab9002028",
@@ -378,7 +378,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all, featured",
       "name": "Hidcote",
       "abID": "ab9002029",
@@ -391,7 +391,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Angustifolia Platinum Blonde",
       "abID": "ab9002030",
@@ -404,7 +404,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Stoechas Bandera",
       "abID": "ab9002031",
@@ -417,7 +417,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Angustifolia Vera",
       "abID": "ab9002032",
@@ -430,7 +430,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "seeds",
       "cats": "all, seeds",
       "name": "Multifida Blue Wonder",
       "abID": "ab9002033",
@@ -443,7 +443,7 @@
     },
     {
       "herb": "lavender",
-      "type": "",
+      "type": "seeds",
       "cats": "all, seeds",
       "name": "Hidcote Blue",
       "abID": "ab9002034",
@@ -456,7 +456,7 @@
     },
     {
       "herb": "lemon balm",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Mandarina",
       "abID": "ab9002035",
@@ -469,7 +469,7 @@
     },
     {
       "herb": "lemon balm",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Lemon Calmer",
       "abID": "ab9002036",
@@ -482,7 +482,7 @@
     },
     {
       "herb": "lovage",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Lovage",
       "abID": "ab9002037",
@@ -495,7 +495,7 @@
     },
     {
       "herb": "marjoram",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Sweet Marjoram",
       "abID": "ab9002038",
@@ -508,7 +508,7 @@
     },
     {
       "herb": "mint",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Mint",
       "abID": "ab9002039",
@@ -521,7 +521,7 @@
     },
     {
       "herb": "mint",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Korean Mint",
       "abID": "ab9002040",
@@ -534,7 +534,7 @@
     },
     {
       "herb": "mint",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Peruvian Black Mint",
       "abID": "ab9002041",
@@ -547,7 +547,7 @@
     },
     {
       "herb": "mint",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Menthol Soother",
       "abID": "ab9002042",
@@ -560,7 +560,7 @@
     },
     {
       "herb": "oregano",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Oregano",
       "abID": "ab9002043",
@@ -573,7 +573,7 @@
     },
     {
       "herb": "parsley",
-      "type": "",
+      "type": "seeds",
       "cats": "all, curly",
       "name": "Grune Perle",
       "abID": "ab9002044",
@@ -586,7 +586,7 @@
     },
     {
       "herb": "parsley",
-      "type": "",
+      "type": "seeds",
       "cats": "all, curly, featured",
       "name": "Envy",
       "abID": "ab9002045",
@@ -599,7 +599,7 @@
     },
     {
       "herb": "parsley",
-      "type": "",
+      "type": "seeds",
       "cats": "all, curly",
       "name": "Moss Curled 2",
       "abID": "ab9002046",
@@ -612,7 +612,7 @@
     },
     {
       "herb": "parsley",
-      "type": "",
+      "type": "seeds",
       "cats": "all, flat, featured",
       "name": "Plain Leaved 2",
       "abID": "ab9002047",
@@ -625,7 +625,7 @@
     },
     {
       "herb": "parsley",
-      "type": "",
+      "type": "seeds",
       "cats": "all, flat",
       "name": "Italian Giant",
       "abID": "ab9002048",
@@ -638,7 +638,7 @@
     },
     {
       "herb": "rosemary",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Rosemary",
       "abID": "ab9002049",
@@ -651,7 +651,7 @@
     },
     {
       "herb": "sage",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Sage",
       "abID": "ab9002050",
@@ -664,7 +664,7 @@
     },
     {
       "herb": "tarragon",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Russian",
       "abID": "ab9002051",
@@ -677,7 +677,7 @@
     },
     {
       "herb": "tarragon",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Mexican",
       "abID": "ab9002052",
@@ -690,7 +690,7 @@
     },
     {
       "herb": "thyme",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Common",
       "abID": "ab9002053",
@@ -703,7 +703,7 @@
     },
     {
       "herb": "thyme",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Orange Scented",
       "abID": "ab9002054",

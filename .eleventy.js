@@ -31,6 +31,15 @@ module.exports = function(eleventyConfig) {
         }
         return interim;
       });
+      eleventyConfig.addFilter("getPowerTool", function(arr, element, cat) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if ( arr[i].product == element && arr[i].cats.includes(cat)) {
+                interim.push(arr[i])
+            }
+        }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

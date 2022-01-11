@@ -1964,7 +1964,7 @@
     },
     {
       "fruit": "inca berry",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Inca Berry Seeds",
       "abID": "ab9001151",
@@ -1977,7 +1977,7 @@
     },
     {
       "fruit": "inca berry",
-      "type": "",
+      "type": "plants",
       "cats": "all",
       "name": "Inca Berry Plants",
       "abID": "ab9001152",
@@ -1990,7 +1990,7 @@
     },
     {
       "fruit": "melon",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Rugoso di Consenza Giallo",
       "abID": "ab9001153",
@@ -2003,7 +2003,7 @@
     },
     {
       "fruit": "melon",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "F1 Emir",
       "abID": "ab9001154",
@@ -2016,7 +2016,7 @@
     },
     {
       "fruit": "melon",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "F1 Lavi Gal",
       "abID": "ab9001155",
@@ -2029,7 +2029,7 @@
     },
     {
       "fruit": "melon",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Mangomel F1",
       "abID": "ab9001156",
@@ -2042,7 +2042,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Victoria",
       "abID": "ab9001157",
@@ -2055,7 +2055,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "pot",
       "cats": "all",
       "name": "Sanvitos Early",
       "abID": "ab9001158",
@@ -2068,7 +2068,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "pot",
       "cats": "all",
       "name": "Sanvitos Summer",
       "abID": "ab9001159",
@@ -2081,7 +2081,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "pot",
       "cats": "all, featured",
       "name": "Polish Raspberry",
       "abID": "ab9001160",
@@ -2094,7 +2094,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "pot",
       "cats": "all, featured",
       "name": "Champagne",
       "abID": "ab9001161",
@@ -2107,7 +2107,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "pot",
       "cats": "all",
       "name": "Terrifically Tasty",
       "abID": "ab9001162",
@@ -2120,7 +2120,7 @@
     },
     {
       "fruit": "rhubarb",
-      "type": "",
+      "type": "pot",
       "cats": "all",
       "name": "Timperley Early",
       "abID": "ab9001163",
@@ -2133,7 +2133,7 @@
     },
     {
       "fruit": "tayberry",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Buckingham",
       "abID": "ab9001164",
@@ -2263,7 +2263,7 @@
     },
     {
       "fruit": "cranberry",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Mountain Cranberry",
       "abID": "ab9001174",
@@ -2406,7 +2406,7 @@
     },
     {
       "fruit": "goji berry",
-      "type": "",
+      "type": "seeds",
       "cats": "all",
       "name": "Goji Berry Seeds",
       "abID": "ab9001185",
@@ -2419,7 +2419,7 @@
     },
     {
       "fruit": "kiwi",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Jenny",
       "abID": "ab9001186",
@@ -2432,7 +2432,7 @@
     },
     {
       "fruit": "kiwi",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Issai",
       "abID": "ab9001187",
@@ -2445,7 +2445,7 @@
     },
     {
       "fruit": "lemon",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Lemon Eureka",
       "abID": "ab9001188",
@@ -2458,7 +2458,7 @@
     },
     {
       "fruit": "lemon",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Meyer",
       "abID": "ab9001189",
@@ -2471,7 +2471,7 @@
     },
     {
       "fruit": "lime",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Lime",
       "abID": "ab9001190",
@@ -2484,7 +2484,7 @@
     },
     {
       "fruit": "lime",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Tahiti",
       "abID": "ab9001191",
@@ -2497,7 +2497,7 @@
     },
     {
       "fruit": "orange",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Orange",
       "abID": "ab9001192",
@@ -2510,7 +2510,7 @@
     },
     {
       "fruit": "orange",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Bigaradier",
       "abID": "ab9001193",
@@ -2523,7 +2523,7 @@
     },
     {
       "fruit": "nectarine",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Lord Napier",
       "abID": "ab9001194",
@@ -2536,7 +2536,7 @@
     },
     {
       "fruit": "nectarine",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Dwarf Madame Blanchette",
       "abID": "ab9001195",
@@ -2549,7 +2549,7 @@
     },
     {
       "fruit": "apricot",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Flavourcot",
       "abID": "ab9001196",
@@ -2562,7 +2562,7 @@
     },
     {
       "fruit": "grapefruit",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Grapefruit",
       "abID": "ab9001197",
@@ -2575,7 +2575,7 @@
     },
     {
       "fruit": "medlar",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Dwarf Medlar",
       "abID": "ab9001198",
@@ -2588,7 +2588,7 @@
     },
     {
       "fruit": "mulberry",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Dwarf Charlotte Russe",
       "abID": "ab9001199",
@@ -2601,7 +2601,7 @@
     },
     {
       "fruit": "peach",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Avalon Pride",
       "abID": "ab9001200",
@@ -2614,7 +2614,7 @@
     },
     {
       "fruit": "peach",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Lacrima Weeping Peech",
       "abID": "ab9001201",
@@ -2627,7 +2627,7 @@
     },
     {
       "fruit": "peach",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Dwarf Avalon Pride",
       "abID": "ab9001202",
@@ -2640,7 +2640,7 @@
     },
     {
       "fruit": "quince",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Vranja",
       "abID": "ab9001203",
@@ -2653,7 +2653,7 @@
     },
     {
       "fruit": "quince",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Leskovac Patio",
       "abID": "ab9001204",
@@ -2666,7 +2666,7 @@
     },
     {
       "fruit": "saskatoon",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Saskatoon",
       "abID": "ab9001205",
@@ -2679,7 +2679,7 @@
     },
     {
       "fruit": "sharon",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Kaki Fuyu (Persimmon)",
       "abID": "ab9001206",
@@ -2692,7 +2692,7 @@
     },
     {
       "fruit": "wineberry",
-      "type": "",
+      "type": "plant",
       "cats": "all",
       "name": "Wineberry Plant",
       "abID": "ab9001207",
@@ -2705,7 +2705,7 @@
     },
     {
       "fruit": "yuzu",
-      "type": "",
+      "type": "tree",
       "cats": "all",
       "name": "Yuzu",
       "abID": "ab9001208",
