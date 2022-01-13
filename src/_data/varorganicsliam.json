@@ -1,0 +1,332 @@
+[
+    {
+      "product": "hot composter",
+      "type": "aerobin",
+      "cats": "all, aerobin",
+      "name": "200L Aerobin Hot Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006000",
+      "storeID": "DFGDG2GRY",
+      "description": "Accelerates composting all year round by trapping heat naturally produced to speed up the composting process. 200 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "thermo star",
+      "cats": "all, thermo star",
+      "name": "400L Thermo Star Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006001",
+      "storeID": "GRA-600020",
+      "description": "Made from recycled materials, the compost bin is insulated to trap heat to speed up composting. 400 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "thermo star",
+      "cats": "all, thermo star",
+      "name": "600L Thermo Star Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006002",
+      "storeID": "GRA-600021",
+      "description": "Made from recycled materials, the compost bin is insulated to trap heat to speed up composting. 600 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "thermo star",
+      "cats": "all, thermo star",
+      "name": "1000L Thermo Star Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006003",
+      "storeID": "GRA-600022",
+      "description": "Made from recycled materials, the compost bin is insulated to trap heat to speed up composting. 1000 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "graf",
+      "cats": "all, graf",
+      "name": "Thermo Wood Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006004",
+      "storeID": "GRA-626051",
+      "description": "A wood effect finish, whilst made from 100% recycled plastic. 600 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "aerobin",
+      "cats": "all, aerobin, featured",
+      "name": "400L Aerobin Hot Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006005",
+      "storeID": "DFGDG",
+      "description": "Accelerates composting all year round by trapping heat naturally produced to speed up the composting process. 400 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "aerobin",
+      "cats": "all, aerobin, featured",
+      "name": "200L Aerobin Hot Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006006",
+      "storeID": "DFGDG2",
+      "description": "Accelerates composting all year round by trapping heat naturally produced to speed up the composting process. 200 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "aerobin",
+      "cats": "all, aerobin",
+      "name": "200L Aerobin Hot Composter (Grey)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006007",
+      "storeID": "DFGDG2GRY",
+      "description": "Accelerates composting all year round by trapping heat naturally produced to speed up the composting process. 200 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "aerobin",
+      "cats": "all, aerobin",
+      "name": "600L Aerobin Hot Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006008",
+      "storeID": "DFGDG6",
+      "description": "Accelerates composting all year round by trapping heat naturally produced to speed up the composting process. 600 L size."
+    },
+    {
+      "product": "hot composter",
+      "type": "green johanna",
+      "cats": "all, green johanna, featured",
+      "name": "330L Green Johanna Hot Composter",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9006009",
+      "storeID": "15-0901",
+      "description": "Accelerates the composting process by retaining heat. Developed in Sweden. Optional winter jacket to cover the bin to help composting in cold winter months. 330 L size."
+    },
+    {
+      "product": "raised bed",
+      "type": "15 cm height",
+      "cats": "all, 15cm",
+      "name": "H 15cm, W 1m , L 1m",
+      "retailer": "Original Organics",
+      "abID": "ab9006010",
+      "storeID": "17-0113",
+      "description": "1 square metre bed at 15 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "30 cm height",
+      "cats": "all, 30cm",
+      "name": "H 30 cm, W 1m , L 1m",
+      "retailer": "Original Organics",
+      "abID": "ab9006011",
+      "storeID": "17-0213",
+      "description": "1 square metre bed at 30 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "45 cm height",
+      "cats": "all, 45cm",
+      "name": "H 45cm, W 1m , L 1m",
+      "retailer": "Original Organics",
+      "abID": "ab9006012",
+      "storeID": "17-0313",
+      "description": "1 square metre bed at 45 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "60 cm height",
+      "cats": "all, 60cm",
+      "name": "H 60cm, W 1m , L 1m",
+      "retailer": "Original Organics",
+      "abID": "ab9006013",
+      "storeID": "17-0413",
+      "description": "1 square metre bed at 60 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "15 cm height",
+      "cats": "all, 15cm",
+      "name": "H 15cm, W 1m , L 2m",
+      "retailer": "Original Organics",
+      "abID": "ab9006014",
+      "storeID": "17-0123",
+      "description": "2 square metre bed at 60 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "30 cm height",
+      "cats": "all, 30cm",
+      "name": "H 30cm, W 1m , L 2m",
+      "retailer": "Original Organics",
+      "abID": "ab9006015",
+      "storeID": "17-0223",
+      "description": "2 square metre bed at 30 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "45 cm height",
+      "cats": "all, 45cm",
+      "name": "H 45cm, W 1m , L 2m",
+      "retailer": "Original Organics",
+      "abID": "ab9006016",
+      "storeID": "17-0323",
+      "description": "2 square metre bed at 45 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "60 cm height",
+      "cats": "all, 60cm",
+      "name": "H 60cm, W 1m , L 2m",
+      "retailer": "Original Organics",
+      "abID": "ab9006017",
+      "storeID": "17-0423",
+      "description": "2 square metre bed at 60 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "tiered",
+      "cats": "all, tiered",
+      "name": "H 60cm, W 3m , L 1m",
+      "retailer": "Original Organics",
+      "abID": "ab9006018",
+      "storeID": "17-1113",
+      "description": "3 square metre bed at 15cm, 45cm, and 60 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "raised bed",
+      "type": "tiered",
+      "cats": "all, tiered",
+      "name": "H 60cm, W 3m , L 2m",
+      "retailer": "Original Organics",
+      "abID": "ab9006019",
+      "storeID": "17-1123",
+      "description": "6 square metre bed at 15cm, 45cm, and 60 cm high. Made from UK Redwood timber, high pressure and vacuum treated, with a 15 year supplier warranty."
+    },
+    {
+      "product": "growhouse",
+      "type": "growhouse",
+      "cats": "all",
+      "name": "Wooden Greenhouse Nursery",
+      "retailer": "Original Organics",
+      "abID": "ab9006020",
+      "storeID": "VT-WGH401N",
+      "description": "FSC certified wood and reinforced PE cover. Ideal for protecting early sowings from frosty spring weather. L49cm W71cm H158cm."
+    },
+    {
+      "product": "growhouse",
+      "type": "growhouse",
+      "cats": "all",
+      "name": "Tomato Greenhouse",
+      "retailer": "Original Organics",
+      "abID": "ab9006021",
+      "storeID": "VT-WTN404GW",
+      "description": "FSC certified wood and reinforced PE cover. Use the shelves for germinating and growing on seedlings, and then grow on a couple of plants until mature (moving other seedlings to alternative growing positions). L111cm, W49cm, H167cm."
+    },
+    {
+      "product": "growhouse",
+      "type": "growhouse",
+      "cats": "all",
+      "name": "Hardwood Mini Greenhouse",
+      "retailer": "Original Organics",
+      "abID": "ab9006022",
+      "storeID": "RGP-HWGROWST2",
+      "description": "Made from durable hardwood and polycarbonate glazing. Features include two sets of openings (side and top) which allow ventilation of bright sunny days. Ideal for germination and protecting frost sensitive plants. H144cm, W120cm, D63cm."
+    },
+    {
+      "product": "water butt",
+      "type": "standard",
+      "cats": "all, standard",
+      "name": "Harcostar 227L Water Butt",
+      "retailer": "Original Organics",
+      "abID": "ab9006023",
+      "storeID": "STRH-HS227BUTT",
+      "description": "Made in the UK from recycled plastic. Includes tap and child safe lid. Please note a water butt stand needs to be purchased separately."
+    },
+    {
+      "product": "water butt",
+      "type": "standard",
+      "cats": "all, standard",
+      "name": "Harcostar 227L Water Butt",
+      "retailer": "Original Organics",
+      "abID": "ab9006024",
+      "storeID": "STRH-HS227BUTTGRY",
+      "description": "Made in the UK from recycled plastic. Includes tap and child safe lid. Please note a water butt stand needs to be purchased separately."
+    },
+    {
+      "product": "water butt",
+      "type": "standard",
+      "cats": "all, standard",
+      "name": "Garden Lake 200L Water Butt",
+      "retailer": "Original Organics",
+      "abID": "ab9006025",
+      "storeID": "STRH-WBT200BUTTK",
+      "description": "Made from recycled plastic. Wood effect decoration. Comes with stand, diverter, and tap."
+    },
+    {
+      "product": "water butt",
+      "type": "standard",
+      "cats": "all, standard",
+      "name": "Black Standard Barrel 210L",
+      "retailer": "Original Organics",
+      "abID": "ab9006026",
+      "storeID": "STA-GN325BLK",
+      "description": "Black barrel design. Please note a water butt stand needs to be purchased separately."
+    },
+    {
+      "product": "water butt",
+      "type": "standard",
+      "cats": "all, standard",
+      "name": "ROTO Water Barrel 240L",
+      "retailer": "Original Organics",
+      "abID": "ab9006027",
+      "storeID": "ROTO240",
+      "description": "Looks like wood, but made out of plastic. Please note a water butt stand needs to be purchased separately. "
+    },
+    {
+      "product": "water butt",
+      "type": "large",
+      "cats": "all, large",
+      "name": "ROTO Water Barrel 350L",
+      "retailer": "Original Organics",
+      "abID": "ab9006028",
+      "storeID": "ROTO350",
+      "description": "Looks like wood, but made out of plastic. Please note a water butt stand needs to be purchased separately."
+    },
+    {
+      "product": "water butt",
+      "type": "large",
+      "cats": "all, large",
+      "name": "Magnum Rain Barrel 350L",
+      "retailer": "Original Organics",
+      "abID": "ab9006029",
+      "storeID": "STRH-HS350BUTT",
+      "description": "Extra large size water butt. To use the full capacity of the water butt, it will need to be raised off the ground."
+    },
+    {
+      "product": "water butt",
+      "type": "small",
+      "cats": "all, small",
+      "name": "Black Slimline Water Butt 100L",
+      "retailer": "Original Organics",
+      "abID": "ab9006030",
+      "storeID": "STA-GN334BLK",
+      "description": "Slimline water butt for capturing water where space is constrained. Please note a water butt stand needs to be purchased separately."
+    },
+    {
+      "product": "water butt",
+      "type": "small",
+      "cats": "all, small",
+      "name": "Harcostar 114L Barrel",
+      "retailer": "Original Organics",
+      "abID": "ab9006031",
+      "storeID": "STRH-HS114BUTT",
+      "description": "Made in the UK from recycled plastic. Includes tap and child safe lid. Please note a water butt stand needs to be purchased separately."
+    },
+    {
+      "product": "water butt",
+      "type": "small",
+      "cats": "all, small",
+      "name": "Black Slimline Water Butt 250L",
+      "retailer": "Original Organics",
+      "abID": "ab9006032",
+      "storeID": "STA-GN340BLK",
+      "description": "A standard size water butt with a slim (but tall) profile, ideal for where space is limited. Please note a water butt stand needs to be purchased separately."
+    }
+   ]

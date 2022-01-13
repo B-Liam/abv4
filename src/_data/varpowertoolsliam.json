@@ -192,7 +192,7 @@
     {
       "product": "lawnmower",
       "type": "greenworks",
-      "cats": "all, greenworks, featured",
+      "cats": "all, greenworks",
       "name": "Greenworks G40LM41K2X 40v 40cm (4 Ah kit)",
       "retailer": "Lawnmowers-UK",
       "abID": "ab9005019",
@@ -212,7 +212,7 @@
     {
       "product": "lawnmower",
       "type": "greenworks",
-      "cats": "all, greenworks",
+      "cats": "all, greenworks,featured",
       "name": "Greenworks G40LM41K2X 40v 40cm (4 Ah kit)",
       "retailer": "Lawnmowers-UK",
       "abID": "ab9005021",
@@ -358,5 +358,135 @@
       "abID": "ab9005035",
       "storeID": "STRMA448TC",
       "description": "The largest mower in the range and self-propelled. Supplied without a battery of charger (allowing you to choose the size of battery that matches the size of your garden). Relatively quiet for a mower. 46 cm cutting width. Selection of cutting heights."
+    },
+    {
+      "product": "trimmer",
+      "type": "mountfield",
+      "cats": "all, mountfield",
+      "name": "Mountfield MTR 20 LI 20v (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005036",
+      "storeID": "MO271102203/MUK",
+      "description": "Battery and charger sold separately (recommended 2 Ah battery provides 20 mins runtime). Motor speed 8000 rpm. Line diameter 1.6 mm. Cutting width 30 cm. Weight 3.4 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "mountfield",
+      "cats": "all, mountfield",
+      "name": "Mountfield MBC 50 LI 48v (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005037",
+      "storeID": "MO278200003/M21",
+      "description": "Battery and charger sold separately (recommended 4 Ah battery provides 30 mins runtime ). Motor speed 8000 rpm. Line diameter 1.6 mm. Cutting width 30 cm. Weight 4 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "ego",
+      "cats": "all, ego, featured",
+      "name": "EGO Power + BCX3800 (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005038",
+      "storeID": "EGBCX3800",
+      "description": "Battery and charger sold separately (recommended 28 Ah battery for long running times). Robust design for the trade. Line trimmer and brush cutter head included, plus option of rotocut. Motor speed 6000 rpm. Line diameter 2.4 - 3.00 mm. Cutting width 30 cm. Weight 6.5 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks GD60LT 60v (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005039",
+      "storeID": "GWGD60LT",
+      "description": "Battery and charger sold separately ( 2 Ah or 4 Ah batteries available shared with other Greenworks tools). 2 Ah battery provides approx. 20 mins running time. Line diameter 2 mm. Cutting width 35 cm. Weight 3.5 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "stiga",
+      "cats": "all, stiga, featured",
+      "name": "Stiga SBC 700 AE 700 (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005040",
+      "storeID": "MOS277200008/ST1",
+      "description": "Battery and charger sold separately (4 Ah battery provides 30 -60 mins runtime depending on cutting conditions). Can cut through high and wet grass. Motor speed 6000 rpm. Line diameter 2 mm. Cutting width 38 cm. Weight 4.7 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "stiga",
+      "cats": "all, stiga",
+      "name": "Stiga SBC 700 D AE 700 (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005041",
+      "storeID": "MOS277210008/ST1",
+      "description": "Battery and charger sold separately (4 Ah battery provides 30 -60 mins runtime depending on cutting conditions). Bike handle design. Can cut through high and wet grass. Motor speed 6000 rpm. Line diameter 2 mm. Cutting width 38 cm. Weight 5.5 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "toro",
+      "cats": "all, toro, featured",
+      "name": "Toro Flex-Force 60v 51835T (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005042",
+      "storeID": "TO51835T",
+      "description": "Battery and charger sold separately ( 2.5 Ah and 7.5 Ah batteries available). Takes different size line to adjust for what needs cutting, allowing the tackling of tough jobs. Line diameter 2 mm or 2.4 mm. Cutting width 30.6 cm or 40.6 cm. Weight 3.2 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "ego",
+      "cats": "all, ego",
+      "name": "EGO Power + BC3800E (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005043",
+      "storeID": "EGBC3800E",
+      "description": "Battery and charger sold separately (2 Ah and 7.5 Ah batteries for 30 - 60 mins runtime). Includes both brush cutter and line trimmer heads suitable for most domestic jobs. Line diameter 2.4 mm. Cutting width 38 cm line or 30 cm blade. Weight 3.4 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40LT 40v (tool onnly)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005044",
+      "storeID": "GWG40LT",
+      "description": "Battery and charger sold separately (2 Ah battery for 24 mins runtime). Entry level trimmer suitable for domestic applications like trimming lawn edges. Lightweight design. Motor speed 7000 rpm. Line diameter 1.6 mm. Cutting width 30 cm. Weight 2.75 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "greenworks",
+      "cats": "all, greenworks, featured",
+      "name": "Greenworks G40LTK2 40v",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005045",
+      "storeID": "GWG40LTK2",
+      "description": "Comes with 2 Ah battery and charger. Entry level trimmer suitable for domestic applications like trimming lawn edges. Lightweight design. Motor speed 7000 rpm. Line diameter 1.6 mm. Cutting width 30 cm. Weight 2.75 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40BC 40v (tool only)",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005046",
+      "storeID": "GWGD40BC",
+      "description": "Battery and charger sold separately (2 Ah battery for 24 mins runtime). Provides the option of a line cutter (for lawn grass) and a brush cutter blade (for thicker grass). Line diameter 2 mm. Cutting width 40 cm (line) or 25 cm (blade). Weight 5.5 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "greenworks",
+      "cats": "all, greenworks",
+      "name": "Greenworks G40BC 40v",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005047",
+      "storeID": "GWGD40BCK2",
+      "description": "Comes with 2 Ah battery and charger (2 Ah battery for 24 mins runtime). Provides the option of a line cutter (for lawn grass) and a brush cutter blade (for thicker grass). Line diameter 2 mm. Cutting width 40 cm (line) or 25 cm (blade). Weight 5.5 kg."
+    },
+    {
+      "product": "trimmer",
+      "type": "hyundai",
+      "cats": "all, hyundai",
+      "name": "Hyundai HYTR60Li 60v",
+      "retailer": "Lawnmowers-UK",
+      "abID": "ab9005048",
+      "storeID": "HYTR60Li",
+      "description": "Comes with 2.5 Ah battery and charger, 40 mins cutting time (approx). Designed for small to medium gardens. Motor speed 6300-8000. Line type 1.6 mm. Weight 4 kg."
     }
    ]

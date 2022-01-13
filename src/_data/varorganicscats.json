@@ -1,0 +1,82 @@
+{
+    "hotcomposters": 
+                        {
+                        "namesingular": "hot composter",
+                        "nameplural": "hot composters",
+                        "name": "hot composters",
+                        "cats": [
+                                    {
+                                        "vegtype": "all"
+                                    }, 
+                                    {
+                                        "vegtype": "featured"
+                                    }, 
+                                    {
+                                        "vegtype": "aerobin"
+                                    },
+                                    {
+                                        "vegtype": "graf"
+                                    },
+                                    {
+                                        "vegtype": "green johanna"
+                                    },
+                                    {
+                                        "vegtype": "thermo star"
+                                    }
+                                ]
+    },
+    "raisedbeds": 
+                        {
+                        "namesingular": "raised bed",
+                        "nameplural": "raised beds",
+                        "name": "raised beds",
+                        "cats": [
+                                    {
+                                        "vegtype": "all"
+                                    },  
+                                    {
+                                        "vegtype": "15cm"
+                                    },
+                                    {
+                                        "vegtype": "30cm"
+                                    },
+                                    {
+                                        "vegtype": "45cm"
+                                    },
+                                    {
+                                        "vegtype": "tiered"
+                                    }
+                                ]
+    },
+    "growhouses": 
+                        {
+                        "namesingular": "growhouse",
+                        "nameplural": "growhouses",
+                        "name": "growhouses",
+                        "cats": [
+                                    {
+                                        "vegtype": "all"
+                                    }
+                                ]
+    },
+    "waterbutts": 
+                        {
+                        "namesingular": "water butt",
+                        "nameplural": "water butts",
+                        "name": "water butts",
+                        "cats": [
+                                    {
+                                        "vegtype": "all"
+                                    },
+                                    {
+                                        "vegtype": "standard"
+                                    },
+                                    {
+                                        "vegtype": "small"
+                                    },
+                                    {
+                                        "vegtype": "large"
+                                    }
+                                ]
+    }                 
+}

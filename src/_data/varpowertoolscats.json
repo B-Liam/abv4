@@ -1,4 +1,36 @@
 {
+    "trimmers": 
+                        {
+                        "namesingular": "trimmer",
+                        "nameplural": "trimmers",
+                        "name": "cordless trimmers",
+                        "cats": [
+                                    {
+                                        "vegtype": "all"
+                                    }, 
+                                    {
+                                        "vegtype": "featured"
+                                    }, 
+                                    {
+                                        "vegtype": "ego"
+                                    },
+                                    {
+                                        "vegtype": "greenworks"
+                                    },
+                                    {
+                                        "vegtype": "hyundai"
+                                    },
+                                    {
+                                        "vegtype": "mountfield"
+                                    },
+                                    {
+                                        "vegtype": "stiga"
+                                    },
+                                    {
+                                        "vegtype": "toro"
+                                    }
+                                ]
+    },
     "lawnmowers": 
                         {
                         "namesingular": "lawnmower",
@@ -30,6 +62,6 @@
                                         "vegtype": "stiga"
                                     }
                                 ]
-                        }
+    }
                     
 }

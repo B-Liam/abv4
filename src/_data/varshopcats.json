@@ -22,11 +22,46 @@
         "link": "/shop/herbs/"
       },
       {
+        "shopcat": "raisedbeds",
+        "text": "Raised Beds",
+        "image": "/images/uploads/raised-bed.jpg",
+        "alt": "",
+        "link": "/shop/raised-beds/all"
+      },
+      {
+        "shopcat": "growhouses",
+        "text": "Growhouses",
+        "image": "/images/uploads/growhouse.jpg",
+        "alt": "",
+        "link": "/shop/growhouses/all"
+      },
+      {
+        "shopcat": "waterbutts",
+        "text": "Water Butts",
+        "image": "/images/uploads/water-butt.jpg",
+        "alt": "",
+        "link": "/shop/water-butts/all"
+      },
+      {
+        "shopcat": "hotcomposters",
+        "text": "Hot Composters",
+        "image": "/images/uploads/hot-composting.jpg",
+        "alt": "",
+        "link": "/shop/hot-composters/all"
+      },
+      {
         "shopcat": "lawnmowers",
         "text": "Cordless Lawnmowers",
         "image": "/images/uploads/cordless-lawnmower-at-allotment.jpg",
         "alt": "",
         "link": "/shop/lawnmowers/all"
+      },
+      {
+        "shopcat": "trimmers",
+        "text": "Cordless Trimmers",
+        "image": "/images/uploads/cordless-trimmer-at-allotment.jpg",
+        "alt": "",
+        "link": "/shop/trimmers/all"
       }
      ]
 }
