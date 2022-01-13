@@ -79,12 +79,13 @@ function initialise(pages, containerid, templateid) {
  const template = document.querySelector(templateid);
 
  pages.forEach((photo) => {
+     let slugTitle = convertToSlug(photo.title)
      const element = template.content.cloneNode(true);
      const image = element.querySelector('img');
      image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_150,h_150,q_auto,f_auto/${photo.image}`;
      image.alt = photo.title;
      element.getElementById('gallery-title').innerHTML = photo.title;
-     element.getElementById('gallery-link').href = `photo-gallery/${photo.title}-${photo.date}`;
+     element.getElementById('gallery-link').href = `photo-gallery/${slugTitle}-${photo.date}`;
      container.appendChild(element);
  });
 }
@@ -96,6 +97,16 @@ function createImage(src) {
  return (
      `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}" />`
  )
+}
+
+//convert text to a slug to use in a url
+function convertToSlug(text)
+{
+    return text
+        .toLowerCase()
+        .replace(/ /g,'-')
+        .replace(/[^\w-]+/g,'')
+        ;
 }
 
 </script>
