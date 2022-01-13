@@ -40,6 +40,14 @@ module.exports = function(eleventyConfig) {
         }
         return interim;
       });
+      eleventyConfig.addFilter("getPhotos", function(arr,number) {
+        let interim = [];
+        for (let i = 0 ; i < number ; i++ ) {
+            let interimObject = { "title": arr[i].name, "image": arr[i].photos[0].url, "date": arr[i].date }
+            interim.push(interimObject)
+            }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

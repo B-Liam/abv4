@@ -30,7 +30,7 @@ layout: /layouts/pagetemplate.njk
                         <div id="list-container">
                         
                         {% for item in gallery %}
-                            <div><a href="/photo-gallery/{{ item.nameplural | slug }}/index.html">{{ item.nameplural | title }} Gallery</a></div>                           
+                            <div><a href="/photo-gallery/{{ item.name | slug }}-{{ item.date }}/index.html">{{ item.name | title }} Gallery</a></div>                           
                         {% endfor %}                 
 
                         
