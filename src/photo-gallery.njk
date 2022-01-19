@@ -27,13 +27,63 @@ layout: /layouts/pagetemplate.njk
 
                         <h1>Photo Galleries</h1>
 
-                        <div id="list-container">
-                        
-                        {% for item in gallery %}
-                            <div><a href="/photo-gallery/{{ item.name | slug }}-{{ item.date }}/index.html">{{ item.name | title }} Gallery</a></div>                           
-                        {% endfor %}                 
+                        <div >
+                            <div style="display:flex;flex-wrap:wrap;justify-content:center" class="gallery-container"></div>
+                        </div>
+                                
+                                <template id="gallery-template">
+                                <div style="margin: 10px">
+                                    <a id="gallery-link" href=""><img src="" alt=""/>
+                                    <div style="text-align:center; text-transform:capitalize" id="gallery-title"></div></a>
+                                </div>
+
+                                </template>
 
                         
-                    </div> 
                 </main>
             </div>
+
+<script>
+
+//gets all the information for the latest photos, the number in the argument is the number of galleries to return
+let latestPhotos = JSON.parse(`{{ gallery | getPhotos(10) | dump | safe }}`);
+console.log(latestPhotos);
+
+//this creates the photo gallery links
+function initialise(pages, containerid, templateid) {
+ 
+ const container = document.querySelector(containerid);
+ const template = document.querySelector(templateid);
+
+ pages.forEach((photo) => {
+     let slugTitle = convertToSlug(photo.title)
+     const element = template.content.cloneNode(true);
+     const image = element.querySelector('img');
+     image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_150,h_150,q_auto,f_auto/${photo.image}`;
+     image.alt = photo.title;
+     element.getElementById('gallery-title').innerHTML = photo.title;
+     element.getElementById('gallery-link').href = `/photo-gallery/${slugTitle}-${photo.date}`;
+     container.appendChild(element);
+ });
+}
+
+initialise(latestPhotos,".gallery-container",'#gallery-template');
+
+
+function createImage(src) {
+ return (
+     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}" />`
+ )
+}
+
+//convert text to a slug to use in a url
+function convertToSlug(text)
+{
+    return text
+        .toLowerCase()
+        .replace(/ /g,'-')
+        .replace(/[^\w-]+/g,'')
+        ;
+}
+
+</script>

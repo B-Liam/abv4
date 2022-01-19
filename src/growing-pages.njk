@@ -13,7 +13,7 @@ eleventyComputed:
 ---
 
      <div id="sidebar">
-             a sidebar for a page
+             
         </div>
     
         <div id="main-column">
@@ -53,16 +53,16 @@ eleventyComputed:
 
                             <div id="introduction"></div>
 
-                            <div id="plant-harvest-container" style="display: flex;flex-wrap:wrap">
+                            <div style="padding-bottom:2px" id="plant-harvest-container" ">
                             
-                                <div id="plant-head" style="width:320px; text-align: left">
+                                <div id="plant-head" style="">
 
                                     <h4>Planting</h4>
                                     <div id="planting"></div>
 
                                 </div>
 
-                                <div id="harvest-head" style="width: 320px">
+                                <div id="harvest-head" style="">
 
                                     <h4>Harvesting</h4>
                                     <div id="harvesting"></div>
@@ -147,7 +147,7 @@ eleventyComputed:
 
                             <div id="varieties"></div>
 
-                            <p>See varieties in the <a href="/shop/{{ pagedata.content.title | slug }}/all">allotment shop</a>.</p>
+                            <p>See varieties in the <a href="/shop/{{ pagedata.content.shop_link }}">allotment shop</a>.</p>
 
                             <h2 id="title" style="margin-bottom:10px">Growing</h2>
 
@@ -161,7 +161,7 @@ eleventyComputed:
                                 
                                 <div style="padding-bottom:20px">
 
-                                    <img id="gallery-image" src="" alt="" />
+                                    <img style="max-width:400px" id="gallery-image" src="" alt="" />
 
                                     <div style="text-align:center" id="gallery-link"></div>
 
@@ -198,6 +198,7 @@ eleventyComputed:
 <script>
 
 //this is the script that populates the content into the markedup div
+
 let varieties = `{{ pagedata.content.varieties }}`;
 let introText = `{{ pagedata.content.introduction }}`;
 let plantingText = `{{ pagedata.content.planting }}`;
@@ -223,6 +224,8 @@ let harvestTime = {{ factsharvest | dump | safe }}.filter(function(item){
 let storeMethod = {{ factsstore | dump | safe }}.filter(function(item){
     return item.plant == grabName;
 });
+
+console.log(storeMethod);
 
 function generatePlantIndoors() {
     if (plantIndoors[0].january == "y" ) {
@@ -439,7 +442,7 @@ function generateStore() {
         document.getElementById("row11-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].november == "jar" ) {
-        document.getElementById("ro11-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row11-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
     }
     if (storeMethod[0].november == "store" ) {
         document.getElementById("row11-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -550,7 +553,7 @@ function makeLink(title,slug) {
 
 //this code gets the gallery photos for the vegetable
 let vegPhotos = {{ gallery | dump | safe }}.filter(function(item){
-return item.nameplural == grabName;
+return item.name == grabName;
 });
 
 function initialise(containerid, templateid, divid) {
@@ -561,7 +564,7 @@ function initialise(containerid, templateid, divid) {
 for ( let i = 0 ; i < vegPhotos[0].photos.length ; i++ ) {
     const element = template.content.cloneNode(true);
     const image = element.querySelector('img');
-    image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_300,h_300,c_scale,q_auto,f_auto/${vegPhotos[0].photos[i].url}`;
+    image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,c_scale,q_auto,f_auto/${vegPhotos[0].photos[i].url}`;
     image.alt = vegPhotos[0].photos[i].alt;
     element.getElementById(divid).innerHTML = vegPhotos[0].photos[i].alt;
     container.appendChild(element);
