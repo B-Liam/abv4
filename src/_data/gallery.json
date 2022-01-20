@@ -376,6 +376,140 @@
         ]
     },
     {
+        "name": "pumpkins",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642666393/vegetables/pumpkin-patch-in-november_cspsoi.jpg", "alt": "pumpkin patch"},
+        {"url": "v1642666393/vegetables/large-pumpkin-ready-for-harvesting_wyfvu4.jpg", "alt": "large pumpkin ready for harvest"},
+        {"url": "v1642666393/vegetables/large-harvested-pumpkin_gms1pr.jpg", "alt": "pumpkin next to size 11 boot"},
+        {"url": "v1642666393/vegetables/harvested-pumpkin_hxwwjv.jpg", "alt": "harvested carving pumpkin"}
+        ]
+    },
+    {
+        "name": "radish",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642673604/vegetables/radish-seed_loutsg.jpg", "alt": "radish seed"},
+        {"url": "v1642673604/vegetables/radish-around-pot-edge_ea4y4n.jpg", "alt": "radish planted around pot edge"},
+        {"url": "v1642673604/vegetables/maturing-radish-plant_yxwycz.jpg", "alt": "maturing radish plant"},
+        {"url": "v1642673604/vegetables/freshly-picked-summer-radish_ymttjt.jpg", "alt": "freshly picked summer radish"},
+        {"url": "v1642673604/vegetables/long-summer-radish_kluxk4.jpg", "alt": "long summer radish"},
+        {"url": "v1642673604/vegetables/freshly-picked-radish_wgbx2e.jpg", "alt": "freshly picked winter radish"}
+        ]
+    },
+    {
+        "name": "rocket",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642674989/vegetables/rocket-seedlings_nhtnrp.jpg", "alt": "rocket seedlings"},
+        {"url": "v1642674989/vegetables/rocket-growing_ngrhum.jpg", "alt": "rocket growing"},
+        {"url": "v1642674989/vegetables/rocket-ready-for-picking_w73afi.jpg", "alt": "rocket ready for picking"},
+        {"url": "v1642674989/vegetables/freshly-picked-rocket_gh1isa.jpg", "alt": "freshly picked rocket"}
+        ]
+    },
+    {
+        "name": "salsify scorzonera",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642676122/vegetables/freshly_picked_salsify_pfijou.jpg", "alt": "freshly picked salsify"}
+        ]
+    },
+    {
+        "name": "shallots",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642676932/vegetables/shallot-seedling_hegod8.jpg", "alt": "shallot seedling"},
+        {"url": "v1642676932/vegetables/shallots-growing_y9jbj9.jpg", "alt": "shallots growing"},
+        {"url": "v1642676932/vegetables/shallots-maturing_rqvqmc.jpg", "alt": "shallots maturing"},
+        {"url": "v1642676932/vegetables/shallots-ready-for-harvest_frupsh.jpg", "alt": "shallots ready for harvest"},
+        {"url": "v1642676932/vegetables/freshly-picked-shallots_olejvm.jpg", "alt": "cleaned and trimmed shallots"},
+        {"url": "v1642676932/vegetables/shallots-prepared-for-show_at4eej.jpg", "alt": "shallots prepared for show"}
+        ]
+    },
+    {
+        "name": "spinach",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642678536/vegetables/new-zealand-spinach-seed_r3itnx.jpg", "alt": "New Zealand spinach seed"},
+        {"url": "v1642678536/vegetables/new-zealand-spinach-seedling_ccefyd.jpg", "alt": "New Zealand spinach seedling"},
+        {"url": "v1642678536/vegetables/spinach-leaves-ready-for-picking_umaxxt.jpg", "alt": "spinach leaves ready for picking"},
+        {"url": "v1642678536/vegetables/perpetual-spinach_cjo7gc.jpg", "alt": "perpetual spinach plant"}
+        ]
+    },
+    {
+        "name": "spring onions",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642680066/vegetables/spring-onion-seed_ndmllr.jpg", "alt": "spring onion seed"},
+        {"url": "v1642680066/vegetables/seedlings-after-germination_uo0qiq.jpg", "alt": "spring onion seedlings"},
+        {"url": "v1642680066/vegetables/ready-for-picking_efen8e.jpg", "alt": "ready for picking"},
+        {"url": "v1642680066/vegetables/harvested-spring-onions_xr1zvo.jpg", "alt": "harvested spring onions"}
+        ]
+    },
+    {
+        "name": "squash",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642685042/vegetables/squash-protected-by-cloches_z3xhgl.jpg", "alt": "squash protected by cloches"},
+        {"url": "v1642685042/vegetables/squash-spaced-far-apart_gjk1mi.jpg", "alt": "squash spaced far apart"},
+        {"url": "v1642685043/vegetables/young-squash-plant_ctezgu.jpg", "alt": "young squash plant"},
+        {"url": "v1642685042/vegetables/squash-and-weed-control-fabric_wwrzju.jpg", "alt": "squash and weed control fabric"},
+        {"url": "v1642685042/vegetables/large-squash-plant_qtr7sn.jpg", "alt": "large squash plant"},
+        {"url": "v1642685042/vegetables/mature-squash_hl5yit.jpg", "alt": "mature squash"},
+        {"url": "v1642685042/vegetables/winter-squash_vqr9bq.jpg", "alt": "large winter squash"},
+        {"url": "v1642685042/vegetables/squash-harvest_c2qpqc.jpg", "alt": "summer and winter squash harvest"}
+        ]
+    },
+    {
+        "name": "swedes",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642687042/vegetables/swede-ready-for-picking_agguup.jpg", "alt": "swede ready for harvesting"}
+        ]
+    },
+    {
+        "name": "turnips",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642688154/vegetables/turnip-fready-for-harvesting_m6mdrl.jpg", "alt": "turnip ready for harvesting"}
+        ]
+    },
+    {
+        "name": "tomatoes",
+        "date": "2022-01-19",
+        "introduction": "",
+        "photos": [
+        {"url": "v1642689972/vegetables/germinating-tomatoes_qjnz1l.jpg", "alt": "germinating tomatoes indoors"},
+        {"url": "v1642689973/vegetables/tomato-seedling_xmtzvz.jpg", "alt": "tomato seedling"},
+        {"url": "v1642689973/vegetables/tomatoes-in-a-plastic-greenhouse_lmxdez.jpg", "alt": "tomatoes in a plastic greenhouse"},
+        {"url": "v1642689973/vegetables/hanging-basket-tomato_j67sdh.jpg", "alt": "hanging basket tomato"},
+        {"url": "v1642689973/vegetables/staked-tomato-plant_xacpz6.jpg", "alt": "staked tomato plant"},
+        {"url": "v1642689973/vegetables/supporting-tomatoes_faoz5w.jpg", "alt": "supporting tomato plant"},
+        {"url": "v1642689973/vegetables/growing-tomatoes-up-twine_l5r7w8.jpg", "alt": "growing tomatoes up twine"},
+        {"url": "v1642689973/vegetables/pruning-tomato-side-shoot_mcfp1c.jpg", "alt": "pruning tomato side shoot"},
+        {"url": "v1642689973/vegetables/tomato-flowers_pkkr70.jpg", "alt": "tomato plant flowers"},
+        {"url": "v1642689972/vegetables/flower-growing-tomato_t9zhkb.jpg", "alt": "flower growing tomato"},
+        {"url": "v1642689972/vegetables/green-plum-tomatoes_xtyyt7.jpg", "alt": "green plum tomatoes"},
+        {"url": "v1642689973/vegetables/ripening-cherry-tomatoes_op4okn.jpg", "alt": "ripening cherry tomatoes"},
+        {"url": "v1642689972/vegetables/freshly-picked-tomatoes_gnxofj.jpg", "alt": "freshly picked tomatoes"},
+        {"url": "v1642689973/vegetables/sungold-orange-cherry-tomatoes_sotj0m.jpg", "alt": "sungold cherry tomatoes"},
+        {"url": "v1642689973/vegetables/sweet-million-cherry-tomatoes_gwmjrr.jpg", "alt": "sweet million cherry tomatoes"},
+        {"url": "v1642689972/vegetables/golden-sunrise-tomatoes_gsnoae.jpg", "alt": "golden sunrise tomatoes"},
+        {"url": "v1642689973/vegetables/tomatoes-prepared-for-show_tssovq.jpg", "alt": "chocolate cherry tomatoes"},
+        {"url": "v1642689972/vegetables/gardeners-delight-tomato_qmbxb5.jpg", "alt": "gardeners delight tomato"}
+        ]
+    },
+    {
         "name": "spare",
         "date": "2022-01-19",
         "introduction": "",

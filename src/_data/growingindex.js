@@ -1,13 +1,7 @@
-const axios = require('axios').default;
-require('dotenv').config();
+const allGrowingPages =  require('./growingpages.json');
 
-let time = null;
 let newIndex = [];
 let page = null;
-
-function getTime() {
- time = Date.now()
-}
 
 function buildIndex() {
     for ( i = 0 ; i < page.length ; i++) {
@@ -18,17 +12,10 @@ function buildIndex() {
 
 module.exports = async function() {
 
-  await getTime();
-
-  try {
-    const response = await axios.get(`https://api.storyblok.com/v1/cdn/stories/?token=${process.env.STORYBLOK_KEY}&per_page=100&starts_with=vegetables&cv=${time}`);
-    page = response.data.stories;
+    page = allGrowingPages.stories;
 
     buildIndex();
 
     return newIndex
 
-  } catch (error) {
-    console.error(error);
-  }
 };

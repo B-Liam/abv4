@@ -48,6 +48,16 @@ module.exports = function(eleventyConfig) {
             }
         return interim;
       });
+      eleventyConfig.addFilter("getContentPages", function(arr,cat) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if (arr[i].content.category == cat ) {
+                let interimObject = { title: arr[i].content.title, slug: arr[i].slug, order: arr[i].content.order, category: arr[i].content.category, image: arr[i].content.lead_image.filename }
+                interim.push( interimObject );
+            }
+        }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

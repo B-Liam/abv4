@@ -70,8 +70,9 @@ function makeButton(title,slug) {
 };
 
 //different variables used for arrays to store the links to the different sections
+let testGrowingPages = {}
 let pagesArray = {{ pagesstoryindex | dump | safe }};
-let vegArray = {{ vegstoryindex | dump | safe }};
+let growingPagesArray = {{ growingindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];
 let starterPages = [];
@@ -82,7 +83,7 @@ console.log(fruitPages);
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...vegArray];
+    let interimArray = [...pagesArray,...growingPagesArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
