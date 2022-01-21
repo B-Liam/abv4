@@ -145,14 +145,16 @@ removeDiv("notes", notesText)
 
 //this is the script that generates the previous and next buttons
 let pagesArray = {{ pagesstoryindex | dump | safe }};
-let vegArray = {{ vegstoryindex | dump | safe }};
+let vegPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("vegetable") | dump | safe }}`);
+let fruitPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("fruit") | dump | safe }}`);
+let herbPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("herb") | dump | safe }}`);
 let allPagesSorted = [];
 let recipeArray = {{ recipestoryindex | dump | safe }};
 let grabTitle = document.getElementById("title").innerHTML;
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...vegArray,...recipeArray];
+    let interimArray = [...pagesArray,...vegPagesArray,...fruitPagesArray,...herbPagesArray,...recipeArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
@@ -182,6 +184,7 @@ function findNext() {
     }
 }
 findNext();
+
 
 function findPrevious() {
     if ( pageIndexNumber !== 0 ) {

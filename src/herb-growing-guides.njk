@@ -71,7 +71,7 @@ function makeButton(title,slug) {
 
 //different variables used for arrays to store the links to the different sections
 let pagesArray = {{ pagesstoryindex | dump | safe }};
-let growingPagesArray = {{ growingindex | dump | safe }};
+let growingPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("herb") | dump | safe }}`);;
 let recipeArray = {{ recipestoryindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];

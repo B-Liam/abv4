@@ -147,7 +147,7 @@ layout: /layouts/pagetemplate.njk
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Treat Recipes</h4>
+                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Treats Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="treats-container"></div>
 
@@ -182,6 +182,8 @@ function makeButton(title,slug) {
 //different variables used for arrays to store the links to the different sections
 let pagesArray = {{ pagesstoryindex | dump | safe }};
 let vegPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("vegetable") | dump | safe }}`);
+let fruitPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("fruit") | dump | safe }}`);
+let herbPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("herb") | dump | safe }}`);
 let recipeArray = {{ recipestoryindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];
@@ -197,7 +199,7 @@ let treatRecipes = [];
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...vegPagesArray,...recipeArray];
+    let interimArray = [...pagesArray,...vegPagesArray,...fruitPagesArray,...herbPagesArray,...recipeArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
