@@ -70,9 +70,12 @@ function makeButton(title,slug) {
 };
 
 //different variables used for arrays to store the links to the different sections
-let testGrowingPages = {}
-let pagesArray = {{ pagesstoryindex | dump | safe }};
-let growingPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("fruit") | dump | safe }}`);
+let introPagesArray = JSON.parse(`{{ pagesstoryblok.page | getContentPages("introduction") | dump | safe }}`);
+let startPagesArray = JSON.parse(`{{ pagesstoryblok.page | getContentPages("starter") | dump | safe }}`);
+let vegPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("vegetable") | dump | safe }}`);
+let fruitPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("fruit") | dump | safe }}`);
+let herbPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("herb") | dump | safe }}`);
+let recipeArray = {{ recipestoryindex | dump | safe }};
 let allPagesSorted = [];
 let introPages = [];
 let starterPages = [];
@@ -83,7 +86,7 @@ console.log(fruitPages);
 
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
-    let interimArray = [...pagesArray,...growingPagesArray];
+    let interimArray = [...introPagesArray,...startPagesArray,...vegPagesArray,...fruitPagesArray,...herbPagesArray,...recipeArray];
     allPagesSorted = interimArray.sort (function (a,b) {
      return a.order - b.order
 })
