@@ -14,7 +14,7 @@ eleventyComputed:
 {% set addition = 1 %}
         
         <div id="sidebar">
-            a new side
+            
         </div>
     
         <div id="main-column">
@@ -54,9 +54,9 @@ eleventyComputed:
 
                             <div id="outdoor-container" style="display:flex; flex-wrap: wrap;margin-bottom:2rem">
 
-                                        <div style="width:180px">
+                                        <div style="width:50%">
 
-                                            <h4 style="margin-top:15px; margin-bottom:10px">Vegetables</h4>
+                                            <h4 style="margin-top:15px; margin-bottom:10px;padding-right:30px">Vegetables</h4>
 
                                             <div style="" id="outdoor-vegetables">None suggested</div>
 
@@ -72,7 +72,7 @@ eleventyComputed:
 
                                         </div>
 
-                                        <div style="width:180px">
+                                        <div style="width:50%">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Fruit</h4>
 
@@ -90,9 +90,9 @@ eleventyComputed:
 
                                         </div>
 
-                                    <div style="width:180px">
+                                    <div style="width:50%">
 
-                                        <h4 style="margin-top:15px; margin-bottom:10px">Herbs</h4>
+                                        <h4 style="margin-top:30px; margin-bottom:10px">Herbs</h4>
 
                                         <div style="" id="outdoor-herbs">None suggested</div>
 
@@ -118,7 +118,7 @@ eleventyComputed:
 
                             <div id="indoor-container" style="display:flex; flex-wrap: wrap;margin-bottom:2rem">
 
-                                        <div style="width:180px">
+                                        <div style="width:50%">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Vegetables</h4>
 
@@ -136,7 +136,7 @@ eleventyComputed:
 
                                         </div>
 
-                                        <div style="width:180px">
+                                        <div style="width:50%">
 
                                             <h4 style="margin-top:15px; margin-bottom:10px">Fruit</h4>
 
@@ -154,9 +154,9 @@ eleventyComputed:
 
                                         </div>
 
-                                    <div style="width:180px">
+                                    <div style="width:50%">
 
-                                        <h4 style="margin-top:15px; margin-bottom:10px">Herbs</h4>
+                                        <h4 style="margin-top:30px; margin-bottom:10px">Herbs</h4>
 
                                         <div style="" id="indoor-herbs">None suggested</div>
 
@@ -196,6 +196,10 @@ let month = `{{pagedata.month}}`;
 //I have created a custom filter in .eleventy.js called getPlants, this contains a function that filters the data 
 let indoorMonthData = JSON.parse(`{{ factsplantindoor | getPlants(pagedata.month) | dump | safe }}`);
 let outdoorMonthData = JSON.parse(`{{ factsplantoutdoor | getPlants(pagedata.month) | dump | safe }}`);
+
+//function to sort the indoor and outdoor variables in alphabetical order
+indoorMonthData.sort ((a, b) => (a.plant > b.plant) ? 1 : -1);
+outdoorMonthData.sort ((a, b) => (a.plant > b.plant) ? 1 : -1);
 
 //check for empty data, and show 'none suggested' on the page if empty
 function checkEmpty(data, cat, divname) {

@@ -12,7 +12,7 @@ eleventyComputed:
 ---
        
         <div id="sidebar">
-            a new side
+         
         </div>
     
         <div id="main-column">
@@ -194,6 +194,11 @@ let month = `{{pagedata.month}}`;
 //I have created a custom filter in .eleventy.js called getPlants, this contains a function that filters the data 
 let freshMonthData = JSON.parse(`{{ factsharvest | getPlants(pagedata.month) | dump | safe }}`);
 let storedMonthData = JSON.parse(`{{ factsstore | getPlants(pagedata.month) | dump | safe }}`);
+
+//function to sort the fresh and stored variables in alphabetical order
+freshMonthData.sort ((a, b) => (a.plant > b.plant) ? 1 : -1);
+storedMonthData.sort ((a, b) => (a.plant > b.plant) ? 1 : -1);
+
 
 //check for empty data, and show 'none suggested' on the page if empty
 function checkEmpty(data, cat, divname) {
