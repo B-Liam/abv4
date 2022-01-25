@@ -225,8 +225,6 @@ let storeMethod = {{ factsstore | dump | safe }}.filter(function(item){
     return item.plant == grabName;
 });
 
-console.log(storeMethod);
-
 function generatePlantIndoors() {
     if (plantIndoors[0].january == "y" ) {
         document.getElementById("row1-sow-in").innerHTML = `<i class="fas fa-check-circle"></i>`;

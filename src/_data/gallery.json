@@ -737,22 +737,102 @@
         {"url": "v1643046246/fruit/ripe-pears_mvden2.jpg", "alt": "pears hanging on a branch"},
         {"url": "v1643046246/fruit/freshly-picked-pears_enexos.jpg", "alt": "freshly picked pears"},
         {"url": "v1643046246/fruit/pigeon-eating-pear_f3xrfs.jpg", "alt": "pigeon eating pear"},
-        {"url": "v1643046246/fruit/ripe-pear_o3rmum.jpg", "alt": "ripe pear"},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""},
-        {"url": "", "alt": ""}
+        {"url": "v1643046246/fruit/ripe-pear_o3rmum.jpg", "alt": "ripe pear"}
+        ]
+    },
+    {
+        "name": "plums",
+        "date": "2022-01-24",
+        "introduction": "",
+        "photos": [
+        {"url": "v1643101255/fruit/plum-blossom_spbrsf.jpg", "alt": "plum tree blossom"},
+        {"url": "v1643101255/fruit/green-immature-plums_ubvhkj.jpg", "alt": "green immature plums"},
+        {"url": "v1643101255/fruit/plums-ripening-on-tree_or9ueh.jpg", "alt": "plums ripening on tree"},
+        {"url": "v1643101255/fruit/ripe-plums-on-tree_doetfb.jpg", "alt": "ripe plums on tree"},
+        {"url": "v1643101255/fruit/ripe-green-gage_hay17o.jpg", "alt": "ripe green gage"},
+        {"url": "v1643101255/fruit/freshly-picked-green-gages_hxfcgm.jpg", "alt": "freshly picked green gages"}
+        ]
+    },
+    {
+        "name": "raspberries",
+        "date": "2022-01-24",
+        "introduction": "",
+        "photos": [
+        {"url": "v1643103427/fruit/horizontal-roots-of-raspberries_fyc3v0.jpg", "alt": "horizontal roots of raspberries"},
+        {"url": "v1643103427/fruit/preparing-raspberry-bed_bwosqa.jpg", "alt": "preparing raspberry bed"},
+        {"url": "v1643103427/fruit/spacing-raspberry-canes_ujdavz.jpg", "alt": "spacing raspberry canes"},
+        {"url": "v1643103427/fruit/wire-supports-for-raspberries_wmfslo.jpg", "alt": "wire supports for raspberries"},
+        {"url": "v1643103427/fruit/tying-up-raspberry-canes_vkymsc.jpg", "alt": "tying up raspberry canes"},
+        {"url": "v1643103427/fruit/mulch-for-raspberries_xytnne.jpg", "alt": "mulch for raspberries"},
+        {"url": "v1643103427/fruit/raspberry-canes-in-spring_ohj2hf.jpg", "alt": "raspberry canes in spring"},
+        {"url": "v1643103427/fruit/protective-net-for-raspberries_vyyoto.jpg", "alt": "protective net for raspberries"},
+        {"url": "v1643103427/fruit/ripe-raspberry_jxygt9.jpg", "alt": "ripe raspberry"},
+        {"url": "v1643103427/fruit/pruning-old-raspberry-cane_n546u2.jpg", "alt": "pruning out old fruited raspberry cane"}
+        ]
+    },
+    {
+        "name": "rhubarb",
+        "date": "2022-01-25",
+        "introduction": "",
+        "photos": [
+        {"url": "v1643106509/fruit/rhubarb-crown_paxqe4.jpg", "alt": "divided rhubarb crown"},
+        {"url": "v1643106508/fruit/freshly-planted-rhubarb-crown_gbmkau.jpg", "alt": "newly planted rhubarb crown"},
+        {"url": "v1643106508/fruit/rhubarb-crown-establishing-in-first-year_sjms2y.jpg", "alt": "rhubarb plant establishing in first year"},
+        {"url": "v1643106508/fruit/big-rhubarb-plant_f5gkrf.jpg", "alt": "fully grown rhubarb plant"},
+        {"url": "v1643106509/fruit/rhubarb-mulch_vjifkp.jpg", "alt": "mulch for rhubarb"},
+        {"url": "v1643106509/fruit/rhubarb-emerging-in-winter_flzk5d.jpg", "alt": "rhubarb emergin in winter"},
+        {"url": "v1643106508/fruit/forcing-rhubarb_ffujb2.jpg", "alt": "forcing rhubarb"},
+        {"url": "v1643106508/fruit/pulled-off-rhubarb-stems_hsyjbz.jpg", "alt": "freshly pulled (not cut) rhubarb"},
+        {"url": "v1643106508/fruit/long-rhubarb-stems_k24shy.jpg", "alt": "long rhubarb stems"},
+        {"url": "v1643106509/fruit/rhubarb-harvest_gbbtzf.jpg", "alt": "rhubarb harvest"}
+        ]
+    },
+    {
+        "name": "strawberries",
+        "date": "2022-01-25",
+        "introduction": "",
+        "photos": [
+        {"url": "v1643119479/fruit/enriching-strawberry-bed-before-planting_f5z7on.jpg", "alt": "enriching strawbery bed before planting"},
+        {"url": "v1643119479/fruit/rows-of-strawberries_mv5cig.jpg", "alt": "rows of strawberries"},
+        {"url": "v1643119479/fruit/strawberries-plants-surrounded-by-straw_sykka8.jpg", "alt": "strawberries in a raised bed"},
+        {"url": "v1643119479/fruit/container-grown-strawberry-plants_byy33i.jpg", "alt": "container grown strawberries"},
+        {"url": "v1643119479/fruit/strawberry-plants-in-flower_qq56vw.jpg", "alt": "strawberry plants in flower"},
+        {"url": "v1643119479/fruit/strawberry-flowers_ymknsb.jpg", "alt": "strawberry flowers"},
+        {"url": "v1643119479/fruit/nets-over-strawberries_wsxhch.jpg", "alt": "nets over strawberries"},
+        {"url": "v1643119479/fruit/green-unripe-strawberries_bhlhxb.jpg", "alt": "green unripe strawberries"},
+        {"url": "v1643119479/fruit/ripe-strawberries_fdegpg.jpg", "alt": "ripe strawberries"},
+        {"url": "v1643119479/fruit/strawberry-harvest_x0lbsh.jpg", "alt": "strawberry harvest"}
+        ]
+    },
+    {
+        "name": "tayberries",
+        "date": "2022-01-25",
+        "introduction": "",
+        "photos": [
+        {"url": "v1643121608/fruit/newly-planted-tayberry_xw7ztu.jpg", "alt": "newly planted tayberry"},
+        {"url": "v1643121902/fruit/training-tayberries-in-fan-shape_k0nebx.jpg", "alt": "training tayberries in fan shape"},
+        {"url": "v1643121608/fruit/using-twine-to-tie-in-tayberry-canes_obc00m.jpg", "alt": "using twine to tie tayberry canes to support"},
+        {"url": "v1643121608/fruit/bee-visiting-tayberry-blossom_ybteph.jpg", "alt": "bee visiting tayberry flower"},
+        {"url": "v1643121608/fruit/tayberry-forming-after-blossom_ddrrmq.jpg", "alt": "tayberry forming after flower blossom"},
+        {"url": "v1643121607/fruit/immature-tayberries_nyz2ku.jpg", "alt": "immature tayberries"},
+        {"url": "v1643121755/fruit/tayberries-ripening_lc33vc.jpg", "alt": "tayberries ripening"},
+        {"url": "v1643121608/fruit/tayberries-hanging-on-bush_acj74t.jpg", "alt": "tayberries hanging on bush"},
+        {"url": "v1643121607/fruit/ripe-tayberry-on-bush_rvtwua.jpg", "alt": "large tayberry"},
+        {"url": "v1643121608/fruit/tayberry-harvest_t14sb4.jpg", "alt": "tayberry harvest"}
+        ]
+    },
+    {
+        "name": "basil",
+        "date": "1",
+        "introduction": "",
+        "photos": [
+        {"url": "v1639392601/herbs/basil-leaves-close-up_ksd4xj.jpg", "alt": "basil leaves"},
+        {"url": "v1639392601/herbs/basil-leaves_k2nxns.jpg", "alt": "basil leaves close up"}
         ]
     },
     {
         "name": "dj",
-        "date": "2022-01-24",
+        "date": "2022-01-25",
         "introduction": "",
         "photos": [
         {"url": "v1642421588/vegetables/aubergine-seedling_wrrqke.jpg", "alt": ""},
@@ -769,15 +849,6 @@
         {"url": "", "alt": ""},
         {"url": "", "alt": ""},
         {"url": "", "alt": ""}
-        ]
-    },
-    {
-        "name": "basil",
-        "date": "1",
-        "introduction": "",
-        "photos": [
-        {"url": "v1639392601/herbs/basil-leaves-close-up_ksd4xj.jpg", "alt": "basil leaves"},
-        {"url": "v1639392601/herbs/basil-leaves_k2nxns.jpg", "alt": "basil leaves close up"}
         ]
     }
 ]
