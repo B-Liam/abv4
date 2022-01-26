@@ -2,6 +2,7 @@ body {
     font-size: 18px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    font-family: serif;
     font-display: swap;
 }
 
@@ -94,7 +95,7 @@ a {
     text-decoration: none;
   }
 
-    #markedup img {
+ #markedup img {
       width: 588px;
   }
 
