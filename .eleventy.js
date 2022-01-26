@@ -52,7 +52,7 @@ module.exports = function(eleventyConfig) {
         let interim = [];
         for (let i = 0 ; i < arr.length ; i++ ) {
             if (arr[i].content.category == cat ) {
-                let interimObject = { title: arr[i].content.title, slug: arr[i].slug, order: arr[i].content.order, category: arr[i].content.category, image: arr[i].content.lead_image.filename }
+                let interimObject = { title: arr[i].content.title, slug: arr[i].slug, order: arr[i].content.order, category: arr[i].content.category, image: arr[i].content.lead_image.filename, description: arr[i].content.excerpt }
                 interim.push( interimObject );
             }
         }
