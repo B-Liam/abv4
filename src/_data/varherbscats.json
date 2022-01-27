@@ -144,6 +144,28 @@
                                 }
                             ]
     },
+    "marigold": 
+                    {
+                    "namesingular": "marigold",
+                    "nameplural": "marigold",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "french"
+                                },
+                                {
+                                    "vegtype": "african"
+                                },
+                                {
+                                    "vegtype": "indian"
+                                },
+                                {
+                                    "vegtype": "afro french"
+                                }
+                            ]
+    },
     "marjoram": 
                     {
                     "namesingular": "marjoram",
@@ -161,6 +183,28 @@
                     "cats": [
                                 {
                                     "vegtype": "all"
+                                }
+                            ]
+    },
+    "nasturtium": 
+                    {
+                    "namesingular": "nasturtium",
+                    "nameplural": "nasturtium",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                },
+                                {
+                                    "vegtype": "standard"
+                                },
+                                {
+                                    "vegtype": "trailing"
+                                },
+                                {
+                                    "vegtype": "climbing"
+                                },
+                                {
+                                    "vegtype": "dwarf"
                                 }
                             ]
     },
@@ -207,6 +251,16 @@
                     {
                     "namesingular": "sage",
                     "nameplural": "sage",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }
+                            ]
+    },
+    "sorrel": 
+                    {
+                    "namesingular": "sorrel",
+                    "nameplural": "sorrel",
                     "cats": [
                                 {
                                     "vegtype": "all"
