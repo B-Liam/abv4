@@ -21,7 +21,7 @@ module.exports = async function() {
   await getTime();
 
   try {
-    const response = await axios.get(`https://api.storyblok.com/v1/cdn/stories/?token=${process.env.STORYBLOK_KEY}&starts_with=recipes&cv=${time}`);
+    const response = await axios.get(`https://api.storyblok.com/v1/cdn/stories/?token=${process.env.STORYBLOK_KEY}&per_page=100&starts_with=recipes&cv=${time}`);
     page = response.data.stories;
 
     buildIndex();
