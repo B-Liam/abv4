@@ -10,6 +10,15 @@ h1 {
     font-size:1.4rem;
 }
 
+h2 {
+    padding-top:20px;
+    font-size:1.2rem;
+}
+
+h3 {
+    font-size:1.1rem;
+}
+
 a {
     color: #009900;
     text-decoration: none;

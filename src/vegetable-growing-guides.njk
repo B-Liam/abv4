@@ -116,7 +116,7 @@ function initialise(pages, containerid, templateid, divid) {
  sortedArray.forEach((article) => {
      const element = template.content.cloneNode(true);
      const image = element.querySelector('img');
-     image.src = article.image;
+     image.src = `${article.image}/m/200x105`;
      image.alt = article.slug;
      element.getElementById(divid).innerHTML = article.title;
      element.getElementById('divlink').href = linkDiv(article.slug);

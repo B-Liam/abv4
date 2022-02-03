@@ -233,3 +233,11 @@
 #markedup img {
     width: 360px;
 }
+
+.starter-container {
+    justify-content: center;
+}
+
+.intro-container {
+    justify-content: center;
+}

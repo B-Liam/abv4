@@ -35,7 +35,7 @@ layout: /layouts/pagetemplate.njk
                                 <template id="intro-template">
                                 
                                 <div style="padding-bottom:1%; display:flex">
-                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="intro-link"></div>
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform:capitalize" id="intro-link"></div>
                                 </div>
 
                                 </template>
@@ -50,7 +50,7 @@ layout: /layouts/pagetemplate.njk
                                 <template id="starter-template">
                                 
                                 <div style="padding-bottom:1%; display:flex">
-                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em" id="starter-link"></div>
+                                    <div><i style="font-size:0.7em;color:#009900" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em;text-transform:capitalize" id="starter-link"></div>
                                 </div>
 
                                 </template>
@@ -206,7 +206,7 @@ function sortPages() {
 })
 }
 sortPages();
-console.log(introPagesArray);
+
 
 //all the content is stored in allPagesSorted, it is then pushed into the respective sections using the category property
 function postIntoSections() {
@@ -236,7 +236,7 @@ function postIntoSections() {
 }
 
 postIntoSections();
-console.log(treatRecipes);
+
 
 //this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
 function initialise(pages, containerid, templateid, divid) {

@@ -175,8 +175,6 @@ let soupRecipes = [];
 let drinkRecipes = [];
 let treatRecipes = [];
 
-console.log(treatRecipes);
-
 //this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
 function sortPages() {
     let interimArray = [...introPagesArray,...startPagesArray,...vegPagesArray,...fruitPagesArray,...herbPagesArray,...recipeArray];
@@ -226,7 +224,7 @@ function initialise(pages, containerid, templateid, divid) {
  sortedArray.forEach((article) => {
      const element = template.content.cloneNode(true);
      const image = element.querySelector('img');
-     image.src = article.image;
+     image.src = `${article.image}/m/200x105`;
      image.alt = article.slug;
      element.getElementById(divid).innerHTML = article.title;
      element.getElementById('divlink').href = linkDiv(article.slug);
