@@ -51,7 +51,7 @@ layout: /layouts/pagetemplate.njk
                                 <template id="gallery-template">
                                 <div style="margin: 10px">
                                     <a id="gallery-link" href=""><img src="" alt=""/>
-                                    <div style="text-align:center; text-transform:capitalize" id="gallery-title"></div></a>
+                                    <div style="text-align:center; text-transform:capitalize;font-size:0.9rem" id="gallery-title"></div></a>
                                 </div>
 
                                 </template>
@@ -100,7 +100,7 @@ function initialise(pages, containerid, templateid) {
      let slugTitle = convertToSlug(photo.title)
      const element = template.content.cloneNode(true);
      const image = element.querySelector('img');
-     image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_150,h_150,q_auto,f_auto/${photo.image}`;
+     image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/${photo.image}`;
      image.alt = photo.title;
      element.getElementById('gallery-title').innerHTML = photo.title;
      element.getElementById('gallery-link').href = `photo-gallery/${slugTitle}-${photo.date}`;
