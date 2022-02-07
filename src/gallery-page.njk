@@ -12,7 +12,7 @@ eleventyComputed:
 ---
 
      <div id="sidebar">
-             a sidebar for a page
+             
         </div>
     
         <div id="main-column">
@@ -23,7 +23,7 @@ eleventyComputed:
                         <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
                             <div id="breadcrumb">
                                 <a href="/photo-gallery">Galleries</a><i class="fas fa-chevron-right"></i>
-                                <a href="photo-gallery/{{ thing.name | slug }}/index.html">{{thing.name | title}}</a><i class="fas fa-chevron-right"></i>                                
+                                <a href="/photo-gallery/{{ thing.name | slug }}-{{ thing.date }}">{{thing.name | title}}</a><i class="fas fa-chevron-right"></i>                                
                             </div>
                             <div id="breadcrumb-back"></div>
                         </div>

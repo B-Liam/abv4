@@ -34,7 +34,7 @@ layout: /layouts/pagetemplate.njk
                                 <template id="gallery-template">
                                 <div style="margin: 10px">
                                     <a id="gallery-link" href=""><img src="" alt=""/>
-                                    <div style="text-align:center; text-transform:capitalize" id="gallery-title"></div></a>
+                                    <div style="text-align:center; text-transform:capitalize;font-size:0.9rem" id="gallery-title"></div></a>
                                 </div>
 
                                 </template>
@@ -46,7 +46,7 @@ layout: /layouts/pagetemplate.njk
 <script>
 
 //gets all the information for the latest photos, the number in the argument is the number of galleries to return
-let latestPhotos = JSON.parse(`{{ gallery | getPhotos(10) | dump | safe }}`);
+let latestPhotos = JSON.parse(`{{ gallery | getPhotos(6) | dump | safe }}`);
 console.log(latestPhotos);
 
 //this creates the photo gallery links

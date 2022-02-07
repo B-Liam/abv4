@@ -25,7 +25,7 @@ let newData = [];
 function lookUp(prod) {
     for ( i = 0 ; i < allVeg.length ; i++ ) {
         for ( j = 0 ; j < allInStock.length ; j++ ) {
-            if ( allVeg[i].storeID == allInStock[j].product_id ) {
+            if ( allVeg[i].storeID == allInStock[j].merchant_product_id ) {
                 let objectEx = allInStock[j];
                 let objectL = allVeg[i];
                 let veg = {
@@ -35,17 +35,17 @@ function lookUp(prod) {
                     "cats": objectL.cats,
                     "abID": objectL.abID,
                     "abStoreID": objectL.storeID,
-                    "varSuttonsID": objectEx.product_id,
+                    "varSuttonsID": objectEx.merchant_product_id,
                     "featured": objectL.featured,
                     "colourful": objectL.colourful,
                     "description": objectL.description,
                     "sow": objectL.sow,
                     "harvest": objectL.harvest,
-                    "deeplink": objectEx.deeplink,
-                    "image": objectEx.image_url,
-                    "price": objectEx.price,
+                    "deeplink": objectEx.aw_deep_link,
+                    "image": objectEx.merchant_image_url,
+                    "price": objectEx.search_price,
                     "inStock": objectEx.in_stock,
-                    "merchant": objectEx.program_name
+                    "merchant": objectEx.merchant_name
                 }
                 newData.push(veg);
             }

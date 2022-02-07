@@ -48,6 +48,13 @@ module.exports = function(eleventyConfig) {
             }
         return interim;
       });
+      eleventyConfig.addFilter("getVideos", function(arr,number) {
+        let interim = [];
+        for (let i = 0 ; i < number ; i++ ) {
+            interim.push(arr[i]);
+            }
+        return interim;
+      });
       eleventyConfig.addFilter("getContentPages", function(arr,cat) {
         let interim = [];
         for (let i = 0 ; i < arr.length ; i++ ) {

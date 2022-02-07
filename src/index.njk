@@ -40,43 +40,70 @@ layout: /layouts/pagetemplate.njk
 
                         <hr>
                         <div>
-                        <h2 style="margin-top:7px;margin-bottom:7px;font-size: 1em;">Latest Photos</h2>
+                        <h2 style="margin-top:7px;margin-bottom:7px;font-size: 1em;">Photo Galleries</h2>
                         
                         <div style="display:flex;flex-wrap:wrap;justify-content:center" class="gallery-container">
                             {% for item in gallery | getPhotos(6) %}
                             <div style="margin: 10px">
-                                    <a id="gallery-link" href="/photo-gallery/{{item.title}}-{{item.date}}"><img src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/{{item.image}}" alt="{{item.title}}"/>
+                                    <a id="gallery-link" href="/photo-gallery/{{item.title | slug }}-{{item.date}}"><img src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/{{item.image}}" alt="{{item.title}}"/>
                                     <div style="text-align:center; text-transform:capitalize;font-size:0.9rem" id="gallery-title"> {{item.title}}</div></a>
                                 </div>
                             {% endfor %}
                             </div>  
 
                         <hr>
+
+                        <h2 style="margin-top:7px; font-size: 1em;">Latest YouTube</h2>
+                        <div id="video-list-container" style="">
+                            {% for item in videos | getVideos(4) %}
+
+                                <a id="divlink" href="{{item.link}}">
+                                    <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
+
+                                        <img style="display:block;width:100px;height:100px;padding:0px" 
+                                        src="{{item.image}}/m/100x100" 
+                                        alt="{{item.title}}" 
+                                        />
+                                                
+                                        <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em"> 
+                                            <h4 style="margin-top:0px;margin-bottom:10px;font-size:1rem">
+                                            {{item.title}}
+                                            </h4>
+                                            <div id="description" style="font-size:0.9rem">
+                                            {{item.description}}
+                                            </div>
+                                        </div>                                   
+
+                                    </div>
+                                </a>
+
+                            {% endfor %}
+                        </div>
+
+                        <hr>
+
+                        <h2 style="margin-top:7px; font-size: 1em;">Browse Shop</h2>
+
+                        <div style="" id="shop-listings-container">
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non vulputate nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec fringilla odio ut quam congue gravida. Donec id viverra dui. Mauris pellentesque sollicitudin odio ac vestibulum. Vestibulum porttitor tellus ac ligula porta, in egestas nunc rhoncus. Proin eleifend faucibus euismod. Mauris sodales est vitae tortor tincidunt, at fermentum tellus luctus. Pellentesque vel ligula et leo posuere elementum.
+                            {% for cats in varshopcats.cats %} 
 
-                            Fusce sit amet ligula consectetur libero rutrum sollicitudin eu nec sem. Donec non est ac augue dapibus placerat. Suspendisse sodales, leo viverra ultrices gravida, nibh velit elementum ex, ac consectetur justo lacus et nibh. Quisque in sem a dolor hendrerit eleifend. Suspendisse eu eros porta, pretium felis eu, mollis libero. Nunc dapibus eros id tortor auctor sagittis eget sit amet orci. Nam sed justo mi. Integer maximus dignissim orci, id laoreet ante dictum aliquet. Aliquam rhoncus tincidunt libero pulvinar porttitor. Aenean non velit vitae enim facilisis dictum.
-                            
-                            Curabitur venenatis tempor pellentesque. Aenean nec molestie elit. Morbi eu elementum ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eu massa felis. Integer tellus ante, eleifend pharetra sapien at, fermentum pellentesque libero. Aenean nec mi nisi.
-                            
-                            Morbi fermentum purus non metus gravida pretium. Integer gravida diam odio, quis egestas mauris consectetur eu. Aliquam magna tortor, vulputate et scelerisque a, pellentesque non neque. Etiam tristique nisl et nibh pharetra, at tincidunt nisi auctor. Morbi pellentesque nec enim quis pretium. Vivamus pharetra urna in vulputate varius. In at imperdiet nunc, non egestas dui. Nunc ac aliquam leo. Vestibulum lorem ligula, hendrerit eu neque id, ornare pretium urna. Duis et lobortis massa. Fusce sed nisi consectetur, hendrerit nibh a, euismod turpis. Cras id mauris lacinia, iaculis ipsum non, maximus nisi. Sed ornare massa tellus, in finibus nisi convallis quis. Aenean hendrerit, lorem at dictum vehicula, augue elit scelerisque erat, eget scelerisque augue tellus eget augue. Nam eu posuere augue. Phasellus in ex convallis augue consequat sollicitudin.
-                            
-                            Suspendisse molestie sem ex, vel pulvinar turpis efficitur sit amet. Quisque cursus nisi ac purus imperdiet, eu convallis dolor placerat. Suspendisse quis maximus diam. In eleifend, felis sit amet luctus congue, ex felis varius libero, in suscipit eros neque quis velit. Donec molestie nisl vitae tellus tincidunt, nec efficitur lacus lacinia. Aliquam cursus tristique varius. Praesent vitae velit elit. Mauris vehicula ut urna a commodo.
-                            
-                            Aenean ut porttitor risus, vitae tempor arcu. Etiam gravida libero quis purus aliquam aliquet. Quisque pellentesque fringilla nunc molestie laoreet. In non cursus dui. Nullam varius erat sagittis odio porta mattis. Nam molestie venenatis nulla, finibus consectetur arcu ultrices at. Donec finibus consequat diam ut aliquam. Mauris magna justo, ullamcorper nec hendrerit id, sodales et nisl. Curabitur eros ex, lacinia eget erat vitae, aliquam ullamcorper velit.
-                            
-                            Suspendisse et nisi eros. Nam turpis lacus, laoreet at libero et, scelerisque rhoncus leo. Cras eget libero eu augue pretium feugiat quis a erat. Nunc sagittis tincidunt purus ut vulputate. Sed ut placerat erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at commodo diam, id lacinia purus. Donec et suscipit libero. Maecenas molestie semper lacinia. Suspendisse posuere nisl sit amet tortor commodo, vel laoreet mauris tincidunt. Nam tristique dolor ut ex euismod tristique. Maecenas varius metus eu odio porttitor iaculis. Mauris tempus eget odio eu pretium.
-                            
-                            Vivamus non rutrum neque. Nam mollis libero enim, sed tristique nunc tempor nec. Nam ac tincidunt leo. Phasellus mauris velit, iaculis in vehicula vitae, sodales vitae neque. Quisque euismod, arcu in gravida lacinia, nisl nibh suscipit nunc, vel blandit tortor odio at libero. Duis accumsan pharetra erat vitae dapibus. Mauris lacinia dui vitae sapien accumsan, id euismod mauris egestas. Curabitur porttitor erat id rhoncus tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque mattis eget ex nec luctus.
-                            
-                            Curabitur tristique, neque nec mattis viverra, urna nisl ultrices arcu, feugiat laoreet lacus arcu sed quam. Morbi sagittis, libero eu scelerisque placerat, justo lorem luctus felis, non dignissim nunc justo vel magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin eget ultricies leo. Curabitur pellentesque eros justo, interdum elementum mauris auctor non. Phasellus cursus lacus quis commodo facilisis. Donec consequat, tortor sit amet ullamcorper blandit, nulla nisi fringilla massa, vel tristique nisi purus a enim. Cras quis posuere justo, id tincidunt tellus. Nunc imperdiet euismod ante, vitae gravida nisl tincidunt ac. Nullam vitae lectus augue. Fusce in fringilla dui, et auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet eros sit amet mi semper egestas ut sit amet orci. Fusce ex tortor, congue non dui vitae, dictum pellentesque dolor. Donec vel accumsan lectus, ultricies pulvinar turpis. Suspendisse potenti.
-                            
-                            Nulla facilisi. Nullam ut lacinia massa, vitae tempor massa. Quisque in augue sem. Maecenas rhoncus lobortis magna, id scelerisque augue molestie id. Proin quis nulla libero. Cras nec augue id nunc maximus elementum. Donec eget nulla imperdiet mi sagittis eleifend at vitae nisi. In hac habitasse platea dictumst. Maecenas justo dolor, tincidunt sed viverra sit amet, vulputate vitae libero. Aliquam efficitur blandit consequat. Quisque varius vitae eros quis rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ante quam, tincidunt eu nisi euismod, tincidunt aliquam leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a id="divlink" href="{{cats.link}}">
+                                        <div style="width:150px;border: solid #009900 0.5px; margin-bottom: 1rem; margin-left: 0.8rem;margin-right:0.8rem">
 
-                            
+                                            <img style="display:block; width:150px;" src="{{cats.image}}" alt="{{cats.alt}}" />
+                                            
+                                            <div style="display:flex; align-items: center"> 
+                                                <div style="padding-left: 0.5em; padding-top: 7px;padding-bottom:7px"><i style="font-size:0.9em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em; padding-right: 10px;font-size:0.95rem" id="vegrecipes-link">{{ cats.text | title }}</div>
+                                            </div>                                   
 
+                                        </div>
+                                    </a>
                             
+                            {% endfor %}                             
 
+                        
+                        </div> 
                     </div>
                 
                 </main>
@@ -87,7 +114,6 @@ layout: /layouts/pagetemplate.njk
 
 //gets all the information for the latest photos, the number in the argument is the number of galleries to return
 let latestPhotos = JSON.parse(`{{ gallery | getPhotos(6) | dump | safe }}`);
-console.log(`{{liamtest}}`);
 
 //this creates the photo gallery links
 function initialise(pages, containerid, templateid) {

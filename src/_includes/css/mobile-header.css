@@ -241,3 +241,18 @@
 .intro-container {
     justify-content: center;
 }
+
+#video-list-container {
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop-listings-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap
+}

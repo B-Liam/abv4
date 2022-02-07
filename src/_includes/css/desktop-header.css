@@ -77,3 +77,18 @@
 .blog-card{
     height:110px;
 }
+
+#video-list-container {
+    width:450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop-listings-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap
+}

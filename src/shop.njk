@@ -27,12 +27,12 @@ layout: /layouts/pagetemplate.njk
 
                         <h1 style="font-size:1.4rem">Browse Shop</h1>
 
-                        <div style="min-width: 360px; margin-left:auto; margin-right:auto;padding-bottom: 2rem; display: flex; flex-wrap:wrap" id="list-container">
+                        <div style="" id="shop-listings-container">
                         
                         {% for cats in varshopcats.cats %} 
 
                          <a id="divlink" href="{{cats.link}}">
-                                    <div style="width:150px;border: solid #009900 2px; margin-bottom: 1rem; margin-left: 0.8rem;margin-right:0.8rem">
+                                    <div style="width:150px;border: solid #009900 0.5px; margin-bottom: 1rem; margin-left: 0.8rem;margin-right:0.8rem">
 
                                         <img style="display:block; width:150px;" src="{{cats.image}}" alt="{{cats.alt}}" />
                                         

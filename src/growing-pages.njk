@@ -564,7 +564,7 @@ function initialise(containerid, templateid, divid) {
 for ( let i = 0 ; i < vegPhotos[0].photos.length ; i++ ) {
     const element = template.content.cloneNode(true);
     const image = element.querySelector('img');
-    image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,c_scale,q_auto,f_auto/${vegPhotos[0].photos[i].url}`;
+    image.src = `https://res.cloudinary.com/allotment-book/image/upload/l_text:Cherry Swash_25:©%20AllotmentBook.co.uk,g_south_west,x_20,y_20,co_white/w_600,h_600,c_scale,q_auto,f_auto/${vegPhotos[0].photos[i].url}`;
     image.alt = vegPhotos[0].photos[i].alt;
     element.getElementById(divid).innerHTML = vegPhotos[0].photos[i].alt;
     container.appendChild(element);
