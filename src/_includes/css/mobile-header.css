@@ -256,3 +256,15 @@
     display: flex; 
     flex-wrap:wrap
 }
+
+.vegetable-container {
+    width:360px;
+}
+
+.fruit-container {
+    width:360px;
+}
+
+.herb-container {
+    width:360px;
+}

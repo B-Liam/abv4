@@ -1,0 +1,49 @@
+---
+permalink: "contact/index.html"
+title: Contact Form | Allotment Book
+description: Please use this form to send a message to AllotmentBook.co.uk
+date: Last Modified
+layout: /layouts/pagetemplate.njk
+---
+
+        <div id="sidebar">
+           
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb">
+                            <a href="/">Home</a><i class="fas fa-chevron-right"></i>
+                            <a href="/contact">Contact</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="min-height:100vh; padding-bottom:40px" id="content-body">
+
+                        <h1 style="font-size:1.4rem">Contact Form</h1>
+
+                        <div class="contact-form-container">
+                <form name="Allotment Book Contact" method="POST" data-netlify="true" action="/message-received">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="contact-name" required>
+                <p><label for="enquiry-type">Type Of Enquiry</label>
+                <input type="text" id="enquiry-type" name="enquiry-type" required></p>
+                <p><label for="email-address">Email Address</label>
+                <input type="email" id="email" name="email" required></p>
+                <p><label for="message-content">Your Message</label>
+                <textarea id="message-area" name="message-content" placeholder="please write your message here..." style="height:200px" required></textarea></p>
+                <input type="submit" value="Send">
+                </form>
+
+            </div>                
+
+                        
+                    </div> 
+                </main>
+            </div>
+

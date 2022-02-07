@@ -5,7 +5,7 @@ pagination:
     data: generalstoryblok.page
     size: 1
     alias: pagedata
-permalink: "{{ pagedata.content.title | slug }}/index.html"
+permalink: "{{ pagedata.slug }}/index.html"
 eleventyComputed:
     title: "{{ pagedata.content.title | title }} | Allotment Book"
     description: "{{ pagedata.content.seo_description }}"
@@ -96,6 +96,7 @@ eleventyComputed:
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
+
 //this populates the page with storyblok content, by using javascript to target divs and passing in the content
 let introText = `{{ pagedata.content.introduction }}`;
 let featuredImage = `{{ pagedata.content.lead_image.filename }}`;

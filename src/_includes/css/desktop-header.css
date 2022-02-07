@@ -90,5 +90,17 @@
     margin-right:auto;
     padding-bottom: 2rem; 
     display: flex; 
-    flex-wrap:wrap
+    flex-wrap:wrap;
+}
+
+.vegetable-container {
+    width:550px;
+}
+
+.fruit-container {
+    width:550px;
+}
+
+.herb-container {
+    width:550px;
 }

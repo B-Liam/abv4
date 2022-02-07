@@ -51,8 +51,8 @@ let allPolicies = [];
 let allPagesSorted = [];
 
 //the code that makes the breadcrumb
-function makeLink(title) {
-    let urlSlug = convertToSlug(title);
+function makeLink(title,slug) {
+    let urlSlug = slug;
  return (
      `<a href="/${urlSlug}">${title}</a>`
  )
@@ -107,7 +107,7 @@ function initialise(pages, containerid, templateid, divid) {
 
  sortedArray.forEach((article) => {
      const element = template.content.cloneNode(true);
-     element.getElementById(divid).innerHTML = makeLink(article.title);
+     element.getElementById(divid).innerHTML = makeLink(article.title, article.slug);
      container.appendChild(element);
  });
 }

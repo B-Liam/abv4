@@ -38,9 +38,34 @@ layout: /layouts/pagetemplate.njk
 
                         </div>
 
+                        <div id="video-list-container" style="text-align:center;margin-top:10px;margin-bottom:20px">
+                         A collection of growing guides, planning resources, and recipes for the home gardener. See the full <a href="/contents">table of contents</a>.
+                        </div>
+
                         <hr>
+                        <div id="video-list-container" style="margin-top:10px">
+                            <a id="plant-month-link" href="">
+                                    <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 0.5rem">
+
+                                        <div style="color:#009900">
+                                            <i style="font-size:2.5rem" class="fas fa-seedling"></i>
+                                        </div>
+                                                
+                                        <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em"> 
+                                            <h4 id="plant-month-title" style="margin-top:0px;margin-bottom:10px;font-size:1.2rem;text-transform:capitalize">
+                                            </h4>
+                                            <div id="plant-month-description" style="font-size:1rem;margin-bottom:-10px">
+                                            
+                                            </div>
+                                        </div>                                   
+
+                                    </div>
+                             </a>
+                        </div>
+
+                         <hr>
                         <div>
-                        <h2 style="margin-top:7px;margin-bottom:7px;font-size: 1em;">Photo Galleries</h2>
+                        <h2 style="margin-top:-15px;margin-bottom:7px;font-size: 1em;">Photo Galleries</h2>
                         
                         <div style="display:flex;flex-wrap:wrap;justify-content:center" class="gallery-container">
                             {% for item in gallery | getPhotos(6) %}
@@ -53,7 +78,7 @@ layout: /layouts/pagetemplate.njk
 
                         <hr>
 
-                        <h2 style="margin-top:7px; font-size: 1em;">Latest YouTube</h2>
+                        <h2 style="margin-top:-15px; font-size: 1em;">Latest YouTube</h2>
                         <div id="video-list-container" style="">
                             {% for item in videos | getVideos(4) %}
 
@@ -82,7 +107,7 @@ layout: /layouts/pagetemplate.njk
 
                         <hr>
 
-                        <h2 style="margin-top:7px; font-size: 1em;">Browse Shop</h2>
+                        <h2 style="margin-top:-15px; font-size: 1em;">Browse Shop</h2>
 
                         <div style="" id="shop-listings-container">
                         
@@ -112,45 +137,62 @@ layout: /layouts/pagetemplate.njk
 
 <script>
 
-//gets all the information for the latest photos, the number in the argument is the number of galleries to return
-let latestPhotos = JSON.parse(`{{ gallery | getPhotos(6) | dump | safe }}`);
+let thisMonth = "";
+let plantingURL = "";
 
-//this creates the photo gallery links
-function initialise(pages, containerid, templateid) {
- 
- const container = document.querySelector(containerid);
- const template = document.querySelector(templateid);
-
- pages.forEach((photo) => {
-     let slugTitle = convertToSlug(photo.title)
-     const element = template.content.cloneNode(true);
-     const image = element.querySelector('img');
-     image.src = `https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/${photo.image}`;
-     image.alt = photo.title;
-     element.getElementById('gallery-title').innerHTML = photo.title;
-     element.getElementById('gallery-link').href = `photo-gallery/${slugTitle}-${photo.date}`;
-     container.appendChild(element);
- });
+switch (new Date().getMonth()) {
+  case 0:
+    thisMonth = "January";
+    plantingURL = "/january-planting-guide"
+    break;
+  case 1:
+    thisMonth = "February";
+    plantingURL = "/february-planting-guide"
+    break;
+  case 2:
+    thisMonth = "March";
+    plantingURL = "/march-planting-guide"
+    break;
+  case 3:
+    thisMonth = "April";
+    plantingURL = "/april-planting-guide"
+    break;
+  case 4:
+    thisMonth = "May";
+    plantingURL = "/may-planting-guide"
+    break;
+  case 5:
+    thisMonth = "June";
+    plantingURL = "/june-planting-guide"
+    break;
+  case  6:
+    thisMonth = "July";
+    plantingURL = "/july-planting-guide"
+    break;
+  case  7:
+    thisMonth = "August";
+    plantingURL = "/august-planting-guide"
+    break;
+  case  8:
+    thisMonth = "September";
+    plantingURL = "/september-planting-guide"
+    break;
+  case  9:
+    thisMonth = "October";
+    plantingURL = "/october-planting-guide"
+    break;
+  case  10:
+    thisMonth = "November";
+    plantingURL = "/november-planting-guide"
+    break;
+  case  11:
+    thisMonth = "December";
+    plantingURL = "/december-planting-guide"
 }
 
-
-
-
-function createImage(src) {
- return (
-     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}" />`
- )
-}
-
-//convert text to a slug to use in a url
-function convertToSlug(text)
-{
-    return text
-        .toLowerCase()
-        .replace(/ /g,'-')
-        .replace(/[^\w-]+/g,'')
-        ;
-}
+document.getElementById("plant-month-title").innerHTML = "what to plant in " + thisMonth;
+document.getElementById("plant-month-description").innerHTML = "A guide on what fruit, vegetables, and herbs to plant in " + thisMonth + ".";
+document.getElementById("plant-month-link").href = plantingURL;
 
 </script>
 

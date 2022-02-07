@@ -7,7 +7,7 @@ description: "Explore fruit varieties and find seeds and plants to grow at home 
 ---
 
      <div id="sidebar">
-            a new different side
+            
         </div>
     
         <div id="main-column">
@@ -24,7 +24,7 @@ description: "Explore fruit varieties and find seeds and plants to grow at home 
 
                         <h1 style="font-size:1.4rem">Fruit Varieties</h1>
 
-                        <div id="list-container" style="display:flex; flex-wrap: wrap">
+                        <div id="shop-listings-container" style="justify-content:center">
                         
                         {% for cats in varfruitlp %} 
                         <div style="width:210px;padding-bottom:10px"><a href='/shop/{{ cats | slug }}/all'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats | title }}</div></a>
