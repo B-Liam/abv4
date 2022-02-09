@@ -25,20 +25,10 @@ layout: /layouts/pagetemplate.njk
 
                     <div id="content-body">
 
-                        <h1 style="margin-bottom:0px">Blog</h1>
-                        <h4 style="margin-top:10px;margin-bottom:0px;font-size:1rem">Browse By Topic</h4>
-                        <button onclick="changeCategory(allArticles)" style="background:#e0f7d3;color:#009900; border:none;width:90px;margin: 5px 5px 5px 5px">All
-                        </button>
-                        <button onclick="changeCategory(growingVideos)" style="background:#e0f7d3;color:#009900; border:none;width:90px;margin: 5px 5px 5px 5px">Growing
-                        </button>
-                        <button onclick="changeCategory(tourVideos)" style="background:#e0f7d3;color:#009900; border:none;width:100px;margin: 5px 5px 5px 5px">Monthly Tours
-                        </button>
-                        <button onclick="changeCategory(recipeVideos)" style="background:#e0f7d3;color:#009900; border:none;width:90px;margin: 5px 5px 5px 5px">Recipes
-                        </button>
-                        
+                        <h1 style="margin-bottom:0px">Blog</h1>                       
 
                         <div id="allvideos" style="">
-                        <h4 style="">All Articles</h4>
+                        <h4 style="">Latest Articles</h4>
                         <div style="padding-bottom: 2rem" class="all-container"></div>
 
                                 <template id="all-template">
@@ -56,65 +46,6 @@ layout: /layouts/pagetemplate.njk
                                 
                         </template> 
                         </div>
-
-                        <div id="recipevideos" style="display:none">
-                        <h4>Recipe Videos</h4>
-                        <div style="padding-bottom: 2rem" class="recipe-container"></div>
-
-                                <template id="recipe-template">
-
-                                <a id="divlink" href""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
-
-                                    <img style="display:block; width:160px; height:160px;padding: 10px" src="" alt="" /> 
-
-                                    <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em"> 
-                                        <h4 style="margin-top:10px;font-size:1.1rem;padding-right:0.5em" id="recipe-link"></h4>
-                                        <div id="description"></div>
-                                    </div>                                  
-
-                                </div></a>
-                                
-                        </template> 
-                        </div>
-
-                        <div id="growingvideos" style="display:none">
-                        <h4>Growing Videos</h4>
-                        <div style="padding-bottom: 2rem" class="growing-container"></div>
-
-                                <template id="growing-template">
-
-                                <a id="divlink" href=""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
-
-                                    <img style="display:block; width:160px; height:160px;padding: 10px" src="" alt="" />
-
-                                    <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em"> 
-                                        <h4 style="margin-top:10px;font-size:1.1rem;padding-right:0.5em" id="growing-link"></h4>
-                                        <div id="description"></div>
-                                    </div>                               
-
-                                </div></a>
-                                
-                        </template> 
-                        </div>
-
-                        <div id="tourvideos" style="display:none">
-                        <h4>Allotment Tour Videos</h4>
-                        <div style="padding-bottom: 2rem" class="tour-container"></div>
-
-                                <template id="tour-template">
-
-                                <a id="divlink" href""><div style="display:flex;justify-content:flex-start;border: solid #009900 2px; margin-bottom: 1rem">
-
-                                    <img style="display:block; width:160px; height:160px;padding: 10px" src="" alt="" />
-                                
-                                    <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em"> 
-                                        <h4 style="margin-top:10px;font-size:1.1rem;padding-right:0.5em" id="tour-link"></h4>
-                                        <div id="description"></div>
-                                    </div>                                   
-
-                                </div></a>
-                                
-                        </template> 
                         </div>           
                         
 
@@ -129,10 +60,9 @@ layout: /layouts/pagetemplate.njk
 
 //grab all the articles, but using an eleventy filter to only select the data to create an article link
 const allBlog = JSON.parse(`{{ generalstoryblok.page | getBlog() | dump | safe }}`);
-
 //a number of arrays to use as filters
 let allArticles = [];
-let tourVideos = [];
+let allVideos = [];
 let recipeVideos = [];
 let growingVideos = [];
 let productVideos = [];
@@ -148,14 +78,12 @@ function convertToSlug(text)
 }
 
 //this takes the article title and converts it to a slug to be used to create the link
-function makeLink(title) {
-    let urlSlug = convertToSlug(title);
+function makeLink(title,slug) {
+    let urlSlug = slug;
  return (
      `/${urlSlug}`
  )
 };
-
-console.log(allArticles);
 
 //a function that toggles the visibility of templates, the function is called as onclick events on the category buttons
 function changeCategory(catname) {
@@ -186,24 +114,16 @@ function changeCategory(catname) {
 }
 
 //segments all the articles into the arrays defined at the beginning
-function createVideoCategories() {
+function filterBlog() {
     for (let i = 0 ; i < allBlog.length ; i++ ) {
         let catString = allBlog[i].category.toLowerCase();
         if ( catString.includes("blog") ) {
             allArticles.push(allBlog[i]);
         }
-        if ( catString.includes("recipes") ) {
-            recipeVideos.push(allVideos[i]);
-        }
-        if ( catString.includes("growing") ) {
-            growingVideos.push(allVideos[i]);
-        }
-        if ( catString.includes("products") ) {
-            productVideos.push(allVideos[i]);
-        }
     }
 }
-createVideoCategories();
+filterBlog();
+console.log(allArticles);
 
 //this ultimately calls the makeLink function to create the links, the purpose of this function is to select the right template to post the content to
 function initialise(pages, containerid, templateid, divid) {
@@ -220,7 +140,7 @@ function initialise(pages, containerid, templateid, divid) {
      image.src = article.image;
      image.alt = article.description;
      element.getElementById(divid).innerHTML = article.title;
-     element.getElementById('divlink').href = makeLink(article.title);
+     element.getElementById('divlink').href = makeLink(article.title,article.slug);
      element.getElementById('description').innerHTML = article.description;
      container.appendChild(element);
  });
@@ -228,10 +148,5 @@ function initialise(pages, containerid, templateid, divid) {
 
 //this populates the templates in the html
 initialise(allArticles, ".all-container",'#all-template',"all-link",);
-initialise(recipeVideos, ".recipe-container",'#recipe-template',"recipe-link");
-initialise(growingVideos, ".growing-container",'#growing-template',"growing-link");
-initialise(tourVideos, ".tour-container",'#tour-template',"tour-link");
-
-
 
 </script>

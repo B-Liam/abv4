@@ -69,6 +69,9 @@
                                         "vegtype": "all"
                                     },
                                     {
+                                        "vegtype": "accessory"
+                                    },
+                                    {
                                         "vegtype": "standard"
                                     },
                                     {

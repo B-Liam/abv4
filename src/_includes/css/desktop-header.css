@@ -74,6 +74,10 @@
     width: 588px;
 }
 
+#transcript img {
+    width: 588px;
+}
+
 .blog-card{
     height:110px;
 }
@@ -103,4 +107,49 @@
 
 .herb-container {
     width:550px;
+}
+
+.vegrecipes-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.fruitrecipes-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.soup-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.drinks-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.treats-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
 }
