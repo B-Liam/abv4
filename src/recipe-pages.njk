@@ -144,89 +144,50 @@ removeDiv("ingredients-three", ingredientsThree);
 removeDiv("notes", notesText)
 
 //this is the script that generates the previous and next buttons
-let introPagesArray = JSON.parse(`{{ pagesstoryblok.page | getContentPages("introduction") | dump | safe }}`);
-let startPagesArray = JSON.parse(`{{ pagesstoryblok.page | getContentPages("starter") | dump | safe }}`);
-let vegPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("vegetable") | dump | safe }}`);
-let fruitPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("fruit") | dump | safe }}`);
-let herbPagesArray = JSON.parse(`{{ vegstoryblok.page | getContentPages("herb") | dump | safe }}`);
-let recipeArray = {{ recipestoryindex | dump | safe }};
-let allPagesSorted = [];
-let grabTitle = document.getElementById("title").innerHTML;
-
-//this function sorts all pages ready for the next and previous buttons, and stores this in the allPagesSorted array 
-function sortPages() {
-    let interimArray = [...introPagesArray,...startPagesArray,...vegPagesArray,...fruitPagesArray,...herbPagesArray,...recipeArray];
-    allPagesSorted = interimArray.sort (function (a,b) {
-     return a.order - b.order
-})
-}
-sortPages();
-
-//this determines the index value of the current page in the allPagesSorted array
-let pageIndexNumber = null;
-
-let pageSlug = `{{ pagedata.slug }}`
-
-function findPageIndex() {
-    for ( i = 0 ; i < allPagesSorted.length ; i++) {
-        if ( pageSlug.toLowerCase() == allPagesSorted[i].slug.toLowerCase() ) {
-            pageIndexNumber = i;
-        }
-    }
-}
-findPageIndex();
+//This stores the total length of the index of contents
+let contentFinalIndexValue = `{{ contentindex.length }}` - 1;
+let newPageIndexNumber = `{{ contentindex | findIndexValue( pagedata.slug ) }}`;
+let previous = Number(newPageIndexNumber) - 1;
+let next = Number(newPageIndexNumber) + 1;
 
 //this stores the next and prevous pages in variables
-let nextPage = [];
-let previousPage = [];
+let nextPage = "";
+let previousPage = "";
 
 function findNext() {
-    if ( pageIndexNumber < allPagesSorted.length - 1) {
-    nextPage.push(allPagesSorted[pageIndexNumber + 1])
+    if ( next <= contentFinalIndexValue ) {
+    nextPage = `{{ contentindex[contentindex | findIndexValue( pagedata.slug ) + 1].slug }}`;
+    document.getElementById("lower-next").innerHTML = makeNextButton(nextPage);
+    document.getElementById("higher-next").innerHTML = makeNextButton(nextPage);
     }
 }
 findNext();
 
+console.log(nextPage);
 
 function findPrevious() {
-    if ( pageIndexNumber !== 0 ) {
-    previousPage.push(allPagesSorted[pageIndexNumber - 1])
+    if ( previous >= 0 ) {
+    previousPage = `{{ contentindex[contentindex | findIndexValue( pagedata.slug ) - 1].slug }}`;
+    document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage);
+    document.getElementById("higher-previous").innerHTML = makePreviousButton(previousPage);
     }
 }
 findPrevious();
 
-//make the buttons based on logic
-
-function createButtons() {
-    if ( nextPage.length > 0 ) {
-        document.getElementById("lower-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
-        document.getElementById("higher-next").innerHTML = makeNextButton(nextPage[0].title, nextPage[0].slug);
-        }
-    if ( pageIndexNumber > 0 ) {
-        document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
-        document.getElementById("higher-previous").innerHTML = makePreviousButton(previousPage[0].title, previousPage[0].slug);
-    }
-}
-createButtons();
-
 //this generates the link to the next page
-function makeNextButton(title,slug) {
+function makeNextButton(slug) {
  return (
      `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> Next Page</button></a>`
  )
 };
 
 //this generates the link to the next page
-function makePreviousButton(title,slug) {
+function makePreviousButton(slug) {
  return (
      `<a href="/contents/${slug}"><button style="background:#009900;width:140px; border:none;color:#ffffff;margin-t;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Previous</button></a>`
  )
 };
-function makePreviousBreadcrumb(title,slug) {
- return (
-     `<a href="/contents/${slug}"><button style="background:#333333;width:100px; border:none;color:#ffffff;font-size:0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem;margin-top:1px; margin-right:5px"><i style="padding-right:1%" class="fas fa-chevron-circle-left"></i> Back</button></a>`
- )
-};
+
 
 //this code makes the photo link for the gallery
 function makeLink(title,slug) {

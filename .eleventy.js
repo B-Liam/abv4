@@ -83,6 +83,15 @@ module.exports = function(eleventyConfig) {
             }
         return interim;
       });
+      eleventyConfig.addFilter("findIndexValue", function(arr, slug) {
+        let interim = null;
+        for ( let i = 0 ; i < arr.length ; i++ ){
+            if ( arr[i].slug == slug ) {
+                interim = i;
+            }
+        }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");
