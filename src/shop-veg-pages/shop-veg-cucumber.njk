@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.cucumbers.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/cucumbers/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Cucumber Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

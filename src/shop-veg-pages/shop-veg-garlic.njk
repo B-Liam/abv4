@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.garlic.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/garlic/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Garlic Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

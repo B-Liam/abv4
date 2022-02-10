@@ -5,6 +5,7 @@ pagination:
     data: vegstoryblok.page
     size: 1
     alias: pagedata
+    addAllPagesToCollections: true
 permalink: "contents/{{ pagedata.content.title | slug }}/index.html"
 eleventyComputed:
     title: "Growing {{ pagedata.content.title | title }} | Allotment Book"
@@ -13,8 +14,46 @@ eleventyComputed:
 ---
 
      <div id="sidebar">
+
+             <div style="padding-left:20px; padding-bottom:20px">
+
+
+                <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
+
+                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=259005&v=2283&q=123818&r=1016123">
+                    <img src="https://www.awin1.com/cshow.php?s=259005&v=2283&q=123818&r=1016123" border="0">
+                </a>
+
+                <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
+
+            </div>
+
+            <div style="padding-left:20px; padding-bottom:20px">
+
+                <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
+
+                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=258997&v=2283&q=123818&r=1016123">
+                    <img src="https://www.awin1.com/cshow.php?s=258997&v=2283&q=123818&r=1016123" border="0">
+                </a>
+
+                <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
+
+            </div>
+            
+            <div style="padding-left:20px; padding-bottom:20px">
+
+                <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
+
+                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=258995&v=2283&q=123818&r=1016123">
+                    <img src="https://www.awin1.com/cshow.php?s=258995&v=2283&q=123818&r=1016123" border="0">
+                </a>
+
+                <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
+
+            </div> 
+
              
-        </div>
+    </div>
     
         <div id="main-column">
         
@@ -139,7 +178,7 @@ eleventyComputed:
                                 <div id="row13-col5" style="grid-area:13/5/14/6;background:#ffffff;display:flex;align-items:center;justify-content:center"><div id="row12-stored"></div></div>                                
                             </div>
                             <div id="key" style="text-align: right; color:#009900;font-size:0.8em">
-                                 <img style="height:15px" src="/images/uploads/jar-icon.png" /> = jar, <i class="fas fa-snowflake"></i> = freeze, <i class="fas fa-box-open"></i> = store
+                                 <img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" /> = jar, <i class="fas fa-snowflake"></i> = freeze, <i class="fas fa-box-open"></i> = store
                             </div>
                                 
 
@@ -187,6 +226,37 @@ eleventyComputed:
                             
                         </div>
 
+                                <hr>
+
+                                <div class="tablet-ads">
+                        
+                                    <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
+
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                                            <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
+                                        </a>
+
+                                    <!-- END ADVERTISER: Buy Sheds Direct from awin.com --> 
+
+                                    <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
+
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                            <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
+                                        </a>
+
+                                    <!-- END ADVERTISER: Thompson & Morgan from awin.com -->                         
+                                </div>
+
+                                <div class="mobile-ads">
+                                    <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
+
+                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                        <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
+                                    </a>
+
+                                    <!-- END ADVERTISER: Thompson & Morgan from awin.com --> 
+                                </div>                        
+
                     </div> 
                 </main>
 
@@ -198,32 +268,18 @@ eleventyComputed:
 <script>
 
 //this is the script that populates the content into the markedup div
-
-let varieties = `{{ pagedata.content.varieties }}`;
-let introText = `{{ pagedata.content.introduction }}`;
-let plantingText = `{{ pagedata.content.planting }}`;
-let harvestingText = `{{ pagedata.content.harvesting }}`;
-let growingText = `{{ pagedata.content.growing }}`;
-document.getElementById("varieties").innerHTML = marked.parse(varieties);
-document.getElementById("introduction").innerHTML = marked.parse(introText);
-document.getElementById("planting").innerHTML = marked.parse(plantingText);
-document.getElementById("harvesting").innerHTML = marked.parse(harvestingText);
-document.getElementById("growing").innerHTML = marked.parse(growingText);
+document.getElementById("varieties").innerHTML = marked.parse(`{{ pagedata.content.varieties }}`);
+document.getElementById("introduction").innerHTML = marked.parse(`{{ pagedata.content.introduction }}`);
+document.getElementById("planting").innerHTML = marked.parse(`{{ pagedata.content.planting }}`);
+document.getElementById("harvesting").innerHTML = marked.parse(`{{ pagedata.content.harvesting }}`);
+document.getElementById("growing").innerHTML = marked.parse(`{{ pagedata.content.growing }}`);
 
 //this is the area that populates the green table
 let grabName = `{{ pagedata.content.title | lower }}`;
-let plantIndoors = {{ factsplantindoor | dump | safe }}.filter(function(item){
-    return item.plant == grabName;
-});
-let plantOutdoors = {{ factsplantoutdoor | dump | safe }}.filter(function(item){
-    return item.plant == grabName;
-});
-let harvestTime = {{ factsharvest | dump | safe }}.filter(function(item){
-    return item.plant == grabName;
-});
-let storeMethod = {{ factsstore | dump | safe }}.filter(function(item){
-    return item.plant == grabName;
-});
+let plantIndoors = JSON.parse(`{{ factsplantindoor | getPlantData( pagedata.content.title | lower ) | dump | safe }}`);
+let plantOutdoors = JSON.parse(`{{ factsplantoutdoor | getPlantData( pagedata.content.title | lower ) | dump | safe }}`);
+let harvestTime = JSON.parse(`{{ factsharvest | getPlantData( pagedata.content.title | lower ) | dump | safe }}`);
+let storeMethod = JSON.parse(`{{ factsstore | getPlantData( pagedata.content.title | lower ) | dump | safe }}`);
 
 function generatePlantIndoors() {
     if (plantIndoors[0].january == "y" ) {
@@ -350,7 +406,7 @@ function generateStore() {
         document.getElementById("row1-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].january == "jar" ) {
-        document.getElementById("row1-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row1-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].january == "store" ) {
         document.getElementById("row1-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -359,7 +415,7 @@ function generateStore() {
         document.getElementById("row2-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].february == "jar" ) {
-        document.getElementById("row2-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row2-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].february == "store" ) {
         document.getElementById("row2-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -368,7 +424,7 @@ function generateStore() {
         document.getElementById("row3-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].march == "jar" ) {
-        document.getElementById("row3-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row3-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].march == "store" ) {
         document.getElementById("row3-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -377,7 +433,7 @@ function generateStore() {
         document.getElementById("row4-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].april == "jar" ) {
-        document.getElementById("row4-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row4-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].april == "store" ) {
         document.getElementById("row4-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -386,7 +442,7 @@ function generateStore() {
         document.getElementById("row5-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].may == "jar" ) {
-        document.getElementById("row5-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row5-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].may == "store" ) {
         document.getElementById("row5-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -395,7 +451,7 @@ function generateStore() {
         document.getElementById("row6-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].june == "jar" ) {
-        document.getElementById("row6-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row6-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].june == "store" ) {
         document.getElementById("row6-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -404,7 +460,7 @@ function generateStore() {
         document.getElementById("row7-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].july == "jar" ) {
-        document.getElementById("row7-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row7-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].july == "store" ) {
         document.getElementById("row7-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -413,7 +469,7 @@ function generateStore() {
         document.getElementById("row8-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].august == "jar" ) {
-        document.getElementById("row8-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row8-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].august == "store" ) {
         document.getElementById("row8-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -422,7 +478,7 @@ function generateStore() {
         document.getElementById("row9-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].september == "jar" ) {
-        document.getElementById("row9-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row9-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].september == "store" ) {
         document.getElementById("row9-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -431,7 +487,7 @@ function generateStore() {
         document.getElementById("row10-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].october == "jar" ) {
-        document.getElementById("row10-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row10-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].october == "store" ) {
         document.getElementById("row10-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -440,7 +496,7 @@ function generateStore() {
         document.getElementById("row11-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].november == "jar" ) {
-        document.getElementById("row11-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row11-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].november == "store" ) {
         document.getElementById("row11-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -449,7 +505,7 @@ function generateStore() {
         document.getElementById("row12-stored").innerHTML = `<i class="fas fa-snowflake"></i>`;
     }
     if (storeMethod[0].december == "jar" ) {
-        document.getElementById("row12-stored").innerHTML = `<img style="height:15px" src="/images/uploads/jar-icon.png" />`;
+        document.getElementById("row12-stored").innerHTML = `<img style="height:15px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487981/navigation/jar-icon_orqlne.png" />`;
     }
     if (storeMethod[0].december == "store" ) {
         document.getElementById("row12-stored").innerHTML = `<i class="fas fa-box-open"></i>`;
@@ -552,9 +608,7 @@ function makeLink(title,slug) {
 };
 
 //this code gets the gallery photos for the vegetable
-let vegPhotos = {{ gallery | dump | safe }}.filter(function(item){
-return item.name == grabName;
-});
+let vegPhotos = JSON.parse(`{{ gallery | getPlantPhotos( pagedata.content.title | lower ) | dump | safe }}`);
 
 function initialise(containerid, templateid, divid) {
  

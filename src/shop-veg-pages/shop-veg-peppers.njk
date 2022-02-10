@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.peppers.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/peppers/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Pepper Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

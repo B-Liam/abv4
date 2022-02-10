@@ -5,6 +5,7 @@ pagination:
     data: varfruitcats.oranges.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/oranges/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Orange Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

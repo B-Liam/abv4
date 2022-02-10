@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.squash.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/squash/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Squash Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

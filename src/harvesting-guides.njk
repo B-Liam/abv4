@@ -5,6 +5,7 @@ pagination:
     data: monthsharvesting.months
     size: 1
     alias: pagedata
+    addAllPagesToCollections: true
 permalink: "{{ pagedata.month | slug }}-harvesting-guide/index.html"
 eleventyComputed:
     title: "{{ pagedata.month | title }} Harvesting Guide | Allotment Book"

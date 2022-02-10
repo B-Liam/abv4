@@ -146,4 +146,13 @@
     flex-wrap:wrap;
 }
 
+.mobile-ads {
+    display: none;
+}
+
+.tablet-ads {
+    display: flex;
+    justify-content: space-between;
+} 
+
 

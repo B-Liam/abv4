@@ -153,3 +153,11 @@
     display: flex; 
     flex-wrap:wrap;
 }
+
+.tablet-ads {
+    display: none;
+}
+
+.mobile-ads {
+    display: none;
+}

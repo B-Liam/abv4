@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.spinach.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/spinach/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Spinach Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.potatoes.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/potatoes/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Potato Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

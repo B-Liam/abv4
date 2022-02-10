@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.sweetcorn.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/sweetcorn/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Sweetcorn Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

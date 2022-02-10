@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.peas.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/peas/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Pea Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

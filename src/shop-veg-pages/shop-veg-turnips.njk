@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.turnips.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/turnips/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Turnip Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

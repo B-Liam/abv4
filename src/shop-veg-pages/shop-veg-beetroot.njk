@@ -5,6 +5,8 @@ pagination:
     data: varvegcats.beetroot.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
+    
 permalink: "shop/beetroot/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Beetroot Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.springonions.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/spring-onions/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Spring Onion Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

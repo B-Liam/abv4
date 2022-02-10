@@ -5,6 +5,7 @@ pagination:
     data: nutritiontext.element
     size: 1
     alias: pagedata
+    addAllPagesToCollections: true
 permalink: "fruits-vegetables-high-in-{{ pagedata.title | slug }}/index.html"
 eleventyComputed:
     title: "{{ pagedata.title | title }} | Growing For Nutrition | Allotment Book"

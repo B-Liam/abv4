@@ -5,6 +5,7 @@ pagination:
     data: generalstoryblok.page
     size: 1
     alias: pagedata
+    addAllPagesToCollections: true
 permalink: "{{ pagedata.slug }}/index.html"
 eleventyComputed:
     title: "{{ pagedata.content.title | title }} | Allotment Book"

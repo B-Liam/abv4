@@ -65,6 +65,24 @@ module.exports = function(eleventyConfig) {
         }
         return interim;
       });
+      eleventyConfig.addFilter("getPlantData", function(arr,name) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if ( arr[i].plant == name) {
+                interim.push(arr[i])
+            } 
+            }
+        return interim;
+      });
+      eleventyConfig.addFilter("getPlantPhotos", function(arr,vegname) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if ( arr[i].name == vegname) {
+                interim.push(arr[i])
+            } 
+            }
+        return interim;
+      });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

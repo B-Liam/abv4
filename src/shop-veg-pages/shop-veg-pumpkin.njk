@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.pumpkin.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/pumpkin/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Pumpkin Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

@@ -5,6 +5,7 @@ pagination:
     data: varvegcats.swedes.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/swedes/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "Swede Varieties: {{ vegtypes.vegtype | title }} | Seeds And Plants | Allotment Book"

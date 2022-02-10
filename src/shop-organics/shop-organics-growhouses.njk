@@ -5,6 +5,7 @@ pagination:
     data: varorganicscats.growhouses.cats
     size: 1
     alias: vegtypes
+    addAllPagesToCollections: true
 permalink: "shop/growhouses/{{ vegtypes.vegtype | slug }}/index.html"
 eleventyComputed:
     title: "{{ vegtypes.vegtype | title }} Growhouses | Shop | Allotment Book"

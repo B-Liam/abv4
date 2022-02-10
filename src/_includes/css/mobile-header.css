@@ -136,8 +136,9 @@
 
 
 #menu-button {
-    margin: 5% 15% 2% 2%;
-    padding: 7px 10px 7px 7px;
+    margin-right:10px;
+    width:60px;
+    height:50px;
     grid-area: menu;
     color: #ffffff;
     background: #009900;
@@ -316,4 +317,12 @@
     padding-bottom: 2rem; 
     display: flex; 
     flex-wrap:wrap;
+}
+
+.tablet-ads {
+    display: none;
+}
+
+.mobile-ads {
+    text-align: center;
 }
