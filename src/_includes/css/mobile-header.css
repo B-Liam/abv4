@@ -326,3 +326,7 @@
 .mobile-ads {
     text-align: center;
 }
+
+#non-mobile-homepage-hero {
+    display:none;
+}

@@ -161,3 +161,7 @@
 .mobile-ads {
     display: none;
 }
+
+#mobile-homepage-hero {
+    display:none;
+}

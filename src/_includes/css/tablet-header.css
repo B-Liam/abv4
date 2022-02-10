@@ -155,4 +155,8 @@
     justify-content: space-between;
 } 
 
+#mobile-homepage-hero {
+    display:none;
+}
+
 

@@ -52,7 +52,8 @@ layout: /layouts/pagetemplate.njk
                 <main id="main-content">
                     
                     <div id="content-heading" style="background:#009900">
-                        <img style="width:100%;margin-bottom:0px;padding-bottom:0px" src="https://res.cloudinary.com/allotment-book/image/upload/w_720,h_280/v1643896629/home/landscape-allotment_d2eeyl.jpg" alt="Drawing of an example allotment"/>
+                        <div id="non-mobile-homepage-hero"><img style="display:block;width:100%;margin-bottom:0px;padding-bottom:0px" src="https://res.cloudinary.com/allotment-book/image/upload/w_700,h_272,q_auto,f_auto/v1644496298/home/landscape-allotment_qmaz0n.webp" alt="Drawing of an example allotment"/></div>
+                        <div id="mobile-homepage-hero"><img style="width:100%;margin-bottom:0px;padding-bottom:0px" src="https://res.cloudinary.com/allotment-book/image/upload/w_540,h_210,q_auto,f_auto/v1644496298/home/landscape-allotment_qmaz0n.webp" alt="Drawing of an example allotment"/></div>
                         <div style="margin-top:0px;background:#009900">
                             <h1 style="margin-top:0px; padding-bottom: 2px; font-size: 1.2em; color:#ffffff; text-align:center">Welcome to the Allotment Book</h1>
                         </div>
@@ -108,7 +109,7 @@ layout: /layouts/pagetemplate.njk
                         <div style="display:flex;flex-wrap:wrap;justify-content:center" class="gallery-container">
                             {% for item in gallery | getPhotos(6) %}
                             <div style="margin: 10px">
-                                    <a id="gallery-link" href="/photo-gallery/{{item.title | slug }}-{{item.date}}"><img src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/{{item.image}}" alt="{{item.title}}"/>
+                                    <a id="gallery-link" href="/photo-gallery/{{item.title | slug }}-{{item.date}}"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/{{item.image}}" alt="{{item.title}}"/>
                                     <div style="text-align:center; text-transform:capitalize;font-size:0.9rem" id="gallery-title"> {{item.title}}</div></a>
                                 </div>
                             {% endfor %}
@@ -154,7 +155,7 @@ layout: /layouts/pagetemplate.njk
                             <a id="divlink" href="{{cats.link}}">
                                         <div style="width:150px;border: solid #009900 0.5px; margin-bottom: 1rem; margin-left: 0.8rem;margin-right:0.8rem">
 
-                                            <img style="display:block; width:150px;" src="{{cats.image}}" alt="{{cats.alt}}" />
+                                            <img style="display:block; width:150px;height:79px" src="{{cats.image}}" alt="{{cats.alt}}" />
                                             
                                             <div style="display:flex; align-items: center"> 
                                                 <div style="padding-left: 0.5em; padding-top: 7px;padding-bottom:7px"><i style="font-size:0.9em;color:#009900;" class="fas fa-chevron-circle-right"></i></div><div style="padding-left:0.5em; padding-right: 10px;font-size:0.95rem" id="vegrecipes-link">{{ cats.text | title }}</div>
