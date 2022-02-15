@@ -1,6 +1,6 @@
 {
-    "logo": "https://res.cloudinary.com/allotment-book/image/upload/v1644487381/navigation/allotment-book-logo_hhaenm.webp",
-    "moblogo": "https://res.cloudinary.com/allotment-book/image/upload/v1644487381/navigation/allotment-book-logo-mobile_ugaiko.webp",
+    "logo": "/images/uploads/allotment-book-logo.svg",
+    "moblogo": "/images/uploads/allotment-book-logo.svg",
     "url": "https://www.allotmentbook.co.uk",
     "shop": "/shop",
     "account": "/subscriptions",

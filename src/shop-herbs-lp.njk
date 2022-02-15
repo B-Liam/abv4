@@ -27,7 +27,8 @@ description: "Explore herb varieties and find seeds and plants to grow at home o
                         <div id="shop-listings-container" style="justify-content:center">
                         
                         {% for cats in varherbslp %} 
-                        <div style="width:210px;padding-bottom:10px"><a href='/shop/{{ cats | slug }}/all'><i style="font-size:0.7em;color:#009900;padding-right:2%" class="fas fa-chevron-circle-right"></i> {{ cats | title }}</div></a>
+                        <div style="width:210px;padding-bottom:10px"><a href='/shop/{{ cats | slug }}/all'>
+                        <span style="font-size:10px;color:#009900;padding-right:5px">►</span>  {{ cats | title }}</div></a>
                         {% endfor %}
 
                         </div>

@@ -1,0 +1,1878 @@
+{
+  "hosting": {
+    "redirects": 
+    [
+      {
+        "source": "/gallery/plums-gallery/1738",
+        "destination": "/contents/plums/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/musk-melon-gallery/1724",
+        "destination": "/contents/melons/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/inca-berry-gallery/1703",
+        "destination": "/contents/inca-berries/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/gooseberry-gallery/1682",
+        "destination": "/contents/gooseberries/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/currants-gallery/1655",
+        "destination": "/contents/currants/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/cherry-tree-gallery/1641",
+        "destination": "/contents/cherries/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/blueberry-gallery/1621",
+        "destination": "/contents/blueberries/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/apple-gallery/1596",
+        "destination": "/contents/apples/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/tomatillo-gallery/1542",
+        "destination": "/contents/tomatillos/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/tomato-gallery/1519",
+        "destination": "/contents/tomatillos/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/sweetcorn-gallery/1500",
+        "destination": "/contents/sweetcorn/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/runner-bean-gallery/1483",
+        "destination": "/contents/runner-beans/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/rhubarb-gallery/1466",
+        "destination": "/contents/rhubarb/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/pumpkin-gallery/1456",
+        "destination": "/contents/pumpkins/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/potato-gallery/1436",
+        "destination": "/contents/potatoes/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/pea-gallery/1416",
+        "destination": "/contents/peas/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/parsnip-gallery/1404",
+        "destination": "/contents/parsnips/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/onion-gallery/1392",
+        "destination": "/contents/onions/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/lettuce-gallery/1379",
+        "destination": "/contents/lettuce/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/leek-gallery/1365",
+        "destination": "/contents/leeks/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/cucumber-gallery/1347",
+        "destination": "/contents/cucumbers/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/courgette-gallery/1329",
+        "destination": "/contents/courgettes/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/chilli-gallery/1295",
+        "destination": "/contents/chillies/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/chard-gallery/1283",
+        "destination": "/contents/chard/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/celeriac-gallery/1271",
+        "destination": "/contents/celeriac/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/carrots-gallery/1254",
+        "destination": "/contents/carrots/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/cabbage-gallery/1228",
+        "destination": "/contents/cabbage/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/squash-gallery/1205",
+        "destination": "/contents/squash/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/brussels-sprouts-gallery/1194",
+        "destination": "/contents/brussels-sprouts/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/broccoli-gallery/1179",
+        "destination": "/contents/broccoli/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/broad-beans-gallery/1144",
+        "destination": "/contents/broad-beans/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/garlic-growing/411",
+        "destination": "/contents/garlic/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/cucumber/1358",
+        "destination": "/contents/cucumbers/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/potatoes/1446",
+        "destination": "/contents/potatoes/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/celeriac/1281",
+        "destination": "/contents/celeriac/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/tomatillo/1555",
+        "destination": "/contents/tomatillos/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/chilli/1305",
+        "destination": "/contents/chillies/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/garlic-2/261",
+        "destination": "/contents/garlic/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/tayberry-gallery/1782",
+        "destination": "/contents/tayberries/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/beetroot-gallery/468",
+        "destination": "/contents/beetroot/",
+        "type": 301
+      },
+      {
+        "source": "/gallery/strawberry-gallery/1768",
+        "destination": "/contents/strawberries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/onions/1402",
+        "destination": "/contents/onions/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/broad-beans/1152",
+        "destination": "/contents/broad-beans/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/tayberries/1796",
+        "destination": "/contents/tayberries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/raspberries/1763",
+        "destination": "/contents/raspberries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/apples/1616",
+        "destination": "/contents/apples/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/cherries/1653",
+        "destination": "/contents/cherries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/blueberries/1637",
+        "destination": "/contents/blueberries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/currants/1670",
+        "destination": "/contents/currants/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/gooseberries/1695",
+        "destination": "/contents/gooseberries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/strawberries/1780",
+        "destination": "/contents/strawberries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/rhubarb/1476",
+        "destination": "/contents/rhubarb/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/plums/1747",
+        "destination": "/contents/plums/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/musk-melons/1736",
+        "destination": "/contents/melons/",
+        "type": 301
+      },
+      {
+        "source": "/plant/fruit/inca-berries/1715",
+        "destination": "/contents/inca-berries/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/lettuce/1389",
+        "destination": "/contents/lettuce/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/carrot-clove-soup/13726",
+        "destination": "/contents/carrot-and-clove-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/strawberry-milkshake/13508",
+        "destination": "/contents/strawberry-milkshake/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/roasted-brussels-sprouts/13721",
+        "destination": "/contents/roast-brussels-sprouts/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/bread-maker-pizza/13924",
+        "destination": "/contents/bread-maker-pizza/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/picnic-bread/13921",
+        "destination": "/contents/picnic-bread/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/bread-sauce/13719",
+        "destination": "/contents/bread-sauce/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/spanish-angulas/13724",
+        "destination": "/contents/spanish-angulas/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/roast-potatoes/13715",
+        "destination": "/contents/roast-potatoes/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/grandads-stuffing/13718",
+        "destination": "/contents/grandads-stuffing/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/roast-summer-squash/13697",
+        "destination": "/contents/roast-summer-squash/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/broad-bean-couscous/13689",
+        "destination": "/contents/broad-bean-couscous/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/roast-carrots/13690",
+        "destination": "/contents/roast-carrots/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/squash-mash/13691",
+        "destination": "/contents/squash-mash/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/stewed-red-cabbage/13692",
+        "destination": "/contents/stewed-red-cabbage/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/tomato-salad/13695",
+        "destination": "/contents/tomato-salad/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/broad-bean-risotto/13687",
+        "destination": "/contents/broad-bean-risotto/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/broad-bean-guacamole/13688",
+        "destination": "/contents/broad-bean-guacamole/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/cabbage-casserole/13682",
+        "destination": "/contents/cabbage-casserole/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/tomatillo-salsa/13683",
+        "destination": "/contents/tomatillo-salsa/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/roast-celeriac-chips/13684",
+        "destination": "/contents/roast-celeriac-chips/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/bread-maker-bread/13685",
+        "destination": "/contents/bread-maker-bread/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/fried-artichoke/13686",
+        "destination": "/contents/fried-artichoke/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/courgette-omelette/13693",
+        "destination": "/contents/courgette-omelette/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/fruit-ice-lollies/13914",
+        "destination": "/contents/fruit-ice-lollies/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/white-currant-jam/13739",
+        "destination": "/contents/white-currant-jam/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/cranberry-sauce/13720",
+        "destination": "/contents/cranberry-sauce/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/fruit-tarts/13704",
+        "destination": "/contents/fruit-tarts/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/poached-pears/13705",
+        "destination": "/contents/poached-pears/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/strawberry-mousse/13706",
+        "destination": "/contents/strawberry-mousse/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/fruit-meringue-swirls/13707",
+        "destination": "/contents/fruit-meringue-swirls/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/eton-volcano/13708",
+        "destination": "/contents/eton-volcano/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/eton-mess/13709",
+        "destination": "/contents/eton-mess/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/baked-apples/13703",
+        "destination": "/contents/baked-apples/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/plum-chutney/13696",
+        "destination": "/contents/plum-chutney/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/tayberry-compote/13698",
+        "destination": "/contents/tayberry-compote/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/melon-smash/13701",
+        "destination": "/contents/melon-smash/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/poached-plums/13702",
+        "destination": "/contents/poached-plums/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/strawberry-coulis/13699",
+        "destination": "/contents/strawberry-coulis/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/rhubarb-crumble/13700",
+        "destination": "/contents/rhubarb-crumble/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/breakfast-compote/13694",
+        "destination": "/contents/breakfast-compote/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/apple-pie/13678",
+        "destination": "/contents/apple-pie/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/chard-soup/13735",
+        "destination": "/contents/chard-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/beetroot-soup/13736",
+        "destination": "/contents/beetroot-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/gazpacho-soup/13737",
+        "destination": "/contents/gazpacho-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/vegetable-stock/13738",
+        "destination": "/contents/vegetable-stock/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/celeriac-soup/13727",
+        "destination": "/contents/celeriac-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/broad-bean-soup/13728",
+        "destination": "/contents/broad-bean-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/asparagus-leek-soup/13729",
+        "destination": "/contents/asparagus-and-leek-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/roast-garlic-soup/13723",
+        "destination": "/contents/roast-garlic-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/onion-soup/13725",
+        "destination": "/contents/onion-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/beetroot-squash-soup/13722",
+        "destination": "/contents/beetroot-and-squash-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/squash-celeriac-soup/13712",
+        "destination": "/contents/squash-and-celeriac-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/tomatillo-soup/13713",
+        "destination": "/contents/tomatillo-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/pea-and-spinach-soup/13714",
+        "destination": "/contents/pea-and-spinach-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/moka-pot-espresso-making/13937",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/milk-frothing/13935",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/juicers-blenders/13931",
+        "destination": "/contents/juicers-and-blenders/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/yoghurt-based-smoothies/13911",
+        "destination": "/contents/yoghurt-smoothie/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/vegetable-smoothies/13710",
+        "destination": "/contents/vegetable-smoothies/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/ice-fruit-smoothies/13711",
+        "destination": "/contents/ice-fruit-smoothie/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/luscious-mocha-latte-2/13679",
+        "destination": "/contents/luscious-mocha-latte/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/mulled-wine-2/13681",
+        "destination": "/contents/mulled-wine/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/chocolate-banana/13733",
+        "destination": "/contents/chocolate-banana/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/fridge-cake/13734",
+        "destination": "/contents/fridge-cake/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/chocolate-brownies/13730",
+        "destination": "/contents/chocolate-brownies/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/hazelnut-chocolate-cookies/13731",
+        "destination": "/contents/hazelnut-and-chocolate-cookies/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/flapjacks/13732",
+        "destination": "/contents/flapjacks/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/gingerbread-fun/13716",
+        "destination": "/contents/gingerbread-fun/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/treats/chocolate-truffles/13717",
+        "destination": "/contents/chocolate-truffles/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/carrots/1265",
+        "destination": "/contents/carrots/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/tomatoes/1536",
+        "destination": "/contents/tomatoes/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/runner-beans/1493",
+        "destination": "/contents/runner-beans/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/peas/1426",
+        "destination": "/contents/peas/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/broccoli/1191",
+        "destination": "/contents/broccoli/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/cabbage/1241",
+        "destination": "/contents/cabbage/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/leeks/1378",
+        "destination": "/contents/leeks/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/brussels-sprouts/1204",
+        "destination": "/contents/brussels-sprouts/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/chard/1293",
+        "destination": "/contents/chard/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/beetroot/477",
+        "destination": "/contents/beetroot/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/squash/1219",
+        "destination": "/contents/squash/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/pumpkin/1462",
+        "destination": "/contents/pumpkins/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/courgette/1340",
+        "destination": "/contents/courgettes/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/sweetcorn/1510",
+        "destination": "/contents/sweetcorn/",
+        "type": 301
+      },
+      {
+        "source": "/plant/vegetables/parsnips/1414",
+        "destination": "/contents/parnips/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/irish-coffee-2/13680",
+        "destination": "/contents/irish-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/aubergine-varieties/14978",
+        "destination": "/contents/aubergines/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/beetroot-varieties/14826",
+        "destination": "/contents/beetroot/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/broad-bean-varieties/3182",
+        "destination": "/contents/broad-beans/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/cabbage-varieties/14679",
+        "destination": "/contents/cabbage/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/carrot-varieties/14473",
+        "destination": "/contents/carrots/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/chard-varieties/14806",
+        "destination": "/contents/chard/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/chilli-sweet-pepper-varieties/15054",
+        "destination": "/contents/chillies/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/cucumber-varieties/15001",
+        "destination": "/contents/cucumbers/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/french-bean-varieties/14589",
+        "destination": "/contents/french-beans/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/garlic-varieties/2897",
+        "destination": "/contents/garlic/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/kale-varieties/14742",
+        "destination": "/contents/kale/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/leek-varieties/14760",
+        "destination": "/contents/leeks/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/courgette-varieties/14914",
+        "destination": "/contents/courgettes/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/parsnip-varieties/14960",
+        "destination": "/contents/parsnips/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/pea-varieties/14619",
+        "destination": "/contents/peas/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/potato-varieties/2800",
+        "destination": "/contents/potatoes/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/radish-varieties/15032",
+        "destination": "/contents/radish/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/runner-bean-varieties/14531",
+        "destination": "/contents/runner-beans/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/spinach-varieties/14846",
+        "destination": "/contents/spinach/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/sweetcorn-varieties/14936",
+        "destination": "/contents/sweetcorn/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/tomato-varieties/14504",
+        "destination": "/contents/tomatoes/",
+        "type": 301
+      },
+      {
+        "source": "/pl/hv/herb-varieties/15108",
+        "destination": "/contents/herb-growing-guides/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/apple-varieties/3290",
+        "destination": "/contents/apples/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/blackberry-varieties/3250",
+        "destination": "/contents/blackberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/blueberry-varieties/3368",
+        "destination": "/contents/blueberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/boysenberry-varieties/3273",
+        "destination": "/contents/boysenberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/cherry-varieties/3345",
+        "destination": "/contents/cherries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/currant-varieties/3383",
+        "destination": "/contents/currants/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/gooseberry-varieties/3407",
+        "destination": "/contents/gooseberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/inca-berry-varieties/3528",
+        "destination": "/contents/inca-berries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/loganberry-varieties/3284",
+        "destination": "/contents/loganberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/melon-varieties/3513",
+        "destination": "/contents/melons/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/pear-varieties/3450",
+        "destination": "/contents/pears/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/plum-varieties/3489",
+        "destination": "/contents/plums/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/raspberry-varieties/3216",
+        "destination": "/contents/raspberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/rhubarb-varieties/3473",
+        "destination": "/contents/rhubarb/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/strawberry-varieties/3425",
+        "destination": "/contents/strawberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/fv/tayberry-varieties/3199",
+        "destination": "/contents/tayberries/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/onion-varieties/3014",
+        "destination": "/contents/onions/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/celeriac-varieties/15715",
+        "destination": "/contents/celeriac/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/kohlrabi-varieties/15730",
+        "destination": "/contents/kohlrabi/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/pak-choi-varieties/15743",
+        "destination": "/contents/pak-choi/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/globe-artichoke-varieties/15757",
+        "destination": "/contents/globe-artichokes/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/lettuce-varieties/3536",
+        "destination": "/contents/lettuce/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/tomatillo-varieties/15778",
+        "destination": "/contents/tomatillos/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/jerusalem-artichoke-varieties/15786",
+        "destination": "/contents/jerusalem-artichokes/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/salsify-scorzonera/15795",
+        "destination": "/contents/salsify-scorzonera/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/florence-fennel-varieties/15826",
+        "destination": "/contents/florence-fennel/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/squash-varieties/14880",
+        "destination": "/contents/squash/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/shallot-varieties/3030",
+        "destination": "/contents/shallots/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/turnip-swede-varieties/15805",
+        "destination": "/contents/vegetable-growing-guides/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/asparagus-varieties/15696",
+        "destination": "/contents/asparagus/",
+        "type": 301
+      },
+      {
+        "source": "/shop/polytunnels/16555",
+        "destination": "/contents/allotment-polytunnels/",
+        "type": 301
+      },
+      {
+        "source": "/shop/greenhouses/16521",
+        "destination": "/shop/growhouses/all/",
+        "type": 301
+      },
+      {
+        "source": "/shop/allotment-garden-sheds/16579",
+        "destination": "/shop/",
+        "type": 301
+      },
+      {
+        "source": "/shop/growhouse-selection/16762",
+        "destination": "/shop/growhouses/all/",
+        "type": 301
+      },
+      {
+        "source": "/shop/raised-bed-selection/16772",
+        "destination": "/shop/raised-beds/all/",
+        "type": 301
+      },
+      {
+        "source": "/shop/fruit-cages/16716",
+        "destination": "/contents/making-a-steel-walk-in-fruit-cage/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/potato-omelette/16896",
+        "destination": "/contents/spanish-potato-omelette/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/broccoli-varieties/14648",
+        "destination": "/contents/broccoli/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/brussels-sprout-varieties/14788",
+        "destination": "/contents/brussels-sprouts/",
+        "type": 301
+      },
+      {
+        "source": "/pl/vv/cauliflower-varieties/14715",
+        "destination": "/contents/cauliflower/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/pan-fried-asparagus/17286",
+        "destination": "/contents/pan-fried-asparagus/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/leek-potato-pie/17536",
+        "destination": "/contents/leek-and-potato-pie/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/spanish-pisto/17586",
+        "destination": "/contents/spanish-pisto/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/strawberry-redcurrant-jam/13740",
+        "destination": "/contents/strawberry-redcurrant-jam/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/fruit-recipes/how-to-make-jam/14134",
+        "destination": "/contents/how-to-make-jam/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/cucumber-and-dill-pickle/17770",
+        "destination": "/contents/cucumber-and-dill-pickle/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/vegetable-recipes/allotment-ratatouille/17986",
+        "destination": "/contents/allotment-ratatouille/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/soups/creamy-tomato-soup/17996",
+        "destination": "/contents/creamy-tomato-soup/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/drinks/making-continental-coffees/13947",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-recipes/jam/red-gooseberry-jam/17728",
+        "destination": "/contents/red-gooseberry-jam/",
+        "type": 301
+      },
+      {
+        "source": "/plastic-sheds-plastic-storage-sheds",
+        "destination": "/contents/allotment-sheds/",
+        "type": 301
+      },
+      {
+        "source": "/polytunnel-watering",
+        "destination": "/contents/solar-powered-drip-irrigation/",
+        "type": 301
+      },
+      {
+        "source": "/water-butt-accessories",
+        "destination": "/shop/water-butts/accessory/",
+        "type": 301
+      },
+      {
+        "source": "/hozelock-automatic-watering-system",
+        "destination": "/hozelock-automatic-drip-irrigation-kit/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-strimmers",
+        "destination": "/contents/allotment-grass-cutting/",
+        "type": 301
+      },
+      {
+        "source": "/plastic-greenhouses-plastic-growing-tunnels",
+        "destination": "/contents/plastic-greenhouses-and-growing-tunnels/",
+        "type": 301
+      },
+      {
+        "source": "/electric-heated-propagators",
+        "destination": "/contents/electric-heated-propagators/",
+        "type": 301
+      },
+      {
+        "source": "/composting",
+        "destination": "/contents/hot-composting/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-scarecrow-windsock",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-make-jam",
+        "destination": "/contents/how-to-make-jam/",
+        "type": 301
+      },
+      {
+        "source": "/newsletter-sign-up",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/shed-guttering-water-butts",
+        "destination": "/shed-guttering-and-water-butts/",
+        "type": 301
+      },
+      {
+        "source": "/first-years-polytunnel-growing",
+        "destination": "/photo-gallery/polytunnel-growing-2022-02-06/",
+        "type": 301
+      },
+      {
+        "source": "/weed-control-fabric",
+        "destination": "/allotment-starter-guides/",
+        "type": 301
+      },
+      {
+        "source": "/insects-in-water-butts",
+        "destination": "/smelly-water-butts/",
+        "type": 301
+      },
+      {
+        "source": "/all-plants",
+        "destination": "/contents/",
+        "type": 301
+      },
+      {
+        "source": "/watering",
+        "destination": "/contents/watering-tips/",
+        "type": 301
+      },
+      {
+        "source": "/terms-and-conditions-v27-09-19",
+        "destination": "/terms-and-conditions/",
+        "type": 301
+      },
+      {
+        "source": "/february-harvest-guide",
+        "destination": "/february-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/march-harvest-guide",
+        "destination": "/march-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/may-harvest-guide",
+        "destination": "/may-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/august-harvest-guide",
+        "destination": "/august-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/july-harvest-guide",
+        "destination": "/july-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/october-harvest-guide",
+        "destination": "/october-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/november-harvest-guide",
+        "destination": "/november-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/december-harvest-guide",
+        "destination": "/december-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/april-harvest-guide",
+        "destination": "/april-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/june-harvest-guide",
+        "destination": "/june-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/september-harvest-guide",
+        "destination": "/september-harvesting-guide/",
+        "type": 301
+      },
+      {
+        "source": "/vitamins-minerals-in-fruit-vegetables",
+        "destination": "/planning-tools/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-watering-tips",
+        "destination": "/contents/watering-tips/",
+        "type": 301
+      },
+      {
+        "source": "/polytunnels",
+        "destination": "/contents/allotment-polytunnels/",
+        "type": 301
+      },
+      {
+        "source": "/equipment-growing-techniques-guides",
+        "destination": "/allotment-starter-guides/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-make-a-concrete-shed-base-2",
+        "destination": "/how-to-make-a-concrete-shed-base/",
+        "type": 301
+      },
+      {
+        "source": "/top-10-organic-fertilisers-for-an-allotment",
+        "destination": "/organic-fertilisers-for-an-allotment/",
+        "type": 301
+      },
+      {
+        "source": "/garden-shop",
+        "destination": "/shop/",
+        "type": 301
+      },
+      {
+        "source": "/growing-vegetables-in-pots-containers",
+        "destination": "/contents/growing-vegetables-in-pots-and-containers/",
+        "type": 301
+      },
+      {
+        "source": "/germinating-using-rock-wool",
+        "destination": "/germinating-using-rock-wool-cubes/",
+        "type": 301
+      },
+      {
+        "source": "/germination",
+        "destination": "/allotment-starter-guides/",
+        "type": 301
+      },
+      {
+        "source": "/growing-guides",
+        "destination": "/allotment-starter-guides/",
+        "type": 301
+      },
+      {
+        "source": "/essential-allotment-tools-equipment",
+        "destination": "/contents/essential-allotment-tools-and-equipment/",
+        "type": 301
+      },
+      {
+        "source": "/repotting-rockwool-seedlings",
+        "destination": "/repotting-rock-wool-seedlings/",
+        "type": 301
+      },
+      {
+        "source": "/can-having-an-allotment-save-you-money",
+        "destination": "/contents/does-working-an-allotment-save-money/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-build-a-polytunnel",
+        "destination": "/contents/how-to-build-a-polytunnel/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-sheds",
+        "destination": "/contents/allotment-sheds/",
+        "type": 301
+      },
+      {
+        "source": "/polytunnel-solar-drip-irrigation-watering-system",
+        "destination": "/contents/solar-powered-drip-irrigation/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-train-tomatoes",
+        "destination": "/training-tomato-plants/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-netting",
+        "destination": "/contents/allotment-netting/",
+        "type": 301
+      },
+      {
+        "source": "/ants-aphids-fruit-trees-2",
+        "destination": "/contents/controlling-ants-and-aphids-on-fruit-trees/",
+        "type": 301
+      },
+      {
+        "source": "/hot-composting",
+        "destination": "/contents/hot-composting/",
+        "type": 301
+      },
+      {
+        "source": "/homemade-compost",
+        "destination": "/how-to-make-homemade-compost/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-build-a-walk-in-fruit-cage",
+        "destination": "/contents/making-a-steel-walk-in-fruit-cage/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-use-a-garden-incinerator",
+        "destination": "/use-garden-incinerator/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-start-an-allotment",
+        "destination": "/contents/start-work-on-a-new-plot/",
+        "type": 301
+      },
+      {
+        "source": "/how-to-make-jam-in-a-breadmaker",
+        "destination": "/how-to-make-jam-in-a-bread-maker/",
+        "type": 301
+      },
+      {
+        "source": "/gallery-2",
+        "destination": "/photo-gallery/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-planting-design",
+        "destination": "/contents/designing-an-allotment-layout/",
+        "type": 301
+      },
+      {
+        "source": "/best-vegetables-to-grow-to-save-money",
+        "destination": "/contents/what-are-good-vegetables-to-grow/",
+        "type": 301
+      },
+      {
+        "source": "/social-posts",
+        "destination": "/videos/",
+        "type": 301
+      },
+      {
+        "source": "/vegetable-varieties",
+        "destination": "/shop/vegetables/",
+        "type": 301
+      },
+      {
+        "source": "/fruit-varieties",
+        "destination": "/shop/fruit/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-starter-guide",
+        "destination": "/allotment-starter-guides/",
+        "type": 301
+      },
+      {
+        "source": "/treats-recipes",
+        "destination": "/allotment-recipes/",
+        "type": 301
+      },
+      {
+        "source": "/drinks-recipes",
+        "destination": "/allotment-recipes/",
+        "type": 301
+      },
+      {
+        "source": "/vegetable-recipes",
+        "destination": "/allotment-recipes/",
+        "type": 301
+      },
+      {
+        "source": "/soup-recipes",
+        "destination": "/allotment-recipes/",
+        "type": 301
+      },
+      {
+        "source": "/festive-recipes",
+        "destination": "/allotment-recipes/",
+        "type": 301
+      },
+      {
+        "source": "/fruit-recipes",
+        "destination": "/allotment-recipes/",
+        "type": 301
+      },
+      {
+        "source": "/plan-what-to-grow",
+        "destination": "/planning-tools/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-planner-record-keeper",
+        "destination": "/planning-tools/",
+        "type": 301
+      },
+      {
+        "source": "/variety-selector",
+        "destination": "/shop/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-planner-information",
+        "destination": "/planning-tools/",
+        "type": 301
+      },
+      {
+        "source": "/month-by-month-harvest-guide",
+        "destination": "/planning-tools/",
+        "type": 301
+      },
+      {
+        "source": "/what-to-plant-by-month",
+        "destination": "/planning-tools/",
+        "type": 301
+      },
+      {
+        "source": "/privacy-policy-2",
+        "destination": "/privacy-policy/",
+        "type": 301
+      },
+      {
+        "source": "/about",
+        "destination": "/contents/about-the-allotment-book/",
+        "type": 301
+      },
+      {
+        "source": "/video-gallery",
+        "destination": "/videos/",
+        "type": 301
+      },
+      {
+        "source": "/allotment-no-dig-beds",
+        "destination": "/contents/making-no-dig-beds/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/pea-and-spinach-soup",
+        "destination": "/contents/pea-and-spinach-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/tomatillo-soup",
+        "destination": "/contents/tomatillo-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/squash-celeriac-soup",
+        "destination": "/contents/squash-and-celeriac-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/roast-garlic-soup",
+        "destination": "/contents/roast-garlic-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/asparagus-leek-soup",
+        "destination": "/contents/asparagus-and-leek-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/beetroot-squash-soup",
+        "destination": "/contents/beetroot-and-squash-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/onion-soup",
+        "destination": "/contents/onion-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/celeriac-soup",
+        "destination": "/contents/celeriac-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/broad-bean-soup",
+        "destination": "/contents/broad-bean-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/homemade-vegetable-stock",
+        "destination": "/contents/vegetable-stock/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/gazpacho-soup",
+        "destination": "/contents/gazpacho-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/beetroot-soup",
+        "destination": "/contents/beetroot-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/chard-soup",
+        "destination": "/contents/chard-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/creamy-tomato-soup",
+        "destination": "/contents/creamy-tomato-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/picnic-bread",
+        "destination": "/contents/picnic-bread/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/bread-sauce",
+        "destination": "/contents/bread-sauce/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/roasted-brussels-sprouts",
+        "destination": "/contents/roast-brussels-sprouts/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/roast-potatoes",
+        "destination": "/contents/roast-potatoes/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/grandads-stuffing",
+        "destination": "/contents/grandads-stuffing/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/roast-carrots",
+        "destination": "/contents/roast-carrots/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/stewed-red-cabbage",
+        "destination": "/contents/stewed-red-cabbage/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/cranberry-sauce",
+        "destination": "/contents/cranberry-sauce/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/baked-apples",
+        "destination": "/contents/baked-apples/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/poached-pears",
+        "destination": "/contents/poached-pears/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/poached-plums",
+        "destination": "/contents/poached-plums/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/carrot-clove-soup",
+        "destination": "/contents/carrot-and-clove-soup/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/mulled-wine",
+        "destination": "/contents/mulled-wine/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/gingerbread-fun",
+        "destination": "/contents/gingerbread-fun/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/chocolate-truffles",
+        "destination": "/contents/chocolate-truffles/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/cucumber-and-dill-pickle",
+        "destination": "/contents/cucumber-and-dill-pickle/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/allotment-ratatouille",
+        "destination": "/contents/allotment-ratatouille/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/spanish-pisto",
+        "destination": "/contents/spanish-pisto/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/leek-potato-pie",
+        "destination": "/contents/leek-and-potato-pie/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/pan-fried-asparagus",
+        "destination": "/contents/pan-fried-asparagus/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/spanish-potato-omelette",
+        "destination": "/contents/spanish-potato-omelette/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/bread-maker-pizza",
+        "destination": "/contents/bread-maker-pizza/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/spanish-angulas",
+        "destination": "/contents/spanish-angulas/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/roast-summer-squash",
+        "destination": "/contents/roast-summer-squash/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/broad-bean-couscous",
+        "destination": "/contents/broad-bean-couscous/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/squash-mash",
+        "destination": "/contents/squash-mash/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/spanish-courgette-omelette",
+        "destination": "/contents/courgette-omelette/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/tomato-salad",
+        "destination": "/contents/tomato-salad/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/broad-bean-guacamole",
+        "destination": "/contents/broad-bean-guacamole/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/winter-cabbage-casserole",
+        "destination": "/contents/cabbage-casserole/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/tomatillo-salsa",
+        "destination": "/contents/tomatillo-salsa/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/roast-celeriac-chips",
+        "destination": "/contents/roast-celeriac-chips/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/broad-bean-risotto",
+        "destination": "/contents/broad-bean-risotto/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/bread-maker-bread",
+        "destination": "/contents/bread-maker-bread/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/fried-artichoke",
+        "destination": "/contents/fried-artichoke/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/yoghurt-based-smoothies",
+        "destination": "/contents/yoghurt-smoothie/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/making-continental-coffees",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/milk-frothing",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/moka-pot-espresso-making",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/vegetable-smoothies",
+        "destination": "/contents/vegetable-smoothies/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/ice-fruit-smoothies",
+        "destination": "/contents/ice-fruit-smoothie/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/luscious-mocha-latte",
+        "destination": "/contents/luscious-mocha-latte/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/strawberry-milkshake",
+        "destination": "/contents/strawberry-milkshake/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/irish-coffee",
+        "destination": "/contents/irish-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/chocolate-banana",
+        "destination": "/contents/chocolate-banana/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/fridge-cake",
+        "destination": "/contents/fridge-cake/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/chocolate-brownies",
+        "destination": "/contents/chocolate-brownies/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/hazelnut-chocolate-cookies",
+        "destination": "/contents/hazelnut-and-chocolate-cookies/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/flapjacks",
+        "destination": "/contents/flapjacks/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/red-gooseberry-jam",
+        "destination": "/contents/red-gooseberry-jam/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/apple-pie",
+        "destination": "/contents/apple-pie/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/melon-smash",
+        "destination": "/contents/melon-smash/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/strawberry-coulis",
+        "destination": "/contents/strawberry-coulis/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/rhubarb-crumble",
+        "destination": "/contents/rhubarb-crumble/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/plum-chutney",
+        "destination": "/contents/plum-chutney/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/eton-mess",
+        "destination": "/contents/eton-mess/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/eton-volcano",
+        "destination": "/contents/eton-volcano/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/strawberry-mousse",
+        "destination": "/contents/strawberry-mousse/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/fruit-tarts",
+        "destination": "/contents/fruit-tarts/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/fruit-meringue-swirls",
+        "destination": "/contents/fruit-meringue-swirls/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/fruit-ice-lollies",
+        "destination": "/contents/fruit-ice-lollies/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/white-currant-jam",
+        "destination": "/contents/white-currant-jam/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/strawberry-redcurrant-jam",
+        "destination": "/contents/strawberry-redcurrant-jam/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/tayberry-compote",
+        "destination": "/contents/tayberry-compote/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/breakfast-compote",
+        "destination": "/contents/breakfast-compote/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/how-to-make-jam",
+        "destination": "/contents/how-to-make-jam/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/delicious-homemade-coffee",
+        "destination": "/contents/homemade-coffee/",
+        "type": 301
+      },
+      {
+        "source": "/recipe/juicers-blender",
+        "destination": "/contents/juicers-and-blenders/",
+        "type": 301
+      }
+     ],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

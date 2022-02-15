@@ -32,21 +32,22 @@ eleventyComputed:
                         
                         <div id="gallery-container" style="display:flex; align-items: center; background:#ffffff;padding-top:0.5rem">
                             <div id="previous" style="width:10%;text-align:center; color: #ffffff; font-size:2rem">
-                                <a onclick="previousImage()"><i class="fas fa-chevron-circle-left"></i></a>
+                                <a onclick="previousImage()"><img style="width:30px; height:30px" src="/images/uploads/green-chevron-left.webp" alt"green chevron icon" /></a>
                             </div>
-                        <div id="hero" style="text-align:center; width:80%"></div>
+                        <div class="photo-gallery-hero" id="hero" style=""></div>
                             <div id="next" style="width:10%;text-align:center; color: #ffffff; font-size:2rem">
-                                <a onclick="nextImage()"><i class="fas fa-chevron-circle-right"></i></a>
+                                <a onclick="nextImage()"><img style="width:30px; height:30px" src="/images/uploads/green-chevron-right.webp" alt"green chevron icon" /></i></a>
                             </div>
 
                         </div>
-                        <div id="herotext" style="text-align:center; padding-left:20%; padding-right:20%;padding-bottom: 0.5rem;background:#ffffff"></div>
-
+<div class="gallery-text-button" id="herotext" style="padding-bottom: 0.5rem;background:#ffffff"></div>
                     </div>
 
-                    <div style="margin-top:20px" id="content-body">
+                    
+
+                    <div class="gallery-text-button" style="margin-top:20px" id="content-body">
                         <div style="text-align: center">
-                            <a href="/photo-gallery"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px"><i style="padding-right:1%" class="fas fa-chevron-circle-right"></i> All Galleries</button></a>
+                            <a href="/photo-gallery"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px">All Galleries</button></a>
                         </div>  
 
                     </div>

@@ -159,4 +159,22 @@
     display:none;
 }
 
+.growing-pages-gallery {
+    width: 400px;
+    height: 400px;
+}
+
+.photo-gallery-hero {
+    width: 595px;
+    height: 595px;
+    text-align: center;
+}
+
+.gallery-text-button {
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 

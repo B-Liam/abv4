@@ -3,63 +3,63 @@
       {
         "shopcat": "vegetables",
         "text": "vegetable varieties",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488664/navigation/squash-harvest_rjh7ii.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488664/navigation/squash-harvest_rjh7ii.jpg",
         "alt": "",
         "link": "/shop/vegetables/"
       },
       {
         "shopcat": "fruit",
         "text": "fruit varieties",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488683/navigation/fruit-harvest_huidz9.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488683/navigation/fruit-harvest_huidz9.jpg",
         "alt": "",
         "link": "/shop/fruit/"
       },
       {
         "shopcat": "herbs",
         "text": "herb varieties",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488694/navigation/curly-leaf-parsley_jqmf4l.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488694/navigation/curly-leaf-parsley_jqmf4l.jpg",
         "alt": "",
         "link": "/shop/herbs/"
       },
       {
         "shopcat": "raisedbeds",
         "text": "Raised Beds",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488703/navigation/raised-bed_o8wsln.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488703/navigation/raised-bed_o8wsln.jpg",
         "alt": "",
         "link": "/shop/raised-beds/all"
       },
       {
         "shopcat": "growhouses",
         "text": "Growhouses",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488711/navigation/growhouse_bgxpdd.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488711/navigation/growhouse_bgxpdd.jpg",
         "alt": "",
         "link": "/shop/growhouses/all"
       },
       {
         "shopcat": "waterbutts",
         "text": "Water Butts",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488720/navigation/water-butt_snff1l.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488720/navigation/water-butt_snff1l.jpg",
         "alt": "",
         "link": "/shop/water-butts/all"
       },
       {
         "shopcat": "hotcomposters",
         "text": "Hot Composters",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488729/navigation/hot-composting_ghnkk6.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488729/navigation/hot-composting_ghnkk6.jpg",
         "alt": "",
         "link": "/shop/hot-composters/all"
       },
       {
         "shopcat": "lawnmowers",
         "text": "Cordless Lawnmowers",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488741/navigation/cordless-lawnmower-at-allotment_eeapck.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488741/navigation/cordless-lawnmower-at-allotment_eeapck.jpg",
         "alt": "",
         "link": "/shop/lawnmowers/all"
       },
       {
         "shopcat": "trimmers",
         "text": "Cordless Trimmers",
-        "image": "https://res.cloudinary.com/allotment-book/image/upload/v1644488748/navigation/cordless-trimmer-at-allotment_lmidql.jpg",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488748/navigation/cordless-trimmer-at-allotment_lmidql.jpg",
         "alt": "",
         "link": "/shop/trimmers/all"
       }

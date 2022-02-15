@@ -74,6 +74,28 @@ module.exports = function(eleventyConfig) {
             }
         return interim;
       });
+      eleventyConfig.addFilter("getTableSymbol", function(arr,arrname,name,month) {
+        if ( arrname == "sow-indoor" || arrname == "sow-outdoor" || arrname == "facts-harvest" ){
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if ( arr[i].plant == name && arr[i][month] == "y" ) {
+                return (`✔`)
+            } 
+            }
+        }
+        if (arrname == "store-method") {
+            for (let i = 0 ; i < arr.length ; i++ ) {
+                if ( arr[i].plant == name && arr[i][month] == "frozen" ) {
+                    return (`<img style="height:15px; width:14px" src="/images/uploads/frozen.webp" />`)
+                }
+                if ( arr[i].plant == name && arr[i][month] == "store" ) {
+                    return (`<img style="height:15px; width:14px" src="/images/uploads/store.webp" />`)
+                }
+                if ( arr[i].plant == name && arr[i][month] == "jar" ) {
+                    return (`<img style="width:9px;height:15px" src="/images/uploads/jar-icon.webp" />`)
+                } 
+                }
+        }
+      });
       eleventyConfig.addFilter("getPlantPhotos", function(arr,vegname) {
         let interim = [];
         for (let i = 0 ; i < arr.length ; i++ ) {
@@ -99,6 +121,7 @@ module.exports = function(eleventyConfig) {
     return  {
         dir: {
             input: "src",
+            output: "public",
             includes: "_includes",
             data: "_data"
         }

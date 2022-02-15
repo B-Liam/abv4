@@ -7,10 +7,11 @@ eleventyExcludeFromCollections: true
     
     {% for item in collections.all %}
     <url>
-        {{ settings.url }}{{ item.url }}
-        <lastmod>{{ item.date }}</lastmod>
+        <loc>{{ settings.url }}{{ item.url }}</loc>
+        <lastmod>{{ item.date.toISOString() }}</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     {% endfor %}
 
 </urlset>
+
