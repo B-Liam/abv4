@@ -43,7 +43,7 @@ function lookUp(prod) {
                     "sow": objectL.sow,
                     "harvest": objectL.harvest,
                     "deeplink": objectEx.aw_deep_link,
-                    "image": objectEx.merchant_image_url,
+                    "image": objectEx.aw_image_url,
                     "price": objectEx.search_price,
                     "inStock": objectEx.in_stock,
                     "merchant": objectEx.merchant_name

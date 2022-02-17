@@ -41,11 +41,19 @@ eleventyComputed:
                             
                         </div>                         
 
-                            <img class="hero-image" id="featured-image" style="" src="{{ pagedata.content.lead_image.filename }}" alt="{{pagedata.content.lead_image.alt}}"/>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" id="featured-image" style="" src="{{ pagedata.content.lead_image.filename }}/m/600x315" alt="{{pagedata.content.lead_image.alt}}"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="{{ pagedata.content.lead_image.filename }}/m/360x189" alt="{{pagedata.content.lead_image.alt}}"/>
+                            </div>
 
                             <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
 
-                            <div style="margin-bottom:2rem" id="introduction"></div>
+                                <div style="margin-bottom:2rem" id="introduction">
+                                    {% liamMark pagedata.content.introduction %}
+                                </div>
 
                             </div>
 
@@ -61,7 +69,9 @@ eleventyComputed:
 
                                 <h2 id="title-youtube" style="padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
@@ -73,7 +83,9 @@ eleventyComputed:
 
                             <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-three"><h4>Hello Three!</h4></div>
 
-                            <div style="" id="transcript"></div>
+                            <div style="" id="transcript">
+                                {% liamMark pagedata.content.transcript %}
+                            </div>
 
 
                         </article>
@@ -93,9 +105,6 @@ eleventyComputed:
 
             </div>
 
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <script>
 
 //this populates the page with storyblok content, by using javascript to target divs and passing in the content
@@ -108,16 +117,12 @@ let ingredientsThree = `{{ pagedata.content.ingredients_three }}`;
 let transcriptText = `{{ pagedata.content.transcript }}`;
 let videoCheck = `{{ pagedata.content.vimeo_number }}`;
 let youtubeCheck = `{{ pagedata.content.youtube_number }}`;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
-document.getElementById("transcript").innerHTML = marked.parse(transcriptText);
 
 //a function to adjust for empty content, which is then called below the function
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -126,9 +131,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/{{pagedata.content.youtube_number}}" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/{{pagedata.content.youtube_number}}"><img style="width:${wid}px;height:${hei}px" src="{{pagedata.content.video.filename}}${extension}" alt="{{pagedata.content.title}}"/></a></div>`
     )
 }
 
@@ -149,7 +154,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();
@@ -159,8 +165,8 @@ removeDiv("ingredients-one", ingredientsOne);
 removeDiv("ingredients-two", ingredientsTwo);
 removeDiv("ingredients-three", ingredientsThree);
 removeDiv("notes", notesText);
-removeDiv("intro-title", introText);
 removeDiv("featured-image", featuredImage);
+removeDiv("introduction", introText);
 removeDiv("transcript", transcriptText);
 
 

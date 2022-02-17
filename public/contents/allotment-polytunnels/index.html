@@ -13,7 +13,7 @@
     <title>Allotment Polytunnels | Allotment Book</title>
     <meta name="description" content="Looking at how an allotment polytunnel can extend the growing season from late winter to late autumn, and make growing heat sensitive plants much easi">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Mon Feb 14 2022 12:10:55 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Wed Feb 16 2022 15:06:51 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/contents/allotment-polytunnels/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -550,6 +550,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#youtube-embed-container {
+    display: none;
+}
+
 
 }
 
@@ -734,6 +738,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 
 
 
@@ -814,6 +822,7 @@ input[type=submit] {
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -930,6 +939,10 @@ text-align:center;
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 }
 
 </style>
@@ -1042,9 +1055,10 @@ text-align:center;
 
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                </a>
+                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                    </a>
+
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
 
@@ -1054,9 +1068,9 @@ text-align:center;
                 
                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                </a>
+                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                          <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                        </a>
 
                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
 
@@ -1066,7 +1080,7 @@ text-align:center;
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
                 <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3032573&v=25446&q=427392&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3032573&v=25446&q=427392&r=1016123" border="0">
+                    <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644964215/ads/shed_bundles_buy_sheds_direct_rrczsp.webp" border="0">
                 </a>
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
@@ -1093,7 +1107,7 @@ text-align:center;
 
                         <article>
 
-                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px;">
                             <div id="higher-previous">
                             </div>
                             <div id="higher-next">
@@ -1102,12 +1116,24 @@ text-align:center;
 
                         <div style="display:flex;justify-content:space-between" id="header-container">
 
-                            <h1 id="title" style="margin-bottom:10px;font-size:1.4rem">Allotment Polytunnels</h1> 
+                            <h1 id="title" style="margin-bottom:10px">Allotment Polytunnels</h1> 
 
                         </div>                         
 
-                            <img class="hero-image" src="https://a.storyblok.com/f/136863/1200x630/d2ae566398/allotment-polytunnel.jpg/m/600x315" alt="allotment polytunnel"/>
-                            <div style="" id="introduction"></div>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" src="https://a.storyblok.com/f/136863/1200x630/d2ae566398/allotment-polytunnel.jpg/m/600x315" alt="allotment polytunnel"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="https://a.storyblok.com/f/136863/1200x630/d2ae566398/allotment-polytunnel.jpg/m/360x189" alt="allotment polytunnel"/>
+                            </div>
+
+                            <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
+
+                            <div style="margin-bottom:1rem" id="introduction">
+                                <p>Polytunnels are an increasingly common sight on an allotment. They are a cheaper and larger alternative to greenhouses, and without the problems associated with broken glass.</p>
+
+                            </div>
 
                             <div style="padding-bottom:20px" id="video-container">
 
@@ -1121,15 +1147,68 @@ text-align:center;
 
                                 <h2 id="title-youtube" style="margin-top:0px;padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
-                            <div id="markedup"></div>
+                            <div id="markedup">
+                                <p>The advantages of using a polytunnel include easier germination in spring and a longer growing season. They are especially good for mediterranean vegetables like tomatoes, chillies, aubergines, peppers, and cucumbers. These are vegetables that are relatively slow growing and ripen at the end of summer, and if growing outdoors, the final harvest can be greatly reduced by poor weather.</p>
+<p>By contrast, the heat of a polytunnel accelerates their growth bringing forward the first harvest, and often improves the quality of the fruit (eg tomatoes are sweeter and chillies are hotter). The protected environment means that the length of the harvest can extend into October.</p>
+<p>In addition, at the start of the growing season, a polytunnel provides a protected environment for frost sensitive plants. Compared to the amount of windowsill space, or even room inside a conservatory or greenhouse, polytunnels provide more space. This creates the opportunity to grow more plants, and reduces the need to constantly move plants around where optimal growing space is limited.</p>
+<p>Polytunnels are not normally heated, and at night the air inside is not much warmer than the outside temperature. However, plants are protected from cold rain and wind, and this can make all the difference in keeping plants alive. Polytunnels quickly warm up in the morning as soon as sunlight starts shining through the plastic, making any periods of cold much shorter.</p>
+<h2>Polytunnel Features</h2>
+<p>Below is a list of things to consider based on my personal experience using a polytunnel at my allotment:</p>
+<p><strong>Size</strong><br>
+My polytunnel is the most productive space on my allotment. I harvest more per metre of space than anywhere else on my plot. This means that I have no regrets about dedicating a significant growing space to a polytunnel. Over the years I have grown aubergines, chillies, cucumbers, melon, cucamelon, sweet peppers, tomatillos, inca berries, and above all else, tomatoes. Polytunnels are ideal spaces for growing tomatoes, making the harvest season almost twice as long and the fruit taste better.</p>
+<p><strong>Position</strong><br>
+Polytunnels are inherently strong owing to their aerodynamic shape, steel tubing, and tough cover. Nevertheless, they will be damaged if objects fly into them during strong wind (for example branches from trees, stray objects like water butts, shed roofs, or garden incinerators), or if there is a weakness from poor construction.</p>
+<p>However, the biggest consideration on my plot is heat. On summer days, my polytunnel gets very warm, often over 50 °C. By chance, my polytunnel receives the morning sun, but by mid afternoon, is partially shaded by trees. I think this has benefited my plants by reducing temperatures in the afternoon (and the need to water). A polytunnel that receives the sun all day long will require excellent ventilation and watering for the plants (more below).</p>
+<p><strong>Ventilation</strong><br>
+The warmth inside a polytunnel is a great feature in spring and autumn, but in the middle of summer, this feature becomes a problem with the capability to kill plants either from extreme heat or dehydration. The most common solution is ventilation, where hot air is quickly dispersed from inside the polytunnel, preventing a build up of heat. This can be achieved at each end of the polytunnel by opening doors, or along the side of the polytunnel by lifting up panels.</p>
+<p>The best solution for a particularly location will vary according to what will be grown inside a polytunnel, the amount of direct sunlight, and how exposed the site is to strong winds (increasing ventilation can have the unintended consequence of weakening the structure). This is something to discuss with a polytunnel supplier. On my allotment, my preferred solution is to have large doors at both ends of the tunnel, but without movable side panels.</p>
+<p><strong>Cover</strong><br>
+The covers of polytunnels are made from polythene, and the quality of the cover is crucial. The cover needs to be UV stabilised to prevent sunlight damaging the cover. Where the cover passes over the steel poles, the cover needs to be protected from the heat of the poles themselves. Stretching the cover tightly to minimise movement in wind, and securely fixing the cover to the frame (or buried into the ground) is essential to prolong the life of the polytunnel.</p>
+<p><strong>Growing Method</strong><br>
+Inside my polytunnel, my preference is to grow plants in large pots and containers. At the end of a growing season, this makes it easy to tidy everything away, and recycle the compost to avoid the build up of disease in the soil. Other people prefer to create fixed beds inside their polytunnel, sowing directly in the ground, and manage crop rotation in a different way. Whilst I prefer my method, it does increase the amount of watering to keep plants in pots from drying out. Growing in the ground is better in this regard, but does make refreshing the soil more difficult.</p>
+<p><strong>Watering</strong><br>
+If possible, I recommend investing in a drip irrigation solution to ensure that plants receive all their watering requirements. For plots that have their own watertap and electricity this is easy to put in place. On my plot, there is neither mains water or electricity, and I have had to devise my own solar powered drip irrigation solution using water stored in water butts. Without a drip irrigation system, in high summer, a gardener may have to visit their plants morning and evening to provide water.</p>
+<h2>Polytunnel Planting Ideas</h2>
+<h3>Heat Loving Vegetables</h3>
+<ul>
+<li>Aubergines</li>
+<li>Chillies</li>
+<li>Cucamelon</li>
+<li>Cucumbers</li>
+<li>Peppers</li>
+<li>Tomatillos</li>
+<li>Tomatoes</li>
+</ul>
+<h3>Heat Loving Fruit</h3>
+<ul>
+<li>Dessert grapes</li>
+<li>Inca berries</li>
+<li>Melons</li>
+</ul>
+<h3>Harvest In Winter</h3>
+<ul>
+<li>Chard</li>
+<li>Perpetual spinach</li>
+<li>Lettuce</li>
+<li>Salad leaves</li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li>A photo gallery of the <a href="/photo-gallery/polytunnel-growing-2022-02-06/">fruit and vegetables</a> I have grown in my polytunnel</li>
+<li>Article on <a href="/how-to-keep-a-polytunnel-warm/">how to keep a polytunnel warm</a> in winter and spring</li>
+</ul>
+
+                            </div>
 
                         </article>
 
-                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center">
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px">
                             <div id="lower-previous">
                             </div>
                             <div id="lower-next">
@@ -1151,17 +1230,17 @@ text-align:center;
                         
                                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com --> 
 
                                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->                         
                         
@@ -1170,9 +1249,9 @@ text-align:center;
                         <div class="mobile-ads">
                             <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                            <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                            </a>
+                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                    </a>
 
                             <!-- END ADVERTISER: Thompson & Morgan from awin.com --> 
                         </div>
@@ -1183,73 +1262,10 @@ text-align:center;
             </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <script>
 
 //this is the script that populates the content into the markedup div
-let text = `## Introduction
 
-Polytunnels are an increasingly common sight on an allotment. They are a cheaper and larger alternative to greenhouses, and without the problems associated with broken glass.
-
-The advantages of using a polytunnel include easier germination in spring and a longer growing season. They are especially good for mediterranean vegetables like tomatoes, chillies, aubergines, peppers, and cucumbers. These are vegetables that are relatively slow growing and ripen at the end of summer, and if growing outdoors, the final harvest can be greatly reduced by poor weather.
-
-By contrast, the heat of a polytunnel accelerates their growth bringing forward the first harvest, and often improves the quality of the fruit (eg tomatoes are sweeter and chillies are hotter). The protected environment means that the length of the harvest can extend into October.
-
-In addition, at the start of the growing season, a polytunnel provides a protected environment for frost sensitive plants. Compared to the amount of windowsill space, or even room inside a conservatory or greenhouse, polytunnels provide more space. This creates the opportunity to grow more plants, and reduces the need to constantly move plants around where optimal growing space is limited. 
-
-Polytunnels are not normally heated, and at night the air inside is not much warmer than the outside temperature. However, plants are protected from cold rain and wind, and this can make all the difference in keeping plants alive. Polytunnels quickly warm up in the morning as soon as sunlight starts shining through the plastic, making any periods of cold much shorter.
-
-## Polytunnel Features
-Below is a list of things to consider based on my personal experience using a polytunnel at my allotment:
-
-**Size**  
-My polytunnel is the most productive space on my allotment. I harvest more per metre of space than anywhere else on my plot. This means that I have no regrets about dedicating a significant growing space to a polytunnel. Over the years I have grown aubergines, chillies, cucumbers, melon, cucamelon, sweet peppers, tomatillos, inca berries, and above all else, tomatoes. Polytunnels are ideal spaces for growing tomatoes, making the harvest season almost twice as long and the fruit taste better.
-
-**Position**  
-Polytunnels are inherently strong owing to their aerodynamic shape, steel tubing, and tough cover. Nevertheless, they will be damaged if objects fly into them during strong wind (for example branches from trees, stray objects like water butts, shed roofs, or garden incinerators), or if there is a weakness from poor construction. 
-
-However, the biggest consideration on my plot is heat. On summer days, my polytunnel gets very warm, often over 50 °C. By chance, my polytunnel receives the morning sun, but by mid afternoon, is partially shaded by trees. I think this has benefited my plants by reducing temperatures in the afternoon (and the need to water). A polytunnel that receives the sun all day long will require excellent ventilation and watering for the plants (more below).
-
-**Ventilation**  
-The warmth inside a polytunnel is a great feature in spring and autumn, but in the middle of summer, this feature becomes a problem with the capability to kill plants either from extreme heat or dehydration. The most common solution is ventilation, where hot air is quickly dispersed from inside the polytunnel, preventing a build up of heat. This can be achieved at each end of the polytunnel by opening doors, or along the side of the polytunnel by lifting up panels. 
-
-The best solution for a particularly location will vary according to what will be grown inside a polytunnel, the amount of direct sunlight, and how exposed the site is to strong winds (increasing ventilation can have the unintended consequence of weakening the structure). This is something to discuss with a polytunnel supplier. On my allotment, my preferred solution is to have large doors at both ends of the tunnel, but without movable side panels.
-
-**Cover**  
-The covers of polytunnels are made from polythene, and the quality of the cover is crucial. The cover needs to be UV stabilised to prevent sunlight damaging the cover. Where the cover passes over the steel poles, the cover needs to be protected from the heat of the poles themselves. Stretching the cover tightly to minimise movement in wind, and securely fixing the cover to the frame (or buried into the ground) is essential to prolong the life of the polytunnel.
-
-**Growing Method**  
-Inside my polytunnel, my preference is to grow plants in large pots and containers. At the end of a growing season, this makes it easy to tidy everything away, and recycle the compost to avoid the build up of disease in the soil. Other people prefer to create fixed beds inside their polytunnel, sowing directly in the ground, and manage crop rotation in a different way. Whilst I prefer my method, it does increase the amount of watering to keep plants in pots from drying out. Growing in the ground is better in this regard, but does make refreshing the soil more difficult.
-
-**Watering**  
-If possible, I recommend investing in a drip irrigation solution to ensure that plants receive all their watering requirements. For plots that have their own watertap and electricity this is easy to put in place. On my plot, there is neither mains water or electricity, and I have had to devise my own solar powered drip irrigation solution using water stored in water butts. Without a drip irrigation system, in high summer, a gardener may have to visit their plants morning and evening to provide water.
-
-## Polytunnel Planting Ideas
-### Heat Loving Vegetables
-* Aubergines
-* Chillies
-* Cucamelon
-* Cucumbers
-* Peppers
-* Tomatillos
-* Tomatoes
-
-### Heat Loving Fruit
-* Dessert grapes
-* Inca berries
-* Melons
-
-### Harvest In Winter
-* Chard
-* Perpetual spinach
-* Lettuce
-* Salad leaves
-
-## Related Pages
-* A photo gallery of the [fruit and vegetables](/photo-gallery/polytunnel-growing-2022-02-06/) I have grown in my polytunnel
-* Article on [how to keep a polytunnel warm](/how-to-keep-a-polytunnel-warm/) in winter and spring`;
-document.getElementById("markedup").innerHTML = marked.parse(text);
 
 //this sets the breadcrumb correctly
 let pageType = `introduction`
@@ -1312,8 +1328,7 @@ function makePreviousButton(slug) {
 };
 
 // This checks if there is introdcution text, and populates it if there is
-let introText = ``;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
+
 
 //a function to adjust for empty video content (vimeo and youtube), which is then called below the function
 let videoCheck = ``;
@@ -1323,9 +1338,7 @@ let youtubeCheck = ``;
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -1334,9 +1347,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/"><img style="width:${wid}px;height:${hei}px" src="${extension}" alt="Allotment Polytunnels"/></a></div>`
     )
 }
 
@@ -1357,7 +1370,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();

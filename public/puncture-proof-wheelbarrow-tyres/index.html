@@ -13,7 +13,7 @@
     <title>Puncture Proof Wheelbarrow Tyres | Allotment Book</title>
     <meta name="description" content="Fed up with punctures on your wheelbarrow? Puncture proof wheelbarrow tyres are the solution.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Mon Feb 14 2022 16:56:53 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Wed Feb 16 2022 14:18:56 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/puncture-proof-wheelbarrow-tyres/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -550,6 +550,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#youtube-embed-container {
+    display: none;
+}
+
 
 }
 
@@ -734,6 +738,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 
 
 
@@ -814,6 +822,7 @@ input[type=submit] {
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -928,6 +937,10 @@ text-align:center;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
+}
+
+#mobile-youtube-embed-container {
+    display: none;
 }
 
 }
@@ -1064,11 +1077,19 @@ text-align:center;
                             
                         </div>                         
 
-                            <img class="hero-image" id="featured-image" style="" src="https://a.storyblok.com/f/136863/1200x630/56624eb0e8/puncture-proof-wheelbarrow-tyre.jpg" alt="puncture proof wheelbarrow tyre"/>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" id="featured-image" style="" src="https://a.storyblok.com/f/136863/1200x630/56624eb0e8/puncture-proof-wheelbarrow-tyre.jpg/m/600x315" alt="puncture proof wheelbarrow tyre"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="https://a.storyblok.com/f/136863/1200x630/56624eb0e8/puncture-proof-wheelbarrow-tyre.jpg/m/360x189" alt="puncture proof wheelbarrow tyre"/>
+                            </div>
 
                             <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
 
-                            <div style="margin-bottom:2rem" id="introduction"></div>
+                                <div style="margin-bottom:2rem" id="introduction">
+                                    
+                                </div>
 
                             </div>
 
@@ -1084,7 +1105,9 @@ text-align:center;
 
                                 <h2 id="title-youtube" style="padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
@@ -1096,7 +1119,21 @@ text-align:center;
 
                             <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-three"><h4>Hello Three!</h4></div>
 
-                            <div style="" id="transcript"></div>
+                            <div style="" id="transcript">
+                                <p>Puncture proof wheelbarrow tyres, also called solid wheelbarrow tyres, are not well known about, at least in this country.</p>
+<p>In many developing nations they are common. After all, a pneumatic tyre requires three elements: a tyre, an inner tube and a pump. A puncture proof wheelbarrow tyre only has one element, itself.</p>
+<p>After fitting, puncture proof wheelbarrow tyres are maintenance free. With solid wheelbarrow tyres there is no dreaded ‘clunk, clunk, clunk’ of a flat tyre, or the heavy sensation of a tyre that needs to be pumped up. Who enjoys changing a muddy wheelbarrow tyre?</p>
+<p>There may be some advantages of pneumatic tyres for very heavy weights, but for the majority of everyday use a solid wheelbarrow tyre is more than good enough. After all, a garden wheelbarrow is about strength and reliability, and that is what solid wheelbarrow tyres provide.</p>
+<h2>Features Of Puncture Proof Wheelbarrow Tyres</h2>
+<p>Solid wheelbarrow tyres are not all the same! Here are some of the differences:</p>
+<p><strong>The diameter of the wheel</strong><br>
+Wheelbarrows use different sized wheels – therefore solid wheelbarrow tyres come in different sizes. Buy the wrong one, and your wheelbarrow will not stand level when flat, or could be more unstable when you push it. The tyre dimensions are commonly written on the side wall of the tyre, so check your existing wheelbarrow tyre before purchasing. The fittings are pretty universal. Most wheelbarrows use one of the following sizes: 10″, 12″, 14″.</p>
+<p><strong>The thickness of the tyre</strong><br>
+Solid wheelbarrow tyres come in different widths, but nearly all widths should fit any wheelbarrow. The difference is that the thicker the tyre the less likely it is to cut into the mud and the more stable it is likely to be. The best solid wheelbarrow tyres are therefore thicker, and a little more expensive, but as the tyre is likely to last as long as the wheelbarrow it is a good investment.</p>
+<p><strong>The tread on the tyre</strong><br>
+Wheelbarrows are used in the wet and mud. The best solid wheelbarrow tyres have a good thick tread on them.</p>
+
+                            </div>
 
 
                         </article>
@@ -1115,9 +1152,6 @@ text-align:center;
                 </main>
 
             </div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
 
@@ -1150,16 +1184,12 @@ Solid wheelbarrow tyres come in different widths, but nearly all widths should f
 Wheelbarrows are used in the wet and mud. The best solid wheelbarrow tyres have a good thick tread on them.`;
 let videoCheck = ``;
 let youtubeCheck = ``;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
-document.getElementById("transcript").innerHTML = marked.parse(transcriptText);
 
 //a function to adjust for empty content, which is then called below the function
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -1168,9 +1198,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/"><img style="width:${wid}px;height:${hei}px" src="${extension}" alt="Puncture Proof Wheelbarrow Tyres"/></a></div>`
     )
 }
 
@@ -1191,7 +1221,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();
@@ -1201,8 +1232,8 @@ removeDiv("ingredients-one", ingredientsOne);
 removeDiv("ingredients-two", ingredientsTwo);
 removeDiv("ingredients-three", ingredientsThree);
 removeDiv("notes", notesText);
-removeDiv("intro-title", introText);
 removeDiv("featured-image", featuredImage);
+removeDiv("introduction", introText);
 removeDiv("transcript", transcriptText);
 
 

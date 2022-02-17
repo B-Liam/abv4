@@ -13,7 +13,7 @@
     <title>Smelly Water Butts | Allotment Book</title>
     <meta name="description" content="A guide on how to treat smelly water butts, what causes them to smell, and practical solutions to solve the problem.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Mon Feb 14 2022 16:56:53 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Wed Feb 16 2022 14:18:56 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/smelly-water-butts/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -550,6 +550,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#youtube-embed-container {
+    display: none;
+}
+
 
 }
 
@@ -734,6 +738,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 
 
 
@@ -814,6 +822,7 @@ input[type=submit] {
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -928,6 +937,10 @@ text-align:center;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
+}
+
+#mobile-youtube-embed-container {
+    display: none;
 }
 
 }
@@ -1064,11 +1077,19 @@ text-align:center;
                             
                         </div>                         
 
-                            <img class="hero-image" id="featured-image" style="" src="https://a.storyblok.com/f/136863/1200x630/5febf6585a/three-water-butts-along-side-of-house.jpg" alt="three water butts along side of house"/>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" id="featured-image" style="" src="https://a.storyblok.com/f/136863/1200x630/5febf6585a/three-water-butts-along-side-of-house.jpg/m/600x315" alt="three water butts along side of house"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="https://a.storyblok.com/f/136863/1200x630/5febf6585a/three-water-butts-along-side-of-house.jpg/m/360x189" alt="three water butts along side of house"/>
+                            </div>
 
                             <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
 
-                            <div style="margin-bottom:2rem" id="introduction"></div>
+                                <div style="margin-bottom:2rem" id="introduction">
+                                    
+                                </div>
 
                             </div>
 
@@ -1084,7 +1105,9 @@ text-align:center;
 
                                 <h2 id="title-youtube" style="padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
@@ -1096,7 +1119,41 @@ text-align:center;
 
                             <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-three"><h4>Hello Three!</h4></div>
 
-                            <div style="" id="transcript"></div>
+                            <div style="" id="transcript">
+                                <p>Smelly water butts and water butt odours can be quite a common and unpleasant problem. Common causes are as follows:</p>
+<p><strong>Organic matter falling into water butts</strong><br>
+Most commonly caused by leaves that have fallen in through the top of the water butt. Alternatively, debris may have collected in the water butt having been washed down the drain pipe from the roof. Occasionally, the convenient height of water butts means that items left there during weeding or tidying up inadvertently fall in. Rotting matter smells, and sometimes very badly. This is the most likely cause of smelly water butts.</p>
+<p><strong>Household waste water</strong><br>
+If the water butt stores household waste water this may smell by itself, or contain higher levels of nutrients that can lead to algae growth. Storing grey water in water butts is a potential health hazard and therefore not recommended.</p>
+<h2>Solutions for Smelly Water Butts</h2>
+<ul>
+<li>Use a water butt cleaner or treatment</li>
+<li>Add a microbial disc to a water butt to help keep the water clean</li>
+<li>Eliminate the factors that cause water butts to smell</li>
+</ul>
+<p>View <a href="/shop/water-butts/accessory/">water butt cleaners</a> in the shop.</p>
+<p>Here are some possible avoidance actions to take:</p>
+<ul>
+<li>Ensure your water butt has a lid to keep things from falling inside it</li>
+<li>Try to position it away from trees for the same reason</li>
+<li>If using a rainwater diverter, try placing the end of an old pair of tights over the drain pipe where it connects to the diverter. This will allow water through and prevent muck going into the water butt. However, you will need to occasionally check that the tights are not clogged up to avoid blocking your drain pipe.</li>
+</ul>
+<p>Possible cleaning options for smelly water butts are:</p>
+<ul>
+<li>Emptying the water butts and scrubbing it clean</li>
+<li>Potassium permanganate crystals</li>
+<li>Regular application of water butt cleaner or water butt treatments</li>
+</ul>
+<h2>Things To Avoid</h2>
+<p>There are some measures that may have unintended consequences and therefore best avoided:</p>
+<ul>
+<li>Putting bleach in your water butt<br>
+It may end up killing more than the smell. Bleach can be a powerful weed killer, and can therefore kill your plants if bleach remains in the water.</li>
+<li>Adding oil to the water butt<br>
+This may create an air block to the water underneath, potentially leading to anaerobic decomposition of organic matter – resulting in a more smelly and less pleasant odour than the original problem.</li>
+</ul>
+
+                            </div>
 
 
                         </article>
@@ -1115,9 +1172,6 @@ text-align:center;
                 </main>
 
             </div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
 
@@ -1161,16 +1215,12 @@ It may end up killing more than the smell. Bleach can be a powerful weed killer,
 This may create an air block to the water underneath, potentially leading to anaerobic decomposition of organic matter – resulting in a more smelly and less pleasant odour than the original problem.`;
 let videoCheck = ``;
 let youtubeCheck = ``;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
-document.getElementById("transcript").innerHTML = marked.parse(transcriptText);
 
 //a function to adjust for empty content, which is then called below the function
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -1179,9 +1229,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/"><img style="width:${wid}px;height:${hei}px" src="${extension}" alt="Smelly Water Butts"/></a></div>`
     )
 }
 
@@ -1202,7 +1252,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();
@@ -1212,8 +1263,8 @@ removeDiv("ingredients-one", ingredientsOne);
 removeDiv("ingredients-two", ingredientsTwo);
 removeDiv("ingredients-three", ingredientsThree);
 removeDiv("notes", notesText);
-removeDiv("intro-title", introText);
 removeDiv("featured-image", featuredImage);
+removeDiv("introduction", introText);
 removeDiv("transcript", transcriptText);
 
 

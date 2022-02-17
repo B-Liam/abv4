@@ -68,6 +68,7 @@
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -182,4 +183,8 @@ text-align:center;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
+}
+
+#mobile-youtube-embed-container {
+    display: none;
 }

@@ -13,7 +13,7 @@
     <title>Water Butt Size Calculator | Allotment Book</title>
     <meta name="description" content="Two simple water butt size calculator tables are provided to help assess what is the best size of water butt(s) to buy.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Mon Feb 14 2022 16:56:53 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Wed Feb 16 2022 14:18:56 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/water-butt-size-calculator/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -550,6 +550,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#youtube-embed-container {
+    display: none;
+}
+
 
 }
 
@@ -734,6 +738,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 
 
 
@@ -814,6 +822,7 @@ input[type=submit] {
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -928,6 +937,10 @@ text-align:center;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
+}
+
+#mobile-youtube-embed-container {
+    display: none;
 }
 
 }
@@ -1064,11 +1077,19 @@ text-align:center;
                             
                         </div>                         
 
-                            <img class="hero-image" id="featured-image" style="" src="https://a.storyblok.com/f/136863/1200x630/dd113839bf/full-water-butt.jpg" alt="full water butt"/>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" id="featured-image" style="" src="https://a.storyblok.com/f/136863/1200x630/dd113839bf/full-water-butt.jpg/m/600x315" alt="full water butt"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="https://a.storyblok.com/f/136863/1200x630/dd113839bf/full-water-butt.jpg/m/360x189" alt="full water butt"/>
+                            </div>
 
                             <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
 
-                            <div style="margin-bottom:2rem" id="introduction"></div>
+                                <div style="margin-bottom:2rem" id="introduction">
+                                    
+                                </div>
 
                             </div>
 
@@ -1084,7 +1105,9 @@ text-align:center;
 
                                 <h2 id="title-youtube" style="padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
@@ -1096,7 +1119,30 @@ text-align:center;
 
                             <div style="border:#009900 solid 2px; border-radius: 25px;padding:0.5rem 2rem 0.5em 2rem; background:#e0f7d3;margin-bottom:2rem" id="ingredients-three"><h4>Hello Three!</h4></div>
 
-                            <div style="" id="transcript"></div>
+                            <div style="" id="transcript">
+                                <p>What size water butt should I buy?</p>
+<p>This is a common question asked by people when considering purchasing a water butt. The challenge is how to calculate the water butt size for their garden. The answer will vary on many factors including the weather and the watering requirements of their plants.</p>
+<p>On this page I’ve provided two look up tables to help calculate the water butt size required, and perhaps, help discover if more than one water butt is needed. The simple answer is that the water butt(s) will need to store enough water to last until the next rain shower that replenishes it. Therefore the water butt size you need depends upon:</p>
+<ul>
+<li>How much water you use a day</li>
+<li>How frequently it rains</li>
+</ul>
+<p>To use the water butt size calculator tables you will need to know:</p>
+<ul>
+<li>How many watering cans you typically use a day</li>
+<li>The size of watering can you use</li>
+</ul>
+<p>The tables will then show you how many days a full water butt will last until the next rainfall.</p>
+<p>Please note these water butt size calculator tables are an approximation – I have not tried to work in possible evaporation rates etc. The intention is to provide enough information to enable you to quickly see the amount of water you need to store based on your watering needs.</p>
+<h3>100 Litre Water Butt Size Calculator</h3>
+<p><img src="https://a.storyblok.com/f/136863/585x338/57224c1cc1/100-litre-water-butt-size-calculator.jpg" alt="100 litre water butt size calculator table"></p>
+<h3>200 Litre Water Butt Size Calculator</h3>
+<p><img src="https://a.storyblok.com/f/136863/585x334/b1f9916412/200-litre-water-butt-size-calculator.jpg" alt="200 litre water butt size calculator table"></p>
+<p>Based on the tables above, if you have a large number of plants or pots you may find that one water butt alone will not meet your needs during a period of dry hot weather. Many people opt to link water butts together for this reason.</p>
+<p>Buying large capacity water butts, ie water butts greater than 200 litres, is usually significantly more expensive that buying multiple standard size water butts.</p>
+<p>See <a href="/shop/water-butts/all/">water butts</a>  in the shop.</p>
+
+                            </div>
 
 
                         </article>
@@ -1115,9 +1161,6 @@ text-align:center;
                 </main>
 
             </div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
 
@@ -1161,16 +1204,12 @@ Buying large capacity water butts, ie water butts greater than 200 litres, is us
 See [water butts](/shop/water-butts/all/)  in the shop.`;
 let videoCheck = ``;
 let youtubeCheck = ``;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
-document.getElementById("transcript").innerHTML = marked.parse(transcriptText);
 
 //a function to adjust for empty content, which is then called below the function
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -1179,9 +1218,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/"><img style="width:${wid}px;height:${hei}px" src="${extension}" alt="Water Butt Size Calculator"/></a></div>`
     )
 }
 
@@ -1202,7 +1241,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();
@@ -1212,8 +1252,8 @@ removeDiv("ingredients-one", ingredientsOne);
 removeDiv("ingredients-two", ingredientsTwo);
 removeDiv("ingredients-three", ingredientsThree);
 removeDiv("notes", notesText);
-removeDiv("intro-title", introText);
 removeDiv("featured-image", featuredImage);
+removeDiv("introduction", introText);
 removeDiv("transcript", transcriptText);
 
 

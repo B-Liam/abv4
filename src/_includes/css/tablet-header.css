@@ -177,4 +177,8 @@
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 

@@ -1,7 +1,14 @@
 const embedEverything = require("eleventy-plugin-embed-everything");
+const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
 
 module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(markdownShortcode);
     eleventyConfig.addPassthroughCopy("src/_redirects");
+    eleventyConfig.addShortcode("liamMark", function(text) {
+        var md = require('markdown-it')({html:true,breaks:true,linkify:true});
+        var result = md.render(text);
+            return result;
+          });
     eleventyConfig.addFilter("getPlants", function(arr, month) {
         let interim = [];
         for (let i = 0 ; i < arr.length ; i++ ) {

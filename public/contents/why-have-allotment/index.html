@@ -13,7 +13,7 @@
     <title>Why Have An Allotment? | Allotment Book</title>
     <meta name="description" content="An article looking at the challenges of working an allotment and the benefits of having one. ">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Mon Feb 14 2022 12:10:55 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Wed Feb 16 2022 15:06:51 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/contents/why-have-allotment/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -550,6 +550,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#youtube-embed-container {
+    display: none;
+}
+
 
 }
 
@@ -734,6 +738,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 
 
 
@@ -814,6 +822,7 @@ input[type=submit] {
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -930,6 +939,10 @@ text-align:center;
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 }
 
 </style>
@@ -1042,9 +1055,10 @@ text-align:center;
 
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                </a>
+                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                    </a>
+
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
 
@@ -1054,9 +1068,9 @@ text-align:center;
                 
                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                </a>
+                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                          <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                        </a>
 
                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
 
@@ -1066,7 +1080,7 @@ text-align:center;
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
                 <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3032573&v=25446&q=427392&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3032573&v=25446&q=427392&r=1016123" border="0">
+                    <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644964215/ads/shed_bundles_buy_sheds_direct_rrczsp.webp" border="0">
                 </a>
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
@@ -1093,7 +1107,7 @@ text-align:center;
 
                         <article>
 
-                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px;">
                             <div id="higher-previous">
                             </div>
                             <div id="higher-next">
@@ -1102,12 +1116,24 @@ text-align:center;
 
                         <div style="display:flex;justify-content:space-between" id="header-container">
 
-                            <h1 id="title" style="margin-bottom:10px;font-size:1.4rem">Why Have An Allotment?</h1> 
+                            <h1 id="title" style="margin-bottom:10px">Why Have An Allotment?</h1> 
 
                         </div>                         
 
-                            <img class="hero-image" src="https://a.storyblok.com/f/136863/1200x630/9cc9204942/first-allotment.jpg/m/600x315" alt="first allotment"/>
-                            <div style="" id="introduction"></div>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" src="https://a.storyblok.com/f/136863/1200x630/9cc9204942/first-allotment.jpg/m/600x315" alt="first allotment"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="https://a.storyblok.com/f/136863/1200x630/9cc9204942/first-allotment.jpg/m/360x189" alt="first allotment"/>
+                            </div>
+
+                            <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
+
+                            <div style="margin-bottom:1rem" id="introduction">
+                                <p>Fifteens years ago I was introduced to my first allotment plot. When I saw it, I was intimidated by it. It was square shaped, 15 metres long and wide, and covered in black ground cover fabric pegged down into the earth. The fabric concealed brambles that had been cut down to the ground, and by way of introduction, the allotment chairperson informed me that my first task would need to be to remove these.</p>
+
+                            </div>
 
                             <div style="padding-bottom:20px" id="video-container">
 
@@ -1121,15 +1147,28 @@ text-align:center;
 
                                 <h2 id="title-youtube" style="margin-top:0px;padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
-                            <div id="markedup"></div>
+                            <div id="markedup">
+                                <p>My anxiety was whether I was up to the challenge. It was by far the largest area of land I had ever been responsible for, 225 square metres in total. I remember thinking to myself whether I was physically strong enough to do it. The space looked large, and I wondered how much time and effort it would take to convert the area into a growing space. As I stood on the plot and looked around me, I began to realise the size of the task ahead.</p>
+<h2>First Steps</h2>
+<p>Ever since that moment, I have been on a rollercoaster journey of discovery and hard work, where I have learned first hand the power of nature and the joy of growing plants. My first impression had not been wrong. It took me the best part of 6 months to remove the bramble roots that were sunk 50 cm down, and more, into the ground. Two garden forks were broken in the process of trying to lever out the roots anchored in the earth.</p>
+<p>It took me a further two years to appreciate that small and frequent visits to the plot were far more effective compared to infrequent half or full day visits. An allotment needs to be nurtured and tended regularly, as nature soon takes over when left unattended. Looking back, this is the critical period for a new person taking on an allotment. There is little more disheartening than committing to a weekend of hard work to clear a space, only to see it to return to its former state a few weeks later.</p>
+<p>I think the hard work and time commitment involved is why some people are sceptical about having an allotment. These people often have a good appreciation of what is involved. From a financial point of view, the savings from growing fruit and vegetables is a poor return compared to the hours spent looking after a plot.</p>
+<p>And I think this is the critical point. For me, having an allotment is not work, but an opportunity to connect with nature. It may be difficult at times, but there is something special about tending to plants and seeing them grow whilst watching the seasons go by. It is a feeling of being alive, and contributing to the world, and occasionally taking home food to be enjoyed.</p>
+<h2>Why People Continue</h2>
+<p>On the plots around me, there are many reasons people keep their plots going. For some, it is an opportunity for their children to see where food comes from. Growing food can be a great way of encouraging them to eat more vegetables. For others, it is a team effort, both through friendships formed with other plot holders, and by working with other members of their family. I think some plot holders continue caring for their plot for exercise and health reasons, and others turn their plot into a combined growing space and garden, providing an outdoor area to relax in, that is not available at home.</p>
+<p>For me, I started an allotment because I wanted to grow healthy food for my family. Since then, my reasons for continuing have expanded. There are some fruits I love, like gooseberries and currants, that I simply cannot buy in the shops, and I much prefer the taste of homegrown tomatoes and peas eaten straight from the pod. Also, I enjoy the constant challenge of overcoming the weather and wildlife to grow food, the opportunity to experiment with growing vegetables of different shapes and colours, and increasingly, dedicating space to growing flowers that can be cut and displayed at home. But above all, I see keeping an allotment going as part of a healthy lifestyle, that provides an opportunity to grow organic food and connect with nature. There’s real joy in allotmenting - providing the grass is cut and no weeding to be done!</p>
+
+                            </div>
 
                         </article>
 
-                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center">
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px">
                             <div id="lower-previous">
                             </div>
                             <div id="lower-next">
@@ -1151,17 +1190,17 @@ text-align:center;
                         
                                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com --> 
 
                                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->                         
                         
@@ -1170,9 +1209,9 @@ text-align:center;
                         <div class="mobile-ads">
                             <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                            <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                            </a>
+                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                    </a>
 
                             <!-- END ADVERTISER: Thompson & Morgan from awin.com --> 
                         </div>
@@ -1183,30 +1222,10 @@ text-align:center;
             </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <script>
 
 //this is the script that populates the content into the markedup div
-let text = `## Starting Out
-Fifteens years ago I was introduced to my first allotment plot. When I saw it, I was intimidated by it. It was square shaped, 15 metres long and wide, and covered in black ground cover fabric pegged down into the earth. The fabric concealed brambles that had been cut down to the ground, and by way of introduction, the allotment chairperson informed me that my first task would need to be to remove these.
 
-My anxiety was whether I was up to the challenge. It was by far the largest area of land I had ever been responsible for, 225 square metres in total. I remember thinking to myself whether I was physically strong enough to do it. The space looked large, and I wondered how much time and effort it would take to convert the area into a growing space. As I stood on the plot and looked around me, I began to realise the size of the task ahead.
-
-## First Steps
-Ever since that moment, I have been on a rollercoaster journey of discovery and hard work, where I have learned first hand the power of nature and the joy of growing plants. My first impression had not been wrong. It took me the best part of 6 months to remove the bramble roots that were sunk 50 cm down, and more, into the ground. Two garden forks were broken in the process of trying to lever out the roots anchored in the earth.
-
-It took me a further two years to appreciate that small and frequent visits to the plot were far more effective compared to infrequent half or full day visits. An allotment needs to be nurtured and tended regularly, as nature soon takes over when left unattended. Looking back, this is the critical period for a new person taking on an allotment. There is little more disheartening than committing to a weekend of hard work to clear a space, only to see it to return to its former state a few weeks later.
-
-I think the hard work and time commitment involved is why some people are sceptical about having an allotment. These people often have a good appreciation of what is involved. From a financial point of view, the savings from growing fruit and vegetables is a poor return compared to the hours spent looking after a plot.
-
-And I think this is the critical point. For me, having an allotment is not work, but an opportunity to connect with nature. It may be difficult at times, but there is something special about tending to plants and seeing them grow whilst watching the seasons go by. It is a feeling of being alive, and contributing to the world, and occasionally taking home food to be enjoyed.
-
-## Why People Continue
-On the plots around me, there are many reasons people keep their plots going. For some, it is an opportunity for their children to see where food comes from. Growing food can be a great way of encouraging them to eat more vegetables. For others, it is a team effort, both through friendships formed with other plot holders, and by working with other members of their family. I think some plot holders continue caring for their plot for exercise and health reasons, and others turn their plot into a combined growing space and garden, providing an outdoor area to relax in, that is not available at home.
-
-For me, I started an allotment because I wanted to grow healthy food for my family. Since then, my reasons for continuing have expanded. There are some fruits I love, like gooseberries and currants, that I simply cannot buy in the shops, and I much prefer the taste of homegrown tomatoes and peas eaten straight from the pod. Also, I enjoy the constant challenge of overcoming the weather and wildlife to grow food, the opportunity to experiment with growing vegetables of different shapes and colours, and increasingly, dedicating space to growing flowers that can be cut and displayed at home. But above all, I see keeping an allotment going as part of a healthy lifestyle, that provides an opportunity to grow organic food and connect with nature. There’s real joy in allotmenting - providing the grass is cut and no weeding to be done!`;
-document.getElementById("markedup").innerHTML = marked.parse(text);
 
 //this sets the breadcrumb correctly
 let pageType = `introduction`
@@ -1269,8 +1288,7 @@ function makePreviousButton(slug) {
 };
 
 // This checks if there is introdcution text, and populates it if there is
-let introText = ``;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
+
 
 //a function to adjust for empty video content (vimeo and youtube), which is then called below the function
 let videoCheck = ``;
@@ -1280,9 +1298,7 @@ let youtubeCheck = ``;
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -1291,9 +1307,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/"><img style="width:${wid}px;height:${hei}px" src="${extension}" alt="Why have an allotment?"/></a></div>`
     )
 }
 
@@ -1314,7 +1330,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();

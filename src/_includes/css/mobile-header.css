@@ -356,3 +356,7 @@
     margin-right: auto;
     text-align: center;
 }
+
+#youtube-embed-container {
+    display: none;
+}

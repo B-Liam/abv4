@@ -19,9 +19,10 @@ eleventyComputed:
 
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                </a>
+                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                    </a>
+
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
 
@@ -31,9 +32,9 @@ eleventyComputed:
                 
                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                </a>
+                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                          <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                        </a>
 
                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
 
@@ -43,7 +44,7 @@ eleventyComputed:
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
                 <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3032573&v=25446&q=427392&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3032573&v=25446&q=427392&r=1016123" border="0">
+                    <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644964215/ads/shed_bundles_buy_sheds_direct_rrczsp.webp" border="0">
                 </a>
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
@@ -70,7 +71,7 @@ eleventyComputed:
 
                         <article>
 
-                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px;">
                             <div id="higher-previous">
                             </div>
                             <div id="higher-next">
@@ -79,12 +80,23 @@ eleventyComputed:
 
                         <div style="display:flex;justify-content:space-between" id="header-container">
 
-                            <h1 id="title" style="margin-bottom:10px;font-size:1.4rem">{{ pagedata.content.title | title }}</h1> 
+                            <h1 id="title" style="margin-bottom:10px">{{ pagedata.content.title | title }}</h1> 
 
                         </div>                         
 
-                            <img class="hero-image" src="{{ pagedata.content.lead_image.filename }}/m/600x315" alt="{{pagedata.content.lead_image.alt}}"/>
-                            <div style="" id="introduction"></div>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" src="{{ pagedata.content.lead_image.filename }}/m/600x315" alt="{{pagedata.content.lead_image.alt}}"/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="{{ pagedata.content.lead_image.filename }}/m/360x189" alt="{{pagedata.content.lead_image.alt}}"/>
+                            </div>
+
+                            <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
+
+                            <div style="margin-bottom:1rem" id="introduction">
+                                {% liamMark pagedata.content.introduction %}
+                            </div>
 
                             <div style="padding-bottom:20px" id="video-container">
 
@@ -98,15 +110,19 @@ eleventyComputed:
 
                                 <h2 id="title-youtube" style="margin-top:0px;padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
-                            <div id="markedup"></div>
+                            <div id="markedup">
+                                {% liamMark pagedata.content.main_content %}
+                            </div>
 
                         </article>
 
-                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center">
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px">
                             <div id="lower-previous">
                             </div>
                             <div id="lower-next">
@@ -128,17 +144,17 @@ eleventyComputed:
                         
                                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com --> 
 
                                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->                         
                         
@@ -147,9 +163,9 @@ eleventyComputed:
                         <div class="mobile-ads">
                             <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                            <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                            </a>
+                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                    </a>
 
                             <!-- END ADVERTISER: Thompson & Morgan from awin.com --> 
                         </div>
@@ -160,13 +176,10 @@ eleventyComputed:
             </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <script>
 
 //this is the script that populates the content into the markedup div
-let text = `{{ pagedata.content.main_content }}`;
-document.getElementById("markedup").innerHTML = marked.parse(text);
+
 
 //this sets the breadcrumb correctly
 let pageType = `{{ pagedata.content.category }}`
@@ -229,8 +242,7 @@ function makePreviousButton(slug) {
 };
 
 // This checks if there is introdcution text, and populates it if there is
-let introText = `{{ pagedata.content.introduction }}`;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
+
 
 //a function to adjust for empty video content (vimeo and youtube), which is then called below the function
 let videoCheck = `{{ pagedata.content.vimeo_number }}`;
@@ -240,9 +252,7 @@ let youtubeCheck = `{{ pagedata.content.youtube_number }}`;
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -251,9 +261,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/{{pagedata.content.youtube_number}}" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/{{pagedata.content.youtube_number}}"><img style="width:${wid}px;height:${hei}px" src="{{pagedata.content.video.filename}}${extension}" alt="{{pagedata.content.title}}"/></a></div>`
     )
 }
 
@@ -274,7 +284,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();

@@ -13,7 +13,7 @@
     <title>Planning An Allotment Layout | Allotment Book</title>
     <meta name="description" content="An introduction to planning an allotment layout, covering what to include, planting design, the principles of crop rotation, and practical tips.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Mon Feb 14 2022 12:10:55 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Wed Feb 16 2022 15:06:51 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/contents/designing-an-allotment-layout/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -550,6 +550,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#youtube-embed-container {
+    display: none;
+}
+
 
 }
 
@@ -734,6 +738,10 @@ input[type=submit] {
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 
 
 
@@ -814,6 +822,7 @@ input[type=submit] {
 
 .hero-image {
     width: 588px;
+    height: 308.7px;
 }
 
 #markedup img {
@@ -930,6 +939,10 @@ text-align:center;
     text-align: center;
 }
 
+#mobile-youtube-embed-container {
+    display: none;
+}
+
 }
 
 </style>
@@ -1042,9 +1055,10 @@ text-align:center;
 
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                </a>
+                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                    </a>
+
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
 
@@ -1054,9 +1068,9 @@ text-align:center;
                 
                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                </a>
+                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                          <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                        </a>
 
                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->
 
@@ -1066,7 +1080,7 @@ text-align:center;
                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
                 <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3032573&v=25446&q=427392&r=1016123">
-                    <img src="https://www.awin1.com/cshow.php?s=3032573&v=25446&q=427392&r=1016123" border="0">
+                    <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644964215/ads/shed_bundles_buy_sheds_direct_rrczsp.webp" border="0">
                 </a>
 
                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com -->
@@ -1093,7 +1107,7 @@ text-align:center;
 
                         <article>
 
-                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;">
+                        <div id="higher-next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px;">
                             <div id="higher-previous">
                             </div>
                             <div id="higher-next">
@@ -1102,12 +1116,24 @@ text-align:center;
 
                         <div style="display:flex;justify-content:space-between" id="header-container">
 
-                            <h1 id="title" style="margin-bottom:10px;font-size:1.4rem">Planning An Allotment Layout</h1> 
+                            <h1 id="title" style="margin-bottom:10px">Planning An Allotment Layout</h1> 
 
                         </div>                         
 
-                            <img class="hero-image" src="https://a.storyblok.com/f/136863/1200x630/f3affd9264/allotment-design-drawing.jpg/m/600x315" alt=""/>
-                            <div style="" id="introduction"></div>
+                            <div id="non-mobile-homepage-hero">
+                                <img style="display:block;width:588px;height:309px" src="https://a.storyblok.com/f/136863/1200x630/f3affd9264/allotment-design-drawing.jpg/m/600x315" alt=""/>
+                            </div>
+
+                            <div id="mobile-homepage-hero">
+                                <img style="display:block;width:360px;height:189px" src="https://a.storyblok.com/f/136863/1200x630/f3affd9264/allotment-design-drawing.jpg/m/360x189" alt=""/>
+                            </div>
+
+                            <div id="intro-title"><h2 style="margin-bottom:10px">Introduction</h2>
+
+                            <div style="margin-bottom:1rem" id="introduction">
+                                <p>Part of the fun of allotmenting is creating your own space and experimenting, but at the beginning, the amount of decisions to be taken can feel overwhelming. Following a few guidelines can help to increase plant health, reduce work for the allotment holder, and provide bigger harvests.</p>
+
+                            </div>
 
                             <div style="padding-bottom:20px" id="video-container">
 
@@ -1121,15 +1147,61 @@ text-align:center;
 
                                 <h2 id="title-youtube" style="margin-top:0px;padding-bottom:5px">YouTube Video</h2>
 
-                                <div id="youtube-embed-container" class="embed-container" style=""></div>
+                                <div id="youtube-embed-container" class="" style=""></div>
+
+                                <div id="mobile-youtube-embed-container" class="" style=""></div>
 
                             </div>
 
-                            <div id="markedup"></div>
+                            <div id="markedup">
+                                <p>Described below are a few principles to follow as a starting point. You may also like to see my related page on allotment no-dig beds. Creating a number of raised beds, with paths between them, is more work at the beginning but can considerably reduce work in subsequent years.</p>
+<h2>Example Allotment Layout</h2>
+<p>The following example layout helps illustrate the principles of allotment planting, dividing a plot into zones for fruit, vegetables, germination, composting, and storage. Described below is an introduction to why creating these areas is useful.</p>
+<p><img src="https://a.storyblok.com/f/136863/595x1068/78e834dac0/allotment-planting-design-example-layout.png" alt="allotment planting design example layout"></p>
+<h2>Crop Rotation</h2>
+<p>Creating at least four growing areas, or beds, is useful to plan and keep track of crop rotation. Crop rotation helps prevent disease by limiting the build up of bacteria and bugs associated with a plant family in any one location.</p>
+<p>Rotation also allows beds time to recover, and provides a gardener with the opportunity to add nutrients to the soil.</p>
+<p>Crop rotation works as follows. Keep vegetables of the same family in the same bed, and this way the bed is only used once every four years for a particular kind of vegetable. Common groups are:</p>
+<ul>
+<li>Potatoes</li>
+<li>Brassicas (cabbage, cauliflower, broccoli, sprouts)</li>
+<li>Legumes (peas and beans)</li>
+<li>Root vegetables (carrots, parsnips, radish)</li>
+</ul>
+<p>This is easily adapted – if you want to grow onions, garlic, shallots, or salads, then simply create a space in one of the groups above, and continue to move them together with this family.</p>
+<h2>Space For A Nursery</h2>
+<p>A nursery is a practical way of starting crops earlier in the growing season, and keeping important growing space free for other crops until the seedlings are ready.</p>
+<p>A nursery can be simply a space set aside in your vegetable garden for growing seedlings, a cold frame, plastic or glass greenhouse, or even a conservatory or utility room.</p>
+<p>In the simple plan above I have placed a nursery near the shed, so that it is close to garden tools and is relatively sheltered.</p>
+<h2>Paths</h2>
+<p>Every plot needs a plan for paths to avoid walking over beds. Traditionally, an allotment has paths running down each side of a single long bed. In the plan above, this approach has been adapted with both vertical and horizontal paths to create squares for crop rotation.</p>
+<p>Plants are grown in columns north to south (ie vertical). This is to allow maximum light for each row of plants.</p>
+<p>Grass paths are a practical choice and are easily created. Simply keep cutting or strimming back any weeds that grow along your designated paths. Eventually, nature will do its work and the paths will become predominantly grass, as this is one of the few plants that survives a regular ‘hair cut’.</p>
+<p>If using raised beds, this design often involves relatively narrow paths separating the beds, in addition to the grass paths that may surround a plot. It is helpful to keep the paths between raised beds sufficiently wide to allow a wheelbarrow to move freely between them. For the paths themselves, a combination of weed control fabric laid over level weed free earth, covered by a mulch of wood chippings, provides a durable and low maintenance option without the need for grass cutting.</p>
+<h2>Storage</h2>
+<p>Create a space for garden storage, and put this at the back of the plot. Storage often involves height, so placing this furthest away from the sun will prevent shadows.</p>
+<h2>Watering</h2>
+<p>Watering plants at an allotment is one of the most frequent tasks for a plot holder. If there are a choice of allotments available, choosing an allotment near a water supply can save a considerable amount of effort.</p>
+<p>With crop rotation of vegetables, the distance from the water source to thirsty plants will change every year. However, some perennial plants with permanent positions on a plot, like fruit bushes and fruit trees, can be positioned far away from a water source. The roots of these plants will go deep, and therefore will not require frequent watering. Soft fruit like strawberries, and especially raspberries, have shallower roots and will need watering more frequently. Positioning these plants near a water source can save effort.</p>
+<p>Water butts can be helpful to reduce the work of moving water around a plot, especially if they are positioned near plants that need frequent watering. By storing water near plants, there is a shorter distance to walk carrying a heavy watering can filled with water. The water butts can be filled up by hose, or water pump, once a week or fortnightly.</p>
+<h2>Fruit</h2>
+<p>Growing fruit can be much less work than growing vegetables, and often has a higher success rate. Homegrown fruit can be a good way of saving money compared to buying in supermarkets, and some fruit varieties are difficult to buy fresh, like gooseberries and currants.</p>
+<p>Consider planting tall fruit bushes and trees at the back of a plot, to prevent them blocking sunlight and casting a shadow over other crops like vegetables.</p>
+<p>Creating a zone for fruit can make it easier to provide protection from birds. Covering fruit with a net is often necessary to prevent wildlife enjoying a harvest at a plot holder's expense. A square or rectangular zone is easier to protect by creating a temporary or permanent fruit cage.</p>
+<h2>Herbs</h2>
+<p>I have not included herbs in the example allotment layout above, but these can be a great addition – especially for a keen cook. Many herbs produce flowers that are loved by bees and other beneficial insects.</p>
+<p>Herbs do not need to be rotated, so a good space for them is at the front, or sides, of any of the vegetables beds, or even around the fruit beds. In addition, I like to grow herbs at home. This provides a convenient supply of herbs near my kitchen, without the need to travel to the plot to pick them fresh.</p>
+<h2>Compost</h2>
+<p>When growing vegetables at home, finding space for a couple of compost bins, or a wormery, is a good way of recycling garden and kitchen waste to produce nutritious compost, that can be used around a garden to feed plants, or as growing media in plant pots. The bins should be positioned in a sheltered spot in your garden.</p>
+<p>A hot compost bin, that traps heat inside it to accelerate the composting process, can be a great time saver by making ready to use compost in as little as 4-6 weeks, compared to over a year in a traditional bin.</p>
+<p>For an allotment, I prefer to find another way to deal with garden waste, either by burning or removing from the plot. I try to avoid as much waste as possible by strimming or hoeing frequently, and leaving the weeds to dry out on the soil surface, or digging and turning them into the soil to break down.</p>
+<p>For a big vegetable garden, or allotment, you are likely to need much more compost and manure than can be provided by your own composting efforts.</p>
+
+                            </div>
 
                         </article>
 
-                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center">
+                        <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px">
                             <div id="lower-previous">
                             </div>
                             <div id="lower-next">
@@ -1151,17 +1223,17 @@ text-align:center;
                         
                                 <!-- START ADVERTISER: Buy Sheds Direct from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=3036059&v=25446&q=427395&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3036059&v=25446&q=427395&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644830675/ads/60_greenhouses_sheds_direct_txhry9.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Buy Sheds Direct from awin.com --> 
 
                                 <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                        <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                                    </a>
+                                        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                            <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                        </a>
 
                                 <!-- END ADVERTISER: Thompson & Morgan from awin.com -->                         
                         
@@ -1170,9 +1242,9 @@ text-align:center;
                         <div class="mobile-ads">
                             <!-- START ADVERTISER: Thompson & Morgan from awin.com -->
 
-                            <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
-                                <img src="https://www.awin1.com/cshow.php?s=2318536&v=2283&q=121696&r=1016123" border="0">
-                            </a>
+                                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=2318536&v=2283&q=121696&r=1016123">
+                                        <img style="width:300px; height:250px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644829452/ads/60_best-selling-offers-thompson-morgan_i4xk1o.webp" border="0">
+                                    </a>
 
                             <!-- END ADVERTISER: Thompson & Morgan from awin.com --> 
                         </div>
@@ -1183,85 +1255,10 @@ text-align:center;
             </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <script>
 
 //this is the script that populates the content into the markedup div
-let text = `## Introduction
-Part of the fun of allotmenting is creating your own space and experimenting, but at the beginning, the amount of decisions to be taken can feel overwhelming. Following a few guidelines can help to increase plant health, reduce work for the allotment holder, and provide bigger harvests.
 
-Described below are a few principles to follow as a starting point. You may also like to see my related page on allotment no-dig beds. Creating a number of raised beds, with paths between them, is more work at the beginning but can considerably reduce work in subsequent years.
-
-## Example Allotment Layout
-
-The following example layout helps illustrate the principles of allotment planting, dividing a plot into zones for fruit, vegetables, germination, composting, and storage. Described below is an introduction to why creating these areas is useful.
-
-![allotment planting design example layout](https://a.storyblok.com/f/136863/595x1068/78e834dac0/allotment-planting-design-example-layout.png)
-
-## Crop Rotation
-
-Creating at least four growing areas, or beds, is useful to plan and keep track of crop rotation. Crop rotation helps prevent disease by limiting the build up of bacteria and bugs associated with a plant family in any one location.
-
-Rotation also allows beds time to recover, and provides a gardener with the opportunity to add nutrients to the soil.
-
-Crop rotation works as follows. Keep vegetables of the same family in the same bed, and this way the bed is only used once every four years for a particular kind of vegetable. Common groups are:
-
-* Potatoes
-* Brassicas (cabbage, cauliflower, broccoli, sprouts)
-* Legumes (peas and beans)
-* Root vegetables (carrots, parsnips, radish)
-
-This is easily adapted – if you want to grow onions, garlic, shallots, or salads, then simply create a space in one of the groups above, and continue to move them together with this family.
-
-## Space For A Nursery
-A nursery is a practical way of starting crops earlier in the growing season, and keeping important growing space free for other crops until the seedlings are ready.
-
-A nursery can be simply a space set aside in your vegetable garden for growing seedlings, a cold frame, plastic or glass greenhouse, or even a conservatory or utility room.
-
-In the simple plan above I have placed a nursery near the shed, so that it is close to garden tools and is relatively sheltered.
-
-## Paths
-Every plot needs a plan for paths to avoid walking over beds. Traditionally, an allotment has paths running down each side of a single long bed. In the plan above, this approach has been adapted with both vertical and horizontal paths to create squares for crop rotation.
-
-Plants are grown in columns north to south (ie vertical). This is to allow maximum light for each row of plants.
-
-Grass paths are a practical choice and are easily created. Simply keep cutting or strimming back any weeds that grow along your designated paths. Eventually, nature will do its work and the paths will become predominantly grass, as this is one of the few plants that survives a regular ‘hair cut’.
-
-If using raised beds, this design often involves relatively narrow paths separating the beds, in addition to the grass paths that may surround a plot. It is helpful to keep the paths between raised beds sufficiently wide to allow a wheelbarrow to move freely between them. For the paths themselves, a combination of weed control fabric laid over level weed free earth, covered by a mulch of wood chippings, provides a durable and low maintenance option without the need for grass cutting.
-
-## Storage
-Create a space for garden storage, and put this at the back of the plot. Storage often involves height, so placing this furthest away from the sun will prevent shadows.
-
-## Watering
-Watering plants at an allotment is one of the most frequent tasks for a plot holder. If there are a choice of allotments available, choosing an allotment near a water supply can save a considerable amount of effort.
-
-With crop rotation of vegetables, the distance from the water source to thirsty plants will change every year. However, some perennial plants with permanent positions on a plot, like fruit bushes and fruit trees, can be positioned far away from a water source. The roots of these plants will go deep, and therefore will not require frequent watering. Soft fruit like strawberries, and especially raspberries, have shallower roots and will need watering more frequently. Positioning these plants near a water source can save effort.
-
-Water butts can be helpful to reduce the work of moving water around a plot, especially if they are positioned near plants that need frequent watering. By storing water near plants, there is a shorter distance to walk carrying a heavy watering can filled with water. The water butts can be filled up by hose, or water pump, once a week or fortnightly.
-
-## Fruit
-Growing fruit can be much less work than growing vegetables, and often has a higher success rate. Homegrown fruit can be a good way of saving money compared to buying in supermarkets, and some fruit varieties are difficult to buy fresh, like gooseberries and currants.
-
-Consider planting tall fruit bushes and trees at the back of a plot, to prevent them blocking sunlight and casting a shadow over other crops like vegetables.
-
-Creating a zone for fruit can make it easier to provide protection from birds. Covering fruit with a net is often necessary to prevent wildlife enjoying a harvest at a plot holder&#39;s expense. A square or rectangular zone is easier to protect by creating a temporary or permanent fruit cage.
-
-## Herbs
-I have not included herbs in the example allotment layout above, but these can be a great addition – especially for a keen cook. Many herbs produce flowers that are loved by bees and other beneficial insects.
-
-Herbs do not need to be rotated, so a good space for them is at the front, or sides, of any of the vegetables beds, or even around the fruit beds. In addition, I like to grow herbs at home. This provides a convenient supply of herbs near my kitchen, without the need to travel to the plot to pick them fresh.
-
-## Compost
-When growing vegetables at home, finding space for a couple of compost bins, or a wormery, is a good way of recycling garden and kitchen waste to produce nutritious compost, that can be used around a garden to feed plants, or as growing media in plant pots. The bins should be positioned in a sheltered spot in your garden. 
-
-A hot compost bin, that traps heat inside it to accelerate the composting process, can be a great time saver by making ready to use compost in as little as 4-6 weeks, compared to over a year in a traditional bin. 
-
-For an allotment, I prefer to find another way to deal with garden waste, either by burning or removing from the plot. I try to avoid as much waste as possible by strimming or hoeing frequently, and leaving the weeds to dry out on the soil surface, or digging and turning them into the soil to break down.
-
-For a big vegetable garden, or allotment, you are likely to need much more compost and manure than can be provided by your own composting efforts.
-`;
-document.getElementById("markedup").innerHTML = marked.parse(text);
 
 //this sets the breadcrumb correctly
 let pageType = `introduction`
@@ -1324,8 +1321,7 @@ function makePreviousButton(slug) {
 };
 
 // This checks if there is introdcution text, and populates it if there is
-let introText = ``;
-document.getElementById("introduction").innerHTML = marked.parse(introText);
+
 
 //a function to adjust for empty video content (vimeo and youtube), which is then called below the function
 let videoCheck = ``;
@@ -1335,9 +1331,7 @@ let youtubeCheck = ``;
 function removeDiv( divname, keyname ) {
     if ( keyname == "" ) {
         document.getElementById(divname).style = "display:none"
-    } else {
-        document.getElementById(divname).innerHTML = marked.parse( keyname )
-    }
+    } 
 }
 
 function loadVimeoVideo() {
@@ -1346,9 +1340,9 @@ function loadVimeoVideo() {
     )
 }
 
-function loadYouTubeVideo() {
+function loadYouTubeVideo(wid,hei,extension) {
     return (
-        `<iframe style="" id="video-file" src="https://www.youtube.com/embed/" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`
+        `<div><a href="https://youtu.be/"><img style="width:${wid}px;height:${hei}px" src="${extension}" alt="Planning An Allotment Layout"/></a></div>`
     )
 }
 
@@ -1369,7 +1363,8 @@ function checkYouTubeVideo() {
         document.getElementById("youtube-container").style = "display:none";
     }
     else {
-        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo();
+        document.getElementById("youtube-embed-container").innerHTML =loadYouTubeVideo(585,325,"/m/600x315");
+        document.getElementById("mobile-youtube-embed-container").innerHTML =loadYouTubeVideo(360,200,"/m/360x189");
     }
 }
 checkYouTubeVideo();
