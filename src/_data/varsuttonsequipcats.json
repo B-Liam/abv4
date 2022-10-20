@@ -1,0 +1,15 @@
+{
+    "epropagators": 
+                    {
+                    "namesingular": "heated propagator",
+                    "nameplural": "heated propagators",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "featured"
+                                }
+                            ]
+                    }
+}

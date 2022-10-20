@@ -291,13 +291,53 @@ eleventyComputed:
                                 {% liamMark pagedata.content.varieties %}
                             </div>
 
-                            <p>See varieties in the <a href="/shop/{{ pagedata.content.shop_link }}">allotment shop</a>.</p>
+                            <div id="plants-featured-links">
+                                {% set plantname = pagedata.content.featured_plant_key | lower %}
+                                {% set plantcategory =  pagedata.content.category | lower %}
+
+                                <div style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    {% for plant in vegdata | getFeaturedPlants( plantname, plantcategory, 4 ) %} {% if plantcategory == "vegetable" %}
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="{{ plant.image}}" />
+                                    <div style="">{{ plant.name }}</div>
+                                    <div style="">({{ plant.type}})</div>
+                                    <a rel="sponsored" href={{plant.link}} ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£{{plant.price}} on {{plant.merchant}}</button></a>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <div style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    {% for plant in fruitdata | getFeaturedPlants( plantname, plantcategory, 4 ) %} {% if plantcategory == "fruit" %}
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="{{ plant.image}}" />
+                                    <div style="">{{ plant.name }}</div>
+                                    <div style="">({{ plant.type}})</div>
+                                    <a rel="sponsored" href={{plant.link}} ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£{{plant.price}} on {{plant.merchant}}</button></a>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <div style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    {% for plant in herbdata | getFeaturedPlants( plantname, plantcategory, 4 ) %} {% if plantcategory == "herb" %}
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="{{ plant.image}}" />
+                                    <div style="">{{ plant.name }}</div>
+                                    <div style="">({{ plant.type}})</div>
+                                    <a rel="sponsored" href={{plant.link}} ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£{{plant.price}} on {{plant.merchant}}</button></a>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                            </div>
+
+                            <div>See all varieties in the <a href="/shop/{{ pagedata.content.shop_link }}">allotment shop</a>.</div>
 
                             <h2 id="title" style="margin-bottom:10px">Growing</h2>
 
-                            <div id="growing">
                                 {% liamMark pagedata.content.growing %}
-                            </div>
 
                             <h2 id="title" style="">Gallery</h2>
 
@@ -368,6 +408,7 @@ eleventyComputed:
                 </main>
 
             </div>
+
 
 
 <script>

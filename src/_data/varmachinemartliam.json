@@ -1,0 +1,46 @@
+[
+    {
+      "product": "lawnmower",
+      "type": "Einhell",
+      "cats": "all",
+      "name": "Einhell P X-Change 36/47",
+      "retailer": "Machine Mart",
+      "abID": "ab9004000",
+      "storeID": 30113160,
+      "featured": "yes",
+      "description": "Features two 4.0 Ah batteries and charger, good sized wheels, and variable cutting height. Cuts up to 500 m²."
+    },
+    {
+      "product": "lawnmower",
+      "type": "Bosch",
+      "cats": "all",
+      "name": "Bosch EasyRotak 36-550",
+      "retailer": "Machine Mart",
+      "abID": "ab9004001",
+      "storeID": 30115171,
+      "featured": "yes",
+      "description": "Easy to use, lightweight, and relatively quiet mower. Good range of cutting heights. Comes with one 4.0 Ah battery plus charger."
+    },
+    {
+      "product": "lawnmower",
+      "type": "Karcher",
+      "cats": "all",
+      "name": "Karcher LMO 18-36",
+      "retailer": "Machine Mart",
+      "abID": "ab9004002",
+      "storeID": 30114422,
+      "featured": "yes",
+      "description": "Complete with 5.0 Ah battery and charger. Four cutting heights. Folding design for easier storage."
+    },
+    {
+      "product": "lawnmower",
+      "type": "Hyundai",
+      "cats": "all",
+      "name": "Hyundai 80V 45cm",
+      "retailer": "Machine Mart",
+      "abID": "ab9004003",
+      "storeID": 30118046,
+      "featured": "yes",
+      "description": "Powered by two 2.5 Ah batteries. Suitable for medium to large sized lawns. Wide 45 cm cutting width."
+    }
+   ]

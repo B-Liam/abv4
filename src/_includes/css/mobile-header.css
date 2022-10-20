@@ -33,7 +33,7 @@
     grid-area: 1/1/2/2;
     display: grid;
     grid-template-columns: 2fr;
-    background: #009900
+    background: #006600
 }
 
 #col-left {
@@ -76,14 +76,14 @@
 }
 
 #second-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-a {
     grid-area: 3/1/4/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
+    color: #006600;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0px;
@@ -91,21 +91,21 @@
 }
 
 #third-row-a a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-b {
     grid-area: 4/1/5/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
-    padding-left: 15%;
+    color: #006600;
+    padding-left: 10%;
     margin-top: 0px;
     padding-top: 0px;
 }
 
 #third-row-b a {
-    color: #009900;
+    color: #006600;
 }
 
 #fourth-row {
@@ -115,7 +115,7 @@
 }
 
 #fourth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #fifth-row {
@@ -125,7 +125,7 @@
 }
 
 #fifth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #sixth-row {
@@ -137,16 +137,14 @@
 
 #menu-button {
     margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
     width:60px;
     height:50px;
     grid-area: menu;
     color: #ffffff;
-    background: #009900;
+    background: #006600;
     text-align: center;
-    
-}
-
-#myNav {
     
 }
 
@@ -159,7 +157,7 @@
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,153,0, 1);
+    background-color: #006600;
     }
 
 .overlay-content {
@@ -339,15 +337,11 @@
 }
 
 #gallery-container {
-    width: 400px;
-    margin-left:auto;
-    margin-right: auto;
+    width: 100vw;
 }
 
-.photo-gallery-hero {
-    width: 360px;
-    height: 360px;
-    text-align:center;
+#galleryButtonContainer {
+    width: 100vw;
 }
 
 .gallery-text-button {
@@ -359,4 +353,8 @@
 
 #youtube-embed-container {
     display: none;
+}
+
+.horizontalPromoText {
+    max-width: 200px;
 }

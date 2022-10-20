@@ -1,0 +1,123 @@
+[
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Heat Mat",
+      "retailer": "Suttons",
+      "abID": "ab9003000",
+      "storeID": "KC6569",
+      "featured": "no",
+      "description": "Small heat mat 25 cm by 35 cm (10 in by 14 in). Good for sowing seeds and rooting cuttings."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all,featured",
+      "name": "Super 7",
+      "retailer": "Suttons",
+      "abID": "ab9003001",
+      "storeID": "13134",
+      "featured": "yes",
+      "description": "Ideal for cold windowsills to speed germination. Holds seven trays. 76 cm by 18.5 cm."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all,featured",
+      "name": "Garden Gear Propagator",
+      "retailer": "Suttons",
+      "abID": "ab9003002",
+      "storeID": "KB4291",
+      "featured": "yes",
+      "description": "Heated tray with variable vent on top cover."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Vitopod Single Propagator",
+      "retailer": "Suttons",
+      "abID": "ab9003003",
+      "storeID": "KC3688",
+      "featured": "no",
+      "description": "Flexible and extendable system. Variable temperature control and vents. 55 cm by 56 cm."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Warming Pad",
+      "retailer": "Suttons",
+      "abID": "ab9003004",
+      "storeID": "KC6294",
+      "featured": "no",
+      "description": "Raises soil temperature by 5 - 10 °C. Size 30 cm by 60 cm (12 in by 24 in)."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all,featured",
+      "name": "Vitopod Double Propagator",
+      "retailer": "Suttons",
+      "abID": "ab9003005",
+      "storeID": "KC3686",
+      "featured": "yes",
+      "description": "Flexible and extendable system. Variable temperature control and vents. 111 cm by 56 cm."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Big 3",
+      "retailer": "Suttons",
+      "abID": "ab9003006",
+      "storeID": "KC3451",
+      "featured": "no",
+      "description": "Three germinating trays with variable vents. 80.5 cm by 41 cm (31 in by 16 in)."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all,featured",
+      "name": "Geopod Propagator",
+      "retailer": "Suttons",
+      "abID": "ab9003007",
+      "storeID": "KC3638",
+      "featured": "yes",
+      "description": "A heated propagator with lights and thermostat to provide the ideal germination conditions. 62cm by 43 cm (25 in by 17 in)."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Hydropod Cutting Propagator",
+      "retailer": "Suttons",
+      "abID": "ab9003008",
+      "storeID": "KC6535",
+      "featured": "no",
+      "description": "Ideal for growing from cuttings. Provided with lights and heater. 60 cm by 41 cm (24 in by 16.5 in)."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Micro Grow Light",
+      "retailer": "Suttons",
+      "abID": "ab9003009",
+      "storeID": "KC5829",
+      "featured": "no",
+      "description": "Offers all year round indoor growing of salads and herbs. 50 cm by 20 cm (20 in by 8 in)."
+    },
+    {
+      "product": "heated propagator",
+      "type": "electric",
+      "cats": "all",
+      "name": "Grow Light Garden",
+      "retailer": "Suttons",
+      "abID": "ab9003010",
+      "storeID": "KC5853",
+      "featured": "no",
+      "description": "Grow all year round. Provides lights replicating daylight. Comes with 4 trays. 61.4 cm by 40 cm (24 in by  16 in)."
+    }
+   ]

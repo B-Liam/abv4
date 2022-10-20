@@ -13,7 +13,7 @@
     <title>Growing Strawberries | Allotment Book</title>
     <meta name="description" content="A complete guide to growing strawberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Wed Feb 16 2022 12:14:10 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Thu Feb 17 2022 15:39:51 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/contents/strawberries/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -45,7 +45,7 @@ h3 {
 }
 
 a {
-    color: #009900;
+    color: #006600;
     text-decoration: none;
   }
 
@@ -66,8 +66,9 @@ a {
 }
 
 #non-mobile a {
-    color: #ffffff;
+    color: #006600;
     text-decoration: none;
+    font-weight: 600;
 }
 
 #non-mobile #row {
@@ -82,7 +83,7 @@ a {
 
 #nav-elements {
     padding: 5px 0 5px 0;
-    width:250px; 
+    width:250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,14 +180,19 @@ input[type=email], select, textarea {
     }
     
 input[type=submit] {
-    background-color: #009900;
+    background-color: #006600;
     font-size: 1.2em;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
     }
+
+    picture img {
+        object-fit: cover;
+      }
 
 
 
@@ -226,7 +232,7 @@ input[type=submit] {
     grid-area: 1/1/2/2;
     display: grid;
     grid-template-columns: 2fr;
-    background: #009900
+    background: #006600
 }
 
 #col-left {
@@ -269,14 +275,14 @@ input[type=submit] {
 }
 
 #second-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-a {
     grid-area: 3/1/4/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
+    color: #006600;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0px;
@@ -284,21 +290,21 @@ input[type=submit] {
 }
 
 #third-row-a a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-b {
     grid-area: 4/1/5/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
-    padding-left: 15%;
+    color: #006600;
+    padding-left: 10%;
     margin-top: 0px;
     padding-top: 0px;
 }
 
 #third-row-b a {
-    color: #009900;
+    color: #006600;
 }
 
 #fourth-row {
@@ -308,7 +314,7 @@ input[type=submit] {
 }
 
 #fourth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #fifth-row {
@@ -318,7 +324,7 @@ input[type=submit] {
 }
 
 #fifth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #sixth-row {
@@ -330,16 +336,14 @@ input[type=submit] {
 
 #menu-button {
     margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
     width:60px;
     height:50px;
     grid-area: menu;
     color: #ffffff;
-    background: #009900;
+    background: #006600;
     text-align: center;
-    
-}
-
-#myNav {
     
 }
 
@@ -352,7 +356,7 @@ input[type=submit] {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,153,0, 1);
+    background-color: #006600;
     }
 
 .overlay-content {
@@ -532,15 +536,11 @@ input[type=submit] {
 }
 
 #gallery-container {
-    width: 400px;
-    margin-left:auto;
-    margin-right: auto;
+    width: 100vw;
 }
 
-.photo-gallery-hero {
-    width: 360px;
-    height: 360px;
-    text-align:center;
+#galleryButtonContainer {
+    width: 100vw;
 }
 
 .gallery-text-button {
@@ -552,6 +552,10 @@ input[type=submit] {
 
 #youtube-embed-container {
     display: none;
+}
+
+.horizontalPromoText {
+    max-width: 200px;
 }
 
 
@@ -572,7 +576,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
 }
@@ -607,7 +611,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900; 
+    background: #e0f7d3; 
 }
 
 #main-column {
@@ -726,10 +730,12 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     width: 595px;
     height: 595px;
-    text-align: center;
-}
+    }
 
 .gallery-text-button {
     width: 350px;
@@ -740,6 +746,12 @@ input[type=submit] {
 
 #mobile-youtube-embed-container {
     display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 
@@ -765,7 +777,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
     
@@ -802,7 +814,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900;
+    background: #e0f7d3;
     text-align: right;
     margin: 0;
     padding: 0;
@@ -927,9 +939,11 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+display: block;
+margin-left:auto;
+margin-right: auto;
 width: 595px;
 height: 595px;
-text-align:center;
 }
 
 .gallery-text-button {
@@ -943,11 +957,17 @@ text-align:center;
     display: none;
 }
 
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 }
 
 </style>
 
-<script src="https://cdn.usefathom.com/script.js" data-site="QDSWGSQM" defer></script>
+
 
 </head>
 
@@ -961,24 +981,27 @@ text-align:center;
     <div id="logo">
         <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
     </div>
-    <div style="" id="menu-button" class="pointer">
-        <a href"/"><img style="text-align:center;width:20px;height:16px;padding-top:8px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487486/navigation/hamburger-icon_kpgidy.webp"/>
-        <div style="text-align:center;font-size:0.7em;color:#ffffff">Contents</div></a>
+    <div id="menu-button" class="pointer">
+        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
+        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
     </div>
 </div>
 
 <nav id="myNav" class="overlay">
-    <div style="text-align:right" class="closebtn"> <i id="close" class="fas fa-window-close"></i></div>
-    <div id="nav-grid"
+    <div style="text-align:right" class="closebtn"> 
+        <div id="close" style="font-size:2rem">✕</div>
+    </div>
+    <div id="nav-grid">
             <div id="first-row">
-            <div id="col-left"><a href="/">Home</div></a>
-            <div id="col-right"></div>
+                <div id="col-left"><a href="/">Home</div></a>
+                <div id="col-right"></div>
+            </div>
             <div id="second-row">
                 <div id="col-left"><a href="/shop">Shop</div></a>
                 <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
             </div>
             <div id="third-row-a">
-            <div><a href="/contents"><strong>Book Contents</strong></div></a>
+                <div><a href="/contents"><strong>Book Contents</strong></div></a>
             </div>
             <div id="third-row-b">
                 <a style="margin-top:-3%" href="/introduction"><span style="font-size:14px">►</span> Introduction</a>
@@ -997,10 +1020,10 @@ text-align:center;
                 <div id="col-right"><a href="/policies">Policies</div></a>
             </div>
             <div id="sixth-row">
-                
             </div>
-
+                
     </div>
+
 </nav>
     </div>
 
@@ -1346,11 +1369,60 @@ text-align:center;
 
                             </div>
 
-                            <p>See varieties in the <a href="/shop/strawberries/all/">allotment shop</a>.</p>
+                            <div id="plants-featured-links">
+                                
+                                
+
+                                <div style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    
+                                </div>
+
+                                <div style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                     
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Awww.suttons.co.uk%2Fproduct_images%2FFRSTR27150.jpg&amp;feedId=64935&amp;k=ec78d06a2e869cfe16e8334b786f2c2bd9cf5bf9" />
+                                    <div style="">Flamenco</div>
+                                    <div style="">(day neutral)</div>
+                                    <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=31741029111&amp;a=1016123&amp;m=25121 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£13.99 on Suttons</button></a>
+                                    </div>
+                                    
+                                     
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Awww.suttons.co.uk%2Fproduct_images%2FFRSTR30442.jpg&amp;feedId=64935&amp;k=1b8ff6283ef7e1e5e759657fd73a4a149b446882" />
+                                    <div style="">Snow White</div>
+                                    <div style="">(summer)</div>
+                                    <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=31741031659&amp;a=1016123&amp;m=25121 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£12.49 on Suttons</button></a>
+                                    </div>
+                                    
+                                     
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Awww.suttons.co.uk%2Fproduct_images%2FFRSTR31215.jpg&amp;feedId=64935&amp;k=905f0400e085a66e95d67ee1666800beffc0d1de" />
+                                    <div style="">Mara des Bois</div>
+                                    <div style="">(day neutral)</div>
+                                    <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=31745294991&amp;a=1016123&amp;m=25121 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£17.99 on Suttons</button></a>
+                                    </div>
+                                    
+                                     
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Awww.suttons.co.uk%2Fproduct_images%2FFRSTR36940.jpg&amp;feedId=64935&amp;k=884175bd77c5cba1f2028398e45fbde39b17cee7" />
+                                    <div style="">Marshmello</div>
+                                    <div style="">(summer)</div>
+                                    <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=31741663379&amp;a=1016123&amp;m=25121 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£7.99 on Suttons</button></a>
+                                    </div>
+                                    
+                                    
+                                </div>
+
+                                <div style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    
+                                </div>
+
+                            </div>
+
+                            <div>See all varieties in the <a href="/shop/strawberries/all/">allotment shop</a>.</div>
 
                             <h2 id="title" style="margin-bottom:10px">Growing</h2>
 
-                            <div id="growing">
                                 <p>The ideal time for planting strawberries is at the beginning of spring, with late summer a good alternative. Early spring is good, as if you are lucky, you may have a small harvest of strawberries that year – but subsequent years will be even better. Alpine strawberries are particularly quick to mature.</p>
 <p>Preparing a strawberry bed is hard work, but easy to do, and the work will more than repay itself with healthy plants and bountiful strawberries the following year.</p>
 <p>The first step is decide where to put the strawberry bed. The strawberry bed will become a fixed part of an allotment or garden for several years. The general advice is to move a strawberry bed every three years. Younger strawberry plants tend to be more vigorous than older plants.</p>
@@ -1362,7 +1434,6 @@ text-align:center;
 <p>At my allotment, the biggest risk affecting the harvest is birds. Without a net, it is possible to lose the entire crop.</p>
 <p>When summer strawberries have given their crop, it is recommended to give them a good hair cut, or even controlled burning (with great care), which will help refresh and reinvigorate the plants for the following year. There is no need to do this for day neutral or alpine strawberries.</p>
 
-                            </div>
 
                             <h2 id="title" style="">Gallery</h2>
 
@@ -1433,6 +1504,7 @@ text-align:center;
                 </main>
 
             </div>
+
 
 
 <script>
@@ -1538,8 +1610,23 @@ breadLink();
     <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
     </footer>
 
-    <script src="/js/open-nav.js"></script>
-    <script src="/js/close-nav.js"></script>
+    
+
+    <script>
+        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
+        scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false; // to preserve execution order
+        document.head.appendChild(s);
+        });
+    </script>
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
     
 </body>
 

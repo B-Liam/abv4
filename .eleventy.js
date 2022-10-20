@@ -121,6 +121,44 @@ module.exports = function(eleventyConfig) {
         }
         return interim;
       });
+      eleventyConfig.addFilter("getFeaturedPlants", function(arr,plantname,plantcategory,number) {
+        let interim = [];
+        if ( plantcategory == "vegetable") {
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if (arr[i].vegetable == plantname && interim.length < number && arr[i].featured == "yes" ) {
+                let interimObject = { "name": arr[i].name, "price": arr[i].price, "type": arr[i].type, "image": arr[i].image, "merchant": arr[i].merchant, "link": arr[i].deeplink }
+                interim.push(interimObject);
+                }
+            }
+        }
+        if ( plantcategory == "fruit") {
+            for (let i = 0 ; i < arr.length ; i++ ) {
+                if (arr[i].fruit == plantname && interim.length < number && arr[i].featured == "yes" ) {
+                    let interimObject = { "name": arr[i].name, "price": arr[i].price, "type": arr[i].type, "image": arr[i].image, "merchant": arr[i].merchant, "link": arr[i].deeplink }
+                    interim.push(interimObject);
+                }
+            }
+        }
+        if ( plantcategory == "herb") {
+            for (let i = 0 ; i < arr.length ; i++ ) {
+                if (arr[i].herb == plantname && interim.length < number && arr[i].featured == "yes" ) {
+                    let interimObject = { "name": arr[i].name, "price": arr[i].price, "type": arr[i].type, "image": arr[i].image, "merchant": arr[i].merchant, "link": arr[i].deeplink }
+                    interim.push(interimObject);
+                }
+            }
+        }
+        return interim;
+      });
+      eleventyConfig.addFilter("getFeaturedEquipment", function(arr,productname,number) {
+        let interim = [];
+        for (let i = 0 ; i < arr.length ; i++ ) {
+            if (arr[i].product == productname && interim.length < number && arr[i].featured == "yes") {
+                let interimObject = { "name": arr[i].name, "price": arr[i].price, "type": arr[i].type, "image": arr[i].image, "merchant": arr[i].merchant, "link": arr[i].deeplink }
+                interim.push(interimObject);
+                }
+            }
+        return interim;
+    });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/js");

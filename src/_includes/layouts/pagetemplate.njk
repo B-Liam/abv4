@@ -29,7 +29,23 @@ layout: /layouts/head.njk
     <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
     </footer>
 
-    <script src="/js/open-nav.js"></script>
-    <script src="/js/close-nav.js"></script>
+    {# <script src="/js/open-nav.js"></script>
+    <script src="/js/close-nav.js"></script> #}
+
+    <script>
+        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
+        scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false; // to preserve execution order
+        document.head.appendChild(s);
+        });
+    </script>
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
     
 </body>

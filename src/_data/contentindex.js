@@ -30,8 +30,6 @@ getRecipes = async function() {
 
     buildIndex(recipePages,combinedIndex);
 
-    return newRecipeIndex
-
   } catch (error) {
     console.error(error);
   }
@@ -46,8 +44,6 @@ getIntro = async function() {
   
       buildIndex(introPages,combinedIndex);
   
-      return newIntroIndex
-  
     } catch (error) {
       console.error(error);
     }
@@ -61,8 +57,6 @@ getGrowing = async function() {
       vegPages = response.data.stories;
   
       buildIndex(vegPages,combinedIndex);
-  
-      return newIntroIndex
   
     } catch (error) {
       console.error(error);

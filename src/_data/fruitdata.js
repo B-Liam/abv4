@@ -10,7 +10,7 @@ let allInStock = [];
 
 function cleanOutOfStock() {
     for ( i = 0 ; i < storeData.length ; i++ ) {
-        if ( storeData[i].in_stock == 1 ) {
+        if ( storeData[i].in_stock == 1 || storeData[i].in_stock == 0 ) {
             allInStock.push(storeData[i]);
         }
     }

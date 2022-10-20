@@ -22,6 +22,13 @@
         "link": "/shop/herbs/"
       },
       {
+        "shopcat": "epropagators",
+        "text": "Heated Propagators",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1645185147/navigation/electric-heated-propagator_jfoj3v.jpg",
+        "alt": "",
+        "link": "/shop/heated-propagators/all"
+      },
+      {
         "shopcat": "raisedbeds",
         "text": "Raised Beds",
         "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488703/navigation/raised-bed_o8wsln.jpg",
@@ -34,6 +41,13 @@
         "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1644488711/navigation/growhouse_bgxpdd.jpg",
         "alt": "",
         "link": "/shop/growhouses/all"
+      },
+      {
+        "shopcat": "sheds",
+        "text": "Sheds",
+        "image": "https://res.cloudinary.com/allotment-book/image/upload/w_150,h_79,q_auto,f_auto/v1645203754/navigation/shed_cgnmkx.jpg",
+        "alt": "",
+        "link": "/shop/sheds/all"
       },
       {
         "shopcat": "waterbutts",

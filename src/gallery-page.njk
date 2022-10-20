@@ -30,25 +30,40 @@ eleventyComputed:
 
                         <div>
                         
-                        <div id="gallery-container" style="display:flex; align-items: center; background:#ffffff;padding-top:0.5rem">
-                            <div id="previous" style="width:10%;text-align:center; color: #ffffff; font-size:2rem">
-                                <a onclick="previousImage()"><img style="width:30px; height:30px" src="/images/uploads/green-chevron-left.webp" alt"green chevron icon" /></a>
+                        <div id="gallery-container" style="background:#ffffff;padding-top:0.5rem">
+                            
+                            <div class="photo-gallery-hero" id="hero" style="margin-bottom:5px"></div>
+                            
+                            <div id="galleryButtonContainer" style="display:flex;justify-content:space-evenly">
+                                <div id="previous" style="text-align:center; color: #ffffff; font-size:1.5rem">
+                                    <a onclick="previousImage()">
+                                        <div style="display:flex; align-items:center; cursor:pointer">
+                                            <img style="width:30px; height:30px" src="/images/uploads/green-chevron-left.webp" alt"green chevron icon" />
+                                            <div style="margin-left:10px">Previous</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="next" style="text-align:center; color: #ffffff; font-size:1.5rem">
+                                    <a onclick="nextImage()">
+                                        <div style="display:flex; align-items:center; cursor:pointer">
+                                            <div style="margin-right:10px">Next</div>
+                                            <img style="width:30px; height:30px" src="/images/uploads/green-chevron-right.webp" alt"green chevron icon" />
+                                        </div>
+                                    </a>
                             </div>
-                        <div class="photo-gallery-hero" id="hero" style=""></div>
-                            <div id="next" style="width:10%;text-align:center; color: #ffffff; font-size:2rem">
-                                <a onclick="nextImage()"><img style="width:30px; height:30px" src="/images/uploads/green-chevron-right.webp" alt"green chevron icon" /></i></a>
                             </div>
 
                         </div>
-<div class="gallery-text-button" id="herotext" style="padding-bottom: 0.5rem;background:#ffffff"></div>
+                        <h3 class="gallery-text-button" id="herotext" style="padding-bottom: 0.5rem;background:#ffffff; text-transform:capitalize">
+                        </h3>
                     </div>
 
                     
 
                     <div class="gallery-text-button" style="margin-top:20px" id="content-body">
                         <div style="text-align: center">
-                            <a href="/photo-gallery"><button style="background:#009900;width:140px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px">All Galleries</button></a>
-                        </div>  
+                            <a id="link" href="/photo-gallery"><button id="linkname" style="border-radius:8px;background:#009900; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px; padding-left:10px; padding-right:10px">All Galleries</button></a>
+                        </div>
 
                     </div>
 
@@ -64,9 +79,13 @@ eleventyComputed:
 
 let currentIndex = 0;
 let galleryPhotos = JSON.parse(`{{ thing.photos | dump | safe }}`);
+let galleryLinks = JSON.parse(`{{ thing | dump | safe }}`);
+console.log("galleryLinks",galleryLinks)
 
 function heroImage(index) {
-    document.getElementById("hero").innerHTML = createImage(galleryPhotos[index].url)
+    document.getElementById("hero").innerHTML = createImage(galleryPhotos[index].url);
+    document.getElementById("linkname").innerHTML = galleryLinks.linkname;
+    document.getElementById("link").href = galleryLinks.link;
 }
 heroImage(currentIndex);
 

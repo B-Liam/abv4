@@ -2,24 +2,27 @@
     <div id="logo">
         <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="{{ settings.moblogo }}" alt="allotment-book-logo"/></a>
     </div>
-    <div style="" id="menu-button" class="pointer">
-        <a href"/"><img style="text-align:center;width:20px;height:16px;padding-top:8px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487486/navigation/hamburger-icon_kpgidy.webp"/>
-        <div style="text-align:center;font-size:0.7em;color:#ffffff">Contents</div></a>
+    <div id="menu-button" class="pointer">
+        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
+        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
     </div>
 </div>
 
 <nav id="myNav" class="overlay">
-    <div style="text-align:right" class="closebtn"> <i id="close" class="fas fa-window-close"></i></div>
-    <div id="nav-grid"
+    <div style="text-align:right" class="closebtn"> 
+        <div id="close" style="font-size:2rem">✕</div>
+    </div>
+    <div id="nav-grid">
             <div id="first-row">
-            <div id="col-left"><a href="/">Home</div></a>
-            <div id="col-right"></div>
+                <div id="col-left"><a href="/">Home</div></a>
+                <div id="col-right"></div>
+            </div>
             <div id="second-row">
                 <div id="col-left"><a href="{{ settings.shop }}">Shop</div></a>
                 <div id="col-right"><a href="{{ settings.tools }}">Planning Tools</div></a>
             </div>
             <div id="third-row-a">
-            <div><a href="{{ settings.book }}"><strong>Book Contents</strong></div></a>
+                <div><a href="{{ settings.book }}"><strong>Book Contents</strong></div></a>
             </div>
             <div id="third-row-b">
                 <a style="margin-top:-3%" href="{{ settings.introduction }}"><span style="font-size:14px">►</span> Introduction</a>
@@ -38,8 +41,8 @@
                 <div id="col-right"><a href="{{ settings.policies }}">Policies</div></a>
             </div>
             <div id="sixth-row">
-                
             </div>
-
+                
     </div>
+
 </nav>

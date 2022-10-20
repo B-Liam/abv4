@@ -45,7 +45,7 @@ h3 {
 }
 
 a {
-    color: #009900;
+    color: #006600;
     text-decoration: none;
   }
 
@@ -66,8 +66,9 @@ a {
 }
 
 #non-mobile a {
-    color: #ffffff;
+    color: #006600;
     text-decoration: none;
+    font-weight: 600;
 }
 
 #non-mobile #row {
@@ -82,7 +83,7 @@ a {
 
 #nav-elements {
     padding: 5px 0 5px 0;
-    width:250px; 
+    width:250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,14 +180,19 @@ input[type=email], select, textarea {
     }
     
 input[type=submit] {
-    background-color: #009900;
+    background-color: #006600;
     font-size: 1.2em;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
     }
+
+    picture img {
+        object-fit: cover;
+      }
 
 
 
@@ -226,7 +232,7 @@ input[type=submit] {
     grid-area: 1/1/2/2;
     display: grid;
     grid-template-columns: 2fr;
-    background: #009900
+    background: #006600
 }
 
 #col-left {
@@ -269,14 +275,14 @@ input[type=submit] {
 }
 
 #second-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-a {
     grid-area: 3/1/4/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
+    color: #006600;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0px;
@@ -284,21 +290,21 @@ input[type=submit] {
 }
 
 #third-row-a a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-b {
     grid-area: 4/1/5/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
-    padding-left: 15%;
+    color: #006600;
+    padding-left: 10%;
     margin-top: 0px;
     padding-top: 0px;
 }
 
 #third-row-b a {
-    color: #009900;
+    color: #006600;
 }
 
 #fourth-row {
@@ -308,7 +314,7 @@ input[type=submit] {
 }
 
 #fourth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #fifth-row {
@@ -318,7 +324,7 @@ input[type=submit] {
 }
 
 #fifth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #sixth-row {
@@ -330,16 +336,14 @@ input[type=submit] {
 
 #menu-button {
     margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
     width:60px;
     height:50px;
     grid-area: menu;
     color: #ffffff;
-    background: #009900;
+    background: #006600;
     text-align: center;
-    
-}
-
-#myNav {
     
 }
 
@@ -352,7 +356,7 @@ input[type=submit] {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,153,0, 1);
+    background-color: #006600;
     }
 
 .overlay-content {
@@ -532,15 +536,11 @@ input[type=submit] {
 }
 
 #gallery-container {
-    width: 400px;
-    margin-left:auto;
-    margin-right: auto;
+    width: 100vw;
 }
 
-.photo-gallery-hero {
-    width: 360px;
-    height: 360px;
-    text-align:center;
+#galleryButtonContainer {
+    width: 100vw;
 }
 
 .gallery-text-button {
@@ -552,6 +552,10 @@ input[type=submit] {
 
 #youtube-embed-container {
     display: none;
+}
+
+.horizontalPromoText {
+    max-width: 200px;
 }
 
 
@@ -572,7 +576,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
 }
@@ -607,7 +611,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900; 
+    background: #e0f7d3; 
 }
 
 #main-column {
@@ -726,10 +730,12 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     width: 595px;
     height: 595px;
-    text-align: center;
-}
+    }
 
 .gallery-text-button {
     width: 350px;
@@ -740,6 +746,12 @@ input[type=submit] {
 
 #mobile-youtube-embed-container {
     display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 
@@ -765,7 +777,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
     
@@ -802,7 +814,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900;
+    background: #e0f7d3;
     text-align: right;
     margin: 0;
     padding: 0;
@@ -927,9 +939,11 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+display: block;
+margin-left:auto;
+margin-right: auto;
 width: 595px;
 height: 595px;
-text-align:center;
 }
 
 .gallery-text-button {
@@ -943,11 +957,17 @@ text-align:center;
     display: none;
 }
 
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 }
 
 </style>
 
-<script src="https://cdn.usefathom.com/script.js" data-site="QDSWGSQM" defer></script>
+
 
 </head>
 
@@ -961,24 +981,27 @@ text-align:center;
     <div id="logo">
         <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
     </div>
-    <div style="" id="menu-button" class="pointer">
-        <a href"/"><img style="text-align:center;width:20px;height:16px;padding-top:8px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487486/navigation/hamburger-icon_kpgidy.webp"/>
-        <div style="text-align:center;font-size:0.7em;color:#ffffff">Contents</div></a>
+    <div id="menu-button" class="pointer">
+        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
+        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
     </div>
 </div>
 
 <nav id="myNav" class="overlay">
-    <div style="text-align:right" class="closebtn"> <i id="close" class="fas fa-window-close"></i></div>
-    <div id="nav-grid"
+    <div style="text-align:right" class="closebtn"> 
+        <div id="close" style="font-size:2rem">✕</div>
+    </div>
+    <div id="nav-grid">
             <div id="first-row">
-            <div id="col-left"><a href="/">Home</div></a>
-            <div id="col-right"></div>
+                <div id="col-left"><a href="/">Home</div></a>
+                <div id="col-right"></div>
+            </div>
             <div id="second-row">
                 <div id="col-left"><a href="/shop">Shop</div></a>
                 <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
             </div>
             <div id="third-row-a">
-            <div><a href="/contents"><strong>Book Contents</strong></div></a>
+                <div><a href="/contents"><strong>Book Contents</strong></div></a>
             </div>
             <div id="third-row-b">
                 <a style="margin-top:-3%" href="/introduction"><span style="font-size:14px">►</span> Introduction</a>
@@ -997,10 +1020,10 @@ text-align:center;
                 <div id="col-right"><a href="/policies">Policies</div></a>
             </div>
             <div id="sixth-row">
-                
             </div>
-
+                
     </div>
+
 </nav>
     </div>
 
@@ -1120,7 +1143,7 @@ let introPagesArray = JSON.parse(`[{"title":"Allotment Grass Cutting","slug":"al
 let startPagesArray = JSON.parse(`[{"title":"Controlling Ants & Aphids On Fruit Trees","slug":"controlling-ants-and-aphids-on-fruit-trees","order":"168","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/fd7d51f83f/black-aphids-on-underside-of-cherry-tree-leaf.jpg","description":"How to control ants and aphids on fruit trees, what to do when trees are attacked, and how to avoid the problem occurring."},{"title":"Polytunnel Solar Powered Drip Irrigation System","slug":"solar-powered-drip-irrigation","order":"134","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/d6dece935e/drip-irrigation-watering-plant.jpg","description":"An introduction to how to create a polytunnel solar powered drip irrigation system, without mains water or electricity."},{"title":"Growing Vegetables In Pots & Containers","slug":"growing-vegetables-in-pots-and-containers","order":"164","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/d61a5ea857/four-french-bean-plants-in-a-large-pot.jpg","description":"A guide to growing vegetables in pots and containers, covering what vegetables to grow, container size, and growing media."},{"title":"Hot Composting Guide","slug":"hot-composting","order":"160","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/e6693a2455/thermometer-showing-temperature-inside-hot-compost-bin.jpg","description":"Discover how hot composting makes compost in 4 to 6 weeks, including a compost recipe and tips to make hot composting work."},{"title":"Allotment Netting Guide","slug":"allotment-netting","order":"136","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/5c92ead331/bird-netting-covering-redcurrants.jpg","description":"A introduction to allotment netting covering bird netting, butterfly netting, insect netting, and pea and bean netting. "},{"title":"Top 10 Watering Tips","slug":"watering-tips","order":"132","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/b6d521489c/water-butt-next-to-polytunnel.jpg","description":"A guide to allotment watering, with ten tips to make the job easier by reducing effort, reducing the need to water, or watering less."},{"title":"Plastic Greenhouses, Growing Tunnels, & Cloches","slug":"plastic-greenhouses-and-growing-tunnels","order":"128","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/40be4272b1/tomato-plants-growing-in-plastic-greenhouse.jpg","description":"An introduction to using plastic greenhouses, growing tunnels, and plastic cloches."},{"title":"Electric Heated Propagators","slug":"electric-heated-propagators","order":"124","category":"starter","image":"https://a.storyblok.com/f/136863/1000x562/a1e8beac4c/electric-heated-propagator-with-seed-packets.jpg","description":"A review of electric heated propagators looking at what advantages they bring for a gardener, considerations before buying, and alternatives."},{"title":"How To Decide What To Grow","slug":"how-to-decide-what-to-grow","order":"120","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/6b08d67710/harvest-of-courgettes-cucumber-potatoes-tomatoes-strawberries-raspberries.jpg","description":"What to consider when putting together a growing plan, including how to decide what to grow, choosing varieties, and extending the growing season."},{"title":"Making A Steel Walk-In Fruit Cage","slug":"making-a-steel-walk-in-fruit-cage","order":"116","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/36bf53909f/steel-fruit-cage-on-allotment.jpg","description":"Step by step how to build a walk in fruit cage. The fruit cage is made from galvanised steel and joined together using Kee clamps."},{"title":"How To Build A Polytunnel","slug":"how-to-build-a-polytunnel","order":"112","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/f26ce6f3dd/newly-built-polytunnel-on-allotment.jpg","description":"A video guide on how to build a polytunnel, taking it step by step from preparing the ground, assembling the frame, and attaching the plastic cover."},{"title":"How To Make No-Dig Beds","slug":"making-no-dig-beds","order":"108","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/6745b11e21/no-dig-bed-on-an-allotment.jpg","description":"A video guide on how to make no-dig beds for an allotment, including the advantages of no-dig beds, how they reduce work, and the growing cycle."},{"title":"Starting work on a new allotment","slug":"start-work-on-a-new-plot","order":"104","category":"starter","image":"https://a.storyblok.com/f/136863/1200x630/d98868ae59/laying-out-planting-areas-on-a-new-allotment.jpg","description":"A step by step guide on how to start work on an allotment plot, containing practical tips for a first time plot holder."}]`);
 let vegPagesArray = JSON.parse(`[{"title":"Tomatillos","slug":"tomatillos","order":"515","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/42c5db159e/ripe-tomatillo.jpg","description":"A complete guide to growing tomatillos at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Sweetcorn","slug":"sweetcorn","order":"512","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/60114f7c1b/sweetcorn-cobs-ripening.jpg","description":"A complete guide to growing sweetcorn at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Peppers","slug":"peppers","order":"480","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/bfa0f8b8c7/harvested-sweet-peppers.jpg","description":"A complete guide to growing sweet peppers at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Tomatoes","slug":"tomatoes","order":"518","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/a20aad6ecf/homegrown-cherry-tomatoes.jpg","description":"A complete guide to growing tomatoes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Turnips","slug":"turnips","order":"521","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/a4cc7ec9c6/turnip-ready-for-picking.jpg","description":"A complete guide to growing turnips at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Swedes","slug":"swedes","order":"509","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/aac2d9ebcd/mature-swede.jpg","description":"A complete guide to growing swedes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Squash","slug":"squash","order":"506","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/b04cf58a5e/harvest-summer-and-winter-sqaush.jpg","description":"A complete guide to growing squash at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Spring Onions","slug":"spring-onions","order":"503","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/419c10d668/spring-onions-ready-for-picking.jpg","description":"A complete guide to growing spring onions at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Spinach","slug":"spinach","order":"500","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/b662db66b2/spinach-ready-for-picking.jpg","description":"A complete guide to growing spinach at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Shallots","slug":"shallots","order":"497","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/20651db9b5/cleaned-and-trimmed-shallots.jpg","description":"A complete guide to growing shallots at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Salsify Scorzonera","slug":"salsify-scorzonera","order":"494","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/3bc3ff5047/picked-salsify.jpg","description":"A complete guide to growing salsify and scorzonera at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Rocket","slug":"rocket","order":"491","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/36d919f730/rocket-grown-in-a-pot.jpg","description":"A complete guide to growing rocket at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Radish","slug":"radish","order":"488","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/8d3bd3cfcd/purple-winter-radish.jpg","description":"A complete guide to growing radish at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Pumpkins","slug":"pumpkins","order":"485","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/c4d9d0e357/harvested-carving-pumpkin.jpg","description":"A complete guide to growing pumpkins at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Potatoes","slug":"potatoes","order":"482","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/d93b31da88/freshly-dug-potatoes.jpg","description":"A complete guide to growing potatoes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Peas","slug":"peas","order":"479","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/cd70ebba8d/peas-ready-for-picking.jpg","description":"A complete guide to growing peas at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Parsnips","slug":"parsnips","order":"476","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/884fa7be50/freshly-picked-parsnips.jpg","description":"A complete guide to growing parsnips at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Pak Choi","slug":"pak-choi","order":"473","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/40165600c4/mature-pak-choi-plant.jpg","description":"A complete guide to growing pak choi at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Onions","slug":"onions","order":"470","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/6c25e37dc2/tray-of-harvested-onions.jpg","description":"A complete guide to growing onions at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Marrow","slug":"marrow","order":"467","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/c4a0a69f4e/harvested-marrows.jpg","description":"A complete guide to growing marrow at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Lettuce","slug":"lettuce","order":"464","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/4183d30bcc/harvested-red-lettuce.jpg","description":"A complete guide to growing lettuce at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Leeks","slug":"leeks","order":"461","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/4f3dcb00c0/freshly-picked-leeks.jpg","description":"A complete guide to growing leeks at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Kohlrabi","slug":"kohlrabi","order":"458","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/178ba6d213/purple-kohlrabi.jpg","description":"A complete guide to growing kohlrabi at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Kale","slug":"kale","order":"455","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/d5c895e355/mature-kale-plants.jpg","description":"A complete guide to growing kale at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Jerusalem Artichokes","slug":"jerusalem-artichokes","order":"452","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/ba7b7f710c/harvested-jerusalem-artichoke-tubers.jpg","description":"A complete guide to Jerusalem artichokes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Globe Artichokes","slug":"globe-artichokes","order":"449","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/12984abff2/globe-artichoke-ready-for-picking.jpg","description":"A complete guide to growing globe artichokes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Garlic","slug":"garlic","order":"446","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/928372e083/freshly-picked-elephant-garlic.jpg","description":"A complete guide to growing garlic at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"French Beans","slug":"french-beans","order":"443","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/7ca1c93b4f/mature-french-beans.jpg","description":"A complete guide to growing French beans at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Florence Fennel","slug":"florence-fennel","order":"440","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/3df327e423/florence-fennel-ready-to-pick.jpg","description":"A complete guide to growing florence fennel at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Cucumbers","slug":"cucumbers","order":"437","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/d7c175cb74/ripe-cucumber-on-plant.jpg","description":"A complete guide to growing cucumbers at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Courgettes","slug":"courgettes","order":"434","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/9ec47ead49/harvested-yellow-courgettes.jpg","description":"A complete guide to growing courgettes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Chillies","slug":"chillies","order":"431","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/4834114e43/ripe-chilli.jpg","description":"A complete guide to growing chillies at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Chard","slug":"chard","order":"428","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/3b080aab8c/chard-plants.jpg","description":"A complete guide to growing chard at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Celeriac","slug":"celeriac","order":"425","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/156bea14d0/freshly-picked-celeriac.jpg","description":"A complete guide to growing celeriac at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Cauliflower","slug":"cauliflower","order":"422","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/8fb6de309d/mature-cauliflower.jpg","description":"A complete guide to growing cauliflower at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Carrots","slug":"carrots","order":"419","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/3d1b41cfe0/harvested-carrots.jpg","description":"A complete guide to growing carrots at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Cabbage","slug":"cabbage","order":"416","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/03597df095/harvested-red-cabbage.jpg","description":"A complete guide to growing cabbage at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Brussels Sprouts","slug":"brussels-sprouts","order":"413","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/19e92ad670/brussels-sprouts-on-stalk.jpg","description":"A complete guide to growing Brussels sprouts at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Broad Beans","slug":"broad-beans","order":"408","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/6137157a7b/broad-beans-growing.jpg","description":"A complete guide to growing broad beans at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Beetroot","slug":"beetroot","order":"406","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/dbb814f53a/beetroot-harvest.jpg","description":"A complete guide to growing beetroot at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Aubergines","slug":"aubergines","order":"404","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/00dc990baa/ripe-aubergine.jpg","description":"A complete guide to growing aubergines at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Asparagus","slug":"asparagus","order":"402","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/b49cc1bebd/asparagus-spear.jpg","description":"A complete guide to growing asparagus at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Runner Beans","slug":"runner-beans","order":"494","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/f546c8cc1b/runner-bean-varieties.jpg","description":"A complete guide to growing runner beans at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Broccoli","slug":"broccoli","order":"410","category":"vegetable","image":"https://a.storyblok.com/f/136863/1200x630/f755d267fd/purple-sprouted-broccoli.jpg","description":"A complete guide to growing broccoli at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."}]`);
 let fruitPagesArray = JSON.parse(`[{"title":"Tayberries","slug":"tayberries","order":"595","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/fcc39b8977/ripe-tayberry.jpg","description":"A complete guide to growing tayberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Strawberries","slug":"strawberries","order":"592","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/4b0a50e93f/strawberries-ready-for-picking.jpg","description":"A complete guide to growing strawberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Rhubarb","slug":"rhubarb","order":"589","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/bab1dd1854/freshly-picked-rhubarb.jpg","description":"A complete guide to growing tomatoes at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Raspberries","slug":"raspberries","order":"586","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/06570b14a6/raspberry-ready-for-picking.jpg","description":"A complete guide to growing raspberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Plums","slug":"plums","order":"583","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/a4d380afee/ripe-plums-on-plum-tree.jpg","description":"A complete guide to growing plums at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Pears","slug":"pears","order":"580","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/5abb248696/ripe-pear-hanging-on-tree.jpg","description":"A complete guide to growing pears at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Melons","slug":"melons","order":"577","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/5d539a8611/ripe-musk-melon-on-allotment.jpg","description":"A complete guide to growing melons at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Loganberries","slug":"loganberries","order":"574","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/a138ce30e5/freshly-picked-loganberries.jpg","description":"A complete guide to growing loganberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Inca Berries","slug":"inca-berries","order":"571","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/603620bb4e/single-inca-berry-after-picking.jpg","description":"A complete guide to growing inca berries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Gooseberries","slug":"gooseberries","order":"568","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/fa01e1150e/gooseberry-on-bush-ready-for-picking.jpg","description":"A complete guide to growing gooseberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Currants","slug":"currants","order":"565","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/0bfc1afc5d/ripe-white-currants-redcurrants-and-blackcurrants.jpg","description":"A complete guide to growing redcurrants, blackcurrants, and white currants at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Cherries","slug":"cherries","order":"562","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/282d0b41eb/ripe-cherries-hanging-from-tree.jpg","description":"A complete guide to growing cherries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Boysenberries","slug":"boysenberries","order":"559","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/72eded375a/boysenberry-ready-for-picking.jpg","description":"A complete guide to growing boysenberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Blueberries","slug":"blueberries","order":"556","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/28a1653211/blueberries-ripening-on-bush.jpg","description":"A complete guide to growing blueberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Apples","slug":"apples","order":"550","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/2d9358c8e5/ripe-apples-on-tree.jpg","description":"A complete guide to growing apples at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."},{"title":"Blackberries","slug":"blackberries","order":"553","category":"fruit","image":"https://a.storyblok.com/f/136863/1200x630/5c144d4c57/ripe-blackberries.jpg","description":"A complete guide to growing blackberries at home or an allotment. Including varieties, planting, harvesting, photos, and growing tips."}]`);
-let herbPagesArray = JSON.parse(`[{"title":"Thyme","slug":"thyme","order":"722","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/5dad434753/thyme-plant.jpg","description":"A guide to growing thyme in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Tarragon","slug":"tarragon","order":"719","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/097ce568e8/tarragon-plant.jpg","description":"A guide to growing tarragon in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Sorrel","slug":"sorrel","order":"716","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/d844833d5e/sorrel-leaves.jpg","description":"A guide to growing sorrel in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Sage","slug":"sage","order":"713","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/76a0cfe4fa/sage-plant-in-summer.jpg","description":"A guide to growing sage in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Rosemary","slug":"rosemary","order":"710","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/1eefb55dd2/rosemary-plant-early-summer.jpg","description":"A guide to growing basil in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Parsley","slug":"parsley","order":"707","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/1adcaa384a/curly-leaf-parsley-plant.jpg","description":"A guide to growing parsley in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Oregano","slug":"oregano","order":"704","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/9e5ef84775/oregano-plant.jpg","description":"A guide to growing oregano in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Nasturtium","slug":"nasturtium","order":"701","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/67fae04601/nasturtium-flowers-and-leaves.jpg","description":"A guide to growing nasturtiums in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Mint","slug":"mint","order":"698","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/c35c2d35f6/young-mint-plant.jpg","description":"A guide to growing mint in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Marjoram","slug":"marjoram","order":"695","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/baece73c7b/marjoram-plant.jpg","description":"A guide to growing marjoram in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Marigold","slug":"marigold","order":"692","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/14d025a750/marigolds-in-flower.jpg","description":"A guide to growing marigolds in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Lovage","slug":"lovage","order":"689","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/e166a39352/lovage-plant.jpg","description":"A guide to growing lovage in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Lemon Balm","slug":"lemon-balm","order":"686","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/b3f84b3291/lemon-balm-leaves.jpg","description":"A guide to growing lemon balm in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Lavender","slug":"lavender","order":"683","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/a3eb70295f/lavender-flowers.jpg","description":"A guide to growing lavender in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Horseradish","slug":"horseradish","order":"680","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/10abc27086/horseradish-growing-in-pot.jpg","description":"A guide to growing horseradish in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Feverfew","slug":"feverfew","order":"677","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/f2dc58f092/feverfew-plant.jpg","description":"A guide to growing feverfew in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Dill","slug":"dill","order":"674","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/69e601758f/dill-leaves.jpg","description":"A guide to growing dill in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Coriander","slug":"coriander","order":"671","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/828d709680/freshly-picked-coriander.jpg","description":"A guide to growing coriander in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Comfrey","slug":"comfrey","order":"668","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/0b7b8ab9c2/comfrey-plant.jpg","description":"A guide to growing comfrey in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Chives","slug":"chives","order":"665","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/26432f0ae7/chive-bed.jpg","description":"A guide to growing chives in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Chamomile","slug":"chamomile","order":"662","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/69e09f9909/chamomile-plants.jpg","description":"A guide to growing chamomile in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Borage","slug":"borage","order":"659","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/550facb003/mature-borage-plant.jpg","description":"A guide to growing borage in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Bergamot","slug":"bergamot","order":"656","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/f7a839830b/bergamot-in-flower.jpg","description":"A guide to growing bergamot in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Bay","slug":"bay","order":"653","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/60774d0ccf/bay-tree-leaves.jpg","description":"A guide to growing bay in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Basil","slug":"basil","order":"650","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/e09fa860c5/basil-plant.jpg","description":"A guide to growing basil in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."}]`);
+let herbPagesArray = JSON.parse(`[{"title":"Thyme","slug":"thyme","order":"722","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/5dad434753/thyme-plant.jpg","description":"A guide to growing thyme in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Tarragon","slug":"tarragon","order":"719","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/097ce568e8/tarragon-plant.jpg","description":"A guide to growing tarragon in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Sorrel","slug":"sorrel","order":"716","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/d844833d5e/sorrel-leaves.jpg","description":"A guide to growing sorrel in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Sage","slug":"sage","order":"713","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/76a0cfe4fa/sage-plant-in-summer.jpg","description":"A guide to growing sage in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Rosemary","slug":"rosemary","order":"710","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/1eefb55dd2/rosemary-plant-early-summer.jpg","description":"A guide to growing basil in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Parsley","slug":"parsley","order":"707","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/1adcaa384a/curly-leaf-parsley-plant.jpg","description":"A guide to growing parsley in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Oregano","slug":"oregano","order":"704","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/9e5ef84775/oregano-plant.jpg","description":"A guide to growing oregano in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Nasturtium","slug":"nasturtium","order":"701","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/67fae04601/nasturtium-flowers-and-leaves.jpg","description":"A guide to growing nasturtiums in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Mint","slug":"mint","order":"698","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/c35c2d35f6/young-mint-plant.jpg","description":"A guide to growing mint in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Marjoram","slug":"marjoram","order":"695","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/baece73c7b/marjoram-plant.jpg","description":"A guide to growing marjoram in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Marigold","slug":"marigold","order":"692","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/f0943ce3c2/pot-marigold-in-flower.jpg","description":"A guide to growing marigolds in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Lovage","slug":"lovage","order":"689","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/e166a39352/lovage-plant.jpg","description":"A guide to growing lovage in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Lemon Balm","slug":"lemon-balm","order":"686","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/b3f84b3291/lemon-balm-leaves.jpg","description":"A guide to growing lemon balm in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Lavender","slug":"lavender","order":"683","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/a3eb70295f/lavender-flowers.jpg","description":"A guide to growing lavender in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Horseradish","slug":"horseradish","order":"680","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/10abc27086/horseradish-growing-in-pot.jpg","description":"A guide to growing horseradish in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Feverfew","slug":"feverfew","order":"677","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/f2dc58f092/feverfew-plant.jpg","description":"A guide to growing feverfew in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Dill","slug":"dill","order":"674","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/69e601758f/dill-leaves.jpg","description":"A guide to growing dill in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Coriander","slug":"coriander","order":"671","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/828d709680/freshly-picked-coriander.jpg","description":"A guide to growing coriander in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Comfrey","slug":"comfrey","order":"668","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/0b7b8ab9c2/comfrey-plant.jpg","description":"A guide to growing comfrey in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Chives","slug":"chives","order":"665","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/26432f0ae7/chive-bed.jpg","description":"A guide to growing chives in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Chamomile","slug":"chamomile","order":"662","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/69e09f9909/chamomile-plants.jpg","description":"A guide to growing chamomile in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Borage","slug":"borage","order":"659","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/550facb003/mature-borage-plant.jpg","description":"A guide to growing borage in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Bergamot","slug":"bergamot","order":"656","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/f7a839830b/bergamot-in-flower.jpg","description":"A guide to growing bergamot in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Bay","slug":"bay","order":"653","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/60774d0ccf/bay-tree-leaves.jpg","description":"A guide to growing bay in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."},{"title":"Basil","slug":"basil","order":"650","category":"herb","image":"https://a.storyblok.com/f/136863/1200x630/e09fa860c5/basil-plant.jpg","description":"A guide to growing basil in the UK, including an introduction to varieties, growing tips, and when to plant and harvest."}]`);
 let recipeArray = [{"title":"Red Gooseberry Jam","slug":"red-gooseberry-jam","order":"950","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/47cdf8bf11/red-gooseberry-jam.jpg"},{"title":"Spanish Potato Omelette ","slug":"spanish-potato-omelette","order":"833","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/2061effb8f/spanish-potato-omelette.jpg"},{"title":"Allotment Ratatouille","slug":"allotment-ratatouille","order":"751","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/741e9d63b4/allotment-ratatouille.jpg"},{"title":"Cucumber & Dill Pickle","slug":"cucumber-and-dill-pickle","order":"782","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/796ca3f890/cucumber-and-dill-pickle.jpg"},{"title":"Hazelnut & Chocolate Cookies","slug":"hazelnut-and-chocolate-cookies","order":"1528","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/77c54dea23/hazelnut-chocolate-chip-cookies.jpg"},{"title":"Gingerbread Fun","slug":"gingerbread-fun","order":"1524","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/f094a78e77/gingerbread-fun.jpg"},{"title":"Fridge Cake","slug":"fridge-cake","order":"1520","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/fed5f64387/fridge-cake.jpg"},{"title":"Flapjacks","slug":"flapjacks","order":"1516","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/fb8063d6b3/flapjacks.jpg"},{"title":"Chocolate Truffles","slug":"chocolate-truffles","order":"1512","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/dde1a63e1e/chocolate-truffles.jpg"},{"title":"Chocolate Brownies","slug":"chocolate-brownies","order":"1508","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/67e85fe17d/chocolate-brownie.jpg"},{"title":"How To Make Jam","slug":"how-to-make-jam","order":"903","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/3c126ecc81/container-of-strawberries-for-jam-making.jpg"},{"title":"Yoghurt Smoothie","slug":"yoghurt-smoothie","order":"1332","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/a107078180/yoghurt-smoothie.jpg"},{"title":"Vegetable Smoothie","slug":"vegetable-smoothies","order":"1328","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/925236ca23/vegetable-smoothie.jpg"},{"title":"Strawberry Milkshake","slug":"strawberry-milkshake","order":"1324","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/780c748606/strawberry-milkshake.jpg"},{"title":"Mulled Wine","slug":"mulled-wine","order":"1320","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/71545acc6c/mulled-wine.jpg"},{"title":"Homemade Coffee Guide","slug":"homemade-coffee","order":"1302","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/96147df56a/espresso-pouring.jpg"},{"title":"Luscious Mocha Latte","slug":"luscious-mocha-latte","order":"1316","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/6aab2cdb6c/luscious-mocha-latte.jpg"},{"title":"Irish Coffee","slug":"irish-coffee","order":"1308","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/92efc0f415/irish-coffee.jpg"},{"title":"Ice Fruit Smoothie","slug":"ice-fruit-smoothie","order":"1304","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/b53a66f548/ice-fruit-smoothie.jpg"},{"title":"Vegetable Stock","slug":"vegetable-stock","order":"1160","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/852902c9a3/homemade-vegetable-stock.jpg"},{"title":"Tomatillo Soup","slug":"tomatillo-soup","order":"1156","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/ef9eeef616/tomatillo-soup.jpg"},{"title":"Squash & Celeriac Soup","slug":"squash-and-celeriac-soup","order":"1152","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/5a5cb9e147/winter-squash-and-celeriac-soup.jpg"},{"title":"Roast Garlic Soup","slug":"roast-garlic-soup","order":"1148","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/1c1fbb4d6e/roast-garlic-soup.jpg"},{"title":"Pea & Spinach Soup","slug":"pea-and-spinach-soup","order":"1144","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/2aaff23b2f/pea-and-spinach-soup.jpg"},{"title":"Onion Soup","slug":"onion-soup","order":"1140","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/34b0d716ec/onion-soup.jpg"},{"title":"Gazpacho Soup","slug":"gazpacho-soup","order":"1136","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/8fab655e27/gazpacho-soup.jpg"},{"title":"Chard Soup","slug":"chard-soup","order":"1128","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/6080fe77b9/chard-soup.jpg"},{"title":"Celeriac Soup","slug":"celeriac-soup","order":"1124","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/e31b0aa0f2/celeriac-soup.jpg"},{"title":"Carrot & Clove Soup","slug":"carrot-and-clove-soup","order":"1120","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/75758464e5/carrot-and-clove-soup.jpg"},{"title":"Broad Bean Soup","slug":"broad-bean-soup","order":"1116","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/9d963460d5/broad-bean-soup.jpg"},{"title":"Beetroot Soup","slug":"beetroot-soup","order":"1112","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/964565f539/beetroot-soup.jpg"},{"title":"Beetroot & Squash Soup","slug":"beetroot-and-squash-soup","order":"1108","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/5f8f895eeb/beetroot-squash-soup.jpg"},{"title":"Asparagus & Leek Soup","slug":"asparagus-and-leek-soup","order":"1104","category":"soups","image":"https://a.storyblok.com/f/136863/1200x626/f946e226ea/asparagus-and-leek-soup.jpg"},{"title":"White Currant Jam","slug":"white-currant-jam","order":"972","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/cad1ba2001/white-currant-jam.jpg"},{"title":"Tayberry Compote","slug":"tayberry-compote","order":"968","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/7934b16cbb/tayberry-compote.jpg"},{"title":"Strawberry Mousse","slug":"strawberry-mousse","order":"964","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/2852652520/strawberry-mousse.jpg"},{"title":"Strawberry Coulis","slug":"strawberry-coulis","order":"960","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/d93d41091d/strawberry-coulis.jpg"},{"title":"Strawberry & Redcurrant Jam","slug":"strawberry-redcurrant-jam","order":"956","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/8215a5c06a/strawberry-redcurrant-jam.jpg"},{"title":"Rhubarb Crumble","slug":"rhubarb-crumble","order":"952","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/5c72a4bb5e/rhubarb-crumble.jpg"},{"title":"Poached Plums","slug":"poached-plums","order":"948","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/88491cb890/poached-plums.jpg"},{"title":"Poached Pears","slug":"poached-pears","order":"944","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/70665e2e5d/poached-pear-with-cream.jpg"},{"title":"Plum Chutney","slug":"plum-chutney","order":"940","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/7a040aceec/plum-chutney.jpg"},{"title":"Melon Smash","slug":"melon-smash","order":"936","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/1c5d5a175d/melon-smash.jpg"},{"title":"Fruit Tarts","slug":"fruit-tarts","order":"932","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/78c71b1cb2/fruit-tarts.jpg"},{"title":"Fruit Meringue Swirls","slug":"fruit-meringue-swirls","order":"928","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/d153d6bf95/fruit-meringue-swirls.jpg"},{"title":"Eton Volcano","slug":"eton-volcano","order":"920","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/cbfda78237/eton-volcano.jpg"},{"title":"Eton Mess","slug":"eton-mess","order":"916","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/0a0d053a11/eton-mess.jpg"},{"title":"Cranberry Sauce","slug":"cranberry-sauce","order":"912","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/b2a753f821/cranberry-sauce.jpg"},{"title":"Breakfast Compote","slug":"breakfast-compote","order":"908","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/1690a1ea38/breakfast-compote.jpg"},{"title":"Baked Apples","slug":"baked-apples","order":"906","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/6de13180b5/baked-apples.jpg"},{"title":"Apple Pie","slug":"apple-pie","order":"903","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/6486a8d20e/apple-pie.jpg"},{"title":"Tomato Salad","slug":"tomato-salad","order":"846","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/cd25a0f64a/tomato-salad.jpg"},{"title":"Tomatillo Salsa","slug":"tomatillo-salsa","order":"842","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/289177d034/tomatillo-salsa.jpg"},{"title":"Stewed Red Cabbage","slug":"stewed-red-cabbage","order":"838","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/713f693025/stewed-red-cabbage.jpg"},{"title":"Squash Mash","slug":"squash-mash","order":"834","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/e6e1c0fdfd/squash-mash.jpg"},{"title":"Spanish Pisto","slug":"spanish-pisto","order":"830","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/6eafabe689/spanish-pisto.jpg"},{"title":"Spanish Angulas","slug":"spanish-angulas","order":"826","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/08d28f3477/spanish-angulas.jpg"},{"title":"Roast Brussels Sprouts","slug":"roast-brussels-sprouts","order":"822","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/cb7e8a5ee4/roast-brussels-sprouts.jpg"},{"title":"Roast Summer Squash","slug":"roast-summer-squash","order":"818","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/0692aebb9e/roast-summer-squash.jpg"},{"title":"Roast Potatoes","slug":"roast-potatoes","order":"814","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/c217713a6c/roast-potatoes.jpg"},{"title":"Roast Celeriac Chips","slug":"roast-celeriac-chips","order":"810","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/b7697aa038/roasted-celeriac-chips.jpg"},{"title":"Roast Carrots","slug":"roast-carrots","order":"806","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/ad68b3ce6f/roast-carrots.jpg"},{"title":"Picnic Bread","slug":"picnic-bread","order":"798","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/86a6b375a2/picnic-bread.jpg"},{"title":"Pan Fried Asparagus","slug":"pan-fried-asparagus","order":"794","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/50aad09d5d/pan-fried-asparagus.jpg"},{"title":"Leek And Potato Pie","slug":"leek-and-potato-pie","order":"790","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/9e00d62613/leek-and-potato-pie.jpg"},{"title":"Grandad's Stuffing","slug":"grandads-stuffing","order":"786","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/f10795ae86/grandads-stuffing-1200.jpg"},{"title":"Fried Artichoke","slug":"fried-artichoke","order":"782","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/bed1464282/fried-artichoke-1200.jpg"},{"title":"Courgette Omelette","slug":"courgette-omelette","order":"778","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/3901015fd6/spanish-courgette-omelette-1200.jpg"},{"title":"Cabbage Casserole","slug":"cabbage-casserole","order":"774","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/16cf2956d3/cabbage-casserole.jpg"},{"title":"Broad Bean Risotto","slug":"broad-bean-risotto","order":"770","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/ed089524b2/broad-bean-risotto-1200.jpg"},{"title":"Broad Bean Guacamole","slug":"broad-bean-guacamole","order":"766","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/200ffe270d/broad-bean-guacamole-1200.jpg"},{"title":"Broad Bean Couscous","slug":"broad-bean-couscous","order":"762","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/ce4888babf/broad-bean-couscous-1200.jpg"},{"title":"Bread Sauce","slug":"bread-sauce","order":"758","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/da52f48188/bread-sauce-1200.jpg"},{"title":"Bread Maker Pizza","slug":"bread-maker-pizza","order":"754","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/fdf08761ac/bread-maker-pizza.jpg"},{"title":"Chocolate Banana","slug":"chocolate-banana","order":"1504","category":"treats","image":"https://a.storyblok.com/f/136863/1200x630/715031aa2c/chocolate-banana.jpg"},{"title":"Creamy Tomato Soup","slug":"creamy-tomato-soup","order":"1132","category":"soups","image":"https://a.storyblok.com/f/136863/1200x630/5aa4828b85/creamy-tomato-soup.jpeg"},{"title":"Juicers And Blenders","slug":"juicers-and-blenders","order":"1312","category":"drinks","image":"https://a.storyblok.com/f/136863/1200x630/2503856efa/juicers-and-blenders.jpg"},{"title":"Fruit Ice Lollies","slug":"fruit-ice-lollies","order":"924","category":"fruit recipes","image":"https://a.storyblok.com/f/136863/1200x630/59649e2887/fruit-ice-lollies.jpg"},{"title":"Bread Maker Bread","slug":"bread-maker-bread","order":"753","category":"vegetable recipes","image":"https://a.storyblok.com/f/136863/1200x630/09c4156dc8/bread-maker-bread.jpg"}];
 let allPagesSorted = [];
 let introPages = [];
@@ -1181,8 +1204,23 @@ initialise(vegPages, ".vegetable-container",'#vegetable-template',"vegetable-lin
     <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
     </footer>
 
-    <script src="/js/open-nav.js"></script>
-    <script src="/js/close-nav.js"></script>
+    
+
+    <script>
+        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
+        scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false; // to preserve execution order
+        document.head.appendChild(s);
+        });
+    </script>
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
     
 </body>
 

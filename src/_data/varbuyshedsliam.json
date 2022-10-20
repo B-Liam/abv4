@@ -1,0 +1,90 @@
+[
+    {
+      "product": "shed",
+      "type": "6ft by 4ft",
+      "cats": "all, pent",
+      "name": "Overlap Pent Shed",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007000",
+      "storeID": "ODP64MHDBUN",
+      "featured": "no",
+      "description": "Dip treated wood, wooden floor, and extra framing. Two windows. 10 year anti-rot guarantee."
+    },
+    {
+      "product": "shed",
+      "type": "6ft by 4ft",
+      "cats": "all, pent",
+      "name": "Overlap Windowless",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007001",
+      "storeID": "ODA46NWMHDBUN",
+      "featured": "yes",
+      "description": "Windowless for extra security. Wide doors for access. 10 year anti-rot guarantee."
+    },
+    {
+      "product": "shed",
+      "type": "6ft by 4ft",
+      "cats": "all, apex",
+      "name": "Shiplap Apex Shed",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007002",
+      "storeID": "SDR64MHDBUN",
+      "featured": "yes",
+      "description": "High apex roofspace. Strong shiplap construction. Two windows. 10 year anti-rot guarantee."
+    },
+    {
+      "product": "shed",
+      "type": "6ft by 4ft",
+      "cats": "all, apex",
+      "name": "Shiplap Windowless",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007003",
+      "storeID": "SDA46NWMHDBUN",
+      "featured": "no",
+      "description": "Windowless for extra security. Strong shiplap construction. 10 year anti-rot guarantee."
+    },
+    {
+      "product": "shed",
+      "type": "8ft by 6ft",
+      "cats": "all, pent",
+      "name": "Overlap Pent Shed",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007004",
+      "storeID": "OPP86MHDBUN",
+      "featured": "no",
+      "description": "Spacious 8ft by 6ft. Dip treated wood, wooden floor, and extra framing. Two windows."
+    },
+    {
+      "product": "shed",
+      "type": "8ft by 6ft",
+      "cats": "all, apex",
+      "name": "Shiplap Apex Shed",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007005",
+      "storeID": "SDA68DDMHDBUN",
+      "featured": "yes",
+      "description": "Spacious 8ft by 6ft. High apex roofspace. Strong shiplap construction. Two windows."
+    },
+    {
+      "product": "shed",
+      "type": "6ft by 6ft",
+      "cats": "all, potting",
+      "name": "Potting Shed 6 x 6",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007006",
+      "storeID": "TRA66POTBUN",
+      "featured": "yes",
+      "description": "Provides a large light shelf to germinate and protect seedlings until warm weather arrrives."
+    },
+    {
+      "product": "shed",
+      "type": "8ft by 6ft",
+      "cats": "all, potting",
+      "name": "Potting Shed 8 x 6",
+      "retailer": "Buy Sheds Direct",
+      "abID": "ab9007007",
+      "storeID": "SDA68MPOTSHEDHDBUN",
+      "featured": "no",
+      "description": "Provides a large light shelf to germinate and protect seedlings until warm weather arrrives."
+    }
+   ]

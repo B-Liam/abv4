@@ -45,7 +45,7 @@ h3 {
 }
 
 a {
-    color: #009900;
+    color: #006600;
     text-decoration: none;
   }
 
@@ -66,8 +66,9 @@ a {
 }
 
 #non-mobile a {
-    color: #ffffff;
+    color: #006600;
     text-decoration: none;
+    font-weight: 600;
 }
 
 #non-mobile #row {
@@ -82,7 +83,7 @@ a {
 
 #nav-elements {
     padding: 5px 0 5px 0;
-    width:250px; 
+    width:250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,14 +180,19 @@ input[type=email], select, textarea {
     }
     
 input[type=submit] {
-    background-color: #009900;
+    background-color: #006600;
     font-size: 1.2em;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
     }
+
+    picture img {
+        object-fit: cover;
+      }
 
 
 
@@ -226,7 +232,7 @@ input[type=submit] {
     grid-area: 1/1/2/2;
     display: grid;
     grid-template-columns: 2fr;
-    background: #009900
+    background: #006600
 }
 
 #col-left {
@@ -269,14 +275,14 @@ input[type=submit] {
 }
 
 #second-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-a {
     grid-area: 3/1/4/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
+    color: #006600;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0px;
@@ -284,21 +290,21 @@ input[type=submit] {
 }
 
 #third-row-a a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-b {
     grid-area: 4/1/5/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
-    padding-left: 15%;
+    color: #006600;
+    padding-left: 10%;
     margin-top: 0px;
     padding-top: 0px;
 }
 
 #third-row-b a {
-    color: #009900;
+    color: #006600;
 }
 
 #fourth-row {
@@ -308,7 +314,7 @@ input[type=submit] {
 }
 
 #fourth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #fifth-row {
@@ -318,7 +324,7 @@ input[type=submit] {
 }
 
 #fifth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #sixth-row {
@@ -330,16 +336,14 @@ input[type=submit] {
 
 #menu-button {
     margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
     width:60px;
     height:50px;
     grid-area: menu;
     color: #ffffff;
-    background: #009900;
+    background: #006600;
     text-align: center;
-    
-}
-
-#myNav {
     
 }
 
@@ -352,7 +356,7 @@ input[type=submit] {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,153,0, 1);
+    background-color: #006600;
     }
 
 .overlay-content {
@@ -532,15 +536,11 @@ input[type=submit] {
 }
 
 #gallery-container {
-    width: 400px;
-    margin-left:auto;
-    margin-right: auto;
+    width: 100vw;
 }
 
-.photo-gallery-hero {
-    width: 360px;
-    height: 360px;
-    text-align:center;
+#galleryButtonContainer {
+    width: 100vw;
 }
 
 .gallery-text-button {
@@ -552,6 +552,10 @@ input[type=submit] {
 
 #youtube-embed-container {
     display: none;
+}
+
+.horizontalPromoText {
+    max-width: 200px;
 }
 
 
@@ -572,7 +576,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
 }
@@ -607,7 +611,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900; 
+    background: #e0f7d3; 
 }
 
 #main-column {
@@ -726,10 +730,12 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     width: 595px;
     height: 595px;
-    text-align: center;
-}
+    }
 
 .gallery-text-button {
     width: 350px;
@@ -740,6 +746,12 @@ input[type=submit] {
 
 #mobile-youtube-embed-container {
     display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 
@@ -765,7 +777,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
     
@@ -802,7 +814,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900;
+    background: #e0f7d3;
     text-align: right;
     margin: 0;
     padding: 0;
@@ -927,9 +939,11 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+display: block;
+margin-left:auto;
+margin-right: auto;
 width: 595px;
 height: 595px;
-text-align:center;
 }
 
 .gallery-text-button {
@@ -943,11 +957,17 @@ text-align:center;
     display: none;
 }
 
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 }
 
 </style>
 
-<script src="https://cdn.usefathom.com/script.js" data-site="QDSWGSQM" defer></script>
+
 
 </head>
 
@@ -961,24 +981,27 @@ text-align:center;
     <div id="logo">
         <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
     </div>
-    <div style="" id="menu-button" class="pointer">
-        <a href"/"><img style="text-align:center;width:20px;height:16px;padding-top:8px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487486/navigation/hamburger-icon_kpgidy.webp"/>
-        <div style="text-align:center;font-size:0.7em;color:#ffffff">Contents</div></a>
+    <div id="menu-button" class="pointer">
+        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
+        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
     </div>
 </div>
 
 <nav id="myNav" class="overlay">
-    <div style="text-align:right" class="closebtn"> <i id="close" class="fas fa-window-close"></i></div>
-    <div id="nav-grid"
+    <div style="text-align:right" class="closebtn"> 
+        <div id="close" style="font-size:2rem">✕</div>
+    </div>
+    <div id="nav-grid">
             <div id="first-row">
-            <div id="col-left"><a href="/">Home</div></a>
-            <div id="col-right"></div>
+                <div id="col-left"><a href="/">Home</div></a>
+                <div id="col-right"></div>
+            </div>
             <div id="second-row">
                 <div id="col-left"><a href="/shop">Shop</div></a>
                 <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
             </div>
             <div id="third-row-a">
-            <div><a href="/contents"><strong>Book Contents</strong></div></a>
+                <div><a href="/contents"><strong>Book Contents</strong></div></a>
             </div>
             <div id="third-row-b">
                 <a style="margin-top:-3%" href="/introduction"><span style="font-size:14px">►</span> Introduction</a>
@@ -997,10 +1020,10 @@ text-align:center;
                 <div id="col-right"><a href="/policies">Policies</div></a>
             </div>
             <div id="sixth-row">
-                
             </div>
-
+                
     </div>
+
 </nav>
     </div>
 
@@ -1351,8 +1374,23 @@ breadLink();
     <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
     </footer>
 
-    <script src="/js/open-nav.js"></script>
-    <script src="/js/close-nav.js"></script>
+    
+
+    <script>
+        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
+        scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false; // to preserve execution order
+        document.head.appendChild(s);
+        });
+    </script>
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
     
 </body>
 

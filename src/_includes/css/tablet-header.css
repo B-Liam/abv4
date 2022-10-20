@@ -11,7 +11,7 @@
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
 }
@@ -46,7 +46,7 @@
 
 #leftnav {
     grid-area: nav;
-    background: #009900; 
+    background: #e0f7d3; 
 }
 
 #main-column {
@@ -165,10 +165,12 @@
 }
 
 .photo-gallery-hero {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     width: 595px;
     height: 595px;
-    text-align: center;
-}
+    }
 
 .gallery-text-button {
     width: 350px;
@@ -179,6 +181,12 @@
 
 #mobile-youtube-embed-container {
     display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 

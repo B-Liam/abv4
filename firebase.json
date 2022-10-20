@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "redirects": 
-    [
+    "redirects": [
       {
         "source": "/gallery/plums-gallery/1738",
         "destination": "/contents/plums/",
@@ -1867,12 +1866,42 @@
         "destination": "/contents/juicers-and-blenders/",
         "type": 301
       }
-     ],
+    ],
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Content-Security-Policy",
+            "value": "script-src 'sha256-Ne2jSUIT7TGq3Jigpymr5/onnTTBiuKEXh9BG65FaJs=' 'sha256-OD5o8cqv8WA65bVgLVoKpg7zkFVhdvTpD1+LpCSDmTQ=' 'sha256-Ohnv4vLi/c788wTnWv0ERfiIy8beWkYm4HUzHFXMAc0=' 'unsafe-inline' 'strict-dynamic' https: 'self', object-src 'none', base-uri 'none' "
+          }
+        ]
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default"
+    },
+    {
+      "source": "ab-codebase",
+      "codebase": "ab-codebase",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
 }

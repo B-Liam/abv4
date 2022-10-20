@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<link rel="icon" 
+      type="image/png" 
+      href="https://res.cloudinary.com/allotment-book/image/upload/v1644488348/navigation/allotment-book-favicon_pfalpi.webp">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Newsletter Sign Up | Allotment Book</title>
+    <meta name="description" content="Sign up to receive the latest growing tips and recipes from the Allotment Book">
+    <meta name="twitter:site" content="@AllotmentBook">
+    <meta property="article:modified_time" content="Sun Feb 20 2022 14:43:49 GMT+0000 (Greenwich Mean Time)">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:url" content="https://www.allotmentbook.co.uk/newsletter/" />
+    <meta property="og:site_name" content="Allotment Book" />
+    <meta property="og:image" content="" />
+    <meta name="og:description" content="Sign up to receive the latest growing tips and recipes from the Allotment Book">
+
+<style>
+
+/* some words */
+body {
+    font-size: 18px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: serif;
+    font-display: swap;
+}
+
+h1 {
+    font-size:1.4rem;
+}
+
+h2 {
+    padding-top:20px;
+    font-size:1.2rem;
+}
+
+h3 {
+    font-size:1.1rem;
+}
+
+a {
+    color: #006600;
+    text-decoration: none;
+  }
+
+.whitelinkstyle a {
+    color: #ffffff;
+}
+
+.fa-test {
+    font-size: 10px;
+}
+
+#non-mobile {
+    text-align: left;    
+}
+
+#non-mobile .fas {
+    padding-right: 0.5em;    
+}
+
+#non-mobile a {
+    color: #006600;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#non-mobile #row {
+    border-bottom: solid 2px #ffffff;   
+}
+
+#non-mobile #book-indent #row {
+    border-bottom: solid 2px #ffffff;
+    padding-top: 1%;
+    padding-left: 55px; 
+}
+
+#nav-elements {
+    padding: 5px 0 5px 0;
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    background: #333333;
+    width: 100vw;
+    min-height: 40px;
+}
+
+#breadcrumb-container {
+    background: #333333;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#breadcrumb {
+    padding-left: 3%;
+    width: 100%;
+}
+
+#breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
+
+#breadcrumb-container .fas {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;  
+    font-size: 0.8rem;
+}
+
+.green-button {
+    background: #009900;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem;
+    margin-left:2%;
+    margin-right: 2%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.embed-container { 
+      position: relative; 
+      padding-bottom: 56.25%; 
+      height: 0; 
+      overflow: hidden; 
+      max-width: 100%; 
+    } 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+}
+
+#content-body {
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1.2em;
+    }
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1.2em;
+    }
+    
+input[type=submit] {
+    background-color: #006600;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+
+    picture img {
+        object-fit: cover;
+      }
+
+
+
+@media only screen and (max-width: 950px) {
+#tablet-desktop-header{
+    display: none;
+}
+
+#mobile-header {
+    display: grid;
+    grid-template-areas:
+    "logo menu";
+    align-items: center;
+}
+
+#logo {
+    padding: 10px 10px 10px 10px;
+    grid-area: logo;
+}
+
+
+#nav-grid {
+   display: grid; 
+   grid-template-rows: 9vh 9vh 9vh 37vh 9vh 9vh 9vh 9vh;
+}
+
+#nav-grid a {
+    font-size: 1.1em;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#nav-grid a:hover {
+    background: #ffffff;
+}
+
+#first-row {
+    grid-area: 1/1/2/2;
+    display: grid;
+    grid-template-columns: 2fr;
+    background: #006600
+}
+
+#col-left {
+    grid-area: 1/1/2/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border: solid 0.5px #ffffff;
+}
+
+#col-left-third {
+    grid-area: 1/1/2/2;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+#col-right {
+    grid-area: 1/2/2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border: solid 0.5px #ffffff;
+}
+
+#col-right-third {
+    grid-area: 1/2/2/3;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+#second-row {
+    grid-area: 2/1/3/3;
+    display: grid;
+    background:#e0f7d3;
+    color: #009900;
+}
+
+#second-row a {
+    color: #006600;
+}
+
+#third-row-a {
+    grid-area: 3/1/4/3;
+    display: grid;
+    background: #ffffff;
+    color: #006600;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#third-row-a a {
+    color: #006600;
+}
+
+#third-row-b {
+    grid-area: 4/1/5/3;
+    display: grid;
+    background: #ffffff;
+    color: #006600;
+    padding-left: 10%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#third-row-b a {
+    color: #006600;
+}
+
+#fourth-row {
+    grid-area: 5/1/6/3;
+    display: grid;
+    background:#e0f7d3;
+}
+
+#fourth-row a {
+    color: #006600;
+}
+
+#fifth-row {
+    grid-area: 6/1/7/3;
+    display: grid;
+    background:#e0f7d3;
+}
+
+#fifth-row a {
+    color: #006600;
+}
+
+#sixth-row {
+    grid-area: 7/1/8/3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+#menu-button {
+    margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
+    width:60px;
+    height:50px;
+    grid-area: menu;
+    color: #ffffff;
+    background: #006600;
+    text-align: center;
+    
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: #006600;
+    }
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    }
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    }
+
+.overlay .closebtn {
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    right: 4%;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: default;
+    }
+
+.pointer {
+    cursor: pointer;
+    margin: 0px;
+    }
+
+#close {
+    font-size: 1.5em;
+}
+
+#content-container {
+    display: grid;
+    grid-template-areas:
+    "main";
+    grid-template-columns: auto;
+}
+
+#leftnav {
+    display: none; 
+}
+
+#main-column {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#sidebar {
+    display: none;
+}
+
+#content-body {
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.hero-image {
+    width: 360px;
+}
+
+#markedup img {
+    width: 360px;
+}
+
+#transcript img {
+    width: 360px;
+}
+
+.starter-container {
+    justify-content: center;
+}
+
+.intro-container {
+    justify-content: center;
+}
+
+#video-list-container {
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop-listings-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap
+}
+
+.vegetable-container {
+    width:360px;
+}
+
+.fruit-container {
+    width:360px;
+}
+
+.herb-container {
+    width:360px;
+}
+
+.vegrecipes-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.fruitrecipes-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.soup-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.drinks-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.treats-container {
+    width: 360px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.tablet-ads {
+    display: none;
+}
+
+.mobile-ads {
+    text-align: center;
+}
+
+#non-mobile-homepage-hero {
+    display:none;
+}
+
+.growing-pages-gallery {
+    width: 360px;
+    height: 360px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+#gallery-container {
+    width: 100vw;
+}
+
+#galleryButtonContainer {
+    width: 100vw;
+}
+
+.gallery-text-button {
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#youtube-embed-container {
+    display: none;
+}
+
+.horizontalPromoText {
+    max-width: 200px;
+}
+
+
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1200px) {
+
+#mobile-header {
+    display: none;
+}
+
+#tablet-desktop-header {
+    display: grid;
+    grid-template-areas:
+    "left main";
+    grid-template-columns: auto 700px;
+}
+
+#left {
+    grid-area: left;
+    background: #e0f7d3;
+    border-bottom: solid 2px #ffffff;
+    min-width: 285px;
+}
+
+#main {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#content-body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#side {
+    display: none;
+}
+
+#tablet-desktop-logo {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-container {
+    display: grid;
+    grid-template-areas:
+    "nav main";
+    grid-template-columns: auto 700px;
+}
+
+#leftnav {
+    grid-area: nav;
+    background: #e0f7d3; 
+}
+
+#main-column {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#sidebar {
+    display: none;
+}
+
+.hero-image {
+    width: 588px;
+}
+
+#markedup img {
+    width: 588px;
+}
+
+#transcript img {
+    width: 588px;
+}
+
+.blog-card{
+    height:110px;
+}
+
+#video-list-container {
+    width:450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop-listings-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap
+}
+
+.vegetable-container {
+    width:550px;
+}
+
+.fruit-container {
+    width:550px;
+}
+
+.herb-container {
+    width:550px;
+}
+
+.vegrecipes-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.fruitrecipes-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.soup-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.drinks-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.treats-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.mobile-ads {
+    display: none;
+}
+
+.tablet-ads {
+    display: flex;
+    justify-content: space-between;
+} 
+
+#mobile-homepage-hero {
+    display:none;
+}
+
+.growing-pages-gallery {
+    width: 400px;
+    height: 400px;
+}
+
+.photo-gallery-hero {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 595px;
+    height: 595px;
+    }
+
+.gallery-text-button {
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#mobile-youtube-embed-container {
+    display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1201px) {
+
+#mobile-header {
+    display: none;
+}
+
+#tablet-desktop-header {
+    display: grid;
+    grid-template-areas:
+    "left main side";
+    grid-template-columns: 1fr 700px 1fr;
+}
+
+#left {
+    grid-area: left;
+    background: #e0f7d3;
+    border-bottom: solid 2px #ffffff;
+    min-width: 285px;
+    
+}
+
+#main {
+    grid-area: main;
+    background: #ffffff;
+}
+
+#content-body {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#side {
+    grid-area: side;
+    background: #e0f7d3;
+}
+
+#tablet-desktop-logo {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-container {
+    display: grid;
+    grid-template-areas:
+    "nav main sidebar";
+    grid-template-columns: 1fr 700px 1fr;
+}
+
+#leftnav {
+    grid-area: nav;
+    background: #e0f7d3;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+
+}
+
+#main-column {
+    grid-area: main;
+    background: #ffffff;
+    min-height: 100vh; 
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background: #e0f7d3;
+}
+
+.hero-image {
+    width: 588px;
+    height: 308.7px;
+}
+
+#markedup img {
+    width: 588px;
+}
+
+#transcript img {
+    width: 588px;
+}
+
+.blog-card{
+    height:110px;
+}
+
+#video-list-container {
+    width:450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shop-listings-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.vegetable-container {
+    width:550px;
+}
+
+.fruit-container {
+    width:550px;
+}
+
+.herb-container {
+    width:550px;
+}
+
+.vegrecipes-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.fruitrecipes-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.soup-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.drinks-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.treats-container {
+    width: 550px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom: 2rem; 
+    display: flex; 
+    flex-wrap:wrap;
+}
+
+.tablet-ads {
+    display: none;
+}
+
+.mobile-ads {
+    display: none;
+}
+
+#mobile-homepage-hero {
+    display:none;
+}
+
+.growing-pages-gallery {
+    width: 400px;
+    height: 400px;
+}
+
+.photo-gallery-hero {
+display: block;
+margin-left:auto;
+margin-right: auto;
+width: 595px;
+height: 595px;
+}
+
+.gallery-text-button {
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#mobile-youtube-embed-container {
+    display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+}
+
+</style>
+
+
+
+</head>
+
+
+<body>
+
+<header>
+
+    <div id="mobile-header">
+        <div style="width:100vw;display:flex;justify-content:space-between;align-items:center">
+    <div id="logo">
+        <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
+    </div>
+    <div id="menu-button" class="pointer">
+        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
+        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
+    </div>
+</div>
+
+<nav id="myNav" class="overlay">
+    <div style="text-align:right" class="closebtn"> 
+        <div id="close" style="font-size:2rem">✕</div>
+    </div>
+    <div id="nav-grid">
+            <div id="first-row">
+                <div id="col-left"><a href="/">Home</div></a>
+                <div id="col-right"></div>
+            </div>
+            <div id="second-row">
+                <div id="col-left"><a href="/shop">Shop</div></a>
+                <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
+            </div>
+            <div id="third-row-a">
+                <div><a href="/contents"><strong>Book Contents</strong></div></a>
+            </div>
+            <div id="third-row-b">
+                <a style="margin-top:-3%" href="/introduction"><span style="font-size:14px">►</span> Introduction</a>
+                <a style="margin-top:-3%" href="/allotment-starter-guides"><span style="font-size:14px">►</span> Allotment Starter Guides</a>
+                <a style="margin-top:-3%" href="/vegetable-growing-guides"><span style="font-size:14px">►</span> Vegetable Growing Guides</a>
+                <a style="margin-top:-3%" href="/fruit-growing-guides"><span style="font-size:14px">►</span> Fruit Growing Guides</a>
+                <a style="margin-top:-3%" href="/herb-growing-guides"><span style="font-size:14px">►</span> Herb Growing Guides</a>
+                <a style="margin-top:-3%" href="/allotment-recipes"><span style="font-size:14px">►</span> Allotment Recipes</a>
+            </div>
+            <div id="fourth-row">
+                <div id="col-left"><a href="/photo-gallery">Gallery</div></a>
+                <div id="col-right"><a href="/videos">Videos</div></a>
+            </div>
+            <div id="fifth-row">
+                <div id="col-left"><a href="/blog">Blog</div></a>
+                <div id="col-right"><a href="/policies">Policies</div></a>
+            </div>
+            <div id="sixth-row">
+            </div>
+                
+    </div>
+
+</nav>
+    </div>
+
+    <div id="tablet-desktop-header">
+        <div id="left">
+    <div></div>
+</div>
+
+<div id="main">
+
+    <div id="tablet-desktop-logo">
+
+    <a href="/"><img style="width:339px;height:40px" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
+
+    </div>
+    
+</div>
+
+<div id="side">
+    <div></div>
+</div>
+    </div>
+
+</header>
+
+    <div id="content-container">
+        <div id="leftnav">
+            <nav id="non-mobile">
+    <div id="row"><div id="nav-elements"><a href="/">Home</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/shop">Shop</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/contents">Book Contents</div></a></div>
+    <div id="book-indent">
+    <div id="row"><div id="nav-elements"><a href="/introduction">Introduction</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/allotment-starter-guides">Allotment Starter Guides</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/vegetable-growing-guides">Vegetable Growing Guides</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/fruit-growing-guides">Fruit Growing Guides</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/herb-growing-guides">Herb Growing Guides</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/allotment-recipes">Allotment Recipes</div></a></div>
+    </div>
+    <div id="row"><div id="nav-elements"><a href="/planning-tools">Planning Tools</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/videos">Videos</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/photo-gallery">Photo Gallery</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/blog">Blog</div></a></div>
+    <div id="row"><div id="nav-elements"><a href="/policies">Policies</div></a></div>
+</nav>
+        </div>
+
+        
+<!-- Begin Sendinblue Form -->
+<!-- START - We recommend to place the below code in head tag of your website html  -->
+<style>
+  @font-face {
+    font-display: block;
+    font-family: Roboto;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: Roboto;
+    font-weight: 600;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: Roboto;
+    font-weight: 700;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+  }
+
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<!--  END - We recommend to place the above code in head tag of your website html -->
+
+        <div id="sidebar">
+            
+        </div>
+    
+        <div id="main-column">
+        
+                <main id="main-content">
+                    
+                    <div id="content-heading">
+                        <div id="breadcrumb-container">
+                            <div id="breadcrumb">
+                            <a href="/">Home</a><i class="fas fa-chevron-right"></i>
+                            <a href="/newsletter">Newsletter</a><i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="min-height:100vh; padding-bottom:40px" id="content-body">
+
+                        <h1 style="font-size:1.4rem">Newsletter</h1>
+
+                        <p>Complete the form below and get the latest content and growing tips by email.
+
+<!-- START - We recommend to place the below code where you want the form in your website html  -->
+<div class="sib-form" style="text-align: center;
+         background-color: #e0f7d3;                                           ">
+  <div id="sib-form-container" class="sib-form-container">
+    <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
+      <form id="sib-form" method="POST" action="https://sibforms.com/serve/MUIEAJXNMYxK2Mk_jpmg8jFiVT5YqMv62a_mWzdlzoytM8fvsZ-54fdjzbD5hq-b7u6uTeMlGEnDuhIJt-S6CVOHibcqsViCQZLS5sD2Y-933vwjbw19JrhI8Ae2WSsc4WuECUNk11TBV1kIVLONDSKPoHRNYbTToLpJF1DnY2DlzfPlECxfkPcQBgyeH5wM3RPODpHhzOOdzkL9">
+        <div style="padding: 8px 0;">
+          <div class="sib-form-block" style="font-size:31px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
+            <p>Newsletter Sign Up</p>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-checkbox-group sib-form-block" data-required="true">
+            <div class="form__entry entry_mcq">
+              <div class="form__label-row ">
+                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#414243;" data-required="*">
+                  Please choose your topics:
+                </label>
+                <div>
+                  <div class="entry__choice">
+                    <label class="checkbox__label">
+                      <input type="checkbox" class="input_replaced" name="lists_26[]" data-value="Growing tips" value="7" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="">Growing tips</span> </label>
+                  </div>
+                  <div class="entry__choice">
+                    <label class="checkbox__label">
+                      <input type="checkbox" class="input_replaced" name="lists_26[]" data-value="Recipes" value="2" data-required="true" />
+                      <span class="checkbox checkbox_tick_positive"></span><span style="">Recipes</span> </label>
+                  </div>
+                </div>
+              </div>
+              <label class="entry__error entry__error--primary" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FF474D; background-color:#FFE4E2; border-radius:3px; border-color:#FF474D;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+
+                <div class="entry__field">
+                  <input class="input" maxlength="200" type="text" id="FIRSTNAME" name="FIRSTNAME" autocomplete="off" placeholder="First Name" data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FF474D; background-color:#FFE4E2; border-radius:3px; border-color:#FF474D;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+
+                <div class="entry__field">
+                  <input class="input" maxlength="200" type="text" id="LASTNAME" name="LASTNAME" autocomplete="off" placeholder="Last Name" data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FF474D; background-color:#FFE4E2; border-radius:3px; border-color:#FF474D;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+
+                <div class="entry__field">
+                  <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Email" data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FF474D; background-color:#FFE4E2; border-radius:3px; border-color:#FF474D;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-optin sib-form-block" data-required="true">
+            <div class="form__entry entry_mcq">
+              <div class="form__label-row ">
+                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#414243;" for="PRIVACY_CONSENT" data-required="*">
+                  Opt-in
+                </label>
+                <div class="entry__choice">
+                  <label>
+                    <input type="checkbox" class="input_replaced" value="1" id="PRIVACY_CONSENT" name="PRIVACY_CONSENT" required />
+                    <span class="checkbox checkbox_tick_positive"></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p>I agree to receive your newsletters and accept the <a href="/privacy-policy/">Allotment Book privacy policy</a>.</p></span> </label>
+                </div>
+              </div>
+              <label class="entry__error entry__error--primary" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FF474D; background-color:#FFE4E2; border-radius:3px; border-color:#FF474D;">
+              </label>
+              <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#194d9c;">
+                You may unsubscribe at any time using the link in our newsletter.
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-form-block" style="text-align: left">
+            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#009900; border-radius:3px; border-width:0px;" form="sib-form" type="submit">
+              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+              </svg>
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+        <input type="hidden" name="html_type" value="simple">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- END - We recommend to place the below code where you want the form in your website html  -->
+<!-- End Sendinblue Form -->
+                                             
+
+                        
+                    </div> 
+                </main>
+            </div>
+
+    </div>
+
+    <footer id="footer">
+    <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
+    </footer>
+
+    
+
+    <script>
+        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
+        scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false; // to preserve execution order
+        document.head.appendChild(s);
+        });
+    </script>
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
+    
+</body>
+
+</html>

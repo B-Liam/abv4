@@ -1,0 +1,21 @@
+{
+    "sheds": 
+                    {
+                    "namesingular": "shed",
+                    "nameplural": "sheds",
+                    "cats": [
+                                {
+                                    "vegtype": "all"
+                                }, 
+                                {
+                                    "vegtype": "pent"
+                                },
+                                {
+                                    "vegtype": "apex"
+                                },
+                                {
+                                    "vegtype": "potting"
+                                }
+                            ]
+                    }
+}

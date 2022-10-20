@@ -13,7 +13,7 @@
     <title>Allotment Grass Cutting | Allotment Book</title>
     <meta name="description" content="A guide on cutting grass on an allotment, and how to maintain paths and borders using electric lawnmowers and grass trimmers.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Wed Feb 16 2022 15:06:51 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Fri Feb 18 2022 17:08:45 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/contents/allotment-grass-cutting/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -45,7 +45,7 @@ h3 {
 }
 
 a {
-    color: #009900;
+    color: #006600;
     text-decoration: none;
   }
 
@@ -66,8 +66,9 @@ a {
 }
 
 #non-mobile a {
-    color: #ffffff;
+    color: #006600;
     text-decoration: none;
+    font-weight: 600;
 }
 
 #non-mobile #row {
@@ -82,7 +83,7 @@ a {
 
 #nav-elements {
     padding: 5px 0 5px 0;
-    width:250px; 
+    width:250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,14 +180,19 @@ input[type=email], select, textarea {
     }
     
 input[type=submit] {
-    background-color: #009900;
+    background-color: #006600;
     font-size: 1.2em;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
     }
+
+    picture img {
+        object-fit: cover;
+      }
 
 
 
@@ -226,7 +232,7 @@ input[type=submit] {
     grid-area: 1/1/2/2;
     display: grid;
     grid-template-columns: 2fr;
-    background: #009900
+    background: #006600
 }
 
 #col-left {
@@ -269,14 +275,14 @@ input[type=submit] {
 }
 
 #second-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-a {
     grid-area: 3/1/4/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
+    color: #006600;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0px;
@@ -284,21 +290,21 @@ input[type=submit] {
 }
 
 #third-row-a a {
-    color: #009900;
+    color: #006600;
 }
 
 #third-row-b {
     grid-area: 4/1/5/3;
     display: grid;
     background: #ffffff;
-    color: #009900;
-    padding-left: 15%;
+    color: #006600;
+    padding-left: 10%;
     margin-top: 0px;
     padding-top: 0px;
 }
 
 #third-row-b a {
-    color: #009900;
+    color: #006600;
 }
 
 #fourth-row {
@@ -308,7 +314,7 @@ input[type=submit] {
 }
 
 #fourth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #fifth-row {
@@ -318,7 +324,7 @@ input[type=submit] {
 }
 
 #fifth-row a {
-    color: #009900;
+    color: #006600;
 }
 
 #sixth-row {
@@ -330,16 +336,14 @@ input[type=submit] {
 
 #menu-button {
     margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
     width:60px;
     height:50px;
     grid-area: menu;
     color: #ffffff;
-    background: #009900;
+    background: #006600;
     text-align: center;
-    
-}
-
-#myNav {
     
 }
 
@@ -352,7 +356,7 @@ input[type=submit] {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,153,0, 1);
+    background-color: #006600;
     }
 
 .overlay-content {
@@ -532,15 +536,11 @@ input[type=submit] {
 }
 
 #gallery-container {
-    width: 400px;
-    margin-left:auto;
-    margin-right: auto;
+    width: 100vw;
 }
 
-.photo-gallery-hero {
-    width: 360px;
-    height: 360px;
-    text-align:center;
+#galleryButtonContainer {
+    width: 100vw;
 }
 
 .gallery-text-button {
@@ -552,6 +552,10 @@ input[type=submit] {
 
 #youtube-embed-container {
     display: none;
+}
+
+.horizontalPromoText {
+    max-width: 200px;
 }
 
 
@@ -572,7 +576,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
 }
@@ -607,7 +611,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900; 
+    background: #e0f7d3; 
 }
 
 #main-column {
@@ -726,10 +730,12 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     width: 595px;
     height: 595px;
-    text-align: center;
-}
+    }
 
 .gallery-text-button {
     width: 350px;
@@ -740,6 +746,12 @@ input[type=submit] {
 
 #mobile-youtube-embed-container {
     display: none;
+}
+
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 
@@ -765,7 +777,7 @@ input[type=submit] {
 
 #left {
     grid-area: left;
-    background: #009900;
+    background: #e0f7d3;
     border-bottom: solid 2px #ffffff;
     min-width: 285px;
     
@@ -802,7 +814,7 @@ input[type=submit] {
 
 #leftnav {
     grid-area: nav;
-    background: #009900;
+    background: #e0f7d3;
     text-align: right;
     margin: 0;
     padding: 0;
@@ -927,9 +939,11 @@ input[type=submit] {
 }
 
 .photo-gallery-hero {
+display: block;
+margin-left:auto;
+margin-right: auto;
 width: 595px;
 height: 595px;
-text-align:center;
 }
 
 .gallery-text-button {
@@ -943,11 +957,17 @@ text-align:center;
     display: none;
 }
 
+#gallery-container {
+    width: 595px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 }
 
 </style>
 
-<script src="https://cdn.usefathom.com/script.js" data-site="QDSWGSQM" defer></script>
+
 
 </head>
 
@@ -961,24 +981,27 @@ text-align:center;
     <div id="logo">
         <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
     </div>
-    <div style="" id="menu-button" class="pointer">
-        <a href"/"><img style="text-align:center;width:20px;height:16px;padding-top:8px" src="https://res.cloudinary.com/allotment-book/image/upload/v1644487486/navigation/hamburger-icon_kpgidy.webp"/>
-        <div style="text-align:center;font-size:0.7em;color:#ffffff">Contents</div></a>
+    <div id="menu-button" class="pointer">
+        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
+        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
     </div>
 </div>
 
 <nav id="myNav" class="overlay">
-    <div style="text-align:right" class="closebtn"> <i id="close" class="fas fa-window-close"></i></div>
-    <div id="nav-grid"
+    <div style="text-align:right" class="closebtn"> 
+        <div id="close" style="font-size:2rem">✕</div>
+    </div>
+    <div id="nav-grid">
             <div id="first-row">
-            <div id="col-left"><a href="/">Home</div></a>
-            <div id="col-right"></div>
+                <div id="col-left"><a href="/">Home</div></a>
+                <div id="col-right"></div>
+            </div>
             <div id="second-row">
                 <div id="col-left"><a href="/shop">Shop</div></a>
                 <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
             </div>
             <div id="third-row-a">
-            <div><a href="/contents"><strong>Book Contents</strong></div></a>
+                <div><a href="/contents"><strong>Book Contents</strong></div></a>
             </div>
             <div id="third-row-b">
                 <a style="margin-top:-3%" href="/introduction"><span style="font-size:14px">►</span> Introduction</a>
@@ -997,10 +1020,10 @@ text-align:center;
                 <div id="col-right"><a href="/policies">Policies</div></a>
             </div>
             <div id="sixth-row">
-                
             </div>
-
+                
     </div>
+
 </nav>
     </div>
 
@@ -1178,6 +1201,7 @@ It can be very frustrating to be half way through cutting a lawn, or a path on a
 <p>The solution is simple but expensive, and that is to buy the biggest battery available for the mower, and ideally two of them (and take both to the allotment to ensure that the job gets finished). Battery power is measured in Ah (amp hour), and the larger the Ah value the more stored power it will hold.</p>
 <p><strong>Cutting Height</strong><br>
 A lawnmower on an allotment has to cope with uneven ground (compared to a garden lawn) and long grass. An allotment holder may have the best intention to cut the grass every fortnight, but this does not always happen, and a lawnmower will need to cope. In general, lawnmowers with bigger wheels and extra cutting height are better suited to use on an allotment.</p>
+<p>See <a href="/shop/lawnmowers/all/">cordless lawnmowers</a> in the shop.</p>
 <p>And when things get too high, or the ground too uneven, a cordless grass trimmer may be the better tool to use...</p>
 <h2>Allotment Cordless Grass Trimmers</h2>
 <p><img src="https://a.storyblok.com/f/136863/1200x900/a9b8b85edb/allotment-grass-trimmer.jpg" alt="allotment grass trimmer"></p>
@@ -1215,11 +1239,78 @@ Cutting line comes in different thicknesses, with the thicker lines able to cut 
 This type of head is able to cut through thick stems and small branches. This type of head may be useful on a really wild allotment where brambles are rampaging over an allotment plot, but otherwise may not be required for everyday use.</p>
 </li>
 </ul>
-<h3>Related Links</h3>
-<ul>
-<li>See <a href="/shop/lawnmowers/all/">cordless lawnmowers</a> in the shop</li>
-<li>See <a href="/shop/trimmers/all/">cordless grass trimmers</a> in the shop</li>
-</ul>
+<p>See <a href="/shop/trimmers/all/">cordless grass trimmers</a> in the shop.</p>
+
+                            </div>
+
+                            <!-- The productname must match the data otherwise it will not display (often singular) -->
+                            <div id="products-featured-links">
+                                
+                                
+
+                                <h2>Featured Lawnmowers</h2>
+
+                                <p>See all <a href="/shop/lawnmowers/all">lawnmowers</a> in the shop.</p>
+
+                                <div id="heated-propagator" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    
+                                </div>
+
+                                <div id="lawnmowers" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                     
+                                        <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                        <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Adccf75d8gej24.cloudfront.net%2Fimages%2Fproducts%2F03%2F030113160%2F03B27B9C-491D-434A-A83D-27DB2B44A43D-large.jpg&amp;feedId=17743&amp;k=1554dc585e7673f3bb0eee6055e899bfd10cfd5d" />
+                                        <div style="width:150px">
+                                            <div style="height: 70px">
+                                                <div style=""><strong>Einhell P X-Change 36/47</strong></div>
+                                                <div style="">(Einhell)</div>
+                                            </div>
+                                            <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=28600915771&amp;a=1016123&amp;m=3131 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£359.98 on Machine Mart</button></a>
+                                        </div>
+                                </div>
+                                    
+                                     
+                                        <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                        <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Adccf75d8gej24.cloudfront.net%2Fimages%2Fproducts%2F03%2F030115171%2F6A0B3DCC-68C5-4815-8973-90312EA0EB78-large.jpg&amp;feedId=17743&amp;k=d2e90b1f32388a91f21d713591e05da08b9d020c" />
+                                        <div style="width:150px">
+                                            <div style="height: 70px">
+                                                <div style=""><strong>Bosch EasyRotak 36-550</strong></div>
+                                                <div style="">(Bosch)</div>
+                                            </div>
+                                            <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=28683230635&amp;a=1016123&amp;m=3131 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£329 on Machine Mart</button></a>
+                                        </div>
+                                </div>
+                                    
+                                     
+                                        <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                        <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Adccf75d8gej24.cloudfront.net%2Fimages%2Fproducts%2F03%2F030114422%2F75A5DDEC-27C3-4A22-A9AD-0B006FA33D69-large.jpg&amp;feedId=17743&amp;k=2a34d20162a0cd68e7a047a6457b8239fdf80a2a" />
+                                        <div style="width:150px">
+                                            <div style="height: 70px">
+                                                <div style=""><strong>Karcher LMO 18-36</strong></div>
+                                                <div style="">(Karcher)</div>
+                                            </div>
+                                            <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=27653823201&amp;a=1016123&amp;m=3131 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£359 on Machine Mart</button></a>
+                                        </div>
+                                </div>
+                                    
+                                     
+                                        <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                        <img style="height:150px;width:150px" src="https://images2.productserve.com/?w=200&amp;h=200&amp;bg=white&amp;trim=5&amp;t=letterbox&amp;url=ssl%3Adccf75d8gej24.cloudfront.net%2Fimages%2Fproducts%2F03%2F030118046%2F68E1F511-2D03-46C3-9FEB-0F516977A60D-large.jpg&amp;feedId=17743&amp;k=fa3f3e4886f7abfe89812163f857b19a7eb5e01c" />
+                                        <div style="width:150px">
+                                            <div style="height: 70px">
+                                                <div style=""><strong>Hyundai 80V 45cm</strong></div>
+                                                <div style="">(Hyundai)</div>
+                                            </div>
+                                            <a rel="sponsored" href=https://www.awin1.com/pclick.php?p=28303882401&amp;a=1016123&amp;m=3131 ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£489 on Machine Mart</button></a>
+                                        </div>
+                                </div>
+                                    
+                                    
+                                </div>
+
+                                <div id="sheds" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    
+                                </div>
 
                             </div>
 
@@ -1319,8 +1410,6 @@ function findNext() {
 }
 findNext();
 
-console.log(nextPage);
-
 function findPrevious() {
     if ( previous >= 0 ) {
     previousPage = `essential-allotment-tools-and-equipment`;
@@ -1350,6 +1439,15 @@ function makePreviousButton(slug) {
 //a function to adjust for empty video content (vimeo and youtube), which is then called below the function
 let videoCheck = ``;
 let youtubeCheck = ``;
+let promoCheck = `lawnmower`;
+
+//A function that checks if there is a promo of featured products, and if not, removes the section
+function checkIfPromo() {
+    if ( promoCheck == "" ) {
+        document.getElementById("products-featured-links").style = "display:none";
+    }
+}
+checkIfPromo();
 
 
 function removeDiv( divname, keyname ) {
@@ -1393,9 +1491,6 @@ function checkYouTubeVideo() {
 }
 checkYouTubeVideo();
 
-//checks to see if 
-removeDiv("introduction", introText);
-
 </script>
 
     </div>
@@ -1404,8 +1499,23 @@ removeDiv("introduction", introText);
     <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
     </footer>
 
-    <script src="/js/open-nav.js"></script>
-    <script src="/js/close-nav.js"></script>
+    
+
+    <script>
+        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
+        scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false; // to preserve execution order
+        document.head.appendChild(s);
+        });
+    </script>
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
     
 </body>
 

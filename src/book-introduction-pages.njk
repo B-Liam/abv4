@@ -120,6 +120,65 @@ eleventyComputed:
                                 {% liamMark pagedata.content.main_content %}
                             </div>
 
+                            <!-- The productname must match the data otherwise it will not display (often singular) -->
+                            <div id="products-featured-links">
+                                {% set productname = pagedata.content.featured_key | lower %}
+                                {% set producttitle = pagedata.content.feature_title | lower %}
+
+                                <h2>Featured {{ producttitle | title }}</h2>
+
+                                <p>See all <a href="/shop/{{producttitle | slug}}/all">{{ producttitle }}</a> in the shop.</p>
+
+                                <div id="heated-propagator" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    {% for product in suttonsequipdata | getFeaturedEquipment( productname, 4 ) %} {% if productname == "heated propagator" %}
+                                    <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                    <img style="height:150px;width:150px" src="{{ product.image}}" />
+                                    <div style="width:150px">
+                                        <div style="height: 70px">
+                                            <div style=""><strong>{{ product.name }}</strong></div>
+                                            <div style="">({{ product.type}})</div>
+                                        </div>
+                                        <a rel="sponsored" href={{product.link}} ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£{{product.price}} on {{product.merchant}}</button></a>
+                                    </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <div id="lawnmowers" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    {% for product in machinemart | getFeaturedEquipment( productname, 4 ) %} {% if productname == "lawnmower" %}
+                                        <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                        <img style="height:150px;width:150px" src="{{ product.image}}" />
+                                        <div style="width:150px">
+                                            <div style="height: 70px">
+                                                <div style=""><strong>{{ product.name }}</strong></div>
+                                                <div style="">({{ product.type}})</div>
+                                            </div>
+                                            <a rel="sponsored" href={{product.link}} ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£{{product.price}} on {{product.merchant}}</button></a>
+                                        </div>
+                                </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <div id="sheds" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
+                                    {% for product in buyshedsdirect | getFeaturedEquipment( productname, 4 ) %} {% if productname == "shed" %}
+                                        <div style="display:flex;flex-direction:column;padding-left:10px;padding-right:10px;text-align:center;margin-top:10px;margin-bottom:10px">
+                                        <img style="height:150px;width:150px" src="{{ product.image}}" />
+                                        <div style="width:150px">
+                                            <div style="height: 70px">
+                                                <div style=""><strong>{{ product.name }}</strong></div>
+                                                <div style="">({{ product.type}})</div>
+                                            </div>
+                                            <a rel="sponsored" href={{product.link}} ><button style="background:#009900;color:#ffffff; border:none;padding:5px 10px 5px 10px;margin-top:5px;margin-bottom:20px;font-size:0.9rem">£{{product.price}} on {{product.merchant}}</button></a>
+                                        </div>
+                                </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                            </div>
+
                         </article>
 
                         <div id="next-previous" style="display:flex;justify-content:space-between;align-items:center;height:40px">
@@ -216,8 +275,6 @@ function findNext() {
 }
 findNext();
 
-console.log(nextPage);
-
 function findPrevious() {
     if ( previous >= 0 ) {
     previousPage = `{{ contentindex[contentindex | findIndexValue( pagedata.slug ) - 1].slug }}`;
@@ -247,6 +304,15 @@ function makePreviousButton(slug) {
 //a function to adjust for empty video content (vimeo and youtube), which is then called below the function
 let videoCheck = `{{ pagedata.content.vimeo_number }}`;
 let youtubeCheck = `{{ pagedata.content.youtube_number }}`;
+let promoCheck = `{{ pagedata.content.featured_key }}`;
+
+//A function that checks if there is a promo of featured products, and if not, removes the section
+function checkIfPromo() {
+    if ( promoCheck == "" ) {
+        document.getElementById("products-featured-links").style = "display:none";
+    }
+}
+checkIfPromo();
 
 
 function removeDiv( divname, keyname ) {
@@ -289,8 +355,5 @@ function checkYouTubeVideo() {
     }
 }
 checkYouTubeVideo();
-
-//checks to see if 
-removeDiv("introduction", introText);
 
 </script>
