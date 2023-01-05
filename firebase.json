@@ -2,6 +2,16 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/shop",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/shop/*",
+        "destination": "/",
+        "type": 301
+      },
+      {
         "source": "/gallery/plums-gallery/1738",
         "destination": "/contents/plums/",
         "type": 301

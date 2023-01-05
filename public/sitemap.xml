@@ -27,12 +27,6 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/allotment-starter-guides/</loc>
-        <lastmod>2022-02-09T22:23:03.358Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
         <loc>https://www.allotmentbook.co.uk/photo-gallery/</loc>
         <lastmod>2022-02-11T11:57:19.165Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -45,32 +39,8 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/introduction/</loc>
-        <lastmod>2022-02-14T12:00:18.991Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
         <loc>https://www.allotmentbook.co.uk/contents/</loc>
         <lastmod>2022-02-14T12:07:22.723Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/vegetables/</loc>
-        <lastmod>2022-02-14T12:14:01.360Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/fruit/</loc>
-        <lastmod>2022-02-14T12:15:21.495Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/herbs/</loc>
-        <lastmod>2022-02-14T12:15:55.928Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     
@@ -561,1784 +531,8 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/shop/asparagus/all/</loc>
-        <lastmod>2022-02-14T16:59:12.064Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/asparagus/featured/</loc>
-        <lastmod>2022-02-14T16:59:12.064Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/asparagus/early/</loc>
-        <lastmod>2022-02-14T16:59:12.064Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/asparagus/late/</loc>
-        <lastmod>2022-02-14T16:59:12.064Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/all/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/ego/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/greenworks/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/hyundai/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/mountfield/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/stiga/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/trimmers/toro/</loc>
-        <lastmod>2022-02-14T17:20:28.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/rosemary/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sage/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sorrel/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tarragon/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/thyme/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/water-butts/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/water-butts/accessory/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/water-butts/standard/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/water-butts/small/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/water-butts/large/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/all/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/cobra/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/greenworks/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/hayter/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/hyundai/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/mountfield/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lawnmowers/stiga/</loc>
-        <lastmod>2022-02-14T17:20:28.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marigold/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marigold/french/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marigold/african/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marigold/indian/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marigold/afro-french/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marjoram/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/mint/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/nasturtium/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/nasturtium/standard/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/nasturtium/trailing/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/nasturtium/climbing/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/nasturtium/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/oregano/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/parsley/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/parsley/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/parsley/flat/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/parsley/curly/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/growhouses/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/hot-composters/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/hot-composters/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/hot-composters/aerobin/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/hot-composters/graf/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/hot-composters/green-johanna/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/hot-composters/thermo-star/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raised-beds/all/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raised-beds/15cm/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raised-beds/30cm/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raised-beds/45cm/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raised-beds/tiered/</loc>
-        <lastmod>2022-02-14T17:20:28.587Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lovage/all/</loc>
-        <lastmod>2022-02-14T17:20:28.595Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/kiwis/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/limes/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/medlar/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/melons/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/mulberry/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/nectarines/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/oranges/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peaches/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pears/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/plums/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/plums/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/plums/plum/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/plums/gage/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/plums/damson/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/plums/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/quince/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raspberries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raspberries/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raspberries/summer/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raspberries/autumn/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/raspberries/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/rhubarb/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/rhubarb/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/saskatoon/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/strawberries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/strawberries/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/strawberries/summer/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/strawberries/day-neutral/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/strawberries/alpine/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tayberries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/wineberry/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/yuzu/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/basil/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/basil/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/basil/green/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/basil/red/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/bay/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/bergamot/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/borage/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chamomile/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chives/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/coriander/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/dill/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lavender/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lavender/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lavender/seeds/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lemon-balm/all/</loc>
-        <lastmod>2022-02-14T17:20:28.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cherries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cranberries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/currants/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/currants/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/currants/redcurrant/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/currants/white-currant/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/currants/blackcurrant/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/currants/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/figs/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/figs/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/figs/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/goji-berries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/gooseberries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/gooseberries/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/gooseberries/red/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/gooseberries/yellow/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/gooseberries/green/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/grapefruit/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/grapes/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/grapes/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/grapes/red/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/grapes/white/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/inca-berries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lemons/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/feverfew/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/horseradish/all/</loc>
-        <lastmod>2022-02-14T17:20:28.795Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blueberries/all/</loc>
-        <lastmod>2022-02-14T17:20:28.796Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blueberries/featured/</loc>
-        <lastmod>2022-02-14T17:20:28.796Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blueberries/early/</loc>
-        <lastmod>2022-02-14T17:20:28.796Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blueberries/mid/</loc>
-        <lastmod>2022-02-14T17:20:28.796Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blueberries/late/</loc>
-        <lastmod>2022-02-14T17:20:28.796Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/all/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/dessert/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/allrounder/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/cooking/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apples/crab/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/apricots/all/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatillos/all/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatoes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatoes/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatoes/cherry/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatoes/plum/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatoes/beefsteak/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/tomatoes/standard/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/turnips/all/</loc>
-        <lastmod>2022-02-14T17:20:29.173Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blackberries/all/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blackberries/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blackberries/spineless/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blackberries/thorny/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/blackberries/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/shallots/all/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/shallots/seed/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/shallots/overwintering/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/spring-onions/all/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sweetcorn/all/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sweetcorn/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sweetcorn/normal/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sweetcorn/sugar-enhanced/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sweetcorn/supersweet/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sweetcorn/popcorn/</loc>
-        <lastmod>2022-02-14T17:20:29.193Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/french-beans/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/french-beans/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/french-beans/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/french-beans/climbing/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/garlic/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/garlic/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/garlic/softneck/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/garlic/hardneck/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/garlic/elephant/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/globe-artichokes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/jerusalem-artichokes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/kale/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/kale/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/kale/curly/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/kale/flat/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/leeks/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/leeks/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/leeks/early/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/leeks/late/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lettuce/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lettuce/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lettuce/cos/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lettuce/butterhead/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lettuce/loose-leaf/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/lettuce/iceberg/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/marrows/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/onions/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/onions/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/onions/seed/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/onions/spring/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/onions/overwintering/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pak-choi/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/parsnips/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/parsnips/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peas/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peas/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peas/early/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peas/maincrop/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peas/mangetout/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peas/sugar-snap/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peppers/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peppers/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peppers/mini/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/peppers/regular/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/potatoes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/potatoes/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/potatoes/first-early/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/potatoes/second-early/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/potatoes/maincrop/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pumpkin/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pumpkin/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pumpkin/large/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pumpkin/regular/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/pumpkin/mini/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/radishes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/radishes/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/radishes/summer/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/radishes/winter/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/runner-beans/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/runner-beans/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/runner-beans/standard/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/runner-beans/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/spinach/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/spinach/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/spinach/summer/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/spinach/winter/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/swedes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chicory-endive/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chillies/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chillies/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chillies/mild/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chillies/hot/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chillies/fiery/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/courgettes/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/courgettes/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cucamelon/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cucumbers/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cucumbers/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cucumbers/long/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cucumbers/short/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cucumbers/ridge/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/florence-fennel/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/squash/all/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/squash/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/squash/mini/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/squash/regular/</loc>
-        <lastmod>2022-02-14T17:20:29.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/aubergines/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/beetroot/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/beetroot/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/beetroot/crimson/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/beetroot/colourful/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broad-beans/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broad-beans/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broad-beans/maincrop/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broad-beans/overwintering/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broad-beans/dwarf/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broccoli/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broccoli/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broccoli/true-broccoli/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/broccoli/calabrese/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/carrots/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/carrots/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/carrots/maincrop/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/carrots/early/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/carrots/colourful/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cauliflowers/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cauliflowers/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cauliflowers/early/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cauliflowers/summer/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/celeriac/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/celery/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/kohlrabi/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/salad/all/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/salad/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/salad/sprouts/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/salad/leaves/</loc>
-        <lastmod>2022-02-14T17:20:29.234Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/brussels-sprouts/all/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/brussels-sprouts/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/brussels-sprouts/early/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/brussels-sprouts/late/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cabbages/all/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cabbages/featured/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cabbages/spring/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cabbages/summer/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/cabbages/winter/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/chard/all/</loc>
-        <lastmod>2022-02-14T17:20:29.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
         <loc>https://www.allotmentbook.co.uk/vegetable-growing-guides/</loc>
         <lastmod>2022-02-14T21:30:40.102Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/</loc>
-        <lastmod>2022-02-14T21:36:36.116Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     
@@ -2571,528 +765,6 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/contents/thyme/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/tarragon/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/sorrel/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/sage/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/rosemary/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/parsley/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/oregano/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/nasturtium/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/mint/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/marjoram/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/marigold/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/lovage/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/lemon-balm/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/lavender/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/horseradish/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/feverfew/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/dill/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/coriander/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/comfrey/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/chives/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/chamomile/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/borage/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/bergamot/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/bay/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/tayberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/strawberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/rhubarb/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/raspberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/plums/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/pears/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/melons/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/loganberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/inca-berries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/gooseberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/currants/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/cherries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/boysenberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/blueberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/apples/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/tomatillos/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/sweetcorn/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/peppers/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/tomatoes/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/turnips/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/swedes/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/squash/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/spring-onions/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/spinach/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/shallots/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/salsify-scorzonera/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/rocket/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/radish/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/pumpkins/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/potatoes/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/peas/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/parsnips/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/pak-choi/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/onions/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/marrow/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/lettuce/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/leeks/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/kohlrabi/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/kale/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/jerusalem-artichokes/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/globe-artichokes/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/garlic/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/french-beans/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/florence-fennel/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/cucumbers/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/courgettes/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/chillies/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/chard/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/celeriac/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/cauliflower/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/carrots/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/cabbage/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/brussels-sprouts/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/broad-beans/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/beetroot/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/aubergines/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/asparagus/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/basil/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/blackberries/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/runner-beans/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/broccoli/</loc>
-        <lastmod>2022-02-17T15:39:51.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/heated-propagators/all/</loc>
-        <lastmod>2022-02-18T11:43:09.051Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/heated-propagators/featured/</loc>
-        <lastmod>2022-02-18T11:43:09.051Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
         <loc>https://www.allotmentbook.co.uk/training-tomato-plants/</loc>
         <lastmod>2022-02-18T12:25:38.110Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -3237,162 +909,6 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/contents/controlling-ants-and-aphids-on-fruit-trees/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/solar-powered-drip-irrigation/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/allotment-grass-cutting/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/growing-vegetables-in-pots-and-containers/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/hot-composting/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/allotment-netting/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/watering-tips/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/plastic-greenhouses-and-growing-tunnels/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/electric-heated-propagators/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/how-to-decide-what-to-grow/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/making-a-steel-walk-in-fruit-cage/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/how-to-build-a-polytunnel/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/making-no-dig-beds/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/allotment-polytunnels/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/allotment-sheds/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/essential-allotment-tools-and-equipment/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/what-are-good-vegetables-to-grow/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/does-working-an-allotment-save-money/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/designing-an-allotment-layout/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/start-work-on-a-new-plot/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/why-have-allotment/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/contents/about-the-allotment-book/</loc>
-        <lastmod>2022-02-18T17:08:45.725Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sheds/all/</loc>
-        <lastmod>2022-02-18T17:13:11.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sheds/pent/</loc>
-        <lastmod>2022-02-18T17:13:11.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sheds/apex/</loc>
-        <lastmod>2022-02-18T17:13:11.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
-        <loc>https://www.allotmentbook.co.uk/shop/sheds/potting/</loc>
-        <lastmod>2022-02-18T17:13:11.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
         <loc>https://www.allotmentbook.co.uk/newsletter/</loc>
         <lastmod>2022-02-20T14:43:49.918Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -3411,14 +927,668 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/</loc>
-        <lastmod>2022-11-24T16:27:58.133Z</lastmod>
+        <loc>https://www.allotmentbook.co.uk/photo-gallery/allotment-vegetables-2022-02-06/</loc>
+        <lastmod>2022-12-15T10:28:28.324Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/photo-gallery/allotment-vegetables-2022-02-06/</loc>
-        <lastmod>2022-12-15T10:28:28.324Z</lastmod>
+        <loc>https://www.allotmentbook.co.uk/</loc>
+        <lastmod>2023-01-05T16:08:44.292Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/thyme/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/tarragon/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/sorrel/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/sage/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/rosemary/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/parsley/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/oregano/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/nasturtium/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/mint/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/marjoram/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/marigold/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/lovage/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/lemon-balm/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/lavender/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/horseradish/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/feverfew/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/dill/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/coriander/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/comfrey/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/chives/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/chamomile/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/borage/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/bergamot/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/bay/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/tayberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/strawberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/rhubarb/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/raspberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/plums/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/pears/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/melons/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/loganberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/inca-berries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/gooseberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/currants/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/cherries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/boysenberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/blueberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/apples/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/tomatillos/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/sweetcorn/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/peppers/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/tomatoes/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/turnips/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/swedes/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/squash/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/spring-onions/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/spinach/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/shallots/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/salsify-scorzonera/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/rocket/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/radish/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/pumpkins/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/potatoes/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/peas/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/parsnips/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/pak-choi/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/onions/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/marrow/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/lettuce/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/leeks/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/kohlrabi/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/kale/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/jerusalem-artichokes/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/globe-artichokes/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/garlic/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/french-beans/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/florence-fennel/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/cucumbers/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/courgettes/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/chillies/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/chard/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/celeriac/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/cauliflower/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/carrots/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/cabbage/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/brussels-sprouts/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/broad-beans/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/beetroot/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/aubergines/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/asparagus/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/basil/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/blackberries/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/runner-beans/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/broccoli/</loc>
+        <lastmod>2023-01-05T16:14:38.109Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/introduction/</loc>
+        <lastmod>2023-01-05T16:16:49.832Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/allotment-starter-guides/</loc>
+        <lastmod>2023-01-05T16:17:57.160Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/controlling-ants-and-aphids-on-fruit-trees/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/solar-powered-drip-irrigation/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/allotment-grass-cutting/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/growing-vegetables-in-pots-and-containers/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/hot-composting/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/allotment-netting/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/watering-tips/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/plastic-greenhouses-and-growing-tunnels/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/electric-heated-propagators/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/how-to-decide-what-to-grow/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/making-a-steel-walk-in-fruit-cage/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/how-to-build-a-polytunnel/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/making-no-dig-beds/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/allotment-polytunnels/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/allotment-sheds/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/essential-allotment-tools-and-equipment/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/what-are-good-vegetables-to-grow/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/does-working-an-allotment-save-money/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/designing-an-allotment-layout/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/start-work-on-a-new-plot/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/why-have-allotment/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/contents/about-the-allotment-book/</loc>
+        <lastmod>2023-01-05T16:24:19.063Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     
