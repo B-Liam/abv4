@@ -336,6 +336,10 @@
     margin-left: auto;
 }
 
+.photo-gallery-hero {
+    margin-bottom: 0px;
+}
+
 #gallery-container {
     width: 100vw;
 }
@@ -357,4 +361,8 @@
 
 .horizontalPromoText {
     max-width: 200px;
+}
+
+#homeHeroDesktop {
+    display:none;
 }

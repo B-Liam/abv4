@@ -1,0 +1,67 @@
+---
+eleventyExcludeFromCollections: true
+date: Last Modified
+permalink: "zest/index.html"
+title: "A Test Page | Allotment Book"
+description: "Nothing To See Here"
+---
+
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<div id="sidebar">
+           
+</div>
+    
+<div id="main-column">
+        
+    <main id="main-content">
+    <div id="testSend" style="cursor:pointer;color: pink">Click Me</div>
+    <div id="answer"></div>
+    <p id="testHello" style="cursor:pointer">Respond!</p>
+    <div id="helloResponse" style="cursor:pointer"></div>          
+    </main>
+                
+</div>
+
+{# <script>
+
+const testSend = document.querySelector("#testSend");
+const answer = document.querySelector("#answer");
+testSend.addEventListener('click', callTest);
+
+function callTest(){
+
+console.log("the callTest function has been successfully called")
+
+const xhr = new XMLHttpRequest();
+xhr.open("POST", "https://europe-west2-allotment-book.cloudfunctions.net/app");
+xhr.setRequestHeader("Content-Type", "application/json");
+
+let data = `
+    {
+        "name": "Liam"
+    }
+`
+
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4) {
+    console.log(xhr.status);
+    answer.innerHTML = xhr.responseText;
+  }};
+
+xhr.send(data);
+
+}
+
+</script> #}
+<style>
+  #testHello {
+    color: blue;
+  }
+</style>
+
+<script src="/js/sayhello.js"></script>
+<script src="https://books-three.allotmentbook.co.uk/script.js"></script>
+
+</html>

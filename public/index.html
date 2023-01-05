@@ -13,7 +13,7 @@
     <title>Allotment And Kitchen Garden Website | Discover the Allotment Book</title>
     <meta name="description" content="An allotment website dedicated to helping the home or allotment gardener enjoy growing fruit and vegetables. Practical guides with lots of photos!">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Thu Oct 20 2022 09:10:38 GMT+0100 (British Summer Time)">
+    <meta property="article:modified_time" content="Thu Nov 24 2022 16:27:58 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -535,6 +535,10 @@ input[type=submit] {
     margin-left: auto;
 }
 
+.photo-gallery-hero {
+    margin-bottom: 0px;
+}
+
 #gallery-container {
     width: 100vw;
 }
@@ -558,11 +562,12 @@ input[type=submit] {
     max-width: 200px;
 }
 
-
+#homeHeroDesktop {
+    display:none;
+}
 }
 
 @media only screen and (min-width: 951px) and (max-width: 1200px) {
-
 #mobile-header {
     display: none;
 }
@@ -760,10 +765,7 @@ input[type=submit] {
 
 }
 
-
-
 @media only screen and (min-width: 1201px) {
-
 #mobile-header {
     display: none;
 }
@@ -963,6 +965,7 @@ height: 595px;
     margin-right: auto;
 }
 
+
 }
 
 </style>
@@ -1117,9 +1120,9 @@ height: 595px;
         <div id="main-column">
         
                 <main id="main-content">
-                    
-                    <div id="content-heading" style="background:#006600">
-                        <div style="text-align:center">
+
+                    <div id="homeHeroDesktop" style="text-align:center;margin-bottom:-5px">                   
+                        
                         <picture>
                             <source srcset="https://res.cloudinary.com/allotment-book/image/upload/w_700,h_272,q_auto,f_auto/v1644498815/home/allotment-drawing-lighter_ra1k8n.jpg" media="(min-width: 700px)" width="700px" height="272px">
                             <source srcset="https://res.cloudinary.com/allotment-book/image/upload/w_600,h_233,q_auto,f_auto/v1644498815/home/allotment-drawing-lighter_ra1k8n.jpg" media="(min-width: 600px)" width="600px" height="233px">
@@ -1131,8 +1134,11 @@ height: 595px;
                             <img src="https://res.cloudinary.com/allotment-book/image/upload/w_360,h_140,q_auto,f_auto/v1644498815/home/allotment-drawing-lighter_ra1k8n.jpg" alt="Drawing of an example allotment" 
                                 width="360px" height="140px">
                         </picture>
-                        </div>
+                    
+                    </div>
 
+                    <div id="content-heading" style="background:#006600">
+                        
                         <div style="margin-top:0px;background:#006600">
                             <h1 style="margin-top:0px; padding-top:4px;padding-bottom: 4px; font-size: 1em; color:#ffffff; text-align:center">Welcome to the Allotment Book</h1>
                         </div>
@@ -1164,14 +1170,14 @@ height: 595px;
                             <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:86px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fnewsletter%20icon.png?alt=media&token=240a9d77-8257-4e84-8d84-b268c73b705a" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FEditable%20newsletter%20icon.png?alt=media&token=d1b4757e-a470-424b-817f-df6b49c97b60" 
                                         alt="Free Newsletter Icon" 
                                         />
                                                 
-                                        <div class="horizontalPromoText" style="text-align:justify;padding-left:1em; padding-right:0.5em;padding-bottom:0.7em;color:#006600"> 
-                                            <h3 style="margin-top:0px;margin-bottom:10px;font-size:1rem">
+                                        <div class="horizontalPromoText" style="text-align:left;padding-left:1em; padding-right:0.5em;padding-bottom:0.7em;color:#006600"> 
+                                            <h2 style="margin-top:-20px;margin-bottom:10px;font-size:1rem">
                                             Get the FREE newsletter
-                                            </h3>
+                                            </h2>
                                             <div id="description" style="font-size:1rem;">
                                             Don't miss out! Get notified of the latest content added to the Allotment Book by email.
                                             </div>
@@ -1188,13 +1194,13 @@ height: 595px;
                             
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
                                         
-                                            <img style="display:block;width:100px;height:105px;padding:0px" src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fseedling%20icon.png?alt=media&token=724bf984-5d64-4c34-9d01-16a1aff9df98"
+                                            <img style="display:block;width:100px;height:100px;padding:0px" src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fseedling_icon.png?alt=media&token=4069c1dd-06e9-4172-be76-974b2034da11"
                                             alt="seedling"
                                             />
                                                 
-                                            <div class="horizontalPromoText" style="text-align:justify;padding-left:1em; padding-right:0.5em;padding-bottom:0.7em;color:#006600"> 
-                                                <h3 id="plant-month-title" style="margin-top:0px;margin-bottom:10px;font-size:1rem; text-transform:capitalize;text-align:left">
-                                                </h3>
+                                            <div class="horizontalPromoText" style="text-align:left;padding-left:1em; padding-right:0.5em;padding-bottom:0.7em;color:#006600"> 
+                                                <h2 id="plant-month-title" style="margin-top:-20px;margin-bottom:10px;font-size:1rem; text-transform:capitalize;text-align:left">
+                                                </h2>
                                                 <div id="plant-month-description" style="font-size:1rem;">
                                                 </div>
                                                 <a id="plant-month-link" href="">
@@ -1208,15 +1214,63 @@ height: 595px;
 
                         <hr>
 
+                        <div id="video-list-container" style="text-align:center;margin-top:10px;margin-bottom:20px; padding-top:20px">
+
+                            <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
+
+                                        <img style="display:block;width:100px;height:100px;padding:0px" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FmyPlantsApp-thumbnail-100x100.png?alt=media&token=42c35078-21af-4211-b9cc-19353024e3e2" 
+                                        alt="myPlants.app logo" 
+                                        />
+                                                
+                                        <div class="horizontalPromoText" style="text-align:left;padding-left:1em; padding-right:0.5em;padding-bottom:0.7em;color:#006600;"> 
+                                            <h2 style="margin-top:-20px;margin-bottom:10px;font-size:1rem">
+                                            New! myPlants.app
+                                            </h2>
+                                            <div id="description" style="font-size:1rem;">
+                                            The app that helps gardeners stay organised! Save plants and plant notes, create wish lists and to-do lists, browse plant ideas, and share photos with the community.
+                                            </div>
+                                            <a href="https://myplants.app"><button style="border-radius: 8px;background:#ad0ead;width:200px; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:20px">➤ See The App</button></a>
+                                        </div>                                   
+
+                            </div>
+                         
+                        
+                        </div>
+
+                        <hr>
+
                         <h2 style="margin-top:-15px; font-size: 1em;">Latest YouTube</h2>
                         <div id="video-list-container" style="color:#006600; padding-bottom:20px">
+                            
+
+                                <a id="green-manure-december-update-before-the-first-frosts" href="https://youtu.be/EfnK4ZnmJq8">
+                                    <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
+
+                                        <img style="display:block;width:100px;height:100px;padding:0px" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FvideoThumbs%2FDecember%20Green%20Manures%20100%20thumb.jpg?alt=media&amp;token=238e7604-b81e-4ade-bc43-8f563336c369" 
+                                        alt="Green Manure December Update Before The First Frosts" 
+                                        />
+                                                
+                                        <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em;color:#006600"> 
+                                            <h3 style="margin-top:0px;margin-bottom:10px;font-size:1rem">
+                                            Green Manure December Update Before The First Frosts
+                                            </h3>
+                                            <div id="description" style="font-size:0.9rem">
+                                            A December update showing how the September planting of green manure is progressing before the first hard frosts of winter arrive.
+                                            </div>
+                                        </div>                                   
+
+                                    </div>
+                                </a>
+
                             
 
                                 <a id="green-manure-plants-one-month-after-sowing-seed" href="https://youtu.be/pnnjB_bxhLk">
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://a.storyblok.com/f/136863/300x300/31b6eb09b9/green-manure-1-month-web-thumb-300.jpg" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FGreen%20Manure%201%20Month%20Web%20Thumb%20100.webp?alt=media&amp;token=b7a6cad2-3876-4755-a468-22d62315754c" 
                                         alt="Green Manure Plants One Month After Sowing Seed" 
                                         />
                                                 
@@ -1238,7 +1292,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FRevive-Repot-Aloe-Vera-100.jpg?alt=media&amp;token=f8c448c9-58f5-43c9-9a52-e0c813d5411f" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FRevive-Repot-Aloe-Vera-100.webp?alt=media&amp;token=d477b7c1-59cd-4ef5-84ea-6237f81cc057" 
                                         alt="How To Revive And Repot Aloe Vera Plants" 
                                         />
                                                 
@@ -1260,7 +1314,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FSeptember-Allotment-Tour-100.jpg?alt=media&amp;token=b9acc4e0-a41a-4391-9754-d0c192f15302" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FSeptember-Allotment-Tour-100.webp?alt=media&amp;token=4c45c9c1-c554-49f9-9314-80f9f5075fd1" 
                                         alt="Allotment Tour, September 2022" 
                                         />
                                                 
@@ -1270,28 +1324,6 @@ height: 595px;
                                             </h3>
                                             <div id="description" style="font-size:0.9rem">
                                             A tour of my allotment in mid-September 2022, covering harvesting winter squash, elephant garlic, courgettes, onions, and potatoes.
-                                            </div>
-                                        </div>                                   
-
-                                    </div>
-                                </a>
-
-                            
-
-                                <a id="allotment-tour-august-2022" href="https://youtu.be/s9G7LFk0Swc">
-                                    <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
-
-                                        <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Faugust-allotment-tour-thumb-100px.jpg?alt=media&amp;token=714b8d9b-84eb-4290-a13d-095a5d355a00" 
-                                        alt="Allotment Tour, August 2022" 
-                                        />
-                                                
-                                        <div style="padding-left:0.7em; padding-right:0.5em;padding-bottom:0.7em;color:#006600"> 
-                                            <h3 style="margin-top:0px;margin-bottom:10px;font-size:1rem">
-                                            Allotment Tour, August 2022
-                                            </h3>
-                                            <div id="description" style="font-size:0.9rem">
-                                            A tour of my allotment in mid-August 2022. See what&#39;s growing and ideas for how to prepare a plot when going away on holiday.
                                             </div>
                                         </div>                                   
 
@@ -1312,7 +1344,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fmy%20first%20allotment%20plot%20at%20the%20start%20of%20working%20it.jpg?alt=media&amp;token=3bc1c483-e6d3-411e-a424-fb11a1fbf45d" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fmy%20first%20allotment%20plot%20at%20the%20start%20of%20working%20it.webp?alt=media&amp;token=b529a9db-e65e-4cad-a8aa-29f740bb741a" 
                                         alt="my first allotment plot at the start of working it" 
                                         />
                                                 
@@ -1334,7 +1366,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fnew%20allotment%20plot%20being%20marked%20out.jpg?alt=media&amp;token=f51f818b-e196-4023-b23b-be75922b39cd" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fnew%20allotment%20plot%20being%20marked%20out.webp?alt=media&amp;token=0b868bd0-a023-4cde-9ebe-da12825aadd7" 
                                         alt="new allotment plot being marked out" 
                                         />
                                                 
@@ -1356,7 +1388,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fhand%20drawn%20allotment%20layout.jpg?alt=media&amp;token=9b08c548-7300-43d7-b234-b7948d4b58c6" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fhand%20drawn%20allotment%20layout.webp?alt=media&amp;token=c96eac4f-5ecb-4cd0-8f30-2a08f4345b1a" 
                                         alt="hand drawing of an allotment layout" 
                                         />
                                                 
@@ -1378,7 +1410,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fa%20newly%20made%20no%20dig%20bed.jpg?alt=media&amp;token=20ae220c-29c7-4688-be6a-9565914a0429" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fa%20newly%20made%20no%20dig%20bed.webp?alt=media&amp;token=3ba74b4c-f74f-4358-9096-8b5d685a3f42" 
                                         alt="A new no-dig bed on an allotment" 
                                         />
                                                 
@@ -1400,7 +1432,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fa%20new%20polytunnel%20on%20an%20allotment.jpg?alt=media&amp;token=25704e68-cbe0-49ad-8df9-0199426421c1" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fa%20new%20polytunnel%20on%20an%20allotment.webp?alt=media&amp;token=afd96e60-38d3-4a24-a6ed-5204e83574a0" 
                                         alt="A new polytunnel on an allotment" 
                                         />
                                                 
@@ -1422,7 +1454,7 @@ height: 595px;
                                     <div style="display:flex;justify-content:flex-start;border: solid #009900 0px; margin-bottom: 1.2rem">
 
                                         <img style="display:block;width:100px;height:100px;padding:0px" 
-                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fa%20shed%20standing%20on%20an%20allotment.jpg?alt=media&amp;token=d3bdca53-c6b1-4bed-902a-99dbba7170ef" 
+                                        src="https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Fa%20shed%20standing%20on%20an%20allotment.webp?alt=media&amp;token=b09d4e78-ec26-4121-8a28-96f19808f9e7" 
                                         alt="A shed standing on an allotment" 
                                         />
                                                 
@@ -1450,32 +1482,32 @@ height: 595px;
                             <div style="display:flex;flex-wrap:wrap;justify-content:center; padding-bottom:20px" class="gallery-container">
                                 
                                     <div style="margin: 10px">
-                                            <a id="allotment-vegetables" href="/photo-gallery/allotment-vegetables-2022-02-06"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1642419095/vegetables/harvested-asparagus_bgy1q8.jpg" alt="allotment vegetables"/>
+                                            <a id="allotment-vegetables" href="/photo-gallery/allotment-vegetables-2022-02-06"><img style="width:140px;height:140px" src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1642419095/vegetables/harvested-asparagus_bgy1q8.jpg" alt="allotment vegetables"/>
                                             <div style="text-align:center; text-transform:capitalize;font-size:0.9rem;color:#006600" id="gallery-title"> allotment vegetables</div></a>
                                         </div>
                                 
                                     <div style="margin: 10px">
-                                            <a id="allotment-fruit" href="/photo-gallery/allotment-fruit-2022-02-06"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1643011327/fruit/apples-above-nasturtiums_utsbas.jpg" alt="allotment fruit"/>
+                                            <a id="allotment-fruit" href="/photo-gallery/allotment-fruit-2022-02-06"><img style="width:140px;height:140px" src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1643011327/fruit/apples-above-nasturtiums_utsbas.jpg" alt="allotment fruit"/>
                                             <div style="text-align:center; text-transform:capitalize;font-size:0.9rem;color:#006600" id="gallery-title"> allotment fruit</div></a>
                                         </div>
                                 
                                     <div style="margin: 10px">
-                                            <a id="polytunnel-growing" href="/photo-gallery/polytunnel-growing-2022-02-06"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1642421588/vegetables/ripe-aubergine-for-picking_b4yvo9.jpg" alt="polytunnel growing"/>
+                                            <a id="polytunnel-growing" href="/photo-gallery/polytunnel-growing-2022-02-06"><img style="width:140px;height:140px" src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1642421588/vegetables/ripe-aubergine-for-picking_b4yvo9.jpg" alt="polytunnel growing"/>
                                             <div style="text-align:center; text-transform:capitalize;font-size:0.9rem;color:#006600" id="gallery-title"> polytunnel growing</div></a>
                                         </div>
                                 
                                     <div style="margin: 10px">
-                                            <a id="allotment-flowers" href="/photo-gallery/allotment-flowers-2022-02-06"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1644225398/flowers/calendula_mtyzpc.jpg" alt="allotment flowers"/>
+                                            <a id="allotment-flowers" href="/photo-gallery/allotment-flowers-2022-02-06"><img style="width:140px;height:140px" src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1644225398/flowers/calendula_mtyzpc.jpg" alt="allotment flowers"/>
                                             <div style="text-align:center; text-transform:capitalize;font-size:0.9rem;color:#006600" id="gallery-title"> allotment flowers</div></a>
                                         </div>
                                 
                                     <div style="margin: 10px">
-                                            <a id="herbs" href="/photo-gallery/herbs-2022-02-06"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1639392601/herbs/basil-leaves_k2nxns.jpg" alt="herbs"/>
+                                            <a id="herbs" href="/photo-gallery/herbs-2022-02-06"><img style="width:140px;height:140px" src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1639392601/herbs/basil-leaves_k2nxns.jpg" alt="herbs"/>
                                             <div style="text-align:center; text-transform:capitalize;font-size:0.9rem;color:#006600" id="gallery-title"> herbs</div></a>
                                         </div>
                                 
                                     <div style="margin: 10px">
-                                            <a id="allotment-wildlife" href="/photo-gallery/allotment-wildlife-2022-01-17"><img style="width:140px;height:140px"src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1644231528/wildlife/bee-on-flower_wcqlw9.jpg" alt="allotment wildlife"/>
+                                            <a id="allotment-wildlife" href="/photo-gallery/allotment-wildlife-2022-01-17"><img style="width:140px;height:140px" src="https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1644231528/wildlife/bee-on-flower_wcqlw9.jpg" alt="allotment wildlife"/>
                                             <div style="text-align:center; text-transform:capitalize;font-size:0.9rem;color:#006600" id="gallery-title"> allotment wildlife</div></a>
                                         </div>
                                 

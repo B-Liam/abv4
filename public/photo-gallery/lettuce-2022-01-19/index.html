@@ -1,9 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en-gb">
 <link rel="icon" 
       type="image/png" 
       href="https://res.cloudinary.com/allotment-book/image/upload/v1644488348/navigation/allotment-book-favicon_pfalpi.webp">
-
 
 <head>
     <meta charset="utf-8">
@@ -13,1128 +13,355 @@
     <title>Lettuce | Photo Galleries | Allotment Book</title>
     <meta name="description" content="">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Wed Oct 19 2022 23:58:43 GMT+0100 (British Summer Time)">
+    <meta property="article:modified_time" content="Thu Dec 15 2022 10:28:28 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/photo-gallery/lettuce-2022-01-19/" />
     <meta property="og:site_name" content="Allotment Book" />
     <meta property="og:image" content="" />
     <meta name="og:description" content="">
 
-<style>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px:
+        }
 
-/* some words */
-body {
-    font-size: 18px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    font-family: serif;
-    font-display: swap;
+        @media only screen and (min-width: 769px) {
+        #newGalleryWrapper {
+    display: flex; 
+    justify-content:center;
+    align-items:flex-start;
+    height:100vh;
+    background:#040404;
 }
 
-h1 {
-    font-size:1.4rem;
-}
-
-h2 {
+#newGalleryClose {
+    text-align:right;
+    background:#040404;
     padding-top:20px;
-    font-size:1.2rem;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: flex-end;
 }
 
-h3 {
-    font-size:1.1rem;
+#newGalleryClose img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
-a {
-    color: #006600;
+#newGalleryClose a {
     text-decoration: none;
-  }
-
-.whitelinkstyle a {
-    color: #ffffff;
 }
 
-.fa-test {
-    font-size: 10px;
+#newGalleryClose button {
+    border-radius:8px;
+    background:#003300;
+    border:none;
+    color:#ffffff;
+    font-size:1rem;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    display: flex;
+    align-items: center;
 }
 
-#non-mobile {
-    text-align: left;    
+#newGalleryPhotoTitle {
+    color: white;
+    background:#003300de;
+    text-align:center;
 }
 
-#non-mobile .fas {
-    padding-right: 0.5em;    
-}
-
-#non-mobile a {
-    color: #006600;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-#non-mobile #row {
-    border-bottom: solid 2px #ffffff;   
-}
-
-#non-mobile #book-indent #row {
-    border-bottom: solid 2px #ffffff;
-    padding-top: 1%;
-    padding-left: 55px; 
-}
-
-#nav-elements {
+#newGalleryPhotoTitle h1 {
+    font-size: 1.2rem;
+    text-transform:capitalize;
+    margin: 0 0 0 0;
     padding: 5px 0 5px 0;
-    width:250px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-#footer {
-    background: #333333;
-    width: 100vw;
-    min-height: 40px;
+#newGalleryContainer {
+    padding-top:0rem;
 }
 
-#breadcrumb-container {
-    background: #333333;
-    color: white;
-    width: 100%;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-}
-
-#breadcrumb {
-    padding-left: 3%;
-    width: 100%;
-}
-
-#breadcrumb a {
-    color: white;
-    text-decoration: none;
-}
-
-#breadcrumb-container .fas {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;  
-    font-size: 0.8rem;
-}
-
-.green-button {
-    background: #009900;
-    border: 0;
-    border-radius: 0.5rem;
-    color: #ffffff;
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding: 1rem;
-    margin-left:2%;
-    margin-right: 2%;
-    text-align: center;
-    text-decoration: none;
-  }
-
-.embed-container { 
-      position: relative; 
-      padding-bottom: 56.25%; 
-      height: 0; 
-      overflow: hidden; 
-      max-width: 100%; 
-    } 
-
-.embed-container iframe, .embed-container object, .embed-container embed { 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%; 
-}
-
-#content-body {
-    min-height: 100vh;
-    padding-bottom: 40px;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-size: 1.2em;
-    }
-
-input[type=email], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-size: 1.2em;
-    }
-    
-input[type=submit] {
-    background-color: #006600;
-    font-size: 1.2em;
-    color: #ffffff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    }
-
-    picture img {
-        object-fit: cover;
-      }
-
-
-
-@media only screen and (max-width: 950px) {
-#tablet-desktop-header{
-    display: none;
-}
-
-#mobile-header {
-    display: grid;
-    grid-template-areas:
-    "logo menu";
-    align-items: center;
-}
-
-#logo {
-    padding: 10px 10px 10px 10px;
-    grid-area: logo;
-}
-
-
-#nav-grid {
-   display: grid; 
-   grid-template-rows: 9vh 9vh 9vh 37vh 9vh 9vh 9vh 9vh;
-}
-
-#nav-grid a {
-    font-size: 1.1em;
-    -webkit-tap-highlight-color: transparent;
-}
-
-#nav-grid a:hover {
-    background: #ffffff;
-}
-
-#first-row {
-    grid-area: 1/1/2/2;
-    display: grid;
-    grid-template-columns: 2fr;
-    background: #006600
-}
-
-#col-left {
-    grid-area: 1/1/2/2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    border: solid 0.5px #ffffff;
-}
-
-#col-left-third {
-    grid-area: 1/1/2/2;
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-}
-
-#col-right {
-    grid-area: 1/2/2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    border: solid 0.5px #ffffff;
-}
-
-#col-right-third {
-    grid-area: 1/2/2/3;
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-}
-
-#second-row {
-    grid-area: 2/1/3/3;
-    display: grid;
-    background:#e0f7d3;
-    color: #009900;
-}
-
-#second-row a {
-    color: #006600;
-}
-
-#third-row-a {
-    grid-area: 3/1/4/3;
-    display: grid;
-    background: #ffffff;
-    color: #006600;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-#third-row-a a {
-    color: #006600;
-}
-
-#third-row-b {
-    grid-area: 4/1/5/3;
-    display: grid;
-    background: #ffffff;
-    color: #006600;
-    padding-left: 10%;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-#third-row-b a {
-    color: #006600;
-}
-
-#fourth-row {
-    grid-area: 5/1/6/3;
-    display: grid;
-    background:#e0f7d3;
-}
-
-#fourth-row a {
-    color: #006600;
-}
-
-#fifth-row {
-    grid-area: 6/1/7/3;
-    display: grid;
-    background:#e0f7d3;
-}
-
-#fifth-row a {
-    color: #006600;
-}
-
-#sixth-row {
-    grid-area: 7/1/8/3;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-
-#menu-button {
-    margin-right:10px;
-    padding-left:5px;
-    padding-right:5px;
-    width:60px;
-    height:50px;
-    grid-area: menu;
-    color: #ffffff;
-    background: #006600;
-    text-align: center;
-    
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: #006600;
-    }
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    }
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-    }
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-    }
-
-.overlay .closebtn {
-    cursor: pointer;
-    position: absolute;
-    top: 1%;
-    right: 4%;
-    font-size: 1.5em;
-    color: #ffffff;
-    font-family: default;
-    }
-
-.pointer {
-    cursor: pointer;
-    margin: 0px;
-    }
-
-#close {
-    font-size: 1.5em;
-}
-
-#content-container {
-    display: grid;
-    grid-template-areas:
-    "main";
-    grid-template-columns: auto;
-}
-
-#leftnav {
-    display: none; 
-}
-
-#main-column {
-    grid-area: main;
-    background: #ffffff;
-}
-
-#sidebar {
-    display: none;
-}
-
-#content-body {
-    padding-left: 5%;
-    padding-right: 5%
-}
-
-.hero-image {
-    width: 360px;
-}
-
-#markedup img {
-    width: 360px;
-}
-
-#transcript img {
-    width: 360px;
-}
-
-.starter-container {
-    justify-content: center;
-}
-
-.intro-container {
-    justify-content: center;
-}
-
-#video-list-container {
-    width:350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#shop-listings-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap
-}
-
-.vegetable-container {
-    width:360px;
-}
-
-.fruit-container {
-    width:360px;
-}
-
-.herb-container {
-    width:360px;
-}
-
-.vegrecipes-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.tablet-ads {
-    display: none;
-}
-
-.mobile-ads {
-    text-align: center;
-}
-
-#non-mobile-homepage-hero {
-    display:none;
-}
-
-.growing-pages-gallery {
-    width: 360px;
-    height: 360px;
-    margin-right:auto;
-    margin-left: auto;
-}
-
-#gallery-container {
-    width: 100vw;
-}
-
-#galleryButtonContainer {
-    width: 100vw;
-}
-
-.gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#youtube-embed-container {
-    display: none;
-}
-
-.horizontalPromoText {
-    max-width: 200px;
-}
-
-
-}
-
-@media only screen and (min-width: 951px) and (max-width: 1200px) {
-
-#mobile-header {
-    display: none;
-}
-
-#tablet-desktop-header {
-    display: grid;
-    grid-template-areas:
-    "left main";
-    grid-template-columns: auto 700px;
-}
-
-#left {
-    grid-area: left;
-    background: #e0f7d3;
-    border-bottom: solid 2px #ffffff;
-    min-width: 285px;
-}
-
-#main {
-    grid-area: main;
-    background: #ffffff;
-}
-
-#content-body {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#side {
-    display: none;
-}
-
-#tablet-desktop-logo {
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#content-container {
-    display: grid;
-    grid-template-areas:
-    "nav main";
-    grid-template-columns: auto 700px;
-}
-
-#leftnav {
-    grid-area: nav;
-    background: #e0f7d3; 
-}
-
-#main-column {
-    grid-area: main;
-    background: #ffffff;
-}
-
-#sidebar {
-    display: none;
-}
-
-.hero-image {
-    width: 588px;
-}
-
-#markedup img {
-    width: 588px;
-}
-
-#transcript img {
-    width: 588px;
-}
-
-.blog-card{
-    height:110px;
-}
-
-#video-list-container {
-    width:450px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#shop-listings-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap
-}
-
-.vegetable-container {
-    width:550px;
-}
-
-.fruit-container {
-    width:550px;
-}
-
-.herb-container {
-    width:550px;
-}
-
-.vegrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.mobile-ads {
-    display: none;
-}
-
-.tablet-ads {
-    display: flex;
+.newHeroGalleryPhoto {
+    width:67vh; 
+    height:67vh;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    display:flex;
+    flex-direction: column;
     justify-content: space-between;
-} 
-
-#mobile-homepage-hero {
-    display:none;
 }
 
-.growing-pages-gallery {
-    width: 400px;
-    height: 400px;
-}
-
-.photo-gallery-hero {
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 595px;
-    height: 595px;
+.newHeroGalleryPhoto img {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    width: 40px;
+    height: 40px;
     }
 
-.gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
+#newGalleryButtonContainer {
+    display:flex;
+}
+
+.newGalleryBackAndNextControls {
+    font-size:1.5rem;
+    background:#003300;
+    width:50%;
+    padding: 5px 0 5px 0;
+    text-transform: uppercase;
+}
+
+.newGalleryBackAndNextControlsDetail {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer
+}
+
+.newGalleryBackAndNextControlsDetail img {
+    width:15px;
+    height:15px
+}
+
+#newGalleryBackAndNextBackText {
+    margin-left:10px;
+    color:#ffffff;
+}
+
+#newGalleryBackAndNextForwardText {
+    margin-right:10px;
+    color:#ffffff;
+}
+
+#newGalleryLinkContainer {
     text-align: center;
+    background:#040404;
+    padding-top: 20px;
 }
 
-#mobile-youtube-embed-container {
-    display: none;
+#newGalleryLinkContainer button {
+    border-radius:8px;
+    background:#003300;
+    border:none;
+    color:#ffffff;
+    font-size:1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+        }
+
+        @media only screen and (max-width: 768px) {
+        #newGalleryWrapper {
+    display: flex; 
+    justify-content:center;
+    align-items:flex-start;
+    height:100vh;
+    background:#040404;
 }
 
-#gallery-container {
-    width: 595px;
-    margin-left:auto;
-    margin-right: auto;
+#newGalleryClose {
+    text-align:right;
+    background:#040404;
+    display:flex;
+    justify-content: flex-end;
 }
 
-
-
-
-
+#newGalleryClose img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
-
-
-@media only screen and (min-width: 1201px) {
-
-#mobile-header {
-    display: none;
+#newGalleryClose a {
+    text-decoration: none;
 }
 
-#tablet-desktop-header {
-    display: grid;
-    grid-template-areas:
-    "left main side";
-    grid-template-columns: 1fr 700px 1fr;
-}
-
-#left {
-    grid-area: left;
-    background: #e0f7d3;
-    border-bottom: solid 2px #ffffff;
-    min-width: 285px;
-    
-}
-
-#main {
-    grid-area: main;
-    background: #ffffff;
-}
-
-#content-body {
-    padding-left: 8%;
-    padding-right: 8%;
-}
-
-#side {
-    grid-area: side;
-    background: #e0f7d3;
-}
-
-#tablet-desktop-logo {
-    height: 4rem;
+#newGalleryClose button {
+    border-radius:8px;
+    background:#003300;
+    border:none;
+    color:#ffffff;
+    font-size:1rem;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-#content-container {
-    display: grid;
-    grid-template-areas:
-    "nav main sidebar";
-    grid-template-columns: 1fr 700px 1fr;
+#newGalleryPhotoTitle {
+    color: white;
+    background:#003300de;
+    text-align:center;
 }
 
-#leftnav {
-    grid-area: nav;
-    background: #e0f7d3;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-
+#newGalleryPhotoTitle h1 {
+    font-size: 1.2rem;
+    text-transform:capitalize;
+    margin: 0 0 0 0;
+    padding: 5px 0 5px 0;
 }
 
-#main-column {
-    grid-area: main;
-    background: #ffffff;
-    min-height: 100vh; 
+#newGalleryContainer {
+    padding-top:0rem;
 }
 
-#sidebar {
-    grid-area: sidebar;
-    background: #e0f7d3;
+.newHeroGalleryPhoto {
+    width:100vw; 
+    height:120vw;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.hero-image {
-    width: 588px;
-    height: 308.7px;
+.newHeroGalleryPhoto img {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    width: 40px;
+    height: 40px;
+    }
+
+#newGalleryButtonContainer {
+    display:flex;
 }
 
-#markedup img {
-    width: 588px;
+.newGalleryBackAndNextControls {
+    font-size:1.2rem;
+    text-transform: uppercase;
+    background:#003300;
+    width:50%;
+    padding: 5px 0 5px 0;
 }
 
-#transcript img {
-    width: 588px;
+.newGalleryBackAndNextControlsDetail {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    text-transform: uppercase;
 }
 
-.blog-card{
-    height:110px;
+.newGalleryBackAndNextControlsDetail img {
+    width:15px;
+    height:15px
 }
 
-#video-list-container {
-    width:450px;
-    margin-left: auto;
-    margin-right: auto;
+#newGalleryBackAndNextBackText {
+    margin-left:10px;
+    color:#ffffff;
 }
 
-#shop-listings-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
+#newGalleryBackAndNextForwardText {
+    margin-right:10px;
+    color:#ffffff;
 }
 
-.vegetable-container {
-    width:550px;
-}
-
-.fruit-container {
-    width:550px;
-}
-
-.herb-container {
-    width:550px;
-}
-
-.vegrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.tablet-ads {
-    display: none;
-}
-
-.mobile-ads {
-    display: none;
-}
-
-#mobile-homepage-hero {
-    display:none;
-}
-
-.growing-pages-gallery {
-    width: 400px;
-    height: 400px;
-}
-
-.photo-gallery-hero {
-display: block;
-margin-left:auto;
-margin-right: auto;
-width: 595px;
-height: 595px;
-}
-
-.gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
+#newGalleryLinkContainer {
     text-align: center;
+    background:#040404;
+    padding-top: 20px;
 }
 
-#mobile-youtube-embed-container {
-    display: none;
+#newGalleryLinkContainer button {
+    border-radius:8px;
+    background:#003300;
+    border:none;
+    color:#ffffff;
+    font-size:1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:10px;
 }
-
-#gallery-container {
-    width: 595px;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-}
-
-</style>
-
-
+        }
+        
+    </style>
 
 </head>
 
-
 <body>
-
-<header>
-
-    <div id="mobile-header">
-        <div style="width:100vw;display:flex;justify-content:space-between;align-items:center">
-    <div id="logo">
-        <a href="/"><img style="width:300px;height:35px;padding-top:7px;" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
-    </div>
-    <div id="menu-button" class="pointer">
-        <img style="text-align:center;width:20px;height:16px;padding-top:8px" src="/images/uploads/hamburger-icon.webp" alt=""/>
-        <div style="text-align:center;font-size:0.7em;color:#ffffff;font-weight:bold">Contents</div>
-    </div>
-</div>
-
-<nav id="myNav" class="overlay">
-    <div style="text-align:right" class="closebtn"> 
-        <div id="close" style="font-size:2rem">✕</div>
-    </div>
-    <div id="nav-grid">
-            <div id="first-row">
-                <div id="col-left"><a href="/">Home</div></a>
-                <div id="col-right"></div>
-            </div>
-            <div id="second-row">
-                <div id="col-left"><a href="/shop">Shop</div></a>
-                <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
-            </div>
-            <div id="third-row-a">
-                <div><a href="/contents"><strong>Book Contents</strong></div></a>
-            </div>
-            <div id="third-row-b">
-                <a style="margin-top:-3%" href="/introduction"><span style="font-size:14px">►</span> Introduction</a>
-                <a style="margin-top:-3%" href="/allotment-starter-guides"><span style="font-size:14px">►</span> Allotment Starter Guides</a>
-                <a style="margin-top:-3%" href="/vegetable-growing-guides"><span style="font-size:14px">►</span> Vegetable Growing Guides</a>
-                <a style="margin-top:-3%" href="/fruit-growing-guides"><span style="font-size:14px">►</span> Fruit Growing Guides</a>
-                <a style="margin-top:-3%" href="/herb-growing-guides"><span style="font-size:14px">►</span> Herb Growing Guides</a>
-                <a style="margin-top:-3%" href="/allotment-recipes"><span style="font-size:14px">►</span> Allotment Recipes</a>
-            </div>
-            <div id="fourth-row">
-                <div id="col-left"><a href="/photo-gallery">Gallery</div></a>
-                <div id="col-right"><a href="/videos">Videos</div></a>
-            </div>
-            <div id="fifth-row">
-                <div id="col-left"><a href="/blog">Blog</div></a>
-                <div id="col-right"><a href="/policies">Policies</div></a>
-            </div>
-            <div id="sixth-row">
-            </div>
-                
-    </div>
-
-</nav>
-    </div>
-
-    <div id="tablet-desktop-header">
-        <div id="left">
-    <div></div>
-</div>
-
-<div id="main">
-
-    <div id="tablet-desktop-logo">
-
-    <a href="/"><img style="width:339px;height:40px" src="/images/uploads/allotment-book-logo.svg" alt="allotment-book-logo"/></a>
-
-    </div>
     
-</div>
-
-<div id="side">
-    <div></div>
-</div>
-    </div>
-
-</header>
-
-    <div id="content-container">
-        <div id="leftnav">
-            <nav id="non-mobile">
-    <div id="row"><div id="nav-elements"><a href="/">Home</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/shop">Shop</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/contents">Book Contents</div></a></div>
-    <div id="book-indent">
-    <div id="row"><div id="nav-elements"><a href="/introduction">Introduction</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/allotment-starter-guides">Allotment Starter Guides</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/vegetable-growing-guides">Vegetable Growing Guides</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/fruit-growing-guides">Fruit Growing Guides</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/herb-growing-guides">Herb Growing Guides</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/allotment-recipes">Allotment Recipes</div></a></div>
-    </div>
-    <div id="row"><div id="nav-elements"><a href="/planning-tools">Planning Tools</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/videos">Videos</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/photo-gallery">Photo Gallery</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/blog">Blog</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="/policies">Policies</div></a></div>
-</nav>
-        </div>
-
         
-     <div id="sidebar">
-             
-        </div>
-    
-        <div id="main-column">
-        
-                <main style="min-height: 100vh" id="main-content">
+            <main>
                                         
-                    <div id="content-heading">
-                        <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
-                            <div id="breadcrumb">
-                                <a href="/photo-gallery">Galleries</a><i class="fas fa-chevron-right"></i>
-                                <a href="/photo-gallery/lettuce-2022-01-19">Lettuce</a><i class="fas fa-chevron-right"></i>                                
-                            </div>
-                            <div id="breadcrumb-back"></div>
+                <div id="newGalleryWrapper">
+
+                    <div id="newGalleryContainer">
+
+                        <div id="newGalleryClose">
+                            <a href="/photo-gallery">
+                                <button>
+                                    <img src="/images/uploads/close-icon.svg" alt"" />
+                                    <div>Close</div>
+                                </button>
+                            </a>
                         </div>
 
-                        <div>
+                        <div class="newHeroGalleryPhoto" id="hero">
+
+                            <div id="newGalleryPhotoTitle">
+                                <h1 id="herotext">
+                                </h1>
+                            </div>
+
+                            <img src="/images/uploads/logo_icon.png" alt"" />
+
+                        </div>
+
+                        <div id="newGalleryButtonContainer">
+                            <div class="newGalleryBackAndNextControls" id="previous">
+                                <a id="moveBackClick">
+                                    <div class="newGalleryBackAndNextControlsDetail">
+                                        <img src="/images/uploads/white-chevron-left.png" alt"" />
+                                        <div id="newGalleryBackAndNextBackText">Back</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="newGalleryBackAndNextControls" id="next">
+                                <a id="moveForwardClick">
+                                    <div class="newGalleryBackAndNextControlsDetail">
+                                        <div id="newGalleryBackAndNextForwardText">Next</div>
+                                        <img src="/images/uploads/white-chevron-right.png" alt"" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="newGalleryLinkContainer">
+                            <a id="link" href="/photo-gallery"><button id="linkname">All Galleries</button></a>
+                        </div>
+
+                    </div>                               
                         
-                        <div id="gallery-container" style="background:#ffffff;padding-top:0.5rem">
-                            
-                            <div class="photo-gallery-hero" id="hero" style="margin-bottom:5px"></div>
-                            
-                            <div id="galleryButtonContainer" style="display:flex;justify-content:space-evenly">
-                                <div id="previous" style="text-align:center; color: #ffffff; font-size:1.5rem">
-                                    <a onclick="previousImage()">
-                                        <div style="display:flex; align-items:center; cursor:pointer">
-                                            <img style="width:30px; height:30px" src="/images/uploads/green-chevron-left.webp" alt"green chevron icon" />
-                                            <div style="margin-left:10px">Previous</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="next" style="text-align:center; color: #ffffff; font-size:1.5rem">
-                                    <a onclick="nextImage()">
-                                        <div style="display:flex; align-items:center; cursor:pointer">
-                                            <div style="margin-right:10px">Next</div>
-                                            <img style="width:30px; height:30px" src="/images/uploads/green-chevron-right.webp" alt"green chevron icon" />
-                                        </div>
-                                    </a>
-                            </div>
-                            </div>
-
-                        </div>
-                        <h3 class="gallery-text-button" id="herotext" style="padding-bottom: 0.5rem;background:#ffffff; text-transform:capitalize">
-                        </h3>
-                    </div>
-
                     
 
-                    <div class="gallery-text-button" style="margin-top:20px" id="content-body">
-                        <div style="text-align: center">
-                            <a id="link" href="/photo-gallery"><button id="linkname" style="border-radius:8px;background:#009900; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px; padding-left:10px; padding-right:10px">All Galleries</button></a>
-                        </div>
-
-                    </div>
-
+                </div>                                                                         
+                                 
                     
-                </main>
-
-            </div>
+            </main>
 
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
 
 <script>
 
@@ -1143,8 +370,10 @@ let galleryPhotos = JSON.parse(`[{"url":"v1642610239/vegetables/lettuce-seeds_l1
 let galleryLinks = JSON.parse(`{"name":"lettuce","date":"2022-01-19","introduction":"","photos":[{"url":"v1642610239/vegetables/lettuce-seeds_l1mteg.jpg","alt":"lettuce seeds"},{"url":"v1642610239/vegetables/row-of-lettuce-seedlings_eed7wc.jpg","alt":"row of lettuce seedlings"},{"url":"v1642610239/vegetables/lettuce-seedling_fiwole.jpg","alt":"small lettuce seedling"},{"url":"v1642610239/vegetables/mature-red-lettuce_th0pan.jpg","alt":"mature red lettuce"},{"url":"v1642610239/vegetables/polytunnel-lettuce_ba2x0g.jpg","alt":"polytunnel lettuce"},{"url":"v1642610239/vegetables/harvested-butterhead-lettuce_h1nqsd.jpg","alt":"harvested butterhead lettuce"}]}`);
 console.log("galleryLinks",galleryLinks)
 
+const hero = document.querySelector("#hero");
+
 function heroImage(index) {
-    document.getElementById("hero").innerHTML = createImage(galleryPhotos[index].url);
+    hero.style["background-image"] = createImage(galleryPhotos[index].url);
     document.getElementById("linkname").innerHTML = galleryLinks.linkname;
     document.getElementById("link").href = galleryLinks.link;
 }
@@ -1170,6 +399,9 @@ function previousImage() {
     }
 }
 
+const moveBackClick = document.querySelector("#moveBackClick");
+moveBackClick.addEventListener("click", previousImage);
+
 function nextImage() {
     if ( currentIndex < galleryPhotos.length - 1) {
     heroImage(currentIndex + 1);
@@ -1183,39 +415,24 @@ function nextImage() {
     }
 }
 
+const moveForwardClick = document.querySelector("#moveForwardClick");
+moveForwardClick.addEventListener("click", nextImage);
+
 function createImage(src) {
  return (
-     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/l_text:Cherry Swash_25:©%20AllotmentBook.co.uk,g_south_west,x_20,y_20,co_white/w_600,h_600,q_auto,f_auto/${src}" />`
+     `url("https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}")`
  )
 }
 
 </script>
 
-
-    </div>
-
-    <footer id="footer">
-    <div style="width:330px;margin-left:auto;margin-right:auto;text-align:center;padding-top:8px;padding-bottom:8px;color:#ffffff">© AllotmentBook.co.uk. All rights reserved.</div>
-    </footer>
-
-    
-
-    <script>
-        var scripts = [ "/js/open-nav.js", "/js/close-nav.js" ];
-        scripts.forEach(function(scriptUrl) {
-        var s = document.createElement('script');
-        s.src = scriptUrl;
-        s.async = false; // to preserve execution order
-        document.head.appendChild(s);
-        });
-    </script>
     <script>
         var s = document.createElement('script');
         s.src = "https://books-three.allotmentbook.co.uk/script.js";
         s.dataset.site = "QDSWGSQM";
         document.head.appendChild(s);
     </script>
-    
+
 </body>
 
 </html>

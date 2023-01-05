@@ -1,7 +1,16 @@
 [
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FGreen%20Manure%201%20Month%20Web%20Thumb%20100.jpg?alt=media&token=7f26efe1-25fa-487b-9f5a-2c70c646047f",
-      "thumb": "https://a.storyblok.com/f/136863/300x300/31b6eb09b9/green-manure-1-month-web-thumb-300.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FvideoThumbs%2FDecember%20Green%20Manures%20300%20thumb.jpg?alt=media&token=a48808d9-1f44-4ff3-b991-559674f2d782",
+      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FvideoThumbs%2FDecember%20Green%20Manures%20100%20thumb.jpg?alt=media&token=238e7604-b81e-4ade-bc43-8f563336c369",
+      "link": "https://youtu.be/EfnK4ZnmJq8",
+      "title": "Green Manure December Update Before The First Frosts",
+      "description": "A December update showing how the September planting of green manure is progressing before the first hard frosts of winter arrive.",
+      "date": "17/05/2025",
+      "category": "Growing"
+    },
+    {
+      "image": "https://a.storyblok.com/f/136863/300x300/31b6eb09b9/green-manure-1-month-web-thumb-300.jpg",
+      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FGreen%20Manure%201%20Month%20Web%20Thumb%20100.webp?alt=media&token=b7a6cad2-3876-4755-a468-22d62315754c",
       "link": "https://youtu.be/pnnjB_bxhLk",
       "title": "Green Manure Plants One Month After Sowing Seed",
       "description": "Showing the progress after sowing of five types of green manure seed. The video shows the green manures one month after sowing the seed.",
@@ -10,7 +19,7 @@
     },
     {
       "image": "https://a.storyblok.com/f/136863/300x300/4bcb820f63/revive-repot-aloe-vera-300.jpg",
-      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FRevive-Repot-Aloe-Vera-100.jpg?alt=media&token=f8c448c9-58f5-43c9-9a52-e0c813d5411f",
+      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FRevive-Repot-Aloe-Vera-100.webp?alt=media&token=d477b7c1-59cd-4ef5-84ea-6237f81cc057",
       "link": "https://youtu.be/JP6JLQXFXBg",
       "title": "How To Revive And Repot Aloe Vera Plants",
       "description": "Transforming overgrown aloe vera into attractive plants. A step by step guide for anyone with overgrown aloe vera plants or who wants to know more about growing aloe vera.",
@@ -19,7 +28,7 @@
     },
     {
       "image": "https://a.storyblok.com/f/136863/300x300/9371bdc781/september-allotment-tour-300.jpg",
-      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FSeptember-Allotment-Tour-100.jpg?alt=media&token=b9acc4e0-a41a-4391-9754-d0c192f15302",
+      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2FSeptember-Allotment-Tour-100.webp?alt=media&token=4c45c9c1-c554-49f9-9314-80f9f5075fd1",
       "link": "https://youtu.be/X1MpMjwordA",
       "title": "Allotment Tour, September 2022",
       "description": "A tour of my allotment in mid-September 2022, covering harvesting winter squash, elephant garlic, courgettes, onions, and potatoes.",
@@ -28,7 +37,7 @@
     },
     {
       "image": "https://a.storyblok.com/f/136863/300x300/808266b744/august-allotment-tour-thumb-300px.jpg",
-      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Faugust-allotment-tour-thumb-100px.jpg?alt=media&token=714b8d9b-84eb-4290-a13d-095a5d355a00",
+      "thumb": "https://firebasestorage.googleapis.com/v0/b/allotment-book.appspot.com/o/videothumbs%2Faugust-allotment-tour-thumb-100px.webp?alt=media&token=627af98b-9339-4631-89e7-ce05bda9db1d",
       "link": "https://youtu.be/s9G7LFk0Swc",
       "title": "Allotment Tour, August 2022",
       "description": "A tour of my allotment in mid-August 2022. See what's growing and ideas for how to prepare a plot when going away on holiday.",

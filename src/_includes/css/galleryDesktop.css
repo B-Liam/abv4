@@ -1,0 +1,131 @@
+#newGalleryWrapper {
+    display: flex; 
+    justify-content:center;
+    align-items:flex-start;
+    height:100vh;
+    background:#040404;
+}
+
+#newGalleryClose {
+    text-align:right;
+    background:#040404;
+    padding-top:20px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+#newGalleryClose img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#newGalleryClose a {
+    text-decoration: none;
+}
+
+#newGalleryClose button {
+    border-radius:8px;
+    background:#003300;
+    border:none;
+    color:#ffffff;
+    font-size:1rem;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    display: flex;
+    align-items: center;
+}
+
+#newGalleryPhotoTitle {
+    color: white;
+    background:#003300de;
+    text-align:center;
+}
+
+#newGalleryPhotoTitle h1 {
+    font-size: 1.2rem;
+    text-transform:capitalize;
+    margin: 0 0 0 0;
+    padding: 5px 0 5px 0;
+}
+
+#newGalleryContainer {
+    padding-top:0rem;
+}
+
+.newHeroGalleryPhoto {
+    width:67vh; 
+    height:67vh;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newHeroGalleryPhoto img {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    width: 40px;
+    height: 40px;
+    }
+
+#newGalleryButtonContainer {
+    display:flex;
+}
+
+.newGalleryBackAndNextControls {
+    font-size:1.5rem;
+    background:#003300;
+    width:50%;
+    padding: 5px 0 5px 0;
+    text-transform: uppercase;
+}
+
+.newGalleryBackAndNextControlsDetail {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer
+}
+
+.newGalleryBackAndNextControlsDetail img {
+    width:15px;
+    height:15px
+}
+
+#newGalleryBackAndNextBackText {
+    margin-left:10px;
+    color:#ffffff;
+}
+
+#newGalleryBackAndNextForwardText {
+    margin-right:10px;
+    color:#ffffff;
+}
+
+#newGalleryLinkContainer {
+    text-align: center;
+    background:#040404;
+    padding-top: 20px;
+}
+
+#newGalleryLinkContainer button {
+    border-radius:8px;
+    background:#003300;
+    border:none;
+    color:#ffffff;
+    font-size:1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+}

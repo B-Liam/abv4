@@ -1,5 +1,4 @@
 ---
-layout: /layouts/pagetemplate.njk
 date: Last Modified
 pagination:
     data: gallery
@@ -11,69 +10,109 @@ eleventyComputed:
     description: "{{ thing.introduction | capitalize}}"
 ---
 
-     <div id="sidebar">
-             
-        </div>
-    
-        <div id="main-column">
+<!DOCTYPE html>
+<html lang="en-gb">
+<link rel="icon" 
+      type="image/png" 
+      href="https://res.cloudinary.com/allotment-book/image/upload/v1644488348/navigation/allotment-book-favicon_pfalpi.webp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="twitter:site" content="@AllotmentBook">
+    <meta property="article:modified_time" content="{{ page.date }}">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:url" content="{{ settings.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="Allotment Book" />
+    <meta property="og:image" content="{{ image }}" />
+    <meta name="og:description" content="{{ description }}">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px:
+        }
+
+        @media only screen and (min-width: 769px) {
+        {% include 'css/galleryDesktop.css' %}
+        }
+
+        @media only screen and (max-width: 768px) {
+        {% include 'css/galleryMobile.css' %}
+        }
         
-                <main style="min-height: 100vh" id="main-content">
+    </style>
+
+</head>
+
+<body>
+    
+        
+            <main>
                                         
-                    <div id="content-heading">
-                        <div id="breadcrumb-container" style="display:flex; justify-content:space-between">
-                            <div id="breadcrumb">
-                                <a href="/photo-gallery">Galleries</a><i class="fas fa-chevron-right"></i>
-                                <a href="/photo-gallery/{{ thing.name | slug }}-{{ thing.date }}">{{thing.name | title}}</a><i class="fas fa-chevron-right"></i>                                
-                            </div>
-                            <div id="breadcrumb-back"></div>
+                <div id="newGalleryWrapper">
+
+                    <div id="newGalleryContainer">
+
+                        <div id="newGalleryClose">
+                            <a href="/photo-gallery">
+                                <button>
+                                    <img src="/images/uploads/close-icon.svg" alt"" />
+                                    <div>Close</div>
+                                </button>
+                            </a>
                         </div>
 
-                        <div>
+                        <div class="newHeroGalleryPhoto" id="hero">
+
+                            <div id="newGalleryPhotoTitle">
+                                <h1 id="herotext">
+                                </h1>
+                            </div>
+
+                            <img src="/images/uploads/logo_icon.png" alt"" />
+
+                        </div>
+
+                        <div id="newGalleryButtonContainer">
+                            <div class="newGalleryBackAndNextControls" id="previous">
+                                <a id="moveBackClick">
+                                    <div class="newGalleryBackAndNextControlsDetail">
+                                        <img src="/images/uploads/white-chevron-left.png" alt"" />
+                                        <div id="newGalleryBackAndNextBackText">Back</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="newGalleryBackAndNextControls" id="next">
+                                <a id="moveForwardClick">
+                                    <div class="newGalleryBackAndNextControlsDetail">
+                                        <div id="newGalleryBackAndNextForwardText">Next</div>
+                                        <img src="/images/uploads/white-chevron-right.png" alt"" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="newGalleryLinkContainer">
+                            <a id="link" href="/photo-gallery"><button id="linkname">All Galleries</button></a>
+                        </div>
+
+                    </div>                               
                         
-                        <div id="gallery-container" style="background:#ffffff;padding-top:0.5rem">
-                            
-                            <div class="photo-gallery-hero" id="hero" style="margin-bottom:5px"></div>
-                            
-                            <div id="galleryButtonContainer" style="display:flex;justify-content:space-evenly">
-                                <div id="previous" style="text-align:center; color: #ffffff; font-size:1.5rem">
-                                    <a onclick="previousImage()">
-                                        <div style="display:flex; align-items:center; cursor:pointer">
-                                            <img style="width:30px; height:30px" src="/images/uploads/green-chevron-left.webp" alt"green chevron icon" />
-                                            <div style="margin-left:10px">Previous</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="next" style="text-align:center; color: #ffffff; font-size:1.5rem">
-                                    <a onclick="nextImage()">
-                                        <div style="display:flex; align-items:center; cursor:pointer">
-                                            <div style="margin-right:10px">Next</div>
-                                            <img style="width:30px; height:30px" src="/images/uploads/green-chevron-right.webp" alt"green chevron icon" />
-                                        </div>
-                                    </a>
-                            </div>
-                            </div>
-
-                        </div>
-                        <h3 class="gallery-text-button" id="herotext" style="padding-bottom: 0.5rem;background:#ffffff; text-transform:capitalize">
-                        </h3>
-                    </div>
-
                     
 
-                    <div class="gallery-text-button" style="margin-top:20px" id="content-body">
-                        <div style="text-align: center">
-                            <a id="link" href="/photo-gallery"><button id="linkname" style="border-radius:8px;background:#009900; border:none;color:#ffffff;font-size:1rem; padding-top: 0.5rem; padding-bottom: 0.5rem;margin-top:10px; padding-left:10px; padding-right:10px">All Galleries</button></a>
-                        </div>
-
-                    </div>
-
+                </div>                                                                         
+                                 
                     
-                </main>
-
-            </div>
+            </main>
 
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
 
 <script>
 
@@ -82,8 +121,10 @@ let galleryPhotos = JSON.parse(`{{ thing.photos | dump | safe }}`);
 let galleryLinks = JSON.parse(`{{ thing | dump | safe }}`);
 console.log("galleryLinks",galleryLinks)
 
+const hero = document.querySelector("#hero");
+
 function heroImage(index) {
-    document.getElementById("hero").innerHTML = createImage(galleryPhotos[index].url);
+    hero.style["background-image"] = createImage(galleryPhotos[index].url);
     document.getElementById("linkname").innerHTML = galleryLinks.linkname;
     document.getElementById("link").href = galleryLinks.link;
 }
@@ -109,6 +150,9 @@ function previousImage() {
     }
 }
 
+const moveBackClick = document.querySelector("#moveBackClick");
+moveBackClick.addEventListener("click", previousImage);
+
 function nextImage() {
     if ( currentIndex < galleryPhotos.length - 1) {
     heroImage(currentIndex + 1);
@@ -122,10 +166,24 @@ function nextImage() {
     }
 }
 
+const moveForwardClick = document.querySelector("#moveForwardClick");
+moveForwardClick.addEventListener("click", nextImage);
+
 function createImage(src) {
  return (
-     `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/l_text:Cherry Swash_25:©%20AllotmentBook.co.uk,g_south_west,x_20,y_20,co_white/w_600,h_600,q_auto,f_auto/${src}" />`
+     `url("https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}")`
  )
 }
 
 </script>
+
+    <script>
+        var s = document.createElement('script');
+        s.src = "https://books-three.allotmentbook.co.uk/script.js";
+        s.dataset.site = "QDSWGSQM";
+        document.head.appendChild(s);
+    </script>
+
+</body>
+
+</html>

@@ -561,12 +561,6 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/planning-tools/</loc>
-        <lastmod>2022-02-14T16:44:11.520Z</lastmod>
-        <changefreq>weekly</changefreq>
-    </url>     
-    
-    <url>
         <loc>https://www.allotmentbook.co.uk/shop/asparagus/all/</loc>
         <lastmod>2022-02-14T16:59:12.064Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -3411,14 +3405,20 @@
     </url>     
     
     <url>
-        <loc>https://www.allotmentbook.co.uk/photo-gallery/allotment-vegetables-2022-02-06/</loc>
-        <lastmod>2022-10-19T22:58:43.130Z</lastmod>
+        <loc>https://www.allotmentbook.co.uk/planning-tools/</loc>
+        <lastmod>2022-11-07T10:46:15.928Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     
     <url>
         <loc>https://www.allotmentbook.co.uk/</loc>
-        <lastmod>2022-10-20T08:10:38.856Z</lastmod>
+        <lastmod>2022-11-24T16:27:58.133Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>     
+    
+    <url>
+        <loc>https://www.allotmentbook.co.uk/photo-gallery/allotment-vegetables-2022-02-06/</loc>
+        <lastmod>2022-12-15T10:28:28.324Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>     
     
