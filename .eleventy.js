@@ -15,7 +15,7 @@ module.exports = function(eleventyConfig) {
             if ( arr[i][month] == "n") {
                 continue;
             }
-            else {
+          else {
                 newObject = { "plant": arr[i].plant, "category": arr[i].category, "month": arr[i][month] }
                 interim.push(newObject)
             }
@@ -49,8 +49,12 @@ module.exports = function(eleventyConfig) {
       });
       eleventyConfig.addFilter("getPhotos", function(arr,number) {
         let interim = [];
-        for (let i = 0 ; i < number ; i++ ) {
-            let interimObject = { "title": arr[i].name, "image": arr[i].photos[0].url, "date": arr[i].date }
+        let returnItems = number;
+        if (arr.length < number) {
+            returnItems = arr.length
+        } 
+        for (let i = 0 ; i < returnItems ; i++ ) {
+            let interimObject = { "title": arr[i].name, "image": arr[i].photos[0].url, "date": arr[i].date, "introduction": arr[i].introduction }
             interim.push(interimObject)
             }
         return interim;

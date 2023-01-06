@@ -13,7 +13,7 @@
     <title>Spinach | Photo Galleries | Allotment Book</title>
     <meta name="description" content="">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Thu Dec 15 2022 10:28:28 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Fri Jan 06 2023 13:57:10 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/photo-gallery/spinach-2022-01-19/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -78,7 +78,8 @@
 }
 
 #newGalleryPhotoTitle h1 {
-    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-size: 1.1rem;
     text-transform:capitalize;
     margin: 0 0 0 0;
     padding: 5px 0 5px 0;
@@ -131,11 +132,15 @@
 }
 
 #newGalleryBackAndNextBackText {
+    font-family:sans-serif;
+    font-size:0.9em;
     margin-left:10px;
     color:#ffffff;
 }
 
 #newGalleryBackAndNextForwardText {
+    font-family:sans-serif;
+    font-size:0.9em;
     margin-right:10px;
     color:#ffffff;
 }
@@ -144,11 +149,25 @@
     text-align: center;
     background:#040404;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkPromo {
+    font-family:sans-serif;
+    text-align:center;
+    width: 40vh;
+    color: white;
+    margin-bottom:0px;
 }
 
 #newGalleryLinkContainer button {
+    width: 40vh;
+    font-family:sans-serif;
+    text-transform: uppercase;
     border-radius:8px;
-    background:#003300;
+    background:#ad0ead;
     border:none;
     color:#ffffff;
     font-size:1rem;
@@ -211,7 +230,8 @@
 }
 
 #newGalleryPhotoTitle h1 {
-    font-size: 1.2rem;
+    font-family:sans-serif;
+    font-size: 1.1rem;
     text-transform:capitalize;
     margin: 0 0 0 0;
     padding: 5px 0 5px 0;
@@ -265,11 +285,13 @@
 }
 
 #newGalleryBackAndNextBackText {
+    font-family:sans-serif;
     margin-left:10px;
     color:#ffffff;
 }
 
 #newGalleryBackAndNextForwardText {
+    font-family:sans-serif;
     margin-right:10px;
     color:#ffffff;
 }
@@ -278,11 +300,24 @@
     text-align: center;
     background:#040404;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkPromo {
+    font-family:sans-serif;
+    text-align:center;
+    width: 75vw;
+    color: white;
+    margin-bottom:0px;
 }
 
 #newGalleryLinkContainer button {
+    width: 75vw;
     border-radius:8px;
-    background:#003300;
+    text-transform: uppercase;
+    background:#ad0ead;
     border:none;
     color:#ffffff;
     font-size:1rem;
@@ -348,6 +383,7 @@
                         </div>
 
                         <div id="newGalleryLinkContainer">
+                            <div id="linkPromo"></div>
                             <a id="link" href="/photo-gallery"><button id="linkname">All Galleries</button></a>
                         </div>
 
@@ -367,7 +403,7 @@
 
 let currentIndex = 0;
 let galleryPhotos = JSON.parse(`[{"url":"v1642678536/vegetables/new-zealand-spinach-seed_r3itnx.jpg","alt":"New Zealand spinach seed"},{"url":"v1642678536/vegetables/new-zealand-spinach-seedling_ccefyd.jpg","alt":"New Zealand spinach seedling"},{"url":"v1642678536/vegetables/spinach-leaves-ready-for-picking_umaxxt.jpg","alt":"spinach leaves ready for picking"},{"url":"v1642678536/vegetables/perpetual-spinach_cjo7gc.jpg","alt":"perpetual spinach plant"}]`);
-let galleryLinks = JSON.parse(`{"name":"spinach","date":"2022-01-19","introduction":"","photos":[{"url":"v1642678536/vegetables/new-zealand-spinach-seed_r3itnx.jpg","alt":"New Zealand spinach seed"},{"url":"v1642678536/vegetables/new-zealand-spinach-seedling_ccefyd.jpg","alt":"New Zealand spinach seedling"},{"url":"v1642678536/vegetables/spinach-leaves-ready-for-picking_umaxxt.jpg","alt":"spinach leaves ready for picking"},{"url":"v1642678536/vegetables/perpetual-spinach_cjo7gc.jpg","alt":"perpetual spinach plant"}]}`);
+let galleryLinks = JSON.parse(`{"name":"spinach","date":"2022-01-19","introduction":"","link":"/contents/spinach/","linkname":"➤ Spinach Growing Guide","photos":[{"url":"v1642678536/vegetables/new-zealand-spinach-seed_r3itnx.jpg","alt":"New Zealand spinach seed"},{"url":"v1642678536/vegetables/new-zealand-spinach-seedling_ccefyd.jpg","alt":"New Zealand spinach seedling"},{"url":"v1642678536/vegetables/spinach-leaves-ready-for-picking_umaxxt.jpg","alt":"spinach leaves ready for picking"},{"url":"v1642678536/vegetables/perpetual-spinach_cjo7gc.jpg","alt":"perpetual spinach plant"}]}`);
 console.log("galleryLinks",galleryLinks)
 
 const hero = document.querySelector("#hero");
@@ -375,6 +411,7 @@ const hero = document.querySelector("#hero");
 function heroImage(index) {
     hero.style["background-image"] = createImage(galleryPhotos[index].url);
     document.getElementById("linkname").innerHTML = galleryLinks.linkname;
+    document.getElementById("linkPromo").innerHTML = galleryLinks.introduction;
     document.getElementById("link").href = galleryLinks.link;
 }
 heroImage(currentIndex);
@@ -418,7 +455,7 @@ function nextImage() {
 const moveForwardClick = document.querySelector("#moveForwardClick");
 moveForwardClick.addEventListener("click", nextImage);
 
-function createImage(src) {
+function createImage(src) {   
  return (
      `url("https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}")`
  )

@@ -99,6 +99,7 @@ eleventyComputed:
                         </div>
 
                         <div id="newGalleryLinkContainer">
+                            <div id="linkPromo"></div>
                             <a id="link" href="/photo-gallery"><button id="linkname">All Galleries</button></a>
                         </div>
 
@@ -126,6 +127,7 @@ const hero = document.querySelector("#hero");
 function heroImage(index) {
     hero.style["background-image"] = createImage(galleryPhotos[index].url);
     document.getElementById("linkname").innerHTML = galleryLinks.linkname;
+    document.getElementById("linkPromo").innerHTML = galleryLinks.introduction;
     document.getElementById("link").href = galleryLinks.link;
 }
 heroImage(currentIndex);
@@ -169,7 +171,7 @@ function nextImage() {
 const moveForwardClick = document.querySelector("#moveForwardClick");
 moveForwardClick.addEventListener("click", nextImage);
 
-function createImage(src) {
+function createImage(src) {   
  return (
      `url("https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}")`
  )

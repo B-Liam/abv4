@@ -48,7 +48,8 @@
 }
 
 #newGalleryPhotoTitle h1 {
-    font-size: 1.2rem;
+    font-family:sans-serif;
+    font-size: 1.1rem;
     text-transform:capitalize;
     margin: 0 0 0 0;
     padding: 5px 0 5px 0;
@@ -102,11 +103,13 @@
 }
 
 #newGalleryBackAndNextBackText {
+    font-family:sans-serif;
     margin-left:10px;
     color:#ffffff;
 }
 
 #newGalleryBackAndNextForwardText {
+    font-family:sans-serif;
     margin-right:10px;
     color:#ffffff;
 }
@@ -115,11 +118,24 @@
     text-align: center;
     background:#040404;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkPromo {
+    font-family:sans-serif;
+    text-align:center;
+    width: 75vw;
+    color: white;
+    margin-bottom:0px;
 }
 
 #newGalleryLinkContainer button {
+    width: 75vw;
     border-radius:8px;
-    background:#003300;
+    text-transform: uppercase;
+    background:#ad0ead;
     border:none;
     color:#ffffff;
     font-size:1rem;

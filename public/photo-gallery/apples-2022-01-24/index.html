@@ -13,7 +13,7 @@
     <title>Apples | Photo Galleries | Allotment Book</title>
     <meta name="description" content="">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Thu Dec 15 2022 10:28:28 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Fri Jan 06 2023 13:57:10 GMT+0000 (Greenwich Mean Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/photo-gallery/apples-2022-01-24/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -78,7 +78,8 @@
 }
 
 #newGalleryPhotoTitle h1 {
-    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-size: 1.1rem;
     text-transform:capitalize;
     margin: 0 0 0 0;
     padding: 5px 0 5px 0;
@@ -131,11 +132,15 @@
 }
 
 #newGalleryBackAndNextBackText {
+    font-family:sans-serif;
+    font-size:0.9em;
     margin-left:10px;
     color:#ffffff;
 }
 
 #newGalleryBackAndNextForwardText {
+    font-family:sans-serif;
+    font-size:0.9em;
     margin-right:10px;
     color:#ffffff;
 }
@@ -144,11 +149,25 @@
     text-align: center;
     background:#040404;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkPromo {
+    font-family:sans-serif;
+    text-align:center;
+    width: 40vh;
+    color: white;
+    margin-bottom:0px;
 }
 
 #newGalleryLinkContainer button {
+    width: 40vh;
+    font-family:sans-serif;
+    text-transform: uppercase;
     border-radius:8px;
-    background:#003300;
+    background:#ad0ead;
     border:none;
     color:#ffffff;
     font-size:1rem;
@@ -211,7 +230,8 @@
 }
 
 #newGalleryPhotoTitle h1 {
-    font-size: 1.2rem;
+    font-family:sans-serif;
+    font-size: 1.1rem;
     text-transform:capitalize;
     margin: 0 0 0 0;
     padding: 5px 0 5px 0;
@@ -265,11 +285,13 @@
 }
 
 #newGalleryBackAndNextBackText {
+    font-family:sans-serif;
     margin-left:10px;
     color:#ffffff;
 }
 
 #newGalleryBackAndNextForwardText {
+    font-family:sans-serif;
     margin-right:10px;
     color:#ffffff;
 }
@@ -278,11 +300,24 @@
     text-align: center;
     background:#040404;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkPromo {
+    font-family:sans-serif;
+    text-align:center;
+    width: 75vw;
+    color: white;
+    margin-bottom:0px;
 }
 
 #newGalleryLinkContainer button {
+    width: 75vw;
     border-radius:8px;
-    background:#003300;
+    text-transform: uppercase;
+    background:#ad0ead;
     border:none;
     color:#ffffff;
     font-size:1rem;
@@ -348,6 +383,7 @@
                         </div>
 
                         <div id="newGalleryLinkContainer">
+                            <div id="linkPromo"></div>
                             <a id="link" href="/photo-gallery"><button id="linkname">All Galleries</button></a>
                         </div>
 
@@ -367,7 +403,7 @@
 
 let currentIndex = 0;
 let galleryPhotos = JSON.parse(`[{"url":"v1643011327/fruit/apple-tree-in-planting-hole_bb1v5v.jpg","alt":"apple tree in planting hole"},{"url":"v1643011328/fruit/freshly-planted-apple-tree_yixlr7.jpg","alt":"watering tree after planting"},{"url":"v1643011327/fruit/apple-tree-with-supports_quqslu.jpg","alt":"apple tree with supports"},{"url":"v1643011328/fruit/tree-ties-supporting-apple-tree_msyxqj.jpg","alt":"fruit tree ties"},{"url":"v1643011327/fruit/apple-tree-with-mulch-and-blossom_dax45q.jpg","alt":"apple tree with mulch"},{"url":"v1643011328/fruit/tree-stake-angled-in-wind-direction_ofw5on.jpg","alt":"tree stake angled towards prevailing wind"},{"url":"v1643011327/fruit/apple-tree-in-winter_cdiutr.jpg","alt":"apple tree in winter"},{"url":"v1643011326/fruit/apple-blossom-buds_oxpqtk.jpg","alt":"apple blossome buds"},{"url":"v1643011327/fruit/apple-tree-in-blossom_zlqxrn.jpg","alt":"apple tree blossom"},{"url":"v1643011327/fruit/apple-blossom_ht7iwu.jpg","alt":"apple blossom"},{"url":"v1643011327/fruit/close-up-of-apple-blossom_hncvrd.jpg","alt":"apple tree blossom close up"},{"url":"v1643011327/fruit/apples-set-after-blossom_ueb49b.jpg","alt":"apples setting"},{"url":"v1643011328/fruit/fruit-set-on-apple-tree_ciqwcq.jpg","alt":"fruit set on apple tree"},{"url":"v1643011327/fruit/apples-above-nasturtiums_utsbas.jpg","alt":"apples above nasturtiums"},{"url":"v1643011327/fruit/apple-tree-grown-on-trellis_fylkzf.jpg","alt":"apple tree grown on trellis"},{"url":"v1643011327/fruit/cane-supporting-apple-branch_gdir4t.jpg","alt":"can supporting apple branch"},{"url":"v1643011326/fruit/apple-harvest_n4jlju.jpg","alt":"apple harvest"}]`);
-let galleryLinks = JSON.parse(`{"name":"apples","date":"2022-01-24","introduction":"","photos":[{"url":"v1643011327/fruit/apple-tree-in-planting-hole_bb1v5v.jpg","alt":"apple tree in planting hole"},{"url":"v1643011328/fruit/freshly-planted-apple-tree_yixlr7.jpg","alt":"watering tree after planting"},{"url":"v1643011327/fruit/apple-tree-with-supports_quqslu.jpg","alt":"apple tree with supports"},{"url":"v1643011328/fruit/tree-ties-supporting-apple-tree_msyxqj.jpg","alt":"fruit tree ties"},{"url":"v1643011327/fruit/apple-tree-with-mulch-and-blossom_dax45q.jpg","alt":"apple tree with mulch"},{"url":"v1643011328/fruit/tree-stake-angled-in-wind-direction_ofw5on.jpg","alt":"tree stake angled towards prevailing wind"},{"url":"v1643011327/fruit/apple-tree-in-winter_cdiutr.jpg","alt":"apple tree in winter"},{"url":"v1643011326/fruit/apple-blossom-buds_oxpqtk.jpg","alt":"apple blossome buds"},{"url":"v1643011327/fruit/apple-tree-in-blossom_zlqxrn.jpg","alt":"apple tree blossom"},{"url":"v1643011327/fruit/apple-blossom_ht7iwu.jpg","alt":"apple blossom"},{"url":"v1643011327/fruit/close-up-of-apple-blossom_hncvrd.jpg","alt":"apple tree blossom close up"},{"url":"v1643011327/fruit/apples-set-after-blossom_ueb49b.jpg","alt":"apples setting"},{"url":"v1643011328/fruit/fruit-set-on-apple-tree_ciqwcq.jpg","alt":"fruit set on apple tree"},{"url":"v1643011327/fruit/apples-above-nasturtiums_utsbas.jpg","alt":"apples above nasturtiums"},{"url":"v1643011327/fruit/apple-tree-grown-on-trellis_fylkzf.jpg","alt":"apple tree grown on trellis"},{"url":"v1643011327/fruit/cane-supporting-apple-branch_gdir4t.jpg","alt":"can supporting apple branch"},{"url":"v1643011326/fruit/apple-harvest_n4jlju.jpg","alt":"apple harvest"}]}`);
+let galleryLinks = JSON.parse(`{"name":"apples","date":"2022-01-24","introduction":"","link":"/contents/apples/","linkname":"➤ Apples Growing Guide","photos":[{"url":"v1643011327/fruit/apple-tree-in-planting-hole_bb1v5v.jpg","alt":"apple tree in planting hole"},{"url":"v1643011328/fruit/freshly-planted-apple-tree_yixlr7.jpg","alt":"watering tree after planting"},{"url":"v1643011327/fruit/apple-tree-with-supports_quqslu.jpg","alt":"apple tree with supports"},{"url":"v1643011328/fruit/tree-ties-supporting-apple-tree_msyxqj.jpg","alt":"fruit tree ties"},{"url":"v1643011327/fruit/apple-tree-with-mulch-and-blossom_dax45q.jpg","alt":"apple tree with mulch"},{"url":"v1643011328/fruit/tree-stake-angled-in-wind-direction_ofw5on.jpg","alt":"tree stake angled towards prevailing wind"},{"url":"v1643011327/fruit/apple-tree-in-winter_cdiutr.jpg","alt":"apple tree in winter"},{"url":"v1643011326/fruit/apple-blossom-buds_oxpqtk.jpg","alt":"apple blossome buds"},{"url":"v1643011327/fruit/apple-tree-in-blossom_zlqxrn.jpg","alt":"apple tree blossom"},{"url":"v1643011327/fruit/apple-blossom_ht7iwu.jpg","alt":"apple blossom"},{"url":"v1643011327/fruit/close-up-of-apple-blossom_hncvrd.jpg","alt":"apple tree blossom close up"},{"url":"v1643011327/fruit/apples-set-after-blossom_ueb49b.jpg","alt":"apples setting"},{"url":"v1643011328/fruit/fruit-set-on-apple-tree_ciqwcq.jpg","alt":"fruit set on apple tree"},{"url":"v1643011327/fruit/apples-above-nasturtiums_utsbas.jpg","alt":"apples above nasturtiums"},{"url":"v1643011327/fruit/apple-tree-grown-on-trellis_fylkzf.jpg","alt":"apple tree grown on trellis"},{"url":"v1643011327/fruit/cane-supporting-apple-branch_gdir4t.jpg","alt":"can supporting apple branch"},{"url":"v1643011326/fruit/apple-harvest_n4jlju.jpg","alt":"apple harvest"}]}`);
 console.log("galleryLinks",galleryLinks)
 
 const hero = document.querySelector("#hero");
@@ -375,6 +411,7 @@ const hero = document.querySelector("#hero");
 function heroImage(index) {
     hero.style["background-image"] = createImage(galleryPhotos[index].url);
     document.getElementById("linkname").innerHTML = galleryLinks.linkname;
+    document.getElementById("linkPromo").innerHTML = galleryLinks.introduction;
     document.getElementById("link").href = galleryLinks.link;
 }
 heroImage(currentIndex);
@@ -418,7 +455,7 @@ function nextImage() {
 const moveForwardClick = document.querySelector("#moveForwardClick");
 moveForwardClick.addEventListener("click", nextImage);
 
-function createImage(src) {
+function createImage(src) {   
  return (
      `url("https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}")`
  )

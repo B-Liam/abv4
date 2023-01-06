@@ -46,7 +46,7 @@ layout: /layouts/pagetemplate.njk
 <script>
 
 //gets all the information for the latest photos, the number in the argument is the number of galleries to return
-let latestPhotos = JSON.parse(`{{ gallery | getPhotos(6) | dump | safe }}`);
+let latestPhotos = JSON.parse(`{{ gallery | getPhotos(100) | dump | safe }}`);
 console.log(latestPhotos);
 
 //this creates the photo gallery links
@@ -69,8 +69,8 @@ function initialise(pages, containerid, templateid) {
 
 initialise(latestPhotos,".gallery-container",'#gallery-template');
 
-
-function createImage(src) {
+//I don't think this function is being used
+function createImage(src,name) {
  return (
      `<img style="width:100%" src="https://res.cloudinary.com/allotment-book/image/upload/w_600,h_600,q_auto,f_auto/${src}" />`
  )
