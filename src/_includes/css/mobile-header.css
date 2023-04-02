@@ -1,3 +1,14 @@
+#hero-image {
+    display:"block";
+    background: #006600;
+    background-image: url("https://res.cloudinary.com/allotment-book/image/upload/w_700,h_272,q_auto,f_auto/v1644498815/home/allotment-drawing-lighter_ra1k8n.jpg");
+    background-position: right;
+    background-size: cover;
+    min-height: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
 #tablet-desktop-header{
     display: none;
 }

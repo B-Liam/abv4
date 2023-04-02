@@ -6,6 +6,12 @@
         "link": "https://myplants.app/#sd=introduction/",
         "linkname": "➤ Find Out More",
         "photos": [
+            {"url": "v1675420099/Savill%20Garden/2023%2002/Hydrangea_Flower_Head_2_mj91cg.jpg", "alt": "Red Witch Hazel In Bloom"},
+            {"url": "v1675117212/Latest%20Photos/Red_Witch_Hazel_AB_gsag6x.jpg", "alt": "Red Witch Hazel In Bloom"},
+            {"url": "v1674252895/Latest%20Photos/Swan_For_AB_xikswt.jpg", "alt": "Swan Going For A Walk"},
+            {"url": "v1674252628/Latest%20Photos/frost_for_ab_gallery_e4fgdl.jpg", "alt": "Frost Crystals On Grass"},
+            {"url": "v1673952942/Latest%20Photos/hydrangea_covered_by_frost_f0ca4s.jpg", "alt": "Hydrangea Covered By Frost"},
+            {"url": "v1673432230/Latest%20Photos/aloe_vera-offshoot_gjwqnf.jpg", "alt": "aloe vera offshoot"},
             {"url": "v1673016952/Latest%20Photos/Cormorant_Dorney_Lake_ucbuid.jpg", "alt": "cormorant - dorney lake"},
             {"url": "v1673017190/Latest%20Photos/Dogwood_Hedge_Dorney_Lake_Yellow_2023-01-08_vt5eib.jpg", "alt": "hedge of dogwood - dorney lake"},
             {"url": "v1673016763/Latest%20Photos/Dogwood_Hedge_Dorney_Lake_2023-01-08_re30ti.jpg", "alt": "hedge of dogwood - dorney lake"},
@@ -1419,6 +1425,22 @@
         "linkname": "➤ Thyme Growing Guide",
         "photos": [
         {"url": "v1643301255/herbs/thyme-plant-in-flower_lqtej2.jpg", "alt": "thyme plant in flower"}
+        ]
+    },
+    {
+        "name": "Savill Garden February 2023",
+        "date": "2022-01-27",
+        "introduction": "",
+        "link": "https://myplants.app/#sd=introduction/",
+        "linkname": "➤ Find Out More",
+        "photos": [
+        {"url": "v1675420098/Savill%20Garden/2023%2002/Path_through_hydrangea_bed_q6efmg.jpg", "alt": "Path Through Hydrangea Bed"},
+        {"url": "v1675417418/Savill%20Garden/2023%2002/Hydrangea_Flower_Cluster_spiagp.jpg", "alt": "Hydrangea Flower Head"},
+        {"url": "v1675420101/Savill%20Garden/2023%2002/Hydrangea_Bed_wp2qbz.jpg", "alt": "Hydrangea Flower Bed"},
+        {"url": "v1675420100/Savill%20Garden/2023%2002/Hydrangea_Flower_Head_Display_mzcqxa.jpg", "alt": "Hydrangea Flower Head"},
+        {"url": "v1675420144/Savill%20Garden/2023%2002/Hydrangea_Flower_Head_icdbyj.jpg", "alt": "Hydrangea Flower Head"},
+        {"url": "v1675420098/Savill%20Garden/2023%2002/Hydrangea_Flower_Head_3_ivvuol.jpg", "alt": "Hydrangea Flower Head"},
+        {"url": "v1675420099/Savill%20Garden/2023%2002/Hydrangea_Flower_Head_2_mj91cg.jpg", "alt": "Hydrangea Flower Head"}
         ]
     }
 ]
