@@ -1324,8 +1324,8 @@ setBreadLink();
 
 //this is the script that generates the previous and next buttons
 //This stores the total length of the index of contents
-let contentFinalIndexValue = `186` - 1;
-let newPageIndexNumber = `10`;
+let contentFinalIndexValue = `187` - 1;
+let newPageIndexNumber = `11`;
 let previous = Number(newPageIndexNumber) - 1;
 let next = Number(newPageIndexNumber) + 1;
 
@@ -1344,7 +1344,7 @@ findNext();
 
 function findPrevious() {
     if ( previous >= 0 ) {
-    previousPage = `start-work-on-a-new-plot`;
+    previousPage = `soil-nurturing-and-soil-health`;
     document.getElementById("lower-previous").innerHTML = makePreviousButton(previousPage);
     document.getElementById("higher-previous").innerHTML = makePreviousButton(previousPage);
     }
