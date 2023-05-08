@@ -1,194 +1,147 @@
 #mobile-header {
-    display: none;
+  display: none;
+}
+
+p {
+  line-height: 1.5;
 }
 
 #tablet-desktop-header {
-    display: grid;
-    grid-template-areas:
-    "left main";
-    grid-template-columns: auto 700px;
+  display: grid;
+  grid-template-areas: 'left main';
+  grid-template-columns: auto 700px;
 }
 
 #left {
-    grid-area: left;
-    background: #e0f7d3;
-    border-bottom: solid 2px #ffffff;
-    min-width: 285px;
+  grid-area: left;
+  background: #e0f7d3;
+  border-bottom: solid 2px #ffffff;
+  min-width: 285px;
 }
 
 #main {
-    grid-area: main;
-    background: #ffffff;
+  grid-area: main;
+  background: #ffffff;
 }
 
 #content-body {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #side {
-    display: none;
+  display: none;
 }
 
 #tablet-desktop-logo {
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content-container {
-    display: grid;
-    grid-template-areas:
-    "nav main";
-    grid-template-columns: auto 700px;
+  display: grid;
+  grid-template-areas: 'nav main';
+  grid-template-columns: auto 700px;
 }
 
 #leftnav {
-    grid-area: nav;
-    background: #e0f7d3; 
+  grid-area: nav;
+  background: #e0f7d3;
 }
 
 #main-column {
-    grid-area: main;
-    background: #ffffff;
+  grid-area: main;
+  background: #ffffff;
 }
 
 #sidebar {
-    display: none;
+  display: none;
 }
 
 .hero-image {
-    width: 588px;
+  width: 588px;
 }
 
 #markedup img {
-    width: 588px;
+  width: 588px;
 }
 
 #transcript img {
-    width: 588px;
+  width: 588px;
 }
 
-.blog-card{
-    height:110px;
+.blog-card {
+  height: 110px;
 }
 
 #video-list-container {
-    width:450px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #shop-listings-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .vegetable-container {
-    width:550px;
+  width: 550px;
 }
 
 .fruit-container {
-    width:550px;
+  width: 550px;
 }
 
 .herb-container {
-    width:550px;
-}
-
-.vegrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
+  width: 550px;
 }
 
 .mobile-ads {
-    display: none;
+  display: none;
 }
 
 .tablet-ads {
-    display: flex;
-    justify-content: space-between;
-} 
+  display: flex;
+  justify-content: space-between;
+}
 
 #mobile-homepage-hero {
-    display:none;
+  display: none;
 }
 
 .growing-pages-gallery {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .photo-gallery-hero {
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 595px;
-    height: 595px;
-    }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 595px;
+  height: 595px;
+}
 
 .gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #mobile-youtube-embed-container {
-    display: none;
+  display: none;
 }
 
 #gallery-container {
-    width: 595px;
-    margin-left:auto;
-    margin-right: auto;
+  width: 595px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
-
-

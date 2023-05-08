@@ -165,6 +165,7 @@ module.exports = function(eleventyConfig) {
     });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/images");
+    eleventyConfig.addPassthroughCopy("src/googledaf234788d4c7021.html");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPlugin(embedEverything);
     return  {

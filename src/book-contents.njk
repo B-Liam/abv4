@@ -24,168 +24,223 @@ layout: /layouts/pagetemplate.njk
 
                         <div style="margin-bottom:2rem" id="content-body">
 
-                            <h1 style="font-size:1.4rem">Book Contents</h1>
+                            <h1 style="font-size:1.4rem;margin-bottom:-20px;">Book Contents</h1>
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Introduction</h4>
+                            <h4 class="contentsBookHeading">Introduction</h4>
 
                             <div id="links"></div>
 
-                            <div style="width:350px;margin-left:auto;margin-right:auto" class="intro-container"></div>
+                            <div style="width:350px;margin-left:auto;margin-right:auto;" class="intro-container"></div>
 
                                 <template id="intro-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="intro-link"> </li>
+                                        </ul>
+                                    </div>              
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em;text-transform:capitalize" id="intro-link"></div>
+                                    <span style="font-size:12px;color:#009900">►</span>
                                 </div>
+                                <div style="padding-left:0.5em;text-transform:capitalize" id="intro-link"></div> #}
 
                                 </template>
-                            
+                            {# <img height="7px" width="7px" src="/images/uploads/green-circle.webp" alt"" /> #}
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Allotment Starter Guides</h4>
+                            <h4 class="contentsBookHeading" >Allotment Starter Guides</h4>
 
                             <div id="starter-links"></div>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="starter-container"></div>
 
                                 <template id="starter-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="starter-link"> </li>
+                                        </ul>
+                                    </div>   
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em;text-transform:capitalize" id="starter-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Growing Guides</h4>
+                            <h4 class="contentsBookHeading">Vegetable Growing Guides</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="vegetable-container"></div>
 
                                 <template id="vegetable-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="vegetable-link"> </li>
+                                        </ul>
+                                    </div>   
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="vegetable-link"></div>
-                                </div>
+                                </div> #}
                                 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Growing Guides</h4>
+                            <h4 class="contentsBookHeading">Fruit Growing Guides</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="fruit-container"></div>
 
                                 <template id="fruit-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="fruit-link"> </li>
+                                        </ul>
+                                    </div>              
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="fruit-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Herb Growing Guides</h4>
+                            <h4 class="contentsBookHeading">Herb Growing Guides</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="herb-container"></div>
 
                                 <template id="herb-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="herb-link"> </li>
+                                        </ul>
+                                    </div> 
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="herb-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Recipes</h4>
+                            <h4 class="contentsBookHeading">Vegetable Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto" class="vegrecipe-container"></div>
 
                                 <template id="vegrecipe-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="vegrecipe-link"> </li>
+                                        </ul>
+                                    </div> 
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="vegrecipe-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Recipes</h4>
+                            <h4 class="contentsBookHeading">Fruit Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto" class="fruitrecipe-container"></div>
 
                                 <template id="fruitrecipe-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="fruitrecipe-link"> </li>
+                                        </ul>
+                                    </div> 
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                {# <div class="bookContentsPageLink" >
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="fruitrecipe-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
-                        
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Soup Recipes</h4>
-
+                            <h4 class="contentsBookHeading">Soup Recipes</h4>
                             <div style="width:350px;margin-left:auto;margin-right:auto" class="soup-container"></div>
-
                                 <template id="soup-template">
-                                
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                  <div class="contentsBullet">
+                                        <ul>
+                                            <li id="soup-link"> </li>
+                                        </ul>
+                                    </div>             
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="soup-link"></div>
-                                </div>
-
+                                </div> #}
                                 </template>
-                            
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Drink Recipes</h4>
+                            <h4 class="contentsBookHeading">Drink Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="drink-container"></div>
 
                                 <template id="drink-template">
+
+                                    <div class="contentsBullet">
+                                        <ul> 
+                                            <li id="drink-link"> </li>
+                                        </ul>
+                                    </div>
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
+                                {# <div class="bookContentsPageLink">
+                                    <div style="margin-top:-2px;">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="drink-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Treats Recipes</h4>
+                            <h4 class="contentsBookHeading">Treats Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="treats-container"></div>
 
                                 <template id="treats-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="treats-link"> </li>
+                                            {# <li id="treats-link"> </li> #}
+                                        </ul>
+                                    </div>
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
+                                {# <div class="bookContentsPageLink">
                                     <div style="margin-top:-2px">
                                     <span style="font-size:10px;color:#009900">►</span>
                                     </div>
                                     <div style="padding-left:0.5em" id="treats-link"></div>
-                                </div>
+                                </div> #}
 
                                 </template>
                             
@@ -205,9 +260,12 @@ function makeLink(title,slug) {
 
 function makeButton(title,slug) {
  return (
-     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+     `
+     <i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>
+     `
  )
 };
+{# `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>` #}
 
 //different variables used for arrays to store the links to the different sections
 let introPagesArray = JSON.parse(`{{ pagesstoryblok.page | getContentPages("introduction") | dump | safe }}`);
@@ -273,6 +331,7 @@ function initialise(pages, containerid, templateid, divid) {
  let sortedArray = pages.sort (function (a,b) {
      return a.order - b.order;
  })
+ console.log("sortedArray", sortedArray);
 
  const container = document.querySelector(containerid);
  const template = document.querySelector(templateid);

@@ -13,7 +13,7 @@
     <title>Index Of Book Contents | Allotment Book</title>
     <meta name="description" content="Tips on starting an allotment, how to create a growing plan, and a full set of fruit, vegetable, and herb growing guides.">
     <meta name="twitter:site" content="@AllotmentBook">
-    <meta property="article:modified_time" content="Thu Mar 16 2023 10:45:56 GMT+0000 (Greenwich Mean Time)">
+    <meta property="article:modified_time" content="Sun May 07 2023 08:47:54 GMT+0100 (British Summer Time)">
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.allotmentbook.co.uk/contents/" />
     <meta property="og:site_name" content="Allotment Book" />
@@ -23,959 +23,947 @@
 <style>
 
 /* some words */
+:root {
+  /* colors */
+  --primary-100: #e2e0ff;
+  --primary-200: #c1beff;
+  --primary-300: #a29dff;
+  --primary-400: #837dff;
+  --primary-500: #645cff;
+  --primary-600: #504acc;
+  --primary-700: #3c3799;
+  --primary-800: #282566;
+  --primary-900: #141233;
+
+  /* grey */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+  /* rest of the colors */
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #e0f7d3;
+  --green-dark: #006600;
+
+  /* fonts  */
+
+  --small-text: 0.875rem;
+  --extra-small-text: 0.7em;
+  /* rest of the vars */
+  --backgroundColor: var(--grey-50);
+  --textColor: var(--grey-900);
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 600px;
+}
+
 body {
-    font-size: 18px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    font-family: serif;
-    font-display: swap;
+  font-size: 18px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  /* font-family: serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-display: swap;
 }
 
 h1 {
-    font-size:1.4rem;
+  font-size: 1.4rem;
 }
 
 h2 {
-    padding-top:20px;
-    font-size:1.2rem;
+  padding-top: 20px;
+  font-size: 1.2rem;
 }
 
 h3 {
-    font-size:1.1rem;
+  font-size: 1.1rem;
 }
 
 a {
-    color: #ad0ead;
-    text-decoration: none;
-  }
+  color: #ad0ead;
+  text-decoration: none;
+}
 
 .whitelinkstyle a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .fa-test {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 #non-mobile {
-    text-align: left;    
+  text-align: left;
 }
 
 #non-mobile .fas {
-    padding-right: 0.5em;    
+  padding-right: 0.5em;
 }
 
 #non-mobile a {
-    color: #006600;
-    text-decoration: none;
-    font-weight: 600;
+  color: #006600;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 #non-mobile #row {
-    border-bottom: solid 2px #ffffff;   
+  border-bottom: solid 2px #ffffff;
 }
 
 #non-mobile #book-indent #row {
-    border-bottom: solid 2px #ffffff;
-    padding-top: 1%;
-    padding-left: 55px; 
+  border-bottom: solid 2px #ffffff;
+  padding-top: 1%;
+  padding-left: 55px;
 }
 
 #nav-elements {
-    padding: 5px 0 5px 0;
-    width:250px;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 5px 0 5px 0;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #footer {
-    background: #333333;
-    width: 100vw;
-    min-height: 40px;
+  background: #333333;
+  width: 100vw;
+  min-height: 40px;
 }
 
 #breadcrumb-container {
-    background: #333333;
-    color: white;
-    width: 100%;
-    height: 2rem;
-    display: flex;
-    align-items: center;
+  background: #333333;
+  color: white;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 #breadcrumb {
-    padding-left: 3%;
-    width: 100%;
+  padding-left: 3%;
+  width: 100%;
 }
 
 #breadcrumb a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #breadcrumb-container .fas {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;  
-    font-size: 0.8rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .green-button {
-    background: #009900;
-    border: 0;
-    border-radius: 0.5rem;
-    color: #ffffff;
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding: 1rem;
-    margin-left:2%;
-    margin-right: 2%;
-    text-align: center;
-    text-decoration: none;
-  }
+  background: #009900;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  text-decoration: none;
+}
 
-.embed-container { 
-      position: relative; 
-      padding-bottom: 56.25%; 
-      height: 0; 
-      overflow: hidden; 
-      max-width: 100%; 
-    } 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%; 
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #content-body {
-    min-height: 100vh;
-    padding-bottom: 40px;
+  min-height: 100vh;
+  padding-bottom: 40px;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-size: 1.2em;
-    }
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 1.2em;
+}
 
-input[type=email], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-size: 1.2em;
-    }
-    
-input[type=submit] {
-    background-color: #006600;
-    font-size: 1.2em;
-    color: #ffffff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    }
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 1.2em;
+}
 
-    picture img {
-        object-fit: cover;
-      }
+input[type='submit'] {
+  background-color: #006600;
+  font-size: 1.2em;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+picture img {
+  object-fit: cover;
+}
+
+.bookContentsPageLink {
+  width: 330px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.contentsBookHeading {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+ul {
+  line-height: 150%;
+}
+
+li + li {
+  margin-top: 10px;
+}
+
+.contentsBullet {
+  text-transform: capitalize;
+}
+
+.contentsBullet {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.contentsBullet ul {
+  list-style: none;
+}
+
+.contentsBullet ul {
+  line-height: 140%;
+}
+
+.contentsBullet li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #006600; /* Change the color */
+  font-weight: bold;
+  font-size: 20pt; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.contentsBullet li {
+  margin-bottom: -4%;
+}
+
+.growingCard {
+  width: 150px;
+  border: solid var(--green-light) 0.5px;
+  margin-bottom: 1rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 
 @media only screen and (max-width: 950px) {
-#hero-image {
-    display:"block";
-    background: #006600;
-    background-image: url("https://res.cloudinary.com/allotment-book/image/upload/w_700,h_272,q_auto,f_auto/v1644498815/home/allotment-drawing-lighter_ra1k8n.jpg");
-    background-position: right;
-    background-size: cover;
-    min-height: 150px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+p {
+  line-height: 1.5;
 }
 
-#tablet-desktop-header{
-    display: none;
+#hero-image {
+  display: 'block';
+  background: #006600;
+  background-image: url('https://res.cloudinary.com/allotment-book/image/upload/w_700,h_272,q_auto,f_auto/v1644498815/home/allotment-drawing-lighter_ra1k8n.jpg');
+  background-position: right;
+  background-size: cover;
+  min-height: 150px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#tablet-desktop-header {
+  display: none;
 }
 
 #mobile-header {
-    display: grid;
-    grid-template-areas:
-    "logo menu";
-    align-items: center;
+  display: grid;
+  grid-template-areas: 'logo menu';
+  align-items: center;
 }
 
 #logo {
-    padding: 10px 10px 10px 10px;
-    grid-area: logo;
+  padding: 10px 10px 10px 10px;
+  grid-area: logo;
 }
 
-
 #nav-grid {
-   display: grid; 
-   grid-template-rows: 9vh 9vh 9vh 37vh 9vh 9vh 9vh 9vh;
+  display: grid;
+  grid-template-rows: 9vh 9vh 9vh 37vh 9vh 9vh 9vh 9vh;
 }
 
 #nav-grid a {
-    font-size: 1.1em;
-    -webkit-tap-highlight-color: transparent;
+  font-size: 1.1em;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #nav-grid a:hover {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 #first-row {
-    grid-area: 1/1/2/2;
-    display: grid;
-    grid-template-columns: 2fr;
-    background: #006600
+  grid-area: 1/1/2/2;
+  display: grid;
+  grid-template-columns: 2fr;
+  background: #006600;
 }
 
 #col-left {
-    grid-area: 1/1/2/2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    border: solid 0.5px #ffffff;
+  grid-area: 1/1/2/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  border: solid 0.5px #ffffff;
 }
 
 #col-left-third {
-    grid-area: 1/1/2/2;
-    display: flex;
-    justify-content: center;
-    width: 50vw;
+  grid-area: 1/1/2/2;
+  display: flex;
+  justify-content: center;
+  width: 50vw;
 }
 
 #col-right {
-    grid-area: 1/2/2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    border: solid 0.5px #ffffff;
+  grid-area: 1/2/2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  border: solid 0.5px #ffffff;
 }
 
 #col-right-third {
-    grid-area: 1/2/2/3;
-    display: flex;
-    justify-content: center;
-    width: 50vw;
+  grid-area: 1/2/2/3;
+  display: flex;
+  justify-content: center;
+  width: 50vw;
 }
 
 #second-row {
-    grid-area: 2/1/3/3;
-    display: grid;
-    background:#e0f7d3;
-    color: #009900;
+  grid-area: 2/1/3/3;
+  display: grid;
+  background: #e0f7d3;
+  color: #009900;
 }
 
 #second-row a {
-    color: #006600;
+  color: #006600;
 }
 
 #third-row-a {
-    grid-area: 3/1/4/3;
-    display: grid;
-    background: #ffffff;
-    color: #006600;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+  grid-area: 3/1/4/3;
+  display: grid;
+  background: #ffffff;
+  color: #006600;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #third-row-a a {
-    color: #006600;
+  color: #006600;
 }
 
 #third-row-b {
-    grid-area: 4/1/5/3;
-    display: grid;
-    background: #ffffff;
-    color: #006600;
-    padding-left: 10%;
-    margin-top: 0px;
-    padding-top: 0px;
+  grid-area: 4/1/5/3;
+  display: grid;
+  background: #ffffff;
+  color: #006600;
+  padding-left: 10%;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 #third-row-b a {
-    color: #006600;
+  color: #006600;
 }
 
 #fourth-row {
-    grid-area: 5/1/6/3;
-    display: grid;
-    background:#e0f7d3;
+  grid-area: 5/1/6/3;
+  display: grid;
+  background: #e0f7d3;
 }
 
 #fourth-row a {
-    color: #006600;
+  color: #006600;
 }
 
 #fifth-row {
-    grid-area: 6/1/7/3;
-    display: grid;
-    background:#e0f7d3;
+  grid-area: 6/1/7/3;
+  display: grid;
+  background: #e0f7d3;
 }
 
 #fifth-row a {
-    color: #006600;
+  color: #006600;
 }
 
 #sixth-row {
-    grid-area: 7/1/8/3;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  grid-area: 7/1/8/3;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-
 #menu-button {
-    margin-right:10px;
-    padding-left:5px;
-    padding-right:5px;
-    width:60px;
-    height:50px;
-    grid-area: menu;
-    color: #ffffff;
-    background: #006600;
-    text-align: center;
-    
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 60px;
+  height: 50px;
+  grid-area: menu;
+  color: #ffffff;
+  background: #006600;
+  text-align: center;
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: #006600;
-    }
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: #006600;
+}
 
 .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    }
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
 
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-    }
+  padding: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
 
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-    }
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
 
 .overlay .closebtn {
-    cursor: pointer;
-    position: absolute;
-    top: 1%;
-    right: 4%;
-    font-size: 1.5em;
-    color: #ffffff;
-    font-family: default;
-    }
+  cursor: pointer;
+  position: absolute;
+  top: 1%;
+  right: 4%;
+  font-size: 1.5em;
+  color: #ffffff;
+  font-family: default;
+}
 
 .pointer {
-    cursor: pointer;
-    margin: 0px;
-    }
+  cursor: pointer;
+  margin: 0px;
+}
 
 #close {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 #content-container {
-    display: grid;
-    grid-template-areas:
-    "main";
-    grid-template-columns: auto;
+  display: grid;
+  grid-template-areas: 'main';
+  grid-template-columns: auto;
 }
 
 #leftnav {
-    display: none; 
+  display: none;
 }
 
 #main-column {
-    grid-area: main;
-    background: #ffffff;
+  grid-area: main;
+  background: #ffffff;
 }
 
 #sidebar {
-    display: none;
+  display: none;
 }
 
 #content-body {
-    padding-left: 5%;
-    padding-right: 5%
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .hero-image {
-    width: 360px;
+  width: 360px;
 }
 
 #markedup img {
-    width: 360px;
+  width: 360px;
 }
 
 #transcript img {
-    width: 360px;
+  width: 360px;
 }
 
 .starter-container {
-    justify-content: center;
+  justify-content: center;
 }
 
 .intro-container {
-    justify-content: center;
+  justify-content: center;
 }
 
 #video-list-container {
-    width:350px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #shop-listings-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .vegetable-container {
-    width:360px;
+  width: 360px;
 }
 
 .fruit-container {
-    width:360px;
+  width: 360px;
 }
 
 .herb-container {
-    width:360px;
-}
-
-.vegrecipes-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 360px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
+  width: 360px;
 }
 
 .tablet-ads {
-    display: none;
+  display: none;
 }
 
 .mobile-ads {
-    text-align: center;
+  text-align: center;
 }
 
 #non-mobile-homepage-hero {
-    display:none;
+  display: none;
 }
 
 .growing-pages-gallery {
-    width: 360px;
-    height: 360px;
-    margin-right:auto;
-    margin-left: auto;
+  width: 360px;
+  height: 360px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .photo-gallery-hero {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #gallery-container {
-    width: 100vw;
+  width: 100vw;
 }
 
 #galleryButtonContainer {
-    width: 100vw;
+  width: 100vw;
 }
 
 .gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #youtube-embed-container {
-    display: none;
+  display: none;
 }
 
 .horizontalPromoText {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 #homeHeroDesktop {
-    display:none;
+  display: none;
 }
+
+#introduction img {
+  width: 100%;
+}
+
+#transcript img {
+  width: 100%;
+}
+
 }
 
 @media only screen and (min-width: 951px) and (max-width: 1200px) {
 #mobile-header {
-    display: none;
+  display: none;
+}
+
+p {
+  line-height: 1.5;
 }
 
 #tablet-desktop-header {
-    display: grid;
-    grid-template-areas:
-    "left main";
-    grid-template-columns: auto 700px;
+  display: grid;
+  grid-template-areas: 'left main';
+  grid-template-columns: auto 700px;
 }
 
 #left {
-    grid-area: left;
-    background: #e0f7d3;
-    border-bottom: solid 2px #ffffff;
-    min-width: 285px;
+  grid-area: left;
+  background: #e0f7d3;
+  border-bottom: solid 2px #ffffff;
+  min-width: 285px;
 }
 
 #main {
-    grid-area: main;
-    background: #ffffff;
+  grid-area: main;
+  background: #ffffff;
 }
 
 #content-body {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #side {
-    display: none;
+  display: none;
 }
 
 #tablet-desktop-logo {
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content-container {
-    display: grid;
-    grid-template-areas:
-    "nav main";
-    grid-template-columns: auto 700px;
+  display: grid;
+  grid-template-areas: 'nav main';
+  grid-template-columns: auto 700px;
 }
 
 #leftnav {
-    grid-area: nav;
-    background: #e0f7d3; 
+  grid-area: nav;
+  background: #e0f7d3;
 }
 
 #main-column {
-    grid-area: main;
-    background: #ffffff;
+  grid-area: main;
+  background: #ffffff;
 }
 
 #sidebar {
-    display: none;
+  display: none;
 }
 
 .hero-image {
-    width: 588px;
+  width: 588px;
 }
 
 #markedup img {
-    width: 588px;
+  width: 588px;
 }
 
 #transcript img {
-    width: 588px;
+  width: 588px;
 }
 
-.blog-card{
-    height:110px;
+.blog-card {
+  height: 110px;
 }
 
 #video-list-container {
-    width:450px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #shop-listings-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .vegetable-container {
-    width:550px;
+  width: 550px;
 }
 
 .fruit-container {
-    width:550px;
+  width: 550px;
 }
 
 .herb-container {
-    width:550px;
-}
-
-.vegrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
+  width: 550px;
 }
 
 .mobile-ads {
-    display: none;
+  display: none;
 }
 
 .tablet-ads {
-    display: flex;
-    justify-content: space-between;
-} 
+  display: flex;
+  justify-content: space-between;
+}
 
 #mobile-homepage-hero {
-    display:none;
+  display: none;
 }
 
 .growing-pages-gallery {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .photo-gallery-hero {
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 595px;
-    height: 595px;
-    }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 595px;
+  height: 595px;
+}
 
 .gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #mobile-youtube-embed-container {
-    display: none;
+  display: none;
 }
 
 #gallery-container {
-    width: 595px;
-    margin-left:auto;
-    margin-right: auto;
+  width: 595px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
-
-
 
 }
 
 @media only screen and (min-width: 1201px) {
 #mobile-header {
-    display: none;
+  display: none;
+}
+
+p {
+  line-height: 1.5;
 }
 
 #tablet-desktop-header {
-    display: grid;
-    grid-template-areas:
-    "left main side";
-    grid-template-columns: 1fr 700px 1fr;
+  display: grid;
+  grid-template-areas: 'left main side';
+  grid-template-columns: 1fr 700px 1fr;
 }
 
 #left {
-    grid-area: left;
-    background: #e0f7d3;
-    border-bottom: solid 2px #ffffff;
-    min-width: 285px;
-    
+  grid-area: left;
+  background: #e0f7d3;
+  border-bottom: solid 2px #ffffff;
+  min-width: 285px;
 }
 
 #main {
-    grid-area: main;
-    background: #ffffff;
+  grid-area: main;
+  background: #ffffff;
 }
 
 #content-body {
-    padding-left: 8%;
-    padding-right: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 #side {
-    grid-area: side;
-    background: #e0f7d3;
+  grid-area: side;
+  background: #e0f7d3;
 }
 
 #tablet-desktop-logo {
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content-container {
-    display: grid;
-    grid-template-areas:
-    "nav main sidebar";
-    grid-template-columns: 1fr 700px 1fr;
+  display: grid;
+  grid-template-areas: 'nav main sidebar';
+  grid-template-columns: 1fr 700px 1fr;
 }
 
 #leftnav {
-    grid-area: nav;
-    background: #e0f7d3;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-
+  grid-area: nav;
+  background: #e0f7d3;
+  text-align: right;
+  margin: 0;
+  padding: 0;
 }
 
 #main-column {
-    grid-area: main;
-    background: #ffffff;
-    min-height: 100vh; 
+  grid-area: main;
+  background: #ffffff;
+  min-height: 100vh;
 }
 
 #sidebar {
-    grid-area: sidebar;
-    background: #e0f7d3;
+  grid-area: sidebar;
+  background: #e0f7d3;
 }
 
 .hero-image {
-    width: 588px;
-    height: 308.7px;
+  width: 588px;
+  height: 308.7px;
 }
 
 #markedup img {
-    width: 588px;
+  width: 588px;
 }
 
 #transcript img {
-    width: 588px;
+  width: 588px;
 }
 
-.blog-card{
-    height:110px;
+.blog-card {
+  min-height: 130px;
 }
 
 #video-list-container {
-    width:450px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #shop-listings-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .vegetable-container {
-    width:550px;
+  width: 550px;
 }
 
 .fruit-container {
-    width:550px;
+  width: 550px;
 }
 
 .herb-container {
-    width:550px;
-}
-
-.vegrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.fruitrecipes-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.soup-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.drinks-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
-}
-
-.treats-container {
-    width: 550px; 
-    margin-left:auto; 
-    margin-right:auto;
-    padding-bottom: 2rem; 
-    display: flex; 
-    flex-wrap:wrap;
+  width: 550px;
 }
 
 .tablet-ads {
-    display: none;
+  display: none;
 }
 
 .mobile-ads {
-    display: none;
+  display: none;
 }
 
 #mobile-homepage-hero {
-    display:none;
+  display: none;
 }
 
 .growing-pages-gallery {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .photo-gallery-hero {
-display: block;
-margin-left:auto;
-margin-right: auto;
-width: 595px;
-height: 595px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 595px;
+  height: 595px;
 }
 
 .gallery-text-button {
-    width: 350px;
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #mobile-youtube-embed-container {
-    display: none;
+  display: none;
 }
 
 #gallery-container {
-    width: 595px;
-    margin-left:auto;
-    margin-right: auto;
+  width: 595px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 }
 
@@ -1011,7 +999,7 @@ height: 595px;
                 <div id="col-right"></div>
             </div>
             <div id="second-row">
-                <div id="col-left"><a href="https://myplants.app/">myPlants.app</div></a>
+                <div id="col-left"><a href="/videos">Videos</div></a>
                 <div id="col-right"><a href="/planning-tools">Planning Tools</div></a>
             </div>
             <div id="third-row-a">
@@ -1027,11 +1015,11 @@ height: 595px;
             </div>
             <div id="fourth-row">
                 <div id="col-left"><a href="/photo-gallery">Gallery</div></a>
-                <div id="col-right"><a href="/videos">Videos</div></a>
+                <div id="col-right"><a href="/blog">Blog</div></a>
             </div>
-            <div id="fifth-row">
-                <div id="col-left"><a href="/blog">Blog</div></a>
-                <div id="col-right"><a href="/policies">Policies</div></a>
+            <div id="fifth-row"> 
+                <div id="col-left"><a href="/policies">Policies</div></a>
+                <div id="col-right"><a href=""></div></a>
             </div>
             <div id="sixth-row">
             </div>
@@ -1067,7 +1055,7 @@ height: 595px;
         <div id="leftnav">
             <nav id="non-mobile">
     <div id="row"><div id="nav-elements"><a href="/">Home</div></a></div>
-    <div id="row"><div id="nav-elements"><a href="https://myplants.app/">myPlants.app</div></a></div>
+    <!-- <div id="row"><div id="nav-elements"><a href="https://myplants.app/">myPlants.app</div></a></div> -->
     <div id="row"><div id="nav-elements"><a href="/contents">Book Contents</div></a></div>
     <div id="book-indent">
     <div id="row"><div id="nav-elements"><a href="/introduction">Introduction</div></a></div>
@@ -1104,168 +1092,174 @@ height: 595px;
 
                         <div style="margin-bottom:2rem" id="content-body">
 
-                            <h1 style="font-size:1.4rem">Book Contents</h1>
+                            <h1 style="font-size:1.4rem;margin-bottom:-20px;">Book Contents</h1>
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Introduction</h4>
+                            <h4 class="contentsBookHeading">Introduction</h4>
 
                             <div id="links"></div>
 
-                            <div style="width:350px;margin-left:auto;margin-right:auto" class="intro-container"></div>
+                            <div style="width:350px;margin-left:auto;margin-right:auto;" class="intro-container"></div>
 
                                 <template id="intro-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="intro-link"> </li>
+                                        </ul>
+                                    </div>              
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em;text-transform:capitalize" id="intro-link"></div>
-                                </div>
+                                
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Allotment Starter Guides</h4>
+                            <h4 class="contentsBookHeading" >Allotment Starter Guides</h4>
 
                             <div id="starter-links"></div>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="starter-container"></div>
 
                                 <template id="starter-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="starter-link"> </li>
+                                        </ul>
+                                    </div>   
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em;text-transform:capitalize" id="starter-link"></div>
-                                </div>
+                                
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Growing Guides</h4>
+                            <h4 class="contentsBookHeading">Vegetable Growing Guides</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="vegetable-container"></div>
 
                                 <template id="vegetable-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="vegetable-link"> </li>
+                                        </ul>
+                                    </div>   
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em" id="vegetable-link"></div>
-                                </div>
+                                
+                                
                                 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Growing Guides</h4>
+                            <h4 class="contentsBookHeading">Fruit Growing Guides</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="fruit-container"></div>
 
                                 <template id="fruit-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="fruit-link"> </li>
+                                        </ul>
+                                    </div>              
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em" id="fruit-link"></div>
-                                </div>
+                                
+                                
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Herb Growing Guides</h4>
+                            <h4 class="contentsBookHeading">Herb Growing Guides</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="herb-container"></div>
 
                                 <template id="herb-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="herb-link"> </li>
+                                        </ul>
+                                    </div> 
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em" id="herb-link"></div>
-                                </div>
+                                
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Vegetable Recipes</h4>
+                            <h4 class="contentsBookHeading">Vegetable Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto" class="vegrecipe-container"></div>
 
                                 <template id="vegrecipe-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="vegrecipe-link"> </li>
+                                        </ul>
+                                    </div> 
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em" id="vegrecipe-link"></div>
-                                </div>
+                                
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Fruit Recipes</h4>
+                            <h4 class="contentsBookHeading">Fruit Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto" class="fruitrecipe-container"></div>
 
                                 <template id="fruitrecipe-template">
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="fruitrecipe-link"> </li>
+                                        </ul>
+                                    </div> 
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em" id="fruitrecipe-link"></div>
-                                </div>
+                                
 
                                 </template>
-                        
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Soup Recipes</h4>
-
+                            <h4 class="contentsBookHeading">Soup Recipes</h4>
                             <div style="width:350px;margin-left:auto;margin-right:auto" class="soup-container"></div>
-
                                 <template id="soup-template">
+                                  <div class="contentsBullet">
+                                        <ul>
+                                            <li id="soup-link"> </li>
+                                        </ul>
+                                    </div>             
                                 
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
-                                    </div>
-                                    <div style="padding-left:0.5em" id="soup-link"></div>
-                                </div>
-
                                 </template>
-                            
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Drink Recipes</h4>
+                            <h4 class="contentsBookHeading">Drink Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="drink-container"></div>
 
                                 <template id="drink-template">
-                                
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
+
+                                    <div class="contentsBullet">
+                                        <ul> 
+                                            <li id="drink-link"> </li>
+                                        </ul>
                                     </div>
-                                    <div style="padding-left:0.5em" id="drink-link"></div>
-                                </div>
+                                
+                                
 
                                 </template>
                             
 
-                            <h4 style="width:350px;margin-left:auto;margin-right:auto;margin-bottom:10px">Treats Recipes</h4>
+                            <h4 class="contentsBookHeading">Treats Recipes</h4>
 
                             <div style="width:350px;margin-left:auto;margin-right:auto"class="treats-container"></div>
 
                                 <template id="treats-template">
-                                
-                                <div style="width:330px;padding-bottom:1%; display:flex">
-                                    <div style="margin-top:-2px">
-                                    <span style="font-size:10px;color:#009900">►</span>
+
+                                    <div class="contentsBullet">
+                                        <ul>
+                                            <li id="treats-link"> </li>
+                                            
+                                        </ul>
                                     </div>
-                                    <div style="padding-left:0.5em" id="treats-link"></div>
-                                </div>
+                                
+                                
 
                                 </template>
                             
@@ -1285,9 +1279,12 @@ function makeLink(title,slug) {
 
 function makeButton(title,slug) {
  return (
-     `<i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>`
+     `
+     <i style="font-size:0.7em;color:#009900;padding-right:1%" class="fas fa-chevron-circle-right"></i> <a href="/contents/${slug}">${title}</a>
+     `
  )
 };
+
 
 //different variables used for arrays to store the links to the different sections
 let introPagesArray = JSON.parse(`[{"title":"Allotment Grass Cutting","slug":"allotment-grass-cutting","order":"24","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/6a387e1775/long-grass-on-an-allotment.jpg","description":"A guide on cutting grass on an allotment, and how to maintain paths and borders using electric lawnmowers and grass trimmers."},{"title":"Allotment Polytunnels","slug":"allotment-polytunnels","order":"29","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/d2ae566398/allotment-polytunnel.jpg","description":"Looking at how an allotment polytunnel can extend the growing season from late winter to late autumn, and make growing heat sensitive plants much easier."},{"title":"Allotment Sheds","slug":"allotment-sheds","order":"26","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/7c2264b69f/brown-allotment-shed.jpg","description":"An introduction to the types of allotment sheds available, options for making a shed base, and things to consider when choosing an allotment shed."},{"title":"Allotment Tools & Equipment","slug":"essential-allotment-tools-and-equipment","order":"22","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/7a9bc006e3/allotment-wheelbarrow.jpg","description":"A beginner's guide to essential allotment tools and equipment, including tips and practical advice."},{"title":"Top 10 Vegetables To Grow","slug":"what-are-good-vegetables-to-grow","order":"18","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/6cd4b28dfc/heart-made-from-winter-squash.jpg","description":"My top 10 list of vegetables to grow on a UK allotment, based on how easy the vegetables are to grow and their contribution to family meals."},{"title":"Does An Allotment Save Money?","slug":"does-working-an-allotment-save-money","order":"12","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/104a6d7c23/wheelbarrow-filled-with-potatoes-cabbage-squash-and-fruit.jpg","description":"Is it possible to save money by having an allotment? This article takes an in depth look at the costs and returns of starting an allotment."},{"title":"Planning An Allotment Layout","slug":"designing-an-allotment-layout","order":"14","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/f3affd9264/allotment-design-drawing.jpg","description":"An introduction to planning an allotment layout, covering what to include, planting design, the principles of crop rotation, and practical tips."},{"title":"Why have an allotment?","slug":"why-have-allotment","order":"10","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/9cc9204942/first-allotment.jpg","description":"An article looking at the challenges of working an allotment and the benefits of having one. "},{"title":"About the Allotment Book","slug":"about-the-allotment-book","order":"4","category":"introduction","image":"https://a.storyblok.com/f/136863/1200x630/f5fc6317e0/liam-at-allotment.jpg","description":"An introduction to the Allotment Book and its content, how the website was created, and the author of the website."}]`);
@@ -1353,6 +1350,7 @@ function initialise(pages, containerid, templateid, divid) {
  let sortedArray = pages.sort (function (a,b) {
      return a.order - b.order;
  })
+ console.log("sortedArray", sortedArray);
 
  const container = document.querySelector(containerid);
  const template = document.querySelector(templateid);

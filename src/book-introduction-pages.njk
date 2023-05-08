@@ -127,7 +127,7 @@ eleventyComputed:
 
                                 <h2>Featured {{ producttitle | title }}</h2>
 
-                                <p>See all <a href="/shop/{{producttitle | slug}}/all">{{ producttitle }}</a> in the shop.</p>
+                                {# <p>See all <a href="/shop/{{producttitle | slug}}/all">{{ producttitle }}</a> in the shop.</p> #}
 
                                 <div id="heated-propagator" style="display:flex; width:360px;margin-left:auto;margin-right:auto;flex-wrap:wrap">
                                     {% for product in suttonsequipdata | getFeaturedEquipment( productname, 4 ) %} {% if productname == "heated propagator" %}
