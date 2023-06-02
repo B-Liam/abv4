@@ -1883,7 +1883,7 @@
         "headers": [
           {
             "key": "Content-Security-Policy",
-            "value": "script-src 'sha256-Ne2jSUIT7TGq3Jigpymr5/onnTTBiuKEXh9BG65FaJs=' 'sha256-OD5o8cqv8WA65bVgLVoKpg7zkFVhdvTpD1+LpCSDmTQ=' 'sha256-Ohnv4vLi/c788wTnWv0ERfiIy8beWkYm4HUzHFXMAc0=' 'unsafe-inline' 'strict-dynamic' https: 'self', object-src 'none', base-uri 'none' "
+            "value": "script-src 'sha256-Ne2jSUIT7TGq3Jigpymr5/onnTTBiuKEXh9BG65FaJs=' 'sha256-OD5o8cqv8WA65bVgLVoKpg7zkFVhdvTpD1+LpCSDmTQ=' 'sha256-pi88gwOt4uk5kLVLvKtNmfuj6NuGf0mNCBHkd4RGX6w=' 'unsafe-inline' 'strict-dynamic' https: 'self', object-src 'none', base-uri 'none' "
           }
         ]
       },
@@ -1898,16 +1898,10 @@
       }
     ],
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   },
   "functions": {
-    "predeploy": [
-      "npm --prefix \"$RESOURCE_DIR\" run lint"
-    ],
-      "source": "functions"
-    }
+    "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run lint"],
+    "source": "functions"
+  }
 }
